@@ -124,49 +124,77 @@ async function fetchPage(jar: Jar, page: number): Promise<string> {
   return res.text();
 }
 
-/** Best-effort row parser. Each announcement row on Screener links to a
- *  /company/ page and carries a headline, a date and (usually) a PDF link.
- *  Selectors are refined against DEBUG output from the first authenticated run. */
+const MONTHS = [
+  "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+];
+
+function clean(s: string | null | undefined): string | null {
+  if (!s) return null;
+  const t = s.replace(/\s+/g, " ").trim();
+  return t || null;
+}
+
+function displayDate(iso: string | null): string | null {
+  if (!iso) return null;
+  const m = iso.slice(0, 10).match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!m) return null;
+  return `${Number(m[3])} ${MONTHS[Number(m[2]) - 1]} ${m[1]}`;
+}
+
+/** Parses Screener's announcement rows. Each row is a `div.flex.flex-gap-16`
+ *  holding a company link, an announcement link (to the BSE/NSE PDF) whose text
+ *  is the subject, a <time datetime>, and an AI summary outside the anchors. */
 function parsePage(html: string): Announcement[] {
   const $ = cheerio.load(html);
   const out: Announcement[] = [];
-  const seen = new Set<string>();
 
-  $('a[href*="/company/"]').each((_, el) => {
-    const $a = $(el);
-    const company = $a.text().trim();
-    if (!company) return;
-    const href = $a.attr("href") || "";
-    const symbol = (href.match(/\/company\/([^/]+)/)?.[1] || "").toUpperCase() || null;
+  $("div.flex.flex-gap-16").each((_, row) => {
+    const $row = $(row);
+    const $company = $row.find('a[href*="/company/"]').first();
+    if (!$company.length) return;
 
-    // Walk up to the row-like container.
-    const $row = $a.closest("li, tr, .flex, .announcement, div");
-    const rowText = $row.text().replace(/\s+/g, " ").trim();
-    // Headline = row text minus the company name.
-    const headline = rowText.replace(company, "").trim() || null;
-
-    const pdf =
-      $row
-        .find('a[href$=".pdf"], a[href*="bseindia"], a[href*="nseindia"], a[href*="nsearchives"]')
-        .attr("href") || null;
-    const dateText =
-      $row.find("time").attr("datetime") ||
-      $row.find("time, .date, .ink-600").first().text().trim() ||
+    const company =
+      clean($company.find(".ink-900").first().text()) || clean($company.text());
+    const symbol =
+      ($company.attr("href")?.match(/\/company\/([^/]+)/)?.[1] || "").toUpperCase() ||
       null;
 
-    const key = `${symbol}|${headline}`;
-    if (seen.has(key)) return;
-    seen.add(key);
+    const $ann = $row
+      .find(
+        'a[href*="bseindia"], a[href*="nseindia"], a[href*="nsearchives"], a[href$=".pdf"]'
+      )
+      .first();
+    const url = $ann.attr("href") || null;
+    const iso =
+      $ann.find("time[datetime]").attr("datetime") ||
+      $row.find("time[datetime]").attr("datetime") ||
+      null;
+
+    // Subject = announcement link text without its trailing time/badge spans.
+    const $subj = $ann.clone();
+    $subj.find("span, time, i").remove();
+    const subject = clean($subj.text());
+
+    // Summary = row text with links, icons and time removed (the AI summary
+    // that sits outside the anchors), minus any leading relative-time crumb.
+    const $rest = $row.clone();
+    $rest.find("a, img, i, time").remove();
+    let summary = clean($rest.text());
+    if (summary) summary = clean(summary.replace(/^\d{1,2}\s+\w{3,9}\s+ago\b/i, ""));
+
+    const headline = summary || subject;
+    if (!company && !headline) return;
 
     out.push({
-      company,
+      company: company ?? null,
       symbol,
-      category: classifyAnnouncement(headline, headline),
-      subject: null,
+      category: classifyAnnouncement(subject, headline),
+      subject,
       headline,
-      date: dateText,
-      isoDate: dateText && /^\d{4}-\d{2}-\d{2}/.test(dateText) ? dateText : null,
-      url: pdf ? (pdf.startsWith("http") ? pdf : `${BASE}${pdf}`) : null,
+      date: displayDate(iso),
+      isoDate: iso,
+      url: url ? (url.startsWith("http") ? url : `${BASE}${url}`) : null,
     });
   });
 
@@ -176,15 +204,19 @@ function parsePage(html: string): Announcement[] {
 function debugDump(html: string) {
   const $ = cheerio.load(html);
   $("script, style, noscript, svg").remove();
-  const companyLinks = $('a[href*="/company/"]');
-  console.log(`[debug] announcements HTML length: ${html.length}`);
-  console.log(`[debug] /company/ links found: ${companyLinks.length}`);
-  console.log(`[debug] gated? contains 'register': ${/\/register\//.test(html)}`);
-  companyLinks.slice(0, 3).each((i, el) => {
-    const container = $(el).closest("li, tr, div");
-    const parentHtml = $.html(container.parent()) || $.html(container) || "";
-    console.log(`\n[debug] ---- row ${i} ancestor HTML (truncated) ----`);
-    console.log(parentHtml.replace(/\s+/g, " ").slice(0, 700));
+  const rows = $("div.flex.flex-gap-16");
+  console.log(`[debug] HTML length: ${html.length}`);
+  console.log(`[debug] rows (div.flex.flex-gap-16): ${rows.length}`);
+  console.log(`[debug] /company/ links: ${$('a[href*="/company/"]').length}`);
+  console.log(`[debug] gated? ${/\/register\//.test(html)}`);
+  const pag = $('a[href*="?p="], a[href*="page="], a[rel="next"], [class*="paginat"]')
+    .map((_, el) => $(el).attr("href") || $(el).attr("class"))
+    .get()
+    .slice(0, 8);
+  console.log(`[debug] pagination hints: ${JSON.stringify(pag)}`);
+  rows.slice(0, 2).each((i, el) => {
+    console.log(`\n[debug] ==== row ${i} full HTML ====`);
+    console.log(($.html(el) || "").replace(/\s+/g, " ").slice(0, 2500));
   });
 }
 
