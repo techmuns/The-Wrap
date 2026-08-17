@@ -51,13 +51,15 @@ function parseConcalls(html: string, kind: ConcallKind): Concall[] {
     if (!company) return;
     const symbol = ($link.attr("href")?.match(/\/company\/([^/]+)/)?.[1] || "").toUpperCase() || null;
 
-    const dateText = clean($tr.find('[class*="date"], td.field-_get_reporting_date, time').first().text());
+    const dateText = clean($tr.find('td.field-pub_date, td[class*="date"], td.field-_get_reporting_date, time').first().text());
     const { display: date, iso: isoDate } = parseDate(dateText);
 
     // Material links (transcript / notes / PPT / recording), deduped by URL.
+    // Only look inside <td> cells (the field-action_display anchor carries the
+    // nice label) — the company <th> holds an unlabelled duplicate link.
     const links: { label: string; url: string }[] = [];
     const seenLinks = new Set<string>();
-    $tr.find('a[href*=".pdf"], a[href*="bseindia"], a[href*="nseindia"], a[href*="nsearchives"], a[href*="/documents/"], a[href*="youtu"]').each((_, a) => {
+    $tr.find('td.field-action_display a[href], td a[href*=".pdf"], td a[href*="bseindia"], td a[href*="nseindia"], td a[href*="nsearchives"], td a[href*="/documents/"], td a[href*="youtu"]').each((_, a) => {
       const href = $(a).attr("href");
       if (!href) return;
       const url = abs(href);
