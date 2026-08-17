@@ -14,7 +14,9 @@
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
     "ingest:bulk-block": "tsx scripts/ingest/bulk-block-deals.ts",
     "ingest:announcements": "tsx scripts/ingest/announcements.ts",
-    "ingest:insider": "tsx scripts/ingest/insider-trades.ts"
+    "ingest:insider": "tsx scripts/ingest/insider-trades.ts",
+    "ingest:concalls": "tsx scripts/ingest/concalls.ts",
+    "ingest:corporate-actions": "tsx scripts/ingest/corporate-actions.ts"
   },
   "dependencies": {
     "@opennextjs/cloudflare": "^1.19.6",
