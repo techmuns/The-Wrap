@@ -3,19 +3,19 @@ import { AnnouncementsView } from "@/components/data/AnnouncementsView";
 import { getAnnouncements } from "@/lib/announcements/data";
 
 export const metadata = {
-  title: "Capex & New Ventures — The Wrap",
+  title: "Announcements — The Wrap",
 };
 
-export default function CapexPage() {
+export default function AnnouncementsPage() {
   const data = getAnnouncements();
 
   return (
     <div className="mx-auto max-w-5xl space-y-6">
       <PageHeader
-        title="Capex & New Ventures"
-        subtitle="Capacity expansion and new-venture filings."
+        title="Announcements"
+        subtitle="Market-wide corporate filings, tagged by category."
       />
-      <AnnouncementsView data={data} fixedCategory="capex" />
+      <AnnouncementsView data={data} />
     </div>
   );
 }

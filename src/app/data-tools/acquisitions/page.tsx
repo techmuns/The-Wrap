@@ -1,16 +1,21 @@
-import { PlaceholderPage } from "@/components/ui/PlaceholderPage";
+import { PageHeader } from "@/components/ui/PageHeader";
+import { AnnouncementsView } from "@/components/data/AnnouncementsView";
+import { getAnnouncements } from "@/lib/announcements/data";
+
+export const metadata = {
+  title: "Acquisitions — The Wrap",
+};
 
 export default function AcquisitionsPage() {
+  const data = getAnnouncements();
+
   return (
-    <PlaceholderPage
-      title="Acquisitions"
-      subtitle="Mergers, acquisitions and stake purchases."
-      description="Mergers, acquisitions and stake purchases disclosed in corporate filings — acquirer, target and deal value where available."
-      planned={[
-        "Acquisition & stake-purchase filings",
-        "Acquirer, target and deal value where disclosed",
-        "Part of the unified market-wide announcements feed",
-      ]}
-    />
+    <div className="mx-auto max-w-5xl space-y-6">
+      <PageHeader
+        title="Acquisitions"
+        subtitle="Mergers, acquisitions and stake purchases."
+      />
+      <AnnouncementsView data={data} fixedCategory="acquisitions" />
+    </div>
   );
 }

@@ -12,7 +12,8 @@
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
-    "ingest:bulk-block": "tsx scripts/ingest/bulk-block-deals.ts"
+    "ingest:bulk-block": "tsx scripts/ingest/bulk-block-deals.ts",
+    "ingest:announcements": "tsx scripts/ingest/announcements.ts"
   },
   "dependencies": {
     "@opennextjs/cloudflare": "^1.19.6",

@@ -1,16 +1,21 @@
-import { PlaceholderPage } from "@/components/ui/PlaceholderPage";
+import { PageHeader } from "@/components/ui/PageHeader";
+import { AnnouncementsView } from "@/components/data/AnnouncementsView";
+import { getAnnouncements } from "@/lib/announcements/data";
+
+export const metadata = {
+  title: "Order Wins — The Wrap",
+};
 
 export default function OrderWinsPage() {
+  const data = getAnnouncements();
+
   return (
-    <PlaceholderPage
-      title="Order Wins"
-      subtitle="New order and contract wins disclosed to the exchanges."
-      description="New orders and contract wins disclosed to the exchanges, with deal sizes and counterparties where available."
-      planned={[
-        "Order-win filings across the market",
-        "Order value and counterparty where disclosed",
-        "Part of the unified market-wide announcements feed",
-      ]}
-    />
+    <div className="mx-auto max-w-5xl space-y-6">
+      <PageHeader
+        title="Order Wins"
+        subtitle="New orders and contract wins disclosed to the exchanges."
+      />
+      <AnnouncementsView data={data} fixedCategory="order-wins" />
+    </div>
   );
 }

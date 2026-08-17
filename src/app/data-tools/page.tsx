@@ -3,6 +3,7 @@ import {
   ArrowRight,
   TrendingUp,
   Landmark,
+  Megaphone,
   Factory,
   PackageCheck,
   Handshake,
@@ -25,6 +26,12 @@ const trackers = [
     label: "Bulk & Block Deals",
     icon: TrendingUp,
     description: "Large bulk, block & short deals on the exchange.",
+  },
+  {
+    href: "/data-tools/announcements",
+    label: "Announcements",
+    icon: Megaphone,
+    description: "All corporate filings — Capex, Order Wins, Acquisitions & more, tagged by category.",
   },
   {
     href: "/data-tools/capex",
