@@ -3,8 +3,8 @@
   "source": "Screener",
   "total": 50,
   "byCategory": {
-    "other": 21,
-    "acquisitions": 2,
+    "other": 17,
+    "acquisitions": 6,
     "fund-raising": 16,
     "open-offer": 1,
     "rights": 4,
@@ -86,7 +86,7 @@
     {
       "company": "Lloyds Engineeri",
       "symbol": "LLOYDSENGG",
-      "category": "other",
+      "category": "acquisitions",
       "subject": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
       "headline": "Lloyds Engineering acquired 51.13% of SISCOL for Rs 626.4 crore; transaction consummated on August 17, 2026.",
       "date": "17 Aug 2026",
@@ -96,7 +96,7 @@
     {
       "company": "Manipal Health",
       "symbol": "MANIPALHOS",
-      "category": "other",
+      "category": "acquisitions",
       "subject": "Announcement under Regulation 30 (LODR)-Acquisition",
       "headline": "Manipal Health signed BTA on Aug 17, 2026 to acquire Kinder Women’s Hospital operations in Bengaluru for ₹130 crore.",
       "date": "17 Aug 2026",
@@ -406,7 +406,7 @@
     {
       "company": "Lloyds Enterpris",
       "symbol": "LLOYDSENT",
-      "category": "other",
+      "category": "acquisitions",
       "subject": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
       "headline": "Lloyds Enterprises completed 73 lakh SISCOL shares acquisition on 17 Aug 2026 for Rs 219 crore.",
       "date": "17 Aug 2026",
@@ -506,7 +506,7 @@
     {
       "company": "Transchem",
       "symbol": "TRANSCHEM",
-      "category": "other",
+      "category": "acquisitions",
       "subject": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
       "headline": "Transchem acquired 100% of Greshma Shares & Stocks for Rs 25.91 crore on August 17, 2026.",
       "date": "17 Aug 2026",

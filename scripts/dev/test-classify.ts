@@ -28,6 +28,9 @@ const cases: { subject: string; headline?: string; expect: AnnouncementCategory 
   { subject: "Buyback", headline: "Company announces a buyback of shares", expect: "buyback" },
   { subject: "Bonus", headline: "KPI Green Energy bonus issue record date", expect: "bonus" },
   { subject: "Open Offer", headline: "Octaware Technologies Letter of Offer - Open Offer", expect: "open-offer" },
+  // Explicit BSE (LODR)- subject labels
+  { subject: "Announcement under Regulation 30 (LODR)-Acquisition", headline: "Manipal Health signed BTA to acquire Kinder Women's Hospital operations for Rs 130 crore", expect: "acquisitions" },
+  { subject: "Announcement under Regulation 30 (LODR)-Preferential Issue", headline: "Board approved preferential issue of shares", expect: "fund-raising" },
 ];
 
 let pass = 0;

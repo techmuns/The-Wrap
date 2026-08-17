@@ -52,7 +52,7 @@ const RULES: { category: AnnouncementCategory; pattern: RegExp }[] = [
     // falls through to capex instead.
     category: "acquisitions",
     pattern:
-      /acqui\w*.*(stake|shareholding|equity|company|limited|\bltd\b|business|unit|subsidiary|controlling)|controlling (stake|interest)|majority stake|strategic stake|stake in|purchase of.*(stake|shareholding)/,
+      /acqui\w*.*(stake|shareholding|equity|company|limited|\bltd\b|business|unit|subsidiary|controlling)|controlling (stake|interest)|majority stake|strategic stake|stake in|purchase of.*(stake|shareholding)|\(lodr\)\s*-\s*(updates on\s+)?acquisition|acquisition of (shares|stake|equity|business|majority|control)/,
   },
   {
     category: "capex",
