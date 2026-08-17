@@ -38,7 +38,9 @@ const UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
 const OUT = resolve(process.cwd(), "src/data/announcements.json");
 const DEBUG = process.env.DEBUG_SCRAPE === "1";
-const MAX_PAGES = Number(process.env.ANN_PAGES ?? "5");
+// The feed shows the latest ~50 with no ?p= pagination (older items load via
+// an infinite-scroll API — a follow-up). Override with ANN_PAGES if that lands.
+const MAX_PAGES = Number(process.env.ANN_PAGES ?? "1");
 
 type Jar = Record<string, string>;
 
@@ -171,17 +173,13 @@ function parsePage(html: string): Announcement[] {
       $row.find("time[datetime]").attr("datetime") ||
       null;
 
-    // Subject = announcement link text without its trailing time/badge spans.
-    const $subj = $ann.clone();
-    $subj.find("span, time, i").remove();
-    const subject = clean($subj.text());
+    // The AI summary lives in a `.sub` div inside the announcement anchor.
+    const summary = clean($ann.find(".sub").first().text());
 
-    // Summary = row text with links, icons and time removed (the AI summary
-    // that sits outside the anchors), minus any leading relative-time crumb.
-    const $rest = $row.clone();
-    $rest.find("a, img, i, time").remove();
-    let summary = clean($rest.text());
-    if (summary) summary = clean(summary.replace(/^\d{1,2}\s+\w{3,9}\s+ago\b/i, ""));
+    // Subject = announcement link text without the summary, time and icons.
+    const $subj = $ann.clone();
+    $subj.find(".sub, span, time, i").remove();
+    const subject = clean($subj.text());
 
     const headline = summary || subject;
     if (!company && !headline) return;
@@ -214,7 +212,10 @@ function debugDump(html: string) {
     .get()
     .slice(0, 8);
   console.log(`[debug] pagination hints: ${JSON.stringify(pag)}`);
-  rows.slice(0, 2).each((i, el) => {
+  // Only dump real announcement rows (skip the header/search bar, which carries
+  // a logout CSRF token we don't want in logs).
+  const annRows = rows.filter((_, el) => $(el).find('a[href*="/company/"]').length > 0);
+  annRows.slice(0, 2).each((i, el) => {
     console.log(`\n[debug] ==== row ${i} full HTML ====`);
     console.log(($.html(el) || "").replace(/\s+/g, " ").slice(0, 2500));
   });
