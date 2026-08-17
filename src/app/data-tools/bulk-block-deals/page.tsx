@@ -1,16 +1,21 @@
-import { PlaceholderPage } from "@/components/ui/PlaceholderPage";
+import { PageHeader } from "@/components/ui/PageHeader";
+import { DealsTable } from "@/components/data/DealsTable";
+import { getBulkBlockDeals } from "@/lib/deals-data";
+
+export const metadata = {
+  title: "Bulk & Block Deals — The Wrap",
+};
 
 export default function BulkBlockDealsPage() {
+  const data = getBulkBlockDeals();
+
   return (
-    <PlaceholderPage
-      title="Bulk & Block Deals"
-      subtitle="Large bulk, block & short deals on the exchange."
-      description="The big-ticket trades that move ownership — bulk, block and short deals, with deal value computed from quantity and weighted-average price."
-      planned={[
-        "Live bulk, block & short deals sourced directly from NSE",
-        "Buyer / seller, quantity and computed deal value",
-        "First live tracker — wiring next",
-      ]}
-    />
+    <div className="mx-auto max-w-6xl space-y-6">
+      <PageHeader
+        title="Bulk & Block Deals"
+        subtitle="Large bulk, block & short deals on the exchange."
+      />
+      <DealsTable data={data} />
+    </div>
   );
 }

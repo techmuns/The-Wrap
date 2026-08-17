@@ -1,0 +1,46 @@
+name: Refresh Bulk & Block Deals
+
+on:
+  schedule:
+    # Mon–Fri at 13:30 UTC (~19:00 IST), after the Indian market close.
+    - cron: "30 13 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-bulk-block-deals
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # The ingestion script has a built-in safety check: if the pull returns
+      # zero records while a previous snapshot has data, it exits non-zero
+      # WITHOUT writing, so a failed/rate-limited scrape never overwrites good
+      # live data (the job just fails and the last good data is kept).
+      - name: Ingest bulk/block/short deals
+        run: npm run ingest:bulk-block
+
+      - name: Commit refreshed data
+        run: |
+          if git diff --quiet -- src/data/bulk-block-deals.json; then
+            echo "No data changes; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/bulk-block-deals.json
+          git commit -m "chore(data): refresh bulk & block deals ($(date -u +%Y-%m-%d))"
+          git push
