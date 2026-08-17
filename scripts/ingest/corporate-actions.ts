@@ -50,23 +50,31 @@ function parseActions(html: string, type: ActionType): CorporateAction[] {
     if (!company) return;
     const symbol = ($link.attr("href")?.match(/\/company\/([^/]+)/)?.[1] || "").toUpperCase() || null;
 
-    // Cells other than the company cell: first non-empty = detail, a date-looking one = date.
-    const cells = $tr.find("td").map((_, td) => clean($(td).text())).get().filter(Boolean) as string[];
-    let date: string | null = null;
-    let isoDate: string | null = null;
-    let detail: string | null = null;
-    for (const c of cells) {
-      const d = parseDate(c);
-      if (d.iso && !date) {
-        date = d.display;
-        isoDate = d.iso;
-      } else if (!detail) {
-        detail = c;
-      }
+    // Ex/record date + type-specific detail, via Screener's field-* classes.
+    const { display: date, iso: isoDate } = parseDate(
+      clean($tr.find('td.field-ex_date, td.field-record_date, td[class*="date"]').first().text())
+    );
+    const ratio = clean($tr.find("td.field-ratio").text());
+    const premium = clean($tr.find("td.field-premium").text());
+    const divType = clean($tr.find("td.field-div_type").text());
+    const percent = clean($tr.find("td.field-percent").text());
+    const labeled: string[] = [];
+    if (ratio) labeled.push(`Ratio ${ratio}`);
+    if (divType) labeled.push(divType);
+    if (percent) labeled.push(`${percent}%`);
+    if (premium) labeled.push(`₹${premium} premium`);
+    let detail = labeled.join(" · ");
+    if (!detail) {
+      detail = $tr
+        .find("td")
+        .filter((_, td) => !(($(td).attr("class") || "").includes("date")))
+        .map((_, td) => clean($(td).text()))
+        .get()
+        .filter(Boolean)
+        .join(" · ");
     }
-    if (!detail && cells.length) detail = cells[0];
 
-    out.push({ company, symbol, type, detail, date, isoDate });
+    out.push({ company, symbol, type, detail: detail || null, date, isoDate });
   });
   return out;
 }

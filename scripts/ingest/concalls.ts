@@ -54,12 +54,18 @@ function parseConcalls(html: string, kind: ConcallKind): Concall[] {
     const dateText = clean($tr.find('[class*="date"], td.field-_get_reporting_date, time').first().text());
     const { display: date, iso: isoDate } = parseDate(dateText);
 
-    // Material links: external (bse/nse/pdf) or screener doc links, excluding company links.
+    // Material links (transcript / notes / PPT / recording), deduped by URL.
     const links: { label: string; url: string }[] = [];
+    const seenLinks = new Set<string>();
     $tr.find('a[href*=".pdf"], a[href*="bseindia"], a[href*="nseindia"], a[href*="nsearchives"], a[href*="/documents/"], a[href*="youtu"]').each((_, a) => {
-      const url = $(a).attr("href");
-      const label = clean($(a).text()) || clean($(a).attr("title")) || "Link";
-      if (url) links.push({ label, url: abs(url) });
+      const href = $(a).attr("href");
+      if (!href) return;
+      const url = abs(href);
+      if (seenLinks.has(url)) return;
+      seenLinks.add(url);
+      let label = clean($(a).text()) || clean($(a).attr("title"));
+      if (!label) label = /youtu/.test(url) ? "Recording" : /\.pdf|documents/.test(url) ? "Document" : "Link";
+      links.push({ label, url });
     });
 
     out.push({ company, symbol, kind, date, isoDate, links });

@@ -7,6 +7,8 @@ import {
   Factory,
   PackageCheck,
   Handshake,
+  PhoneCall,
+  Coins,
   Activity,
   Shuffle,
   Gauge,
@@ -50,6 +52,18 @@ const trackers = [
     label: "Acquisitions",
     icon: Handshake,
     description: "M&A and stake acquisitions.",
+  },
+  {
+    href: "/data-tools/concalls",
+    label: "Concalls",
+    icon: PhoneCall,
+    description: "Recent & upcoming earnings / investor calls.",
+  },
+  {
+    href: "/data-tools/corporate-actions",
+    label: "Corporate Actions",
+    icon: Coins,
+    description: "Bonus, buyback, split, rights & dividends.",
   },
 ];
 
