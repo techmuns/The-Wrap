@@ -3,11 +3,17 @@
  * Pulse into a static JSON file the Buying & Selling page reads.
  *
  * Auth: reuses the Screener form login (SCREENER_USERNAME / SCREENER_PASSWORD
- * GitHub Actions secrets; never logged). The script logs in fresh each run, so
- * there is no token to expire.
+ * GitHub Actions secrets; never logged). Logs in fresh each run — no token to
+ * expire.
  *
- * Sources: /trades/insiders (PIT insider trades) + /trades/sast (substantial
- * acquisitions). Both are market-wide "latest" lists.
+ * Sources (market-wide latest lists), parsed via Screener's stable field-*
+ * column classes:
+ *   /trades/insiders — th.field-company_display, td.field-_get_insider_person_name
+ *     (name + small.sub role), td.field-_get_reporting_date,
+ *     td.field-_get_insider_transaction_type (type + "N Equity" qty),
+ *     td.field-_get_insider_value (₹ value; up/down colour = buy/sell)
+ *   /trades/sast — td.field-person_name, td.field-_get_sast_type (Buy/Sell),
+ *     td.field-_get_sast_percent ("--%"/"N%" + "qty N")
  *
  * Safety: zero rows while a previous snapshot has data => exit non-zero without
  * writing. DEBUG_SCRAPE=1 prints structure and writes nothing.
@@ -21,14 +27,20 @@ import type { InsiderTrade, InsiderTradesDataset, TradeSide } from "../../src/ty
 
 const BASE = "https://www.screener.in";
 const LOGIN_URL = `${BASE}/login/`;
-const SOURCES: { path: string; label: string; role: string }[] = [
-  { path: "/trades/insiders/?o=-2", label: "insiders", role: "Insider" },
-  { path: "/trades/sast/?o=-2", label: "sast", role: "Promoter (SAST)" },
+const SOURCES: { path: string; label: string; kind: "insider" | "sast" }[] = [
+  { path: "/trades/insiders/?o=-2", label: "insiders", kind: "insider" },
+  { path: "/trades/sast/?o=-2", label: "sast", kind: "sast" },
 ];
 const UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
 const OUT = resolve(process.cwd(), "src/data/insider-trades.json");
 const DEBUG = process.env.DEBUG_SCRAPE === "1";
+
+const MONTHS = [
+  "january", "february", "march", "april", "may", "june",
+  "july", "august", "september", "october", "november", "december",
+];
+const ABBR = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 type Jar = Record<string, string>;
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
@@ -53,13 +65,25 @@ function absorbCookies(res: Response, jar: Jar) {
 const cookieHeader = (jar: Jar) =>
   Object.entries(jar).map(([k, v]) => `${k}=${v}`).join("; ");
 
-/** Plain number (strip commas/₹). */
-function num(s: string | null): number | null {
+/** Quantity from "… 86,603 Equity" (insider) or "qty 1,01,000" (SAST). */
+function parseShares(s: string | null): number | null {
   if (!s) return null;
-  const n = Number(s.replace(/[₹,\s]/g, "").replace(/[^\d.-]/g, ""));
+  const m =
+    s.match(/qty\s*([\d,]+)/i) ||
+    s.match(/([\d,]+)\s*(equity|warrant|share|unit|debenture|ncd)/i);
+  if (!m) return null;
+  const n = Number(m[1].replace(/,/g, ""));
   return Number.isFinite(n) ? n : null;
 }
-/** Rupee value that may be suffixed with Cr / Lakh. Returns rupees. */
+/** Percentage from "1.23%" (returns 1.23); "--%" => null. */
+function parsePct(s: string | null): number | null {
+  if (!s) return null;
+  const m = s.match(/(-?\d[\d.]*)\s*%/);
+  if (!m) return null;
+  const n = Number(m[1]);
+  return Number.isFinite(n) ? n : null;
+}
+/** Rupee value from "1.38 crore" / "16.68 lacs" => rupees. */
 function parseValue(s: string | null): number | null {
   if (!s) return null;
   const m = s.replace(/[₹,]/g, "").match(/([\d.]+)\s*(cr|crore|lakh|lac|l)?/i);
@@ -70,6 +94,28 @@ function parseValue(s: string | null): number | null {
   if (unit.startsWith("cr")) return n * 1e7;
   if (unit.startsWith("l")) return n * 1e5;
   return n;
+}
+function parseDate(s: string | null): { display: string | null; iso: string | null } {
+  const t = clean(s);
+  if (!t) return { display: null, iso: null };
+  const m = t.match(/(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})/);
+  if (m) {
+    const mi = MONTHS.indexOf(m[2].toLowerCase());
+    if (mi >= 0) {
+      const dd = String(Number(m[1])).padStart(2, "0");
+      const mm = String(mi + 1).padStart(2, "0");
+      return { display: `${Number(m[1])} ${ABBR[mi]} ${m[3]}`, iso: `${m[3]}-${mm}-${dd}` };
+    }
+  }
+  return { display: t, iso: null }; // relative labels like "yesterday"
+}
+function detectSide(typeText: string | null, valClass: string): TradeSide | null {
+  const t = (typeText || "").toLowerCase();
+  if (/buy|bought|acqui|purchase|creation|allot/.test(t)) return "BUY";
+  if (/sell|sold|dispos|sale|revoc|invoke|encumber/.test(t)) return "SELL";
+  if (valClass.includes("up")) return "BUY";
+  if (valClass.includes("down")) return "SELL";
+  return null;
 }
 
 async function login(): Promise<Jar> {
@@ -123,81 +169,72 @@ async function fetchPage(jar: Jar, path: string): Promise<string> {
   return res.text();
 }
 
-const pick = (...idx: number[]) => idx.find((i) => i >= 0) ?? -1;
-
-/** Best-effort table parser. Refined against DEBUG output from the first run. */
-function parseTrades(html: string, role: string): InsiderTrade[] {
+function parseTrades(html: string, kind: "insider" | "sast"): InsiderTrade[] {
   const $ = cheerio.load(html);
   const out: InsiderTrade[] = [];
-  const $t = $("table").first();
-  if (!$t.length) return out;
 
-  const headers = $t
-    .find("thead th, tr").first().find("th")
-    .map((_, th) => clean($(th).text())?.toLowerCase() ?? "")
-    .get();
-  const col = (...names: string[]) =>
-    headers.findIndex((h) => names.some((n) => h.includes(n)));
+  $("table").first().find("tr").each((_, tr) => {
+    const $tr = $(tr);
+    const $co = $tr.find("th.field-company_display");
+    if (!$co.length) return; // header row has no company cell
 
-  const iCompany = pick(col("company"), col("symbol"), col("stock"));
-  const iPerson = pick(col("acquirer"), col("disposer"), col("client"), col("shareholder"), col("name"));
-  const iType = pick(col("type"), col("buy"), col("acqui"), col("transaction"), col("action"), col("mode"));
-  const iQty = pick(col("quantity"), col("qty"), col("shares"), col("volume"));
-  const iValue = pick(col("value"), col("amount"));
-  const iPct = pick(col("%"), col("stake"), col("holding"));
-  const iDate = pick(col("date"));
-
-  $t.find("tbody tr").each((_, tr) => {
-    const tds = $(tr).find("td");
-    if (!tds.length) return;
-    const cell = (i: number) => (i >= 0 && tds[i] ? clean($(tds[i]).text()) : null);
-
-    const $co = (iCompany >= 0 ? $(tds[iCompany]) : $(tr)).find('a[href*="/company/"]').first();
-    const company = clean($co.text()) || cell(iCompany);
-    const symbol = ($co.attr("href")?.match(/\/company\/([^/]+)/)?.[1] || "").toUpperCase() || null;
-
-    const typeText = (cell(iType) || "").toLowerCase();
-    const buySell: TradeSide | null = /buy|acqui|purchase|invest|creation/.test(typeText)
-      ? "BUY"
-      : /sell|dispos|sale|revok|encumber/.test(typeText)
-        ? "SELL"
-        : null;
-
+    const $link = $co.find('a[href*="/company/"]').last();
+    const company = clean($link.find(".ink-900").text()) || clean($link.text());
     if (!company) return;
-    out.push({
-      company,
-      symbol,
-      person: cell(iPerson),
-      role,
-      buySell,
-      shares: num(cell(iQty)),
-      pct: num(cell(iPct)),
-      value: parseValue(cell(iValue)),
-      mode: cell(iType),
-      date: cell(iDate),
-      isoDate: null,
-    });
+    const symbol =
+      ($link.attr("href")?.match(/\/company\/([^/]+)/)?.[1] || "").toUpperCase() || null;
+
+    const { display: date, iso: isoDate } = parseDate(
+      clean($tr.find("td.field-_get_reporting_date").text())
+    );
+
+    let person: string | null = null;
+    let role: string | null = null;
+    let buySell: TradeSide | null = null;
+    let shares: number | null = null;
+    let pct: number | null = null;
+    let value: number | null = null;
+    let mode: string | null = null;
+
+    if (kind === "insider") {
+      const $person = $tr.find("td.field-_get_insider_person_name").clone();
+      role = clean($person.find("small").text());
+      $person.find("small").remove();
+      person = clean($person.text());
+
+      const $type = $tr.find("td.field-_get_insider_transaction_type");
+      mode = clean($type.find(".font-weight-500").first().text());
+      shares = parseShares(clean($type.text()));
+
+      const $val = $tr.find("td.field-_get_insider_value");
+      value = parseValue(clean($val.text()));
+      const valClass = $val.find("span").first().attr("class") || "";
+      buySell = detectSide(mode, valClass);
+    } else {
+      person = clean($tr.find("td.field-person_name").text());
+      role = "Promoter (SAST)";
+      mode =
+        clean($tr.find("td.field-_get_sast_type .font-weight-500").text()) ||
+        clean($tr.find("td.field-_get_sast_type").text());
+      buySell = detectSide(mode, "");
+      const pctText = clean($tr.find("td.field-_get_sast_percent").text());
+      pct = parsePct(pctText);
+      shares = parseShares(pctText);
+    }
+
+    out.push({ company, symbol, person, role, buySell, shares, pct, value, mode, date, isoDate });
   });
+
   return out;
 }
 
 function debugDump(html: string, label: string) {
   const $ = cheerio.load(html);
   $("script, style, noscript, svg").remove();
-  console.log(`\n[debug:${label}] HTML ${html.length} | tables ${$("table").length} | /company/ ${$('a[href*="/company/"]').length} | gated ${/\/register\//.test(html)}`);
   const $t = $("table").first();
-  if ($t.length) {
-    const headers = $t.find("th").slice(0, 14).map((_, th) => clean($(th).text())).get();
-    console.log(`[debug:${label}] headers: ${JSON.stringify(headers)}`);
-    const $row = $t.find("tbody tr").first();
-    console.log(`[debug:${label}] first row: ${clean($.html($row))?.slice(0, 1000)}`);
-  } else {
-    const $c = $('a[href*="/company/"]').first();
-    if ($c.length) {
-      const anc = $c.closest("tr, li, .flex, div");
-      console.log(`[debug:${label}] company-row HTML: ${clean($.html(anc.parent()) || $.html(anc))?.slice(0, 1200)}`);
-    }
-  }
+  console.log(`\n[debug:${label}] HTML ${html.length} | tables ${$("table").length} | rows ${$t.find("tr").length} | gated ${/\/register\//.test(html)}`);
+  const $row = $t.find("tr").filter((_, tr) => $(tr).find("th.field-company_display").length > 0).first();
+  console.log(`[debug:${label}] first data row: ${clean($.html($row))?.slice(0, 900)}`);
 }
 
 function previousTotal(): number {
@@ -217,9 +254,9 @@ async function main() {
   for (const src of SOURCES) {
     const html = await fetchPage(jar, src.path);
     if (DEBUG) debugDump(html, src.label);
-    const rows = parseTrades(html, src.role);
+    const rows = parseTrades(html, src.kind);
     for (const r of rows) {
-      const key = `${r.symbol}|${r.person}|${r.shares}|${r.date}`;
+      const key = `${r.symbol}|${r.person}|${r.shares}|${r.date}|${src.kind}`;
       if (seen.has(key)) continue;
       seen.add(key);
       all.push(r);
@@ -230,7 +267,7 @@ async function main() {
 
   if (DEBUG) {
     console.log(`[debug] total parsed: ${all.length}`);
-    console.log(`[debug] sample: ${JSON.stringify(all.slice(0, 3), null, 2)}`);
+    console.log(`[debug] sample: ${JSON.stringify(all.slice(0, 4), null, 2)}`);
     console.log("[debug] DEBUG_SCRAPE set — not writing.");
     return;
   }
