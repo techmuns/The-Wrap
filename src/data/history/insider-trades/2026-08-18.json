@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-18T10:58:32.622Z",
-  "source": "Screener",
-  "total": 48,
-  "items": [
+  "capturedOn": "2026-08-18",
+  "capturedAt": "2026-08-18T10:58:32.659Z",
+  "count": 48,
+  "rows": [
     {
       "company": "Leap India",
       "symbol": "LEAPIND",
