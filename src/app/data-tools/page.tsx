@@ -93,6 +93,13 @@ export default function DataToolsPage() {
         subtitle="Live market-data trackers behind each weekly section."
       />
 
+      <p className="max-w-3xl text-sm leading-relaxed text-muted-foreground">
+        These are the live numbers behind the weekly issue — updated automatically
+        every trading day. Each tracker answers one simple question about the
+        market. Open any one; a short plain-English note at the top explains what
+        you&apos;re looking at.
+      </p>
+
       <div>
         <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
           Trackers
