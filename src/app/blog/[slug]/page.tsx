@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { IssueArticle } from "@/components/blog/IssueArticle";
+import { TrackIssueRead } from "@/components/blog/TrackIssueRead";
 import { getIssue, getIssueSlugs } from "@/content/issues";
 
 export function generateStaticParams() {
@@ -38,6 +39,7 @@ export default async function IssuePage({
         All issues
       </Link>
       <IssueArticle issue={issue} />
+      <TrackIssueRead slug={issue.slug} />
     </div>
   );
 }

@@ -9,7 +9,9 @@ import {
   BookOpen,
   Layers,
   Sparkles,
-  Compass,
+  MessagesSquare,
+  Video,
+  Activity,
 } from "lucide-react";
 
 export type NavItem = {
@@ -18,6 +20,8 @@ export type NavItem = {
   icon: LucideIcon;
   /** Short one-line description used on placeholder / landing pages. */
   description?: string;
+  /** External destination (opens in a new tab). */
+  external?: boolean;
 };
 
 export type NavGroup = {
@@ -27,8 +31,8 @@ export type NavGroup = {
 
 /**
  * Left-sidebar information architecture. Mirrors the reference newsletter's
- * navigation shape (a collapsible "Content & Learning" group + two top-level
- * items). Labels/branding are our own; only the structure is shared.
+ * navigation shape (a "Content & Learning" group + a "Community & Indicators"
+ * group). Labels and branding are our own; only the structure is shared.
  */
 export const contentGroup: NavGroup = {
   label: "Content & Learning",
@@ -81,24 +85,43 @@ export const contentGroup: NavGroup = {
       icon: Layers,
       description: "Sector deep-dives explaining how industries work.",
     },
+    {
+      href: "/ask",
+      label: "Ask AI",
+      icon: Sparkles,
+      description:
+        "An assistant to ask questions about this week's market. Name and persona to be finalised.",
+    },
   ],
 };
 
-export const topLevelNav: NavItem[] = [
-  {
-    href: "/ask",
-    label: "Ask AI",
-    icon: Sparkles,
-    description:
-      "An assistant to ask questions about this week's market. Persona and name to be finalised.",
-  },
-  {
-    href: "/beas",
-    label: "Beas",
-    icon: Compass,
-    description: "Section to be defined.",
-  },
-];
+/**
+ * Second sidebar group — community spaces and the indicators library. All
+ * honest "coming soon" destinations until each is wired up.
+ */
+export const communityGroup: NavGroup = {
+  label: "Community & Indicators",
+  items: [
+    {
+      href: "/community",
+      label: "Community",
+      icon: MessagesSquare,
+      description: "A place for readers to discuss the week's market.",
+    },
+    {
+      href: "/weekly-meet",
+      label: "Weekly Meet",
+      icon: Video,
+      description: "A live weekly call to walk through the issue together.",
+    },
+    {
+      href: "/indicators",
+      label: "Indicators",
+      icon: Activity,
+      description: "Our charting indicators and how to use them.",
+    },
+  ],
+};
 
 /** Flat list of every nav destination, for lookups. */
-export const allNav: NavItem[] = [...contentGroup.items, ...topLevelNav];
+export const allNav: NavItem[] = [...contentGroup.items, ...communityGroup.items];
