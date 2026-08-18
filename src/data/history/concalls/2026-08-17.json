@@ -1,0 +1,412 @@
+{
+  "capturedOn": "2026-08-17",
+  "capturedAt": "2026-08-18T08:56:22.477Z",
+  "count": 25,
+  "rows": [
+    {
+      "company": "Max Healthcare",
+      "symbol": "MAXHEALTH",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43563b7c-0f62-4589-aab6-e255dcf68635.pdf"
+        }
+      ]
+    },
+    {
+      "company": "ION Exchange",
+      "symbol": "IONEXCHANG",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a61f387-e094-4ca8-928c-8a3d24c7d62d.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23306964/"
+        }
+      ]
+    },
+    {
+      "company": "Addictive Learn",
+      "symbol": "ADDICTIVE",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.youtube.com/watch?v=RoGfW1uarGY"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23306963/"
+        }
+      ]
+    },
+    {
+      "company": "Colgate-Palmoliv",
+      "symbol": "COLPAL",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.youtube.com/watch?v=DzYIqOoR7EA"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23306962/"
+        }
+      ]
+    },
+    {
+      "company": "Chandan Healthca",
+      "symbol": "CHANDAN",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.com/corporate/CHANDAN_17082026212544_Investor_Presentation.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Modi Naturals",
+      "symbol": "MODINATUR",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=220bee4d-9be9-42c1-8b2c-3ae3cce64b24.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Triveni Turbine",
+      "symbol": "TRITURBINE",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06048a54-fdd1-42a4-8fde-09496e28f365.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23306957/"
+        }
+      ]
+    },
+    {
+      "company": "Rishabh Instrum.",
+      "symbol": "RISHABH",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://rishabh.co.in/uploads/investor-relation/RIL_Earnings%20Call_Audio%20recording%20file_17.08.2026.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23306956/"
+        }
+      ]
+    },
+    {
+      "company": "Vasa Denticity",
+      "symbol": "DENTALKART",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://r2dkmedia.dentalkart.com/media/investor/documents/b6d962ab-f563-441a-87da-04abd7391890.mp3"
+        }
+      ]
+    },
+    {
+      "company": "Western Carriers",
+      "symbol": "WCIL",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://western-carriers.com/assets/images/pdf/audio.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23306954/"
+        }
+      ]
+    },
+    {
+      "company": "Venus Pipes",
+      "symbol": "VENUSPIPES",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c39751e-e1d5-4afb-ba12-cb51ceb3d1db.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23306953/"
+        }
+      ]
+    },
+    {
+      "company": "Antony Waste han",
+      "symbol": "AWHCL",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b2dd43d-1832-426d-ac87-5f8ccf7e094e.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23306952/"
+        }
+      ]
+    },
+    {
+      "company": "Uflex",
+      "symbol": "UFLEX",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.uflexltd.com/pdf/QER/2026-27/UFlex_Q1FY27_Earnings_Call.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23306951/"
+        }
+      ]
+    },
+    {
+      "company": "Olectra Greentec",
+      "symbol": "OLECTRA",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://olectra.com/wp-content/uploads/2026/02/10046550.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23306950/"
+        }
+      ]
+    },
+    {
+      "company": "Max Estates",
+      "symbol": "MAXESTATES",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://maxestates.in/wp-content/uploads/2026/08/10046343.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23306949/"
+        }
+      ]
+    },
+    {
+      "company": "Prime Fresh",
+      "symbol": "540404",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d1ad7e6-e7a7-4d17-9b47-723bda0acd59.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Vasa Denticity",
+      "symbol": "DENTALKART",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://nsearchives.nseindia.com/corporate/VASADENTICITY_17082026195240_Intimation_of_Transcript_Final.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23306947/"
+        }
+      ]
+    },
+    {
+      "company": "QMS Medical",
+      "symbol": "QMSMEDI",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://qmsmas.com/?wpdmdl=234599"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23306946/"
+        }
+      ]
+    },
+    {
+      "company": "Schneider Elect.",
+      "symbol": "SCHNEIDER",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://download.se.com/files?p_enDocType=Institutional%2BDocument&p_File_Name=10046008.mp3&p_Doc_Ref=10046008"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23306945/"
+        }
+      ]
+    },
+    {
+      "company": "Dishman Carbogen",
+      "symbol": "DCAL",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://imdcal.com/images/files/Investor-Relations/Investor%20Call%20Recording%20and%20Transcript/Audio-Video%20Recording/2026-27/Q1%20FY2026-27%20Result-Audio%20Recording-17.08.2026.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23306944/"
+        }
+      ]
+    },
+    {
+      "company": "Ind-Swift Labs.",
+      "symbol": "INDSWFTLAB",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.indswiftgroup.com/wp-content/uploads/2026/08/audio_recording_earning_Q1_26-27.mp4"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23306943/"
+        }
+      ]
+    },
+    {
+      "company": "XT Global Infot.",
+      "symbol": "XTGLOBAL",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://xtglobal.com/wp-content/uploads/ConCall-Audio-Q1-_FY-2026-27.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23306942/"
+        }
+      ]
+    },
+    {
+      "company": "Suraj Estate",
+      "symbol": "SURAJEST",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://surajestate.com/wp-content/uploads/2026/08/Suraj-Estate-Q1FY27-Earnings-Call-Audio.mp3.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23306941/"
+        }
+      ]
+    },
+    {
+      "company": "Shaily Engineer.",
+      "symbol": "SHAILY",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92a94c7e-046a-4e10-8f7e-3e1da20a2a85.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23306940/"
+        }
+      ]
+    },
+    {
+      "company": "Apeejay Surrend.",
+      "symbol": "PARKHOTELS",
+      "kind": "recent",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.theparkhotels.com/pdf/investor-relations/q1-earnings-call.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23306938/"
+        }
+      ]
+    }
+  ]
+}

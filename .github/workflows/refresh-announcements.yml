@@ -43,12 +43,13 @@ jobs:
       - name: Commit refreshed data
         if: ${{ !inputs.debug }}
         run: |
-          if git diff --quiet -- src/data/announcements.json; then
+          git add src/data/announcements.json
+          git add src/data/history/announcements/ 2>/dev/null || true
+          if git diff --cached --quiet; then
             echo "No data changes; nothing to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data/announcements.json
           git commit -m "chore(data): refresh announcements ($(date -u +%Y-%m-%d))"
           git push

@@ -1,6 +1,6 @@
 import type { Issue } from "@/types/issue";
 
-// AUTO-GENERATED DRAFT by scripts/build-weekly-issue.ts on 2026-08-18T08:20:21.432Z.
+// AUTO-GENERATED DRAFT by scripts/build-weekly-issue.ts on 2026-08-18T08:56:22.969Z.
 // This is a reviewable draft, NOT a published issue. Edit the "[DRAFT — write this]" fields
 // (headline, dek, section commentary), then promote to src/content/issues/ to
 // publish. See docs/WEEKLY-ISSUE.md.
@@ -17,7 +17,7 @@ const issue: Issue = {
       "title": "The week in one line",
       "body": [
         "[DRAFT — write this]: the week's thesis — index moves, the macro backdrop, and the single takeaway.",
-        "In the latest data: 14 insider/promoter buys and 21 sells, 4 block and 100 bulk deals, 50 notable filings, 25 recent earnings calls, and 125 corporate actions."
+        "Over the past week (1 trading day captured): 14 insider/promoter buys and 21 sells, 4 block and 100 bulk deals, 49 notable filings, 25 earnings calls, and 125 corporate actions."
       ]
     },
     {
@@ -78,7 +78,7 @@ const issue: Issue = {
           ]
         }
       ],
-      "note": "Ranked by disclosed value from the latest snapshot. The full week's trades live in the Buying & Selling tracker.",
+      "note": "Ranked by disclosed value over the past week. The full list lives in the Buying & Selling tracker.",
       "link": {
         "href": "/data-tools/insider-trades",
         "label": "Buying & Selling"
@@ -127,7 +127,7 @@ const issue: Issue = {
           ]
         }
       ],
-      "note": "Largest by deal value from the latest session. Live bulk, block and short deals are tracked here.",
+      "note": "Largest by deal value over the past week. Live bulk, block and short deals are tracked here.",
       "link": {
         "href": "/data-tools/bulk-block-deals",
         "label": "Bulk & Block Deals"

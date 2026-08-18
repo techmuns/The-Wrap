@@ -9,6 +9,7 @@ import { writeFileSync, existsSync, readFileSync, mkdirSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import * as cheerio from "cheerio";
 import { screenerLogin, screenerGet, clean, sleep, SCREENER_BASE } from "./screener-auth";
+import { writeDailyPartition } from "./history";
 import type { Concall, ConcallKind, ConcallsDataset } from "../../src/types/concalls";
 
 const OUT = resolve(process.cwd(), "src/data/concalls.json");
@@ -131,6 +132,9 @@ async function main() {
   mkdirSync(dirname(OUT), { recursive: true });
   writeFileSync(OUT, JSON.stringify(dataset, null, 2) + "\n");
   console.log(`Wrote ${OUT}: recent=${counts.recent} upcoming=${counts.upcoming}`);
+
+  // Each Concall carries its kind (recent/upcoming), so one flat partition is enough.
+  writeDailyPartition<Concall>("concalls", items);
 }
 
 main().catch((err) => {

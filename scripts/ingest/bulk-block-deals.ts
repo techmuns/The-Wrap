@@ -23,6 +23,7 @@ import {
 } from "node:fs";
 import { dirname, resolve } from "node:path";
 import type { Deal, DealCategory, DealsDataset } from "../../src/types/deals";
+import { writeDailyPartition } from "./history";
 
 const HOME = "https://www.nseindia.com/";
 const API =
@@ -178,6 +179,10 @@ async function main() {
   console.log(
     `Wrote ${OUT}\n  bulk=${bulk.length} block=${block.length} short=${short.length} (as on ${dataset.asOnDate})`
   );
+
+  // Also append an immutable daily partition so the weekly generator can
+  // assemble a full trading week (each Deal already carries its category).
+  writeDailyPartition<Deal>("bulk-block-deals", [...bulk, ...block, ...short]);
 }
 
 main().catch((err) => {

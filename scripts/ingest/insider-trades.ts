@@ -24,6 +24,7 @@ import { writeFileSync, existsSync, readFileSync, mkdirSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import * as cheerio from "cheerio";
 import type { InsiderTrade, InsiderTradesDataset, TradeSide } from "../../src/types/insider";
+import { writeDailyPartition } from "./history";
 
 const BASE = "https://www.screener.in";
 const LOGIN_URL = `${BASE}/login/`;
@@ -285,6 +286,8 @@ async function main() {
   mkdirSync(dirname(OUT), { recursive: true });
   writeFileSync(OUT, JSON.stringify(dataset, null, 2) + "\n");
   console.log(`Wrote ${OUT}: ${all.length} insider/SAST trades`);
+
+  writeDailyPartition<InsiderTrade>("insider-trades", all);
 }
 
 main().catch((err) => {

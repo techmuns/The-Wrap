@@ -18,15 +18,21 @@ npm run build:weekly-issue          # dated today
 npm run build:weekly-issue -- --date=2026-08-16   # or a specific Saturday/Sunday
 ```
 
-This reads the five feeds in `src/data/`:
+This reads a **rolling window of the daily archive** (default 7 days) and dedupes
+it, so the draft reflects the whole trading week — not just the latest day. Each
+feed contributes one section:
 
-| Feed | File | Section it fills |
+| Feed | Archive | Section it fills |
 | --- | --- | --- |
-| Bulk & block deals | `bulk-block-deals.json` | Bulk & block deals |
-| Insider trades | `insider-trades.json` | Insider & promoter trades |
-| Announcements | `announcements.json` | Noteworthy announcements (by category) |
-| Concalls | `concalls.json` | Earnings calls |
-| Corporate actions | `corporate-actions.json` | Corporate actions |
+| Bulk & block deals | `history/bulk-block-deals/` | Bulk & block deals |
+| Insider trades | `history/insider-trades/` | Insider & promoter trades |
+| Announcements | `history/announcements/` | Noteworthy announcements (by category) |
+| Concalls | `history/concalls/` | Earnings calls |
+| Corporate actions | `history/corporate-actions/` | Corporate actions |
+
+If a feed has no archive yet, the generator falls back to that feed's latest
+snapshot (`src/data/<feed>.json`) so it always produces something. Change the
+window with `-- --days=N`.
 
 and writes:
 
@@ -75,14 +81,32 @@ When it reads the way you want:
 
 The issue now appears in the published `/blog` archive.
 
-## Known limitation: latest-snapshot, not rolling week
+## How the weekly archive works
 
-Each daily ingest **overwrites** its `src/data/*.json` with the latest snapshot
-(the most recent ~25–100 rows), so it does not accumulate a full rolling week of
-history. A draft therefore summarizes the **latest available snapshot**, which
-is close to — but not guaranteed to be — the complete Mon–Fri week. The draft
-says as much ("In the latest data: …").
+Each daily ingest still overwrites its snapshot (`src/data/<feed>.json`) — that's
+what the live Data Tools read — **and** appends an immutable daily partition:
 
-**Planned follow-up:** append each daily pull into a week-partitioned archive so
-the generator can assemble a true Monday-to-Friday view. Until then, treat the
-draft as a strong starting point, not a complete week of record.
+```
+src/data/history/<feed>/<YYYY-MM-DD>.json  = { capturedOn, capturedAt, count, rows }
+```
+
+The daily refresh workflows commit these partitions, so the archive survives the
+ephemeral CI runners and accumulates a rolling week. The generator reads a window
+of partitions and dedupes them (a row that reappears in consecutive days'
+snapshots collapses to one), giving a true Mon–Fri view. Partitions older than
+`RETENTION_DAYS` (60) are pruned automatically on write.
+
+- **Seed / backfill:** `npm run seed:history` writes one partition per feed from
+  the current snapshots — useful right after enabling the archive, or to recover
+  if the history is ever cleared.
+- **Ramp-up:** the archive fills one day at a time. Until a full week has been
+  captured, the draft honestly reports how many days it has (e.g. "Over the past
+  week (3 trading days captured): …").
+
+### Residual limitation: snapshot depth
+
+Each daily pull captures only the latest ~25–100 rows per feed. On an unusually
+busy day a feed can have more rows than one snapshot holds, so a few may fall off
+before the next day's capture. This is far better than a single-day view, but the
+archive is not guaranteed to be an exhaustive record of every row that week.
+Deepening per-day capture (pagination) is a future improvement.

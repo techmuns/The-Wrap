@@ -30,6 +30,7 @@ import type {
   AnnouncementCategory,
   AnnouncementsDataset,
 } from "../../src/types/announcements";
+import { writeDailyPartition } from "./history";
 
 const BASE = "https://www.screener.in";
 const LOGIN_URL = `${BASE}/login/`;
@@ -288,6 +289,8 @@ async function main() {
   mkdirSync(dirname(OUT), { recursive: true });
   writeFileSync(OUT, JSON.stringify(dataset, null, 2) + "\n");
   console.log(`Wrote ${OUT}: ${total} announcements across ${Object.keys(byCategory).length} categories`);
+
+  writeDailyPartition<Announcement>("announcements", all);
 }
 
 main().catch((err) => {

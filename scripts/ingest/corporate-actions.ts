@@ -9,6 +9,7 @@ import { writeFileSync, existsSync, readFileSync, mkdirSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import * as cheerio from "cheerio";
 import { screenerLogin, screenerGet, clean, sleep } from "./screener-auth";
+import { writeDailyPartition } from "./history";
 import type { ActionType, CorporateAction, CorporateActionsDataset } from "../../src/types/corporate-actions";
 
 const OUT = resolve(process.cwd(), "src/data/corporate-actions.json");
@@ -136,6 +137,8 @@ async function main() {
   mkdirSync(dirname(OUT), { recursive: true });
   writeFileSync(OUT, JSON.stringify(dataset, null, 2) + "\n");
   console.log(`Wrote ${OUT}: ${items.length} actions ${JSON.stringify(byType)}`);
+
+  writeDailyPartition<CorporateAction>("corporate-actions", items);
 }
 
 main().catch((err) => {

@@ -1,20 +1,28 @@
 /**
  * Weekly issue generator — the product's core loop.
  *
- * Reads the five live data feeds (bulk/block deals, insider trades,
- * announcements, concalls, corporate actions) and assembles a *draft* weekly
- * Blog issue: every data-driven section is filled from the real, independently
- * sourced feeds, while the editorial fields (headline, thesis, per-section
- * commentary) are left as clearly-marked "[DRAFT]" placeholders for a human to
- * write before publishing. Nothing here is fabricated — empty feeds produce
- * honest "no notable activity" notes, never invented items.
+ * Reads the week's live data feeds and assembles a *draft* weekly Blog issue:
+ * every data-driven section is filled from the real, independently sourced
+ * feeds, while the editorial fields (headline, thesis, per-section commentary)
+ * are left as clearly-marked "[DRAFT]" placeholders for a human to write before
+ * publishing. Nothing here is fabricated — empty feeds produce honest "no
+ * notable activity" notes, never invented items.
+ *
+ * Data source: each daily ingest archives an immutable partition under
+ * src/data/history/<feed>/<day>.json (see scripts/ingest/history.ts). This
+ * generator reads a rolling window of those partitions and dedupes them, so the
+ * draft reflects the whole trading week rather than a single day's snapshot. If
+ * no partitions exist yet (fresh repo), it falls back to the latest snapshot in
+ * src/data/<feed>.json so it always produces something.
  *
  * Output: a TypeScript draft at src/content/drafts/<slug>.ts (default-exporting
  * an Issue) plus a regenerated src/content/drafts/index.ts. Drafts render at
  * /blog/drafts/<slug> for review; they are NOT part of the published /blog
  * archive until a human promotes the file into src/content/issues/.
  *
- * Run: `npm run build:weekly-issue`  (optional: `--date=YYYY-MM-DD`)
+ * Run: `npm run build:weekly-issue`
+ *   optional: `-- --date=YYYY-MM-DD`  the issue date (default: today, UTC)
+ *   optional: `-- --days=N`           window length in days (default: 7)
  * See docs/WEEKLY-ISSUE.md for the full generate -> review -> publish workflow.
  */
 import { writeFileSync, readFileSync, existsSync, mkdirSync, readdirSync } from "node:fs";
@@ -22,12 +30,13 @@ import { resolve, join } from "node:path";
 import { formatCrore, formatQty } from "../src/lib/format";
 import { CATEGORY_ORDER } from "../src/lib/announcements/categories";
 import { ACTION_LABELS } from "../src/types/corporate-actions";
+import { readWindow, mergeWindow } from "./ingest/history";
 import type { Issue, IssueSection, SectionGroup, SectionItem } from "../src/types/issue";
 import type { DealsDataset, Deal } from "../src/types/deals";
 import type { InsiderTradesDataset, InsiderTrade } from "../src/types/insider";
-import type { AnnouncementsDataset } from "../src/types/announcements";
-import type { ConcallsDataset } from "../src/types/concalls";
-import type { CorporateActionsDataset, ActionType } from "../src/types/corporate-actions";
+import type { AnnouncementsDataset, Announcement } from "../src/types/announcements";
+import type { ConcallsDataset, Concall } from "../src/types/concalls";
+import type { CorporateActionsDataset, CorporateAction, ActionType } from "../src/types/corporate-actions";
 
 const DATA_DIR = resolve(process.cwd(), "src/data");
 const DRAFTS_DIR = resolve(process.cwd(), "src/content/drafts");
@@ -48,27 +57,34 @@ const LIMITS = {
 // so they're easy to spot (and grep) in the rendered draft and the source.
 const TODO = "[DRAFT — write this]";
 
-// ---- small date helpers (no external deps) --------------------------------
+// ---- args + date helpers (UTC throughout; no external deps) ---------------
 const ABBR = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 function isoOf(d: Date): string {
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  return d.toISOString().slice(0, 10);
 }
 function displayOf(d: Date): string {
-  return `${d.getDate()} ${ABBR[d.getMonth()]} ${d.getFullYear()}`;
+  return `${d.getUTCDate()} ${ABBR[d.getUTCMonth()]} ${d.getUTCFullYear()}`;
 }
-
-function argDate(): Date {
-  const arg = process.argv.find((a) => a.startsWith("--date="))?.split("=")[1];
+function argValue(name: string): string | undefined {
+  return process.argv.find((a) => a.startsWith(`--${name}=`))?.split("=")[1];
+}
+function issueDate(): Date {
+  const arg = argValue("date");
   if (arg) {
-    const m = arg.match(/^(\d{4})-(\d{2})-(\d{2})$/);
-    if (!m) throw new Error(`--date must be YYYY-MM-DD, got "${arg}"`);
-    return new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(arg)) throw new Error(`--date must be YYYY-MM-DD, got "${arg}"`);
+    return new Date(`${arg}T00:00:00Z`);
   }
   return new Date();
 }
+function windowDays(): number {
+  const arg = argValue("days");
+  const n = arg ? Number(arg) : 7;
+  if (!Number.isFinite(n) || n < 1) throw new Error(`--days must be a positive number, got "${arg}"`);
+  return Math.floor(n);
+}
 
-// ---- data loading ---------------------------------------------------------
-function load<T>(file: string, fallback: T): T {
+// ---- feed loading: rolling window of partitions, snapshot fallback --------
+function loadSnapshot<T>(file: string, fallback: T): T {
   const p = join(DATA_DIR, file);
   if (!existsSync(p)) return fallback;
   try {
@@ -78,26 +94,49 @@ function load<T>(file: string, fallback: T): T {
   }
 }
 
-/** Sort a copy of `arr` by a numeric key, descending, with nulls/undefined last. */
+interface Loaded<T> {
+  rows: T[];
+  fromHistory: boolean;
+  days: string[]; // capturedOn of each partition that contributed
+}
+
+/** Read a feed's rolling window, deduped; fall back to the latest snapshot. */
+function loadFeed<T>(
+  feed: string,
+  snapshotRows: T[],
+  key: (row: T) => string,
+  startDay: string,
+  endDay: string
+): Loaded<T> {
+  const parts = readWindow<T>(feed, startDay, endDay);
+  if (!parts.length) return { rows: snapshotRows, fromHistory: false, days: [] };
+  return { rows: mergeWindow(parts, key), fromHistory: true, days: parts.map((p) => p.capturedOn) };
+}
+
+// Feed-specific dedup keys — a row that reappears in consecutive snapshots
+// must collapse to one across the window.
+const dealKey = (d: Deal) => `${d.category}|${d.symbol ?? d.name}|${d.clientName}|${d.qty}|${d.watp}|${d.date}`;
+const insiderKey = (t: InsiderTrade) => `${t.symbol ?? t.company}|${t.person}|${t.buySell}|${t.shares}|${t.value}`;
+const annKey = (a: Announcement) => a.url ?? `${a.symbol}|${a.subject}|${a.isoDate}`;
+const concallKey = (c: Concall) => `${c.symbol ?? c.company}|${c.kind}|${c.isoDate}|${c.links[0]?.url ?? ""}`;
+const corpKey = (a: CorporateAction) => `${a.symbol ?? a.company}|${a.type}|${a.isoDate}|${a.detail}`;
+
+// ---- ranking helpers ------------------------------------------------------
 function byDesc<T>(arr: T[], key: (x: T) => number | null | undefined): T[] {
   return [...arr].sort((a, b) => (key(b) ?? -Infinity) - (key(a) ?? -Infinity));
 }
-
-/** Sort a copy by an ISO-ish date string, most recent first (nulls last). */
 function byRecent<T>(arr: T[], key: (x: T) => string | null | undefined): T[] {
   return [...arr].sort((a, b) => (key(b) ?? "").localeCompare(key(a) ?? ""));
 }
-
 function star(items: SectionItem[]): SectionItem[] {
   return items.map((it, i) => (i === 0 ? { ...it, starred: true } : it));
 }
 
-// ---- section builders -----------------------------------------------------
+// ---- section builders (`src` = human phrase for where the data came from) --
 
-function insiderSection(ds: InsiderTradesDataset): IssueSection {
-  const withValue = (t: InsiderTrade) => t.value;
-  const buys = byDesc(ds.items.filter((t) => t.buySell === "BUY"), withValue).slice(0, LIMITS.insiderPerSide);
-  const sells = byDesc(ds.items.filter((t) => t.buySell === "SELL"), withValue).slice(0, LIMITS.insiderPerSide);
+function insiderSection(rows: InsiderTrade[], src: string): IssueSection {
+  const buys = byDesc(rows.filter((t) => t.buySell === "BUY"), (t) => t.value).slice(0, LIMITS.insiderPerSide);
+  const sells = byDesc(rows.filter((t) => t.buySell === "SELL"), (t) => t.value).slice(0, LIMITS.insiderPerSide);
 
   const fmt = (t: InsiderTrade): SectionItem => {
     const who = [t.person, t.role ? `(${t.role})` : ""].filter(Boolean).join(" ");
@@ -115,24 +154,24 @@ function insiderSection(ds: InsiderTradesDataset): IssueSection {
     body: [`${TODO}: one line on the week's promoter/insider tone — accumulation, distribution, or two-sided.`],
     groups: groups.length ? groups : undefined,
     note: groups.length
-      ? "Ranked by disclosed value from the latest snapshot. The full week's trades live in the Buying & Selling tracker."
-      : "No insider or promoter trades in the latest snapshot.",
+      ? `Ranked by disclosed value ${src}. The full list lives in the Buying & Selling tracker.`
+      : `No insider or promoter trades ${src}.`,
     link: { href: "/data-tools/insider-trades", label: "Buying & Selling" },
   };
 }
 
-function dealsSection(deals: DealsDataset): IssueSection {
+function dealsSection(bulk: Deal[], block: Deal[], src: string): IssueSection {
   const fmt = (d: Deal): SectionItem => {
     const verb = d.buySell === "BUY" ? "bought" : d.buySell === "SELL" ? "sold" : "traded";
     const who = d.clientName ? `${d.clientName} ${verb} ` : "";
     return { text: `${d.name ?? d.symbol ?? "—"} — ${who}${formatCrore(d.value)}` };
   };
-  const block = byDesc(deals.block ?? [], (d) => d.value).slice(0, LIMITS.blockDeals);
-  const bulk = byDesc(deals.bulk ?? [], (d) => d.value).slice(0, LIMITS.bulkDeals);
+  const topBlock = byDesc(block, (d) => d.value).slice(0, LIMITS.blockDeals);
+  const topBulk = byDesc(bulk, (d) => d.value).slice(0, LIMITS.bulkDeals);
 
   const groups: SectionGroup[] = [];
-  if (block.length) groups.push({ heading: "Block deals", items: star(block.map(fmt)) });
-  if (bulk.length) groups.push({ heading: "Bulk deals", items: bulk.map(fmt) });
+  if (topBlock.length) groups.push({ heading: "Block deals", items: star(topBlock.map(fmt)) });
+  if (topBulk.length) groups.push({ heading: "Bulk deals", items: topBulk.map(fmt) });
 
   return {
     id: "deals",
@@ -140,24 +179,19 @@ function dealsSection(deals: DealsDataset): IssueSection {
     body: [`${TODO}: a line on the week's institutional churn — who's building or trimming positions.`],
     groups: groups.length ? groups : undefined,
     note: groups.length
-      ? "Largest by deal value from the latest session. Live bulk, block and short deals are tracked here."
-      : "No bulk or block deals in the latest snapshot.",
+      ? `Largest by deal value ${src}. Live bulk, block and short deals are tracked here.`
+      : `No bulk or block deals ${src}.`,
     link: { href: "/data-tools/bulk-block-deals", label: "Bulk & Block Deals" },
   };
 }
 
-function announcementsSection(ds: AnnouncementsDataset): IssueSection {
+function announcementsSection(rows: Announcement[]): IssueSection {
   const groups: SectionGroup[] = [];
   for (const cat of CATEGORY_ORDER) {
-    // "other" is noise for a curated wrap; concalls have their own section.
-    if (cat.slug === "other" || cat.slug === "concall") continue;
+    if (cat.slug === "other" || cat.slug === "concall") continue; // noise / own section
     if (groups.length >= LIMITS.annMaxCategories) break;
-    const inCat = byRecent(ds.items.filter((a) => a.category === cat.slug), (a) => a.isoDate).slice(
-      0,
-      LIMITS.annPerCategory
-    );
+    const inCat = byRecent(rows.filter((a) => a.category === cat.slug), (a) => a.isoDate).slice(0, LIMITS.annPerCategory);
     if (!inCat.length) continue;
-    // Suggest a "must-read" star on the highest-signal categories.
     const emphasise = cat.slug === "capex" || cat.slug === "order-wins" || cat.slug === "acquisitions";
     const items = inCat.map((a) => ({ text: `${a.company ?? a.symbol ?? "—"} — ${a.headline ?? a.subject ?? ""}`.trim() }));
     groups.push({ heading: cat.label, items: emphasise ? star(items) : items });
@@ -177,12 +211,9 @@ function announcementsSection(ds: AnnouncementsDataset): IssueSection {
   };
 }
 
-function concallsSection(ds: ConcallsDataset): IssueSection {
-  const recent = byRecent(ds.items.filter((c) => c.kind === "recent"), (c) => c.isoDate).slice(
-    0,
-    LIMITS.recentConcalls
-  );
-  const upcomingCount = ds.items.filter((c) => c.kind === "upcoming").length;
+function concallsSection(rows: Concall[], src: string): IssueSection {
+  const recent = byRecent(rows.filter((c) => c.kind === "recent"), (c) => c.isoDate).slice(0, LIMITS.recentConcalls);
+  const upcomingCount = rows.filter((c) => c.kind === "upcoming").length;
 
   const items: SectionItem[] = recent.map((c) => {
     const labels = [...new Set(c.links.map((l) => l.label))].filter(Boolean);
@@ -198,19 +229,16 @@ function concallsSection(ds: ConcallsDataset): IssueSection {
     title: "Earnings calls",
     body: [`${TODO}: which calls are worth your time and why.`],
     groups: items.length ? [{ heading: "Recent calls with materials", items }] : undefined,
-    note: items.length ? notes.join(" ") : "No recent concall materials in the latest snapshot.",
+    note: items.length ? notes.join(" ") : `No recent concall materials ${src}.`,
     link: { href: "/data-tools/concalls", label: "Concalls" },
   };
 }
 
-function corpActionsSection(ds: CorporateActionsDataset): IssueSection {
+function corpActionsSection(rows: CorporateAction[], src: string): IssueSection {
   const order: ActionType[] = ["buyback", "bonus", "split", "rights", "dividend"];
   const groups: SectionGroup[] = [];
   for (const type of order) {
-    const inType = byRecent(ds.items.filter((a) => a.type === type), (a) => a.isoDate).slice(
-      0,
-      LIMITS.corpActionsPerType
-    );
+    const inType = byRecent(rows.filter((a) => a.type === type), (a) => a.isoDate).slice(0, LIMITS.corpActionsPerType);
     if (!inType.length) continue;
     groups.push({
       heading: ACTION_LABELS[type],
@@ -225,45 +253,59 @@ function corpActionsSection(ds: CorporateActionsDataset): IssueSection {
     groups: groups.length ? groups : undefined,
     note: groups.length
       ? "Bonuses, buybacks, splits, rights and dividends — full list in the tracker."
-      : "No corporate actions in the latest snapshot.",
+      : `No corporate actions ${src}.`,
     link: { href: "/data-tools/corporate-actions", label: "Corporate Actions" },
   };
 }
 
 // ---- assembly -------------------------------------------------------------
 
-function buildIssue(now: Date): Issue {
-  const deals = load<DealsDataset>("bulk-block-deals.json", {
+function buildIssue(now: Date, days: number): { issue: Issue; log: string } {
+  const endDay = isoOf(now);
+  const startDate = new Date(now);
+  startDate.setUTCDate(startDate.getUTCDate() - (days - 1));
+  const startDay = isoOf(startDate);
+
+  // Snapshot fallbacks (used only if a feed has no partitions yet).
+  const snapDeals = loadSnapshot<DealsDataset>("bulk-block-deals.json", {
     asOnDate: null, fetchedAt: null, counts: { bulk: 0, block: 0, short: 0 }, bulk: [], block: [], short: [],
   });
-  const insider = load<InsiderTradesDataset>("insider-trades.json", { fetchedAt: null, source: "", total: 0, items: [] });
-  const announcements = load<AnnouncementsDataset>("announcements.json", {
-    fetchedAt: null, source: "Screener", total: 0, byCategory: {}, items: [],
-  });
-  const concalls = load<ConcallsDataset>("concalls.json", { fetchedAt: null, source: "", counts: { recent: 0, upcoming: 0 }, items: [] });
-  const corpActions = load<CorporateActionsDataset>("corporate-actions.json", { fetchedAt: null, source: "", total: 0, byType: {}, items: [] });
+  const snapInsider = loadSnapshot<InsiderTradesDataset>("insider-trades.json", { fetchedAt: null, source: "", total: 0, items: [] });
+  const snapAnn = loadSnapshot<AnnouncementsDataset>("announcements.json", { fetchedAt: null, source: "Screener", total: 0, byCategory: {}, items: [] });
+  const snapConcalls = loadSnapshot<ConcallsDataset>("concalls.json", { fetchedAt: null, source: "", counts: { recent: 0, upcoming: 0 }, items: [] });
+  const snapCorp = loadSnapshot<CorporateActionsDataset>("corporate-actions.json", { fetchedAt: null, source: "", total: 0, byType: {}, items: [] });
 
-  const buys = insider.items.filter((t) => t.buySell === "BUY").length;
-  const sells = insider.items.filter((t) => t.buySell === "SELL").length;
-  const blockN = deals.counts?.block ?? deals.block?.length ?? 0;
-  const bulkN = deals.counts?.bulk ?? deals.bulk?.length ?? 0;
+  const deals = loadFeed<Deal>("bulk-block-deals", [...snapDeals.bulk, ...snapDeals.block, ...snapDeals.short], dealKey, startDay, endDay);
+  const insider = loadFeed<InsiderTrade>("insider-trades", snapInsider.items, insiderKey, startDay, endDay);
+  const announcements = loadFeed<Announcement>("announcements", snapAnn.items, annKey, startDay, endDay);
+  const concalls = loadFeed<Concall>("concalls", snapConcalls.items, concallKey, startDay, endDay);
+  const corpActions = loadFeed<CorporateAction>("corporate-actions", snapCorp.items, corpKey, startDay, endDay);
 
-  // A factual, data-derived scaffold line to sit under the human-written thesis.
+  const bulk = deals.rows.filter((d) => d.category === "bulk");
+  const block = deals.rows.filter((d) => d.category === "block");
+  const buys = insider.rows.filter((t) => t.buySell === "BUY").length;
+  const sells = insider.rows.filter((t) => t.buySell === "SELL").length;
+  const recentCalls = concalls.rows.filter((c) => c.kind === "recent").length;
+
+  // Coverage across all feeds: how many distinct trading days we actually have.
+  const coverage = new Set<string>([deals, insider, announcements, concalls, corpActions].flatMap((f) => f.days));
+  const usedHistory = coverage.size > 0;
+  const src = usedHistory ? "over the past week" : "from the latest snapshot";
   const byNumbers =
-    `In the latest data: ${buys} insider/promoter buy${buys === 1 ? "" : "s"} and ${sells} sell${sells === 1 ? "" : "s"}, ` +
-    `${blockN} block and ${bulkN} bulk deal${bulkN === 1 ? "" : "s"}, ` +
-    `${announcements.total} notable filing${announcements.total === 1 ? "" : "s"}, ` +
-    `${concalls.counts?.recent ?? 0} recent earnings call${(concalls.counts?.recent ?? 0) === 1 ? "" : "s"}, and ` +
-    `${corpActions.total} corporate action${corpActions.total === 1 ? "" : "s"}.`;
+    (usedHistory
+      ? `Over the past week (${coverage.size} trading day${coverage.size === 1 ? "" : "s"} captured): `
+      : "In the latest snapshot: ") +
+    `${buys} insider/promoter buy${buys === 1 ? "" : "s"} and ${sells} sell${sells === 1 ? "" : "s"}, ` +
+    `${block.length} block and ${bulk.length} bulk deal${bulk.length === 1 ? "" : "s"}, ` +
+    `${announcements.rows.length} notable filing${announcements.rows.length === 1 ? "" : "s"}, ` +
+    `${recentCalls} earnings call${recentCalls === 1 ? "" : "s"}, and ` +
+    `${corpActions.rows.length} corporate action${corpActions.rows.length === 1 ? "" : "s"}.`;
 
   const sections: IssueSection[] = [
     {
       id: "summary",
       title: "The week in one line",
-      body: [
-        `${TODO}: the week's thesis — index moves, the macro backdrop, and the single takeaway.`,
-        byNumbers,
-      ],
+      body: [`${TODO}: the week's thesis — index moves, the macro backdrop, and the single takeaway.`, byNumbers],
     },
     {
       id: "breadth",
@@ -271,11 +313,11 @@ function buildIssue(now: Date): Issue {
       body: [`${TODO}: is participation broadening or narrowing? (No live breadth feed yet — a Market Breadth tool is on the roadmap.)`],
       note: "A Market Breadth tool (sector × EMA heatmap) is planned under Data Tools.",
     },
-    insiderSection(insider),
-    dealsSection(deals),
-    announcementsSection(announcements),
-    concallsSection(concalls),
-    corpActionsSection(corpActions),
+    insiderSection(insider.rows, src),
+    dealsSection(bulk, block, src),
+    announcementsSection(announcements.rows),
+    concallsSection(concalls.rows, src),
+    corpActionsSection(corpActions.rows, src),
     {
       id: "curated",
       title: "Curated",
@@ -284,22 +326,25 @@ function buildIssue(now: Date): Issue {
     },
   ];
 
-  return {
-    slug: isoOf(now),
+  const issue: Issue = {
+    slug: endDay,
     date: displayOf(now),
-    isoDate: isoOf(now),
+    isoDate: endDay,
     title: `${TODO}: headline for the week of ${displayOf(now)}`,
     dek: `${TODO}: one-line standfirst.`,
     readingTime: "Draft preview",
     sections,
   };
+
+  const coverageMsg = usedHistory
+    ? `window ${startDay}..${endDay}, ${coverage.size} day(s) archived`
+    : `no archive yet — used latest snapshot (window ${startDay}..${endDay})`;
+  return { issue, log: coverageMsg };
 }
 
 // ---- emit TypeScript + regenerate the drafts index ------------------------
 
 function draftFileSource(issue: Issue, generatedAt: string): string {
-  // JSON.stringify emits valid TS for this plain-data object and escapes every
-  // string safely (headlines can contain quotes, ₹, etc.).
   const body = JSON.stringify(issue, null, 2);
   return `import type { Issue } from "@/types/issue";
 
@@ -340,15 +385,17 @@ export function getDraftSlugs(): string[] {
 }
 
 function main() {
-  const now = argDate();
+  const now = issueDate();
+  const days = windowDays();
   mkdirSync(DRAFTS_DIR, { recursive: true });
-  const issue = buildIssue(now);
+  const { issue, log } = buildIssue(now, days);
   const outFile = join(DRAFTS_DIR, `${issue.slug}.ts`);
-  writeFileSync(outFile, draftFileSource(issue, now.toISOString()));
+  writeFileSync(outFile, draftFileSource(issue, new Date().toISOString()));
   rewriteIndex();
 
   const dataSections = issue.sections.filter((s) => s.groups?.length).length;
   console.log(`Wrote draft ${outFile}`);
+  console.log(`  ${log}`);
   console.log(`  ${issue.sections.length} sections (${dataSections} filled from live feeds).`);
   console.log(`  Review at /blog/drafts/${issue.slug}, then edit the "${TODO}" fields and promote to src/content/issues/ to publish.`);
 }
