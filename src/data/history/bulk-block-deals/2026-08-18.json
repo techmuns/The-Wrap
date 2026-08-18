@@ -1,12 +1,8 @@
 {
-  "asOnDate": "17-Aug-2026",
-  "fetchedAt": "2026-08-18T10:51:10.515Z",
-  "counts": {
-    "bulk": 100,
-    "block": 4,
-    "short": 76
-  },
-  "bulk": [
+  "capturedOn": "2026-08-18",
+  "capturedAt": "2026-08-18T10:51:10.516Z",
+  "count": 180,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "ATALREAL",
@@ -1206,9 +1202,7 @@
       "value": 112449664.3,
       "date": "17-Aug-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "STYLEBAAZA",
@@ -1256,9 +1250,7 @@
       "value": 543000000,
       "date": "17-Aug-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "ADANIPORTS",
