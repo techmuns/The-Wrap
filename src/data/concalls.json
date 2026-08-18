@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-18T10:59:33.667Z",
+  "fetchedAt": "2026-08-18T15:00:21.873Z",
   "source": "Screener",
   "counts": {
     "recent": 25,
@@ -7,373 +7,32 @@
   },
   "items": [
     {
-      "company": "Senco Gold",
-      "symbol": "SENCO",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8803d0f-1282-454f-8050-45e4b0446d0e.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23310104/"
-        }
-      ]
-    },
-    {
-      "company": "Engineers India",
-      "symbol": "ENGINERSIN",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18713484-078f-45d9-96a9-d56fe2f56981.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23310102/"
-        }
-      ]
-    },
-    {
-      "company": "Vodafone Idea",
-      "symbol": "IDEA",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70ef6137-942c-4bf2-b275-5ecff44fe8c3.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23310101/"
-        }
-      ]
-    },
-    {
-      "company": "Baroda Extrusion",
-      "symbol": "513502",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=23e25ea6-431a-4603-856c-ddc1f234461e.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23310100/"
-        }
-      ]
-    },
-    {
-      "company": "Dev Accele.",
-      "symbol": "DEVX",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a1d19c45-59e0-44be-bfdf-913d80c4a3ff.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23310099/"
-        }
-      ]
-    },
-    {
-      "company": "Matrimony.com",
-      "symbol": "MATRIMONY",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79e618ae-3199-4f7b-be31-f855c28f5667.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23309340/"
-        }
-      ]
-    },
-    {
-      "company": "Jungle Camps",
-      "symbol": "544304",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01bc7f9c-e45c-4372-a71c-7f6b2a9c3283.pdf"
-        }
-      ]
-    },
-    {
-      "company": "Capital Trust",
-      "symbol": "CAPTRUST",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ba98daa-5218-44bb-abde-6d7a7b4659d0.pdf"
-        }
-      ]
-    },
-    {
-      "company": "Pyramid Technopl",
-      "symbol": "PYRAMID",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c89c106-936b-4db4-bdb5-5220ae81feeb.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23309336/"
-        }
-      ]
-    },
-    {
-      "company": "Saraswati Saree",
-      "symbol": "SSDL",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06614e75-8d65-4e17-b60b-e98e3003c655.pdf"
-        }
-      ]
-    },
-    {
-      "company": "BLS Internat.",
-      "symbol": "BLS",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68038b20-ecd7-4b24-9be1-c66fa3924f88.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23309333/"
-        }
-      ]
-    },
-    {
-      "company": "Allcargo Termi",
-      "symbol": "ATL",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06399d08-c545-434b-ad3a-56795e159aed.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23309331/"
-        }
-      ]
-    },
-    {
-      "company": "Finolex Cables",
-      "symbol": "FINCABLES",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1aa0c4e1-2bb3-4940-bf47-89e2513c94f4.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23309330/"
-        }
-      ]
-    },
-    {
-      "company": "Bajaj Housing",
-      "symbol": "BAJAJHFL",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f39394e8-05b9-467b-94f6-d979dc847140.pdf"
-        }
-      ]
-    },
-    {
-      "company": "RHI Magnesita",
-      "symbol": "RHIM",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c4acecc-6f8d-4372-8c79-5f6fc3560508.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23309327/"
-        }
-      ]
-    },
-    {
-      "company": "Zydus Lifesci.",
-      "symbol": "ZYDUSLIFE",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bcb4a0b1-3ded-4b04-897c-a56ae9a760e0.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23309326/"
-        }
-      ]
-    },
-    {
-      "company": "Highway Infra",
-      "symbol": "HILINFRA",
+      "company": "Prime Fresh",
+      "symbol": "540404",
       "kind": "recent",
       "date": "18 Aug 2026",
       "isoDate": "2026-08-18",
       "links": [
         {
           "label": "View Recording",
-          "url": "https://www.highwayinfrastructure.in/wp-content/uploads/2026/08/HIL_Q1FY27_Audio-Transcript.mp3"
+          "url": "https://www.primefreshlimited.com/wp-content/uploads/2026/08/WhatsApp-Audio-2026-08-18-at-5.50.46-PM.mpeg"
         }
       ]
     },
     {
-      "company": "Flair Writing",
-      "symbol": "FLAIR",
+      "company": "KPI Green Energy",
+      "symbol": "KPIGREEN",
       "kind": "recent",
       "date": "18 Aug 2026",
       "isoDate": "2026-08-18",
       "links": [
         {
           "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95449a98-51b1-462e-b857-c0b31164e64f.pdf"
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6f8b636-bdf0-4595-896e-1459898bec67.pdf"
         },
         {
           "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23309324/"
-        }
-      ]
-    },
-    {
-      "company": "Rail Vikas",
-      "symbol": "RVNL",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8290c987-c721-40b3-b8ed-92b08c369c84.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23309323/"
-        }
-      ]
-    },
-    {
-      "company": "Hexagon Nutri.",
-      "symbol": "HEXAGON",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0026886-d606-425b-b72e-13abba690b7c.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23309322/"
-        }
-      ]
-    },
-    {
-      "company": "Spencer's Retail",
-      "symbol": "SPENCERS",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bdf5ac88-1c47-411c-9d6f-86fd8fd4cd29.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23308553/"
-        }
-      ]
-    },
-    {
-      "company": "BCL Industries",
-      "symbol": "BCLIND",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=61bef74f-201a-4851-8c6b-9c59edadd06f.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23308552/"
-        }
-      ]
-    },
-    {
-      "company": "Surya Roshni",
-      "symbol": "SURYAROSNI",
-      "kind": "recent",
-      "date": "18 Aug 2026",
-      "isoDate": "2026-08-18",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eacb6de8-f81a-4f6d-abfb-72aeacdf5512.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23308551/"
+          "url": "https://www.screener.in/concalls/summary/23310155/"
         }
       ]
     },
@@ -385,21 +44,358 @@
       "isoDate": "2026-08-18",
       "links": [
         {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80fa267c-e89e-4d63-8824-06938f160262.pdf"
+          "label": "View Recording",
+          "url": "https://rathisteelandpower.com/Audio/Earning%20Conference%20Call%20Q1%20FY27_20260818181034341.mp3"
         }
       ]
     },
     {
-      "company": "Indogulf Cropsci",
-      "symbol": "IGCL",
+      "company": "Radiant Cash",
+      "symbol": "RADIANTCMS",
       "kind": "recent",
       "date": "18 Aug 2026",
       "isoDate": "2026-08-18",
       "links": [
         {
           "label": "View Recording",
-          "url": "https://drive.google.com/file/d/1FvNhUo0YvZRSLz4Rc6CXn8rjFz7BmAUA/view?usp=sharing"
+          "url": "https://www.radiantcashservices.com/wp-content/uploads/2026/08/Audio-recording-of-Earnings-call-held-on-18th-August-2026.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23310152/"
+        }
+      ]
+    },
+    {
+      "company": "Manorama Indust.",
+      "symbol": "MANORAMA",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d1e55fa1-6e8d-4d99-bf0a-f2da9ef83771.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23310151/"
+        }
+      ]
+    },
+    {
+      "company": "Sh.Pushkar Chem.",
+      "symbol": "SHREEPUSHK",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be92392e-6991-42c2-a85b-a3f8f8c930d5.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23310150/"
+        }
+      ]
+    },
+    {
+      "company": "Rishi Laser",
+      "symbol": "526861",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af444722-fe90-4a9d-9db8-7b0d86541438.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Websol Energy",
+      "symbol": "WEBELSOLAR",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=931150a2-ed50-44d0-b53f-898e1d768112.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23310148/"
+        }
+      ]
+    },
+    {
+      "company": "Jupiter Wagons",
+      "symbol": "JWL",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://jupiterwagons.com/wp-content/uploads/2026/08/10046731.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23310146/"
+        }
+      ]
+    },
+    {
+      "company": "Apex Frozen Food",
+      "symbol": "APEX",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://apexfrozenfoods.in/wp-content/uploads/10046685.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23310145/"
+        }
+      ]
+    },
+    {
+      "company": "Dhruv Consultanc",
+      "symbol": "DHRUV",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://dhruvconsultancy.in/wp-content/uploads/2026/08/10046748.mp3"
+        }
+      ]
+    },
+    {
+      "company": "Jinkushal Indus.",
+      "symbol": "JKIPL",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a7fabe3e-e673-4da8-ab86-7e3b721bf2a7.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Dilip Buildcon",
+      "symbol": "DBL",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a8bbd62-26c0-4ba1-850e-b3332ce879eb.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23310140/"
+        }
+      ]
+    },
+    {
+      "company": "Balrampur Chini",
+      "symbol": "BALRAMCHIN",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a34c8fce-b45e-4421-b1b9-5ed263ead64b.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23310138/"
+        }
+      ]
+    },
+    {
+      "company": "Synergy Green",
+      "symbol": "SGIL",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://synergygreenind.com/wp-content/uploads/2026/08/Audio%20Call%20Investors%20Meeting%2013.08.2026.m4a"
+        }
+      ]
+    },
+    {
+      "company": "Lumax Auto Tech.",
+      "symbol": "LUMAXTECH",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94022f8c-237d-4839-b78c-dde8181e44c8.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23310136/"
+        }
+      ]
+    },
+    {
+      "company": "Synergy Green",
+      "symbol": "SGIL",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b83ec71-dc42-4fe2-b08c-013204e02004.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23310135/"
+        }
+      ]
+    },
+    {
+      "company": "Lumax Industries",
+      "symbol": "LUMAXIND",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=404a83ca-98c0-4773-8cdc-a593acf87c67.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23310134/"
+        }
+      ]
+    },
+    {
+      "company": "Saatvik Green",
+      "symbol": "SAATVIKGL",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=100c939b-692f-47d2-aa70-691390c6da54.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23310133/"
+        }
+      ]
+    },
+    {
+      "company": "VMS TMT",
+      "symbol": "VMSTMT",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=199d5f43-b72e-4150-aaf7-3ef9844bcc1f.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Fino Payments",
+      "symbol": "FINOPB",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75863643-c9f7-48bb-bded-3d848e78f9e4.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23310129/"
+        }
+      ]
+    },
+    {
+      "company": "Arih.Found.Hsg.",
+      "symbol": "ARIHANT",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98fc4a55-c1e6-4fb3-96b5-19139dac0b8c.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Advanced Enzyme",
+      "symbol": "ADVENZYMES",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a02c4f0-6b61-41bc-9730-08a3360dfa9d.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23310126/"
+        }
+      ]
+    },
+    {
+      "company": "Fiem Industries",
+      "symbol": "FIEMIND",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1684b2ad-fa16-438c-a693-e250cf6945d5.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23310125/"
+        }
+      ]
+    },
+    {
+      "company": "Ester Industries",
+      "symbol": "ESTER",
+      "kind": "recent",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.esterindustries.com/wp-content/themes/esterindustries/assets/pdf/governance-and-regulatory-information/institutional-and-analyst-meeting/10046644.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23310123/"
         }
       ]
     }
