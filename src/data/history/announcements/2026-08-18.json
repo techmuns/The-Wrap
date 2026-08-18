@@ -1,21 +1,8 @@
 {
-  "fetchedAt": "2026-08-18T10:56:26.332Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "other": 21,
-    "fund-raising": 7,
-    "order-wins": 6,
-    "merger": 1,
-    "rights": 3,
-    "capex": 2,
-    "jv": 2,
-    "open-offer": 3,
-    "concall": 2,
-    "acquisitions": 2,
-    "bonus": 1
-  },
-  "items": [
+  "capturedOn": "2026-08-18",
+  "capturedAt": "2026-08-18T10:56:26.388Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Shilpa Medicare",
       "symbol": "SHILPAMED",
