@@ -16,7 +16,8 @@
     "ingest:announcements": "tsx scripts/ingest/announcements.ts",
     "ingest:insider": "tsx scripts/ingest/insider-trades.ts",
     "ingest:concalls": "tsx scripts/ingest/concalls.ts",
-    "ingest:corporate-actions": "tsx scripts/ingest/corporate-actions.ts"
+    "ingest:corporate-actions": "tsx scripts/ingest/corporate-actions.ts",
+    "build:weekly-issue": "tsx scripts/build-weekly-issue.ts"
   },
   "dependencies": {
     "@opennextjs/cloudflare": "^1.19.6",
