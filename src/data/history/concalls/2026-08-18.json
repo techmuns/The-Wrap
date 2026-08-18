@@ -1,11 +1,8 @@
 {
-  "fetchedAt": "2026-08-18T10:59:33.667Z",
-  "source": "Screener",
-  "counts": {
-    "recent": 25,
-    "upcoming": 0
-  },
-  "items": [
+  "capturedOn": "2026-08-18",
+  "capturedAt": "2026-08-18T10:59:33.668Z",
+  "count": 25,
+  "rows": [
     {
       "company": "Senco Gold",
       "symbol": "SENCO",
