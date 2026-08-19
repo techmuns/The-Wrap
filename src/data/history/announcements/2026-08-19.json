@@ -1,20 +1,8 @@
 {
-  "fetchedAt": "2026-08-19T14:41:41.354Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "other": 25,
-    "merger": 6,
-    "capex": 2,
-    "regulatory": 1,
-    "order-wins": 3,
-    "rights": 5,
-    "fund-raising": 5,
-    "jv": 1,
-    "name-change": 1,
-    "open-offer": 1
-  },
-  "items": [
+  "capturedOn": "2026-08-19",
+  "capturedAt": "2026-08-19T14:41:41.415Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Times Green Ener",
       "symbol": "543310",
