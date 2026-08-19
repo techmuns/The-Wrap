@@ -1,12 +1,8 @@
 {
-  "asOnDate": "19-Aug-2026",
-  "fetchedAt": "2026-08-19T14:05:31.026Z",
-  "counts": {
-    "bulk": 174,
-    "block": 46,
-    "short": 107
-  },
-  "bulk": [
+  "capturedOn": "2026-08-19",
+  "capturedAt": "2026-08-19T14:05:31.027Z",
+  "count": 327,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "JINDRILL",
@@ -2094,9 +2090,7 @@
       "value": 127592225.15,
       "date": "19-Aug-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "PAYTM",
@@ -2648,9 +2642,7 @@
       "value": 274205702.4,
       "date": "18-Aug-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "ABDL",
