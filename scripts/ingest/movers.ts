@@ -51,18 +51,22 @@ function str(v: unknown): string | null {
 function toMover(r: Row): MoverRow {
   return {
     symbol: str(pick(r, ["symbol", "Symbol"])),
-    company: str(pick(r, ["companyName", "company", "meta.companyName", "symbol_info"])),
-    last: nseNum(pick(r, ["ltp", "lastPrice", "last", "closePrice", "new52WHL", "value"])),
-    pctChange: nseNum(pick(r, ["pChange", "perChange", "pchange", "changePercent", "netPrice"])),
+    // NSE's 52-week endpoints misspell the field as "comapnyName"; volume uses "companyName".
+    company: str(pick(r, ["companyName", "comapnyName", "company", "meta.companyName"])),
+    last: nseNum(pick(r, ["ltp", "lastPrice", "last", "closePrice"])),
+    pctChange: nseNum(pick(r, ["pChange", "perChange", "pchange", "changePercent"])),
   };
 }
 
 function toVolume(r: Row): VolumeRow {
-  return {
-    ...toMover(r),
-    volume: nseNum(pick(r, ["volume", "totalTradedVolume", "trade_quantity", "qty", "tradedQuantity"])),
-    timesAvg: nseNum(pick(r, ["volume_x_week_avg", "timesWeekAvg", "ratio", "volumeXWeekAvg"])),
-  };
+  const volume = nseNum(pick(r, ["volume", "totalTradedVolume", "trade_quantity", "qty"]));
+  // week1volChange is volume ÷ week-1 average (e.g. 74.6 = 74.6× normal).
+  let timesAvg = nseNum(pick(r, ["week1volChange", "week2volChange", "volume_x_week_avg", "timesWeekAvg", "ratio"]));
+  if (timesAvg == null) {
+    const avg = nseNum(pick(r, ["week1AvgVolume", "week2AvgVolume"]));
+    if (volume != null && avg && avg > 0) timesAvg = volume / avg;
+  }
+  return { ...toMover(r), volume, timesAvg };
 }
 
 function rowsOf(payload: unknown): Row[] {
