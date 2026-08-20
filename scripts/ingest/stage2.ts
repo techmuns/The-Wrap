@@ -11,7 +11,7 @@
 import { writeFileSync, existsSync, readFileSync, mkdirSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import * as cheerio from "cheerio";
-import { screenerLogin, screenerPost, clean } from "./screener-auth";
+import { screenerLogin, screenerGet, clean } from "./screener-auth";
 import type { Stage2Row, Stage2Dataset } from "../../src/types/stage2";
 
 const OUT = resolve(process.cwd(), "src/data/stage2.json");
@@ -77,16 +77,14 @@ function prevCount(): number {
 
 async function main() {
   const jar = await screenerLogin();
-  const { status, html } = await screenerPost(jar, "/screen/raw/", {
-    query: QUERY,
-    sort: "Return over 1year",
-    order: "desc",
-  });
+  // Screener runs a raw screen via GET with the query in the URL.
+  const params = new URLSearchParams({ query: QUERY, sort: "Return over 1year", order: "desc", page: "1" });
+  const html = await screenerGet(jar, `/screen/raw/?${params.toString()}`);
 
   if (DEBUG) {
     const $ = cheerio.load(html);
     const { rows, headers } = parseRows(html);
-    console.log(`[debug] POST status ${status} | length ${html.length} | gated ${/\/register\//.test(html) || /login/i.test($("title").text())}`);
+    console.log(`[debug] length ${html.length} | gated ${/\/register\//.test(html) || /login/i.test($("title").text())}`);
     console.log(`[debug] tables ${$("table").length} | /company/ links ${$('a[href*="/company/"]').length}`);
     console.log(`[debug] markers: data-table=${/data-table/.test(html)} textarea=${/<textarea/.test(html)} error=${/error|invalid|not a valid/i.test(html)} results=${/result/i.test(html)}`);
     console.log(`[debug] error text: ${clean($(".error, .alert, [class*=error]").first().text())?.slice(0, 200)}`);
