@@ -17,6 +17,7 @@
     "ingest:insider": "tsx scripts/ingest/insider-trades.ts",
     "ingest:concalls": "tsx scripts/ingest/concalls.ts",
     "ingest:corporate-actions": "tsx scripts/ingest/corporate-actions.ts",
+    "ingest:indices": "tsx scripts/ingest/market-indices.ts",
     "seed:history": "tsx scripts/ingest/seed-history.ts",
     "build:weekly-issue": "tsx scripts/build-weekly-issue.ts"
   },
