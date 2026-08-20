@@ -12,6 +12,9 @@ import {
   Activity,
   Shuffle,
   Gauge,
+  ArrowLeftRight,
+  Flame,
+  BarChart3,
 } from "lucide-react";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { Card } from "@/components/ui/Card";
@@ -28,6 +31,18 @@ const trackers = [
     label: "Bulk & Block Deals",
     icon: TrendingUp,
     description: "Large bulk, block & short deals on the exchange.",
+  },
+  {
+    href: "/data-tools/market-breadth",
+    label: "Market Breadth",
+    icon: Activity,
+    description: "How many stocks are rising vs falling beneath the index.",
+  },
+  {
+    href: "/data-tools/sector-rotation",
+    label: "Sector Rotation",
+    icon: Shuffle,
+    description: "Which sectors are leading and lagging today.",
   },
   {
     href: "/data-tools/announcements",
@@ -69,14 +84,19 @@ const trackers = [
 
 const planned = [
   {
-    label: "Market Breadth",
-    icon: Activity,
-    description: "Sector × EMA breadth heatmap.",
+    label: "FII/DII Flows",
+    icon: ArrowLeftRight,
+    description: "Daily foreign & domestic institutional buying and selling.",
   },
   {
-    label: "Sector Rotation",
-    icon: Shuffle,
-    description: "Relative strength & rotation across sectors.",
+    label: "52-Week Highs & Lows",
+    icon: Flame,
+    description: "Stocks hitting new one-year highs and lows.",
+  },
+  {
+    label: "Volume Gainers",
+    icon: BarChart3,
+    description: "Unusual volume — where activity is spiking.",
   },
   {
     label: "Stage-2 Screener",

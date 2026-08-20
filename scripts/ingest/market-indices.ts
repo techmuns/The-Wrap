@@ -40,24 +40,28 @@ interface RawIndex {
   unchanged?: string | number;
 }
 
-// Fallback name matching when NSE's "key" grouping is missing/renamed.
-const SECTORAL_HINTS = [
-  "BANK", "IT", "AUTO", "PHARMA", "FMCG", "METAL", "REALTY", "ENERGY", "INFRA",
-  "MEDIA", "PSU BANK", "PVT BANK", "FIN", "HEALTHCARE", "CONSUMER DURABLES",
-  "OIL & GAS", "CHEMICALS",
-];
-const BROAD_HINTS = [
-  "NIFTY 50", "NEXT 50", "NIFTY 100", "NIFTY 200", "NIFTY 500", "MIDCAP",
-  "SMALLCAP", "MICROCAP", "TOTAL MARKET", "LARGEMIDCAP",
-];
+// NSE's allIndices mixes ~139 indices (broad, sectoral, F&O, strategy, thematic,
+// G-Sec). We curate an exact-name whitelist so the pages show a clean, familiar
+// set rather than the full firehose. (NSE files Nifty 50/Bank under "INDICES
+// ELIGIBLE IN DERIVATIVES", so its "key" grouping can't separate them cleanly.)
+const BROAD_NAMES = new Set([
+  "NIFTY 50", "NIFTY NEXT 50", "NIFTY 100", "NIFTY 200", "NIFTY 500",
+  "NIFTY MIDCAP 100", "NIFTY MIDCAP 150", "NIFTY SMALLCAP 100",
+  "NIFTY SMALLCAP 250", "NIFTY TOTAL MARKET", "NIFTY MICROCAP 250",
+]);
+const SECTORAL_NAMES = new Set([
+  "NIFTY BANK", "NIFTY IT", "NIFTY AUTO", "NIFTY FMCG", "NIFTY PHARMA",
+  "NIFTY METAL", "NIFTY REALTY", "NIFTY MEDIA", "NIFTY PSU BANK",
+  "NIFTY PRIVATE BANK", "NIFTY FINANCIAL SERVICES", "NIFTY HEALTHCARE INDEX",
+  "NIFTY CONSUMER DURABLES", "NIFTY OIL & GAS", "NIFTY CHEMICALS",
+  "NIFTY ENERGY", "NIFTY INFRASTRUCTURE", "NIFTY COMMODITIES", "NIFTY CEMENT",
+  "NIFTY CAPITAL MARKETS",
+]);
 
 function bucketOf(r: RawIndex): "broad" | "sectoral" | null {
-  const key = (r.key || "").toLowerCase();
-  if (key.includes("sector")) return "sectoral";
-  if (key.includes("broad")) return "broad";
-  const name = (r.index || "").toUpperCase();
-  if (SECTORAL_HINTS.some((h) => name.includes(h)) && !name.includes("NIFTY 50")) return "sectoral";
-  if (BROAD_HINTS.some((h) => name.includes(h))) return "broad";
+  const name = (r.index || "").toUpperCase().trim();
+  if (SECTORAL_NAMES.has(name)) return "sectoral";
+  if (BROAD_NAMES.has(name)) return "broad";
   return null;
 }
 
