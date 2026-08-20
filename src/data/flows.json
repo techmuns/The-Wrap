@@ -1,7 +1,19 @@
 {
-  "fetchedAt": null,
+  "fetchedAt": "2026-08-20T08:34:42.207Z",
   "source": "NSE",
-  "date": null,
-  "fii": null,
-  "dii": null
+  "date": "19-Aug-2026",
+  "fii": {
+    "category": "FII",
+    "date": "19-Aug-2026",
+    "buy": 12875.76,
+    "sell": 12467.77,
+    "net": 407.99
+  },
+  "dii": {
+    "category": "DII",
+    "date": "19-Aug-2026",
+    "buy": 17288.58,
+    "sell": 13314.86,
+    "net": 3973.72
+  }
 }
