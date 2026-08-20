@@ -1,12 +1,8 @@
 {
-  "asOnDate": "20-Aug-2026",
-  "fetchedAt": "2026-08-20T14:07:30.129Z",
-  "counts": {
-    "bulk": 169,
-    "block": 16,
-    "short": 113
-  },
-  "bulk": [
+  "capturedOn": "2026-08-20",
+  "capturedAt": "2026-08-20T14:07:30.130Z",
+  "count": 298,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "AARTECH",
@@ -2034,9 +2030,7 @@
       "value": 244609593.34,
       "date": "20-Aug-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "KFINTECH",
@@ -2228,9 +2222,7 @@
       "value": 1794881250,
       "date": "20-Aug-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "360ONE",
