@@ -88,8 +88,11 @@ async function main() {
     const { rows, headers } = parseRows(html);
     console.log(`[debug] POST status ${status} | length ${html.length} | gated ${/\/register\//.test(html) || /login/i.test($("title").text())}`);
     console.log(`[debug] tables ${$("table").length} | /company/ links ${$('a[href*="/company/"]').length}`);
+    console.log(`[debug] markers: data-table=${/data-table/.test(html)} textarea=${/<textarea/.test(html)} error=${/error|invalid|not a valid/i.test(html)} results=${/result/i.test(html)}`);
+    console.log(`[debug] error text: ${clean($(".error, .alert, [class*=error]").first().text())?.slice(0, 200)}`);
     console.log(`[debug] headers: ${JSON.stringify(headers)}`);
     console.log(`[debug] parsed rows ${rows.length} | sample: ${JSON.stringify(rows.slice(0, 4))}`);
+    console.log(`[debug] body[0..1200]: ${clean($("body").text())?.slice(0, 1200)}`);
     console.log("[debug] DEBUG_SCRAPE set — not writing.");
     return;
   }

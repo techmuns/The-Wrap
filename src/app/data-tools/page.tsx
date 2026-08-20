@@ -56,6 +56,12 @@ const trackers = [
     description: "New 52-week highs & lows and unusual-volume stocks.",
   },
   {
+    href: "/data-tools/stage2",
+    label: "Momentum Screen",
+    icon: Gauge,
+    description: "Stocks in a confirmed uptrend, by 1-year return.",
+  },
+  {
     href: "/data-tools/announcements",
     label: "Announcements",
     icon: Megaphone,
@@ -93,13 +99,7 @@ const trackers = [
   },
 ];
 
-const planned = [
-  {
-    label: "Stage-2 Screener",
-    icon: Gauge,
-    description: "Momentum screen across listed stocks.",
-  },
-];
+const planned: { label: string; icon: typeof Gauge; description: string }[] = [];
 
 export default function DataToolsPage() {
   return (
@@ -147,31 +147,33 @@ export default function DataToolsPage() {
         </div>
       </div>
 
-      <div>
-        <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
-          Also planned
-        </h2>
-        <div className="grid gap-4 sm:grid-cols-3">
-          {planned.map((t) => {
-            const Icon = t.icon;
-            return (
-              <Card key={t.label} tone="pending" className="h-full">
-                <div className="flex items-start gap-3">
-                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-muted text-muted-foreground">
-                    <Icon className="h-4 w-4" />
-                  </span>
-                  <div className="min-w-0">
-                    <div className="font-medium">{t.label}</div>
-                    <p className="mt-1 text-sm text-muted-foreground">
-                      {t.description}
-                    </p>
+      {planned.length > 0 && (
+        <div>
+          <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
+            Also planned
+          </h2>
+          <div className="grid gap-4 sm:grid-cols-3">
+            {planned.map((t) => {
+              const Icon = t.icon;
+              return (
+                <Card key={t.label} tone="pending" className="h-full">
+                  <div className="flex items-start gap-3">
+                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-muted text-muted-foreground">
+                      <Icon className="h-4 w-4" />
+                    </span>
+                    <div className="min-w-0">
+                      <div className="font-medium">{t.label}</div>
+                      <p className="mt-1 text-sm text-muted-foreground">
+                        {t.description}
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </Card>
-            );
-          })}
+                </Card>
+              );
+            })}
+          </div>
         </div>
-      </div>
+      )}
 
       <p className="text-xs text-muted-foreground">
         Every tracker is powered by independently sourced, publicly available
