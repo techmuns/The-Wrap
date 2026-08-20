@@ -318,12 +318,6 @@ function buildIssue(now: Date, days: number): { issue: Issue; log: string } {
     announcementsSection(announcements.rows),
     concallsSection(concalls.rows, src),
     corpActionsSection(corpActions.rows, src),
-    {
-      id: "curated",
-      title: "Curated",
-      body: [`${TODO}: two or three long-reads worth the weekend.`],
-      link: { href: "/curated", label: "Curated" },
-    },
   ];
 
   const issue: Issue = {

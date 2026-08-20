@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { ChevronDown, X } from "lucide-react";
 import { cn } from "@/lib/cn";
-import { contentGroup, communityGroup, type NavItem } from "@/lib/nav";
+import { contentGroup, type NavItem } from "@/lib/nav";
 import { ThemeToggle } from "./ThemeToggle";
 
 function isActive(pathname: string, href: string) {
@@ -128,19 +128,6 @@ export function Sidebar({
             </ul>
           )}
 
-          {/* Community & Indicators group */}
-          <div className="mt-4 border-t pt-4">
-            <div className="px-3 py-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-              {communityGroup.label}
-            </div>
-            <ul className="mt-1 space-y-0.5">
-              {communityGroup.items.map((item) => (
-                <li key={item.href}>
-                  <NavLink item={item} pathname={pathname} onNavigate={onClose} />
-                </li>
-              ))}
-            </ul>
-          </div>
         </nav>
 
         {/* Footer */}

@@ -3,13 +3,10 @@ import {
   ArrowRight,
   Newspaper,
   LineChart,
-  GraduationCap,
-  Bookmark,
-  BookOpen,
+  Landmark,
+  TrendingUp,
+  Megaphone,
   Sparkles,
-  Video,
-  Download,
-  Bell,
 } from "lucide-react";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { ActivityPanel } from "@/components/home/ActivityPanel";
@@ -28,11 +25,11 @@ const COLORS: Record<Color, { grad: string; border: string; icon: string }> = {
 };
 
 const quickActions: { href: string; label: string; icon: typeof Newspaper; blurb: string; color: Color }[] = [
-  { href: "/blog", label: "Blog", icon: Newspaper, blurb: "This week's issue", color: "blue" },
-  { href: "/data-tools", label: "Data Tools", icon: LineChart, blurb: "Live market data", color: "violet" },
-  { href: "/courses", label: "Courses", icon: GraduationCap, blurb: "Learn the market", color: "emerald" },
-  { href: "/curated", label: "Curated", icon: Bookmark, blurb: "Worth reading", color: "amber" },
-  { href: "/books", label: "Books", icon: BookOpen, blurb: "Reading list", color: "rose" },
+  { href: "/blog", label: "Weekly Issue", icon: Newspaper, blurb: "This week's digest", color: "blue" },
+  { href: "/data-tools", label: "Data Tools", icon: LineChart, blurb: "All live trackers", color: "violet" },
+  { href: "/data-tools/insider-trades", label: "Buying & Selling", icon: Landmark, blurb: "Insider & promoter trades", color: "emerald" },
+  { href: "/data-tools/bulk-block-deals", label: "Bulk & Block Deals", icon: TrendingUp, blurb: "Big investor trades", color: "amber" },
+  { href: "/data-tools/announcements", label: "Announcements", icon: Megaphone, blurb: "Corporate filings", color: "rose" },
   { href: "/ask", label: "Ask AI", icon: Sparkles, blurb: "Ask about the market", color: "teal" },
 ];
 
@@ -46,7 +43,7 @@ export default function HomePage() {
         <div className="space-y-8">
           <PageHeader
             title="The Wrap"
-            subtitle="Your weekly digest of everything important in the Indian stock market."
+            subtitle="A free market-data terminal for the Indian stock market — real exchange data, plus a free weekly digest."
           />
 
           {/* Latest issue hero */}
@@ -76,7 +73,7 @@ export default function HomePage() {
           {/* Quick actions */}
           <div>
             <h2 className="text-sm font-semibold tracking-tight">Quick actions</h2>
-            <p className="mb-3 text-sm text-muted-foreground">Jump to a section.</p>
+            <p className="mb-3 text-sm text-muted-foreground">Jump straight to the data.</p>
             <div className="grid gap-4 sm:grid-cols-2">
               {quickActions.map((a) => {
                 const Icon = a.icon;
@@ -107,29 +104,9 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* Weekly meet banner */}
-          <Link
-            href="/weekly-meet"
-            className="group flex items-center gap-4 rounded-xl border bg-card p-5 transition-colors hover:border-foreground/30"
-          >
-            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-chart-2/15 text-chart-2">
-              <Video className="h-5 w-5" />
-            </span>
-            <div className="min-w-0 flex-1">
-              <div className="font-medium">Weekly Meet</div>
-              <p className="text-sm text-muted-foreground">
-                Live weekly walk-through — next session to be scheduled.
-              </p>
-            </div>
-            <span className="inline-flex shrink-0 items-center gap-1 text-sm font-medium text-muted-foreground transition-colors group-hover:text-foreground">
-              View
-              <ArrowRight className="h-3.5 w-3.5" />
-            </span>
-          </Link>
-
           <p className="text-xs text-muted-foreground">
-            The Wrap publishes original writing and independently sourced data.
-            Nothing here is investment advice.
+            The Wrap publishes original writing and independently sourced,
+            publicly available exchange data. Nothing here is investment advice.
           </p>
         </div>
 
@@ -142,19 +119,13 @@ export default function HomePage() {
             <p className="mt-0.5 text-xs text-muted-foreground">Coming soon.</p>
             <ul className="mt-4 space-y-3">
               <li className="flex items-center justify-between text-sm">
-                <span className="flex items-center gap-2.5 text-muted-foreground">
-                  <Download className="h-4 w-4" />
-                  Install app
-                </span>
+                <span className="text-muted-foreground">Install app</span>
                 <span className="rounded-full border px-2 py-0.5 text-[10px] uppercase tracking-wide text-muted-foreground">
                   Soon
                 </span>
               </li>
               <li className="flex items-center justify-between text-sm">
-                <span className="flex items-center gap-2.5 text-muted-foreground">
-                  <Bell className="h-4 w-4" />
-                  Notifications
-                </span>
+                <span className="text-muted-foreground">Notifications</span>
                 <span className="rounded-full border px-2 py-0.5 text-[10px] uppercase tracking-wide text-muted-foreground">
                   Soon
                 </span>

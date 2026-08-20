@@ -77,12 +77,6 @@ const issue: Issue = {
       ],
       note: "Once our unified announcements pipeline is live, these will be sliced by category — capex, order wins, acquisitions and more.",
     },
-    {
-      id: "curated",
-      title: "Curated",
-      body: ["Worth your weekend: a few long-reads we'll be collecting under Curated."],
-      link: { href: "/curated", label: "Curated" },
-    },
   ],
 };
 

@@ -79,12 +79,6 @@ const issue: Issue = {
       ],
       note: "Once our unified announcements pipeline is live, every one of these categories becomes a filtered view over a single dataset.",
     },
-    {
-      id: "curated",
-      title: "Curated",
-      body: ["Worth your weekend: long-reads we'll be collecting under Curated."],
-      link: { href: "/curated", label: "Curated" },
-    },
   ],
 };
 
