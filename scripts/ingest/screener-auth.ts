@@ -72,6 +72,39 @@ export async function screenerLogin(): Promise<Jar> {
   return jar;
 }
 
+/**
+ * POST a form to a logged-in Screener endpoint (e.g. the custom-screen query),
+ * injecting the CSRF token. Follows a single redirect to its results page.
+ * Returns the final HTML.
+ */
+export async function screenerPost(
+  jar: Jar,
+  path: string,
+  form: Record<string, string>
+): Promise<{ status: number; html: string }> {
+  const body = new URLSearchParams({ csrfmiddlewaretoken: jar["csrftoken"] || "", ...form });
+  const res = await fetch(`${SCREENER_BASE}${path}`, {
+    method: "POST",
+    headers: {
+      "User-Agent": UA,
+      "Content-Type": "application/x-www-form-urlencoded",
+      Accept: "text/html,application/xhtml+xml",
+      Cookie: cookieHeader(jar),
+      Referer: `${SCREENER_BASE}${path}`,
+      Origin: SCREENER_BASE,
+    },
+    body: body.toString(),
+    redirect: "manual",
+  });
+  absorbCookies(res, jar);
+  const loc = res.headers.get("location");
+  if (res.status >= 300 && res.status < 400 && loc) {
+    const html = await screenerGet(jar, loc.startsWith("http") ? loc.replace(SCREENER_BASE, "") : loc);
+    return { status: 200, html };
+  }
+  return { status: res.status, html: await res.text() };
+}
+
 /** GET a logged-in Screener page; throws if redirected to /register (not authed). */
 export async function screenerGet(jar: Jar, path: string): Promise<string> {
   const res = await fetch(`${SCREENER_BASE}${path}`, {

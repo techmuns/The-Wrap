@@ -20,6 +20,7 @@
     "ingest:indices": "tsx scripts/ingest/market-indices.ts",
     "ingest:fii-dii": "tsx scripts/ingest/fii-dii.ts",
     "ingest:movers": "tsx scripts/ingest/movers.ts",
+    "ingest:stage2": "tsx scripts/ingest/stage2.ts",
     "seed:history": "tsx scripts/ingest/seed-history.ts",
     "build:weekly-issue": "tsx scripts/build-weekly-issue.ts"
   },
