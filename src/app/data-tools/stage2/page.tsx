@@ -19,7 +19,7 @@ export default function Stage2Page() {
       <Explainer
         what={`A screen for stocks in a strong, confirmed uptrend${data.description ? `: ${data.description}` : "."}`}
         matters="Stocks already trending up with strong momentum tend to keep leading — this is a shortlist of where strength is concentrated, not a buy list."
-        row="Each row is one stock: symbol, current price, and its 6-month and 1-year returns."
+        row="Each row is one stock: name, current price, market cap, and its 1-year return. Largest companies first."
       />
       <Stage2View data={data} />
     </div>
