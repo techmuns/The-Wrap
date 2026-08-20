@@ -1,19 +1,8 @@
 {
-  "fetchedAt": "2026-08-20T14:43:29.942Z",
-  "source": "Screener",
-  "total": 49,
-  "byCategory": {
-    "other": 28,
-    "capex": 4,
-    "order-wins": 4,
-    "fund-raising": 5,
-    "acquisitions": 3,
-    "merger": 2,
-    "buyback": 1,
-    "open-offer": 1,
-    "rights": 1
-  },
-  "items": [
+  "capturedOn": "2026-08-20",
+  "capturedAt": "2026-08-20T14:43:29.985Z",
+  "count": 49,
+  "rows": [
     {
       "company": "Baazar Style",
       "symbol": "STYLEBAAZA",
