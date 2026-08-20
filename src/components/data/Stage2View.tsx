@@ -11,6 +11,9 @@ function pct(n: number | null): string {
 function price(n: number | null): string {
   return n == null ? "—" : `₹${n.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
 }
+function cap(n: number | null): string {
+  return n == null ? "—" : `₹${n.toLocaleString("en-IN", { maximumFractionDigits: 0 })} cr`;
+}
 
 export function Stage2View({ data }: { data: Stage2Dataset }) {
   if (!data.items.length) {
@@ -34,19 +37,18 @@ export function Stage2View({ data }: { data: Stage2Dataset }) {
             <tr>
               <th className="px-4 py-2.5 font-medium">Stock</th>
               <th className="px-4 py-2.5 text-right font-medium">Price</th>
-              <th className="px-4 py-2.5 text-right font-medium">6M</th>
-              <th className="px-4 py-2.5 text-right font-medium">1Y</th>
+              <th className="px-4 py-2.5 text-right font-medium">Mkt Cap</th>
+              <th className="px-4 py-2.5 text-right font-medium">1Y return</th>
             </tr>
           </thead>
           <tbody>
             {rows.map((r, i) => (
               <tr key={`${r.symbol}-${i}`} className="border-b last:border-0 hover:bg-muted/30">
                 <td className="px-4 py-2.5">
-                  <div className="font-medium">{r.symbol}</div>
-                  {r.company && <div className="text-xs text-muted-foreground">{r.company}</div>}
+                  <div className="font-medium">{r.company ?? r.symbol}</div>
                 </td>
                 <td className="px-4 py-2.5 text-right tabular-nums">{price(r.cmp)}</td>
-                <td className={cn("px-4 py-2.5 text-right tabular-nums", pctClass(r.ret6m))}>{pct(r.ret6m)}</td>
+                <td className="px-4 py-2.5 text-right tabular-nums text-muted-foreground">{cap(r.marCap)}</td>
                 <td className={cn("px-4 py-2.5 text-right font-medium tabular-nums", pctClass(r.ret1y))}>{pct(r.ret1y)}</td>
               </tr>
             ))}

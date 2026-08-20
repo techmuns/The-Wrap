@@ -3,8 +3,8 @@ export interface Stage2Row {
   company: string | null;
   /** Current market price (₹). */
   cmp: number | null;
-  /** Return over 6 months (%). */
-  ret6m: number | null;
+  /** Market capitalisation (₹ crore). */
+  marCap: number | null;
   /** Return over 1 year (%). */
   ret1y: number | null;
 }

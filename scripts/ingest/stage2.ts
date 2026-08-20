@@ -42,8 +42,8 @@ function parseRows(html: string): { rows: Stage2Row[]; headers: string[] } {
 
   // Locate columns by header keyword (order varies with the query).
   const colIdx = (re: RegExp) => headers.findIndex((h) => re.test(h));
-  const cmpCol = colIdx(/cmp|current price|price/i);
-  const r6Col = colIdx(/6\s*mth|6month|6m/i);
+  const cmpCol = colIdx(/cmp/i);
+  const capCol = colIdx(/mar\s*cap/i);
   const r1Col = colIdx(/1\s*yr|1year|1y/i);
 
   const rows: Stage2Row[] = [];
@@ -59,7 +59,7 @@ function parseRows(html: string): { rows: Stage2Row[]; headers: string[] } {
       symbol,
       company,
       cmp: cmpCol >= 0 ? num(cells[cmpCol]) : null,
-      ret6m: r6Col >= 0 ? num(cells[r6Col]) : null,
+      marCap: capCol >= 0 ? num(cells[capCol]) : null,
       ret1y: r1Col >= 0 ? num(cells[r1Col]) : null,
     });
   });
@@ -78,7 +78,9 @@ function prevCount(): number {
 async function main() {
   const jar = await screenerLogin();
   // Screener runs a raw screen via GET with the query in the URL.
-  const params = new URLSearchParams({ query: QUERY, sort: "Return over 1year", order: "desc", page: "1" });
+  // Sort by market cap desc so large, liquid uptrends lead (sorting by return
+  // surfaces illiquid microcap moonshots).
+  const params = new URLSearchParams({ query: QUERY, sort: "Market Capitalization", order: "desc", page: "1" });
   const html = await screenerGet(jar, `/screen/raw/?${params.toString()}`);
 
   if (DEBUG) {
