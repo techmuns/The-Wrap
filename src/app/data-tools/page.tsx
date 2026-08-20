@@ -14,7 +14,6 @@ import {
   Gauge,
   ArrowLeftRight,
   Flame,
-  BarChart3,
 } from "lucide-react";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { Card } from "@/components/ui/Card";
@@ -49,6 +48,12 @@ const trackers = [
     label: "FII/DII Flows",
     icon: ArrowLeftRight,
     description: "Foreign & domestic institutional buying and selling.",
+  },
+  {
+    href: "/data-tools/movers",
+    label: "Highs, Lows & Volume",
+    icon: Flame,
+    description: "New 52-week highs & lows and unusual-volume stocks.",
   },
   {
     href: "/data-tools/announcements",
@@ -89,16 +94,6 @@ const trackers = [
 ];
 
 const planned = [
-  {
-    label: "52-Week Highs & Lows",
-    icon: Flame,
-    description: "Stocks hitting new one-year highs and lows.",
-  },
-  {
-    label: "Volume Gainers",
-    icon: BarChart3,
-    description: "Unusual volume — where activity is spiking.",
-  },
   {
     label: "Stage-2 Screener",
     icon: Gauge,
