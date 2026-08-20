@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-20T14:54:22.675Z",
-  "source": "Screener",
-  "total": 48,
-  "items": [
+  "capturedOn": "2026-08-20",
+  "capturedAt": "2026-08-20T14:54:22.684Z",
+  "count": 48,
+  "rows": [
     {
       "company": "Hexagon Nutri.",
       "symbol": "HEXAGON",
