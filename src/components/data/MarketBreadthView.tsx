@@ -59,7 +59,9 @@ export function MarketBreadthView({ data }: { data: IndicesDataset }) {
 
   const sectorsUp = data.sectoral.filter((s) => (s.pctChange ?? 0) > 0).length;
   const sectorsDown = data.sectoral.filter((s) => (s.pctChange ?? 0) < 0).length;
-  const withBreadth = data.broad.filter((b) => (b.advances ?? 0) + (b.declines ?? 0) > 0);
+  const withBreadth = data.broad.filter(
+    (b) => b.name !== headline?.name && (b.advances ?? 0) + (b.declines ?? 0) > 0
+  );
 
   return (
     <div className="space-y-6">

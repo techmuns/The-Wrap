@@ -45,6 +45,12 @@ const trackers = [
     description: "Which sectors are leading and lagging today.",
   },
   {
+    href: "/data-tools/fii-dii",
+    label: "FII/DII Flows",
+    icon: ArrowLeftRight,
+    description: "Foreign & domestic institutional buying and selling.",
+  },
+  {
     href: "/data-tools/announcements",
     label: "Announcements",
     icon: Megaphone,
@@ -83,11 +89,6 @@ const trackers = [
 ];
 
 const planned = [
-  {
-    label: "FII/DII Flows",
-    icon: ArrowLeftRight,
-    description: "Daily foreign & domestic institutional buying and selling.",
-  },
   {
     label: "52-Week Highs & Lows",
     icon: Flame,
