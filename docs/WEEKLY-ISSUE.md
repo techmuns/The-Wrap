@@ -22,13 +22,18 @@ This reads a **rolling window of the daily archive** (default 7 days) and dedupe
 it, so the draft reflects the whole trading week — not just the latest day. Each
 feed contributes one section:
 
-| Feed | Archive | Section it fills |
+| Feed | Source | Section it fills |
 | --- | --- | --- |
+| Market indices | `indices.json` (latest close) | Market breadth + Sector rotation |
+| FII/DII flows | `flows.json` (latest close) | FII/DII line in the summary |
 | Bulk & block deals | `history/bulk-block-deals/` | Bulk & block deals |
 | Insider trades | `history/insider-trades/` | Insider & promoter trades |
 | Announcements | `history/announcements/` | Noteworthy announcements (by category) |
 | Concalls | `history/concalls/` | Earnings calls |
 | Corporate actions | `history/corporate-actions/` | Corporate actions |
+
+Breadth, sector rotation and FII/DII are point-in-time (latest close) rather than
+rolling-window feeds, so they read the latest snapshot directly.
 
 If a feed has no archive yet, the generator falls back to that feed's latest
 snapshot (`src/data/<feed>.json`) so it always produces something. Change the

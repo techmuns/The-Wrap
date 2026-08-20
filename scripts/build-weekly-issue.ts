@@ -37,6 +37,8 @@ import type { InsiderTradesDataset, InsiderTrade } from "../src/types/insider";
 import type { AnnouncementsDataset, Announcement } from "../src/types/announcements";
 import type { ConcallsDataset, Concall } from "../src/types/concalls";
 import type { CorporateActionsDataset, CorporateAction, ActionType } from "../src/types/corporate-actions";
+import type { IndicesDataset, IndexQuote } from "../src/types/indices";
+import type { FlowsDataset } from "../src/types/flows";
 
 const DATA_DIR = resolve(process.cwd(), "src/data");
 const DRAFTS_DIR = resolve(process.cwd(), "src/content/drafts");
@@ -258,6 +260,70 @@ function corpActionsSection(rows: CorporateAction[], src: string): IssueSection 
   };
 }
 
+function pctStr(n: number | null): string {
+  return n == null ? "—" : `${n > 0 ? "+" : ""}${n.toFixed(2)}%`;
+}
+
+function breadthSection(ix: IndicesDataset): IssueSection {
+  const headline =
+    ix.broad.find((b) => /TOTAL MARKET/i.test(b.name)) ||
+    ix.broad.find((b) => /NIFTY 500/i.test(b.name)) ||
+    ix.broad.find((b) => /NIFTY 50$/i.test(b.name)) ||
+    ix.broad.find((b) => (b.advances ?? 0) + (b.declines ?? 0) > 0) ||
+    ix.broad[0];
+  const up = ix.sectoral.filter((s) => (s.pctChange ?? 0) > 0).length;
+  const down = ix.sectoral.filter((s) => (s.pctChange ?? 0) < 0).length;
+
+  const facts: string[] = [];
+  if (headline && (headline.advances != null || headline.declines != null)) {
+    facts.push(
+      `${headline.name}: ${headline.advances ?? "?"} advancing vs ${headline.declines ?? "?"} declining${
+        headline.pctChange != null ? ` (${pctStr(headline.pctChange)})` : ""
+      }.`
+    );
+  }
+  if (ix.sectoral.length) facts.push(`${up} of ${ix.sectoral.length} sectors up, ${down} down.`);
+  const hasData = facts.length > 0;
+
+  return {
+    id: "breadth",
+    title: "Market breadth",
+    body: [`${TODO}: is participation broad or narrow?`, ...(hasData ? [facts.join(" ")] : [])],
+    note: hasData ? "Advances vs declines beneath the headline index." : "Breadth data pending the first market-close update.",
+    link: { href: "/data-tools/market-breadth", label: "Market Breadth" },
+  };
+}
+
+function sectorSection(ix: IndicesDataset): IssueSection {
+  const sorted = [...ix.sectoral].sort((a, b) => (b.pctChange ?? -Infinity) - (a.pctChange ?? -Infinity));
+  const fmt = (s: IndexQuote): SectionItem => ({ text: `${s.name.replace(/^NIFTY /, "")}: ${pctStr(s.pctChange)}` });
+  const groups: SectionGroup[] = [];
+  if (sorted.length) {
+    groups.push({ heading: "Leaders", items: sorted.slice(0, 3).map(fmt) });
+    groups.push({ heading: "Laggards", items: sorted.slice(-3).reverse().map(fmt) });
+  }
+  return {
+    id: "sectors",
+    title: "Sector rotation",
+    body: [`${TODO}: which sectors led and lagged, and what it says about where money is flowing.`],
+    groups: groups.length ? groups : undefined,
+    note: groups.length ? "Sectoral index moves on the day." : "Sector data pending the first market-close update.",
+    link: { href: "/data-tools/sector-rotation", label: "Sector Rotation" },
+  };
+}
+
+/** One-line FII/DII summary, or null when no data. */
+function flowsLine(f: FlowsDataset): string | null {
+  const part = (label: string, r: FlowsDataset["fii"]): string | null => {
+    if (!r || r.net == null) return null;
+    const verb = r.net >= 0 ? "net bought" : "net sold";
+    return `${label} ${verb} ₹${Math.abs(r.net).toLocaleString("en-IN", { maximumFractionDigits: 0 })} cr`;
+  };
+  const parts = [part("FIIs", f.fii), part("DIIs", f.dii)].filter(Boolean) as string[];
+  if (!parts.length) return null;
+  return `${f.date ? `On ${f.date}, ` : ""}${parts.join("; ")}.`;
+}
+
 // ---- assembly -------------------------------------------------------------
 
 function buildIssue(now: Date, days: number): { issue: Issue; log: string } {
@@ -281,6 +347,10 @@ function buildIssue(now: Date, days: number): { issue: Issue; log: string } {
   const concalls = loadFeed<Concall>("concalls", snapConcalls.items, concallKey, startDay, endDay);
   const corpActions = loadFeed<CorporateAction>("corporate-actions", snapCorp.items, corpKey, startDay, endDay);
 
+  // Point-in-time snapshots (latest close), not rolling-window feeds.
+  const indices = loadSnapshot<IndicesDataset>("indices.json", { fetchedAt: null, source: "NSE", timestamp: null, broad: [], sectoral: [] });
+  const flows = loadSnapshot<FlowsDataset>("flows.json", { fetchedAt: null, source: "NSE", date: null, fii: null, dii: null });
+
   const bulk = deals.rows.filter((d) => d.category === "bulk");
   const block = deals.rows.filter((d) => d.category === "block");
   const buys = insider.rows.filter((t) => t.buySell === "BUY").length;
@@ -301,18 +371,21 @@ function buildIssue(now: Date, days: number): { issue: Issue; log: string } {
     `${recentCalls} earnings call${recentCalls === 1 ? "" : "s"}, and ` +
     `${corpActions.rows.length} corporate action${corpActions.rows.length === 1 ? "" : "s"}.`;
 
+  const flows$ = flowsLine(flows);
+  const summaryBody = [
+    `${TODO}: the week's thesis — index moves, the macro backdrop, and the single takeaway.`,
+    byNumbers,
+    ...(flows$ ? [flows$] : []),
+  ];
+
   const sections: IssueSection[] = [
     {
       id: "summary",
       title: "The week in one line",
-      body: [`${TODO}: the week's thesis — index moves, the macro backdrop, and the single takeaway.`, byNumbers],
+      body: summaryBody,
     },
-    {
-      id: "breadth",
-      title: "Market breadth",
-      body: [`${TODO}: is participation broadening or narrowing? (No live breadth feed yet — a Market Breadth tool is on the roadmap.)`],
-      note: "A Market Breadth tool (sector × EMA heatmap) is planned under Data Tools.",
-    },
+    breadthSection(indices),
+    sectorSection(indices),
     insiderSection(insider.rows, src),
     dealsSection(bulk, block, src),
     announcementsSection(announcements.rows),

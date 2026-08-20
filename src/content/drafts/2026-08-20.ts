@@ -1,6 +1,6 @@
 import type { Issue } from "@/types/issue";
 
-// AUTO-GENERATED DRAFT by scripts/build-weekly-issue.ts on 2026-08-20T08:17:27.617Z.
+// AUTO-GENERATED DRAFT by scripts/build-weekly-issue.ts on 2026-08-20T09:01:38.900Z.
 // This is a reviewable draft, NOT a published issue. Edit the "[DRAFT — write this]" fields
 // (headline, dek, section commentary), then promote to src/content/issues/ to
 // publish. See docs/WEEKLY-ISSUE.md.
@@ -17,16 +17,64 @@ const issue: Issue = {
       "title": "The week in one line",
       "body": [
         "[DRAFT — write this]: the week's thesis — index moves, the macro backdrop, and the single takeaway.",
-        "Over the past week (2 trading days captured): 14 insider/promoter buys and 29 sells, 4 block and 100 bulk deals, 99 notable filings, 50 earnings calls, and 126 corporate actions."
+        "Over the past week (3 trading days captured): 24 insider/promoter buys and 50 sells, 50 block and 274 bulk deals, 149 notable filings, 75 earnings calls, and 130 corporate actions.",
+        "On 19-Aug-2026, FIIs net bought ₹408 cr; DIIs net bought ₹3,974 cr."
       ]
     },
     {
       "id": "breadth",
       "title": "Market breadth",
       "body": [
-        "[DRAFT — write this]: is participation broadening or narrowing? (No live breadth feed yet — a Market Breadth tool is on the roadmap.)"
+        "[DRAFT — write this]: is participation broad or narrow?",
+        "NIFTY TOTAL MARKET: 504 advancing vs 241 declining (+0.62%). 20 of 20 sectors up, 0 down."
       ],
-      "note": "A Market Breadth tool (sector × EMA heatmap) is planned under Data Tools."
+      "note": "Advances vs declines beneath the headline index.",
+      "link": {
+        "href": "/data-tools/market-breadth",
+        "label": "Market Breadth"
+      }
+    },
+    {
+      "id": "sectors",
+      "title": "Sector rotation",
+      "body": [
+        "[DRAFT — write this]: which sectors led and lagged, and what it says about where money is flowing."
+      ],
+      "groups": [
+        {
+          "heading": "Leaders",
+          "items": [
+            {
+              "text": "MEDIA: +2.18%"
+            },
+            {
+              "text": "REALTY: +1.53%"
+            },
+            {
+              "text": "CAPITAL MARKETS: +1.49%"
+            }
+          ]
+        },
+        {
+          "heading": "Laggards",
+          "items": [
+            {
+              "text": "CHEMICALS: +0.04%"
+            },
+            {
+              "text": "OIL & GAS: +0.05%"
+            },
+            {
+              "text": "METAL: +0.14%"
+            }
+          ]
+        }
+      ],
+      "note": "Sectoral index moves on the day.",
+      "link": {
+        "href": "/data-tools/sector-rotation",
+        "label": "Sector Rotation"
+      }
     },
     {
       "id": "insider",
@@ -43,6 +91,9 @@ const issue: Issue = {
               "starred": true
             },
             {
+              "text": "Go Fashion (I) — Rahul Saraogi (Promoter), ₹53.79 cr"
+            },
+            {
               "text": "Fischer Medical — Promoter (2) (Shankar Varadharajan, Fmv Holdings Pte Ltd), ₹31.21 cr"
             },
             {
@@ -50,9 +101,6 @@ const issue: Issue = {
             },
             {
               "text": "Dec.Gold Mines — Subramaniam Sundaram (Director), ₹4.46 cr"
-            },
-            {
-              "text": "Samkrg Pistons — Saripalli Kishore (Promoter And Director), ₹2.30 cr"
             }
           ]
         },
@@ -67,13 +115,13 @@ const issue: Issue = {
               "text": "V-Guard Industri — Other (4) (Priya Sarah Cheeran Joseph, Priya Sarah Cheeran Jo...), ₹38.71 cr"
             },
             {
+              "text": "Bluestone Jewel — Designated Person (6) (Harshit Kulin Desai, Raghvendra Somani, Raghvendra...), ₹29.73 cr"
+            },
+            {
+              "text": "Titan Company — Titan Employee Stock Option Trust (Connected Person), ₹15.56 cr"
+            },
+            {
               "text": "RPP Infra Proj. — Ms. N A Yagavi (Promoter Group), ₹10.22 cr"
-            },
-            {
-              "text": "HCL Technologies — Hcl Technologies Stock Options Trust (Designated Person), ₹2.76 cr"
-            },
-            {
-              "text": "Jubilant Ingrev. — Trust (2) (Jubilant Ingrevia Employees Welfare Trust, Jubilan...), ₹1.94 cr"
             }
           ]
         }
@@ -95,17 +143,17 @@ const issue: Issue = {
           "heading": "Block deals",
           "items": [
             {
-              "text": "Baazar Style Retail Ltd — ADITYA KUMAR HALWASIYA bought ₹162.90 cr",
+              "text": "One 97 Communications Ltd — RESILIENT ASSET MANAGEMENT B V sold ₹2,948.94 cr",
               "starred": true
             },
             {
-              "text": "Baazar Style Retail Ltd — SHREYANS SURANA sold ₹76.02 cr"
+              "text": "One 97 Communications Ltd — SOCIETE GENERALE bought ₹435.97 cr"
             },
             {
-              "text": "Baazar Style Retail Ltd — BHAGWAN  PRASAD sold ₹54.30 cr"
+              "text": "One 97 Communications Ltd — SBI MUTUAL FUND bought ₹422.09 cr"
             },
             {
-              "text": "Baazar Style Retail Ltd — SIDHARTH  SURANA sold ₹32.58 cr"
+              "text": "One 97 Communications Ltd — GOLDMAN SACHS BANK EUROPE SE bought ₹346.17 cr"
             }
           ]
         },
@@ -113,16 +161,16 @@ const issue: Issue = {
           "heading": "Bulk deals",
           "items": [
             {
+              "text": "Aster DM Quality Care Ltd — CENTELLA MAURITIUS HOLDINGS LIMITED sold ₹4,451.45 cr"
+            },
+            {
               "text": "Embassy Office Parks REIT — APAC COMPANY XXIII LIMITED sold ₹1,162.70 cr"
             },
             {
               "text": "Embassy Office Parks REIT — APAC COMPANY XXIII LIMITED sold ₹1,162.59 cr"
             },
             {
-              "text": "Baazar Style Retail Ltd — ADITYA KUMAR HALWASIYA bought ₹162.90 cr"
-            },
-            {
-              "text": "Dhoot Transmission Ltd — NK SECURITIES RESEARCH PRIVATE LIMITED sold ₹131.59 cr"
+              "text": "Aster DM Quality Care Ltd — HDFC MUTUAL FUND bought ₹749.94 cr"
             }
           ]
         }
@@ -144,14 +192,14 @@ const issue: Issue = {
           "heading": "Capex & New Ventures",
           "items": [
             {
-              "text": "G G Automotive — Production restored to pre-fire levels; reconstruction expected complete by September 2026, with new equipment adding capacity.",
+              "text": "Times Green Ener — Board approved up to ₹100 crore fundraising, MOA expansion into renewable energy, and new director appointments.",
               "starred": true
             },
             {
-              "text": "Tara Chand Infra — Purchased four new equipment units; FY27 capex reached Rs 74.20 crore on 18 August 2026."
+              "text": "Connplex Cinemas — Board approved new CS, auditor appointments, ESOP changes, gaming business expansion, and authorised capital increase to ₹25 crore."
             },
             {
-              "text": "KPI Green Energy — Energized 130 MW AC solar capacity; cumulatively 269.7 MW AC at Bharuch hybrid IPP on August 17, 2026."
+              "text": "Minda Corp — On Aug. 18, 2026, Minda Instruments won ECMS approval to make display module sub-assemblies in a greenfield plant."
             }
           ]
         },
@@ -159,14 +207,14 @@ const issue: Issue = {
           "heading": "Order Wins",
           "items": [
             {
-              "text": "Highway Infra — HIL wins Rs. 80.17 crore NHAI toll collection contract at Palayam Fee Plaza for 90 days.",
+              "text": "Vishnu Prakash R — Rajasthan High Court judgment on railway contract termination; status quo 45 days, no immediate financial impact.",
               "starred": true
             },
             {
-              "text": "Sadhav Shipping — JNPA terminated Sadhav Shipping’s mooring boat contract and barred it from future tenders for five years."
+              "text": "Vishnu Prakash R — Rajasthan High Court stayed bank guarantee encashment 45 days in Bikaner railway station contract dispute."
             },
             {
-              "text": "Advait Energy — Advait Greenergy won ₹116 crore EPC turnkey contract for 200 MW solar project in Bikaner, Rajasthan."
+              "text": "Autoline Industr — Autoline wins Tata Motors hatchback component order worth ₹110 crore; annual revenue potential ₹80 crore plus ₹30 crore tooling."
             }
           ]
         },
@@ -174,14 +222,14 @@ const issue: Issue = {
           "heading": "Acquisitions",
           "items": [
             {
-              "text": "Lippi Systems — Post-offer ad: acquirers accepted 1,000 shares; post-offer stake 74.58%, promoters with 49,800 shares to be reclassified public.",
+              "text": "Annapurna Swadi. — Board approved Q1 FY27 results on 18 Aug 2026; acquired 57.14% of Andri Agro Foods, plans 75% stake.",
               "starred": true
             },
             {
-              "text": "Piramal Pharma — Piramal Pharma acquired 40.67% more in Yapan Bio for ₹76 crore, raising stake to 74%."
+              "text": "Jubilant Ingrev. — Jubilant Ingrevia to acquire 40% stake in Zettaone for ₹189.2 crore in two tranches."
             },
             {
-              "text": "Lloyds Engineeri — Lloyds Engineering acquired 51.13% of SISCOL for Rs 626.4 crore; SISCOL became subsidiary on Aug 17, 2026."
+              "text": "Sanstar — Sanstar Q1 FY27 revenue Rs 2,062 million; Dhule capacity rose to 2,350 TPD; Ingredion acquired 9% stake."
             }
           ]
         },
@@ -189,10 +237,7 @@ const issue: Issue = {
           "heading": "Joint Ventures",
           "items": [
             {
-              "text": "Ceigall India — Ceigall-SIML JV won four MoRTH LOAs worth ₹2,149.62 crore for Arunachal Pradesh Frontier Highway EPC projects."
-            },
-            {
-              "text": "Ceigall India — Ceigall India JV received four MoRTH LOAs worth Rs 2,149.62 crore on 17 August 2026."
+              "text": "Ceigall India — Ceigall India JV wins five LOAs worth ₹2,423.70 crore for NH-913 road works in Arunachal Pradesh."
             },
             {
               "text": "True Colors — Board approved JV with identified partners for paper/specialty paper business; appointed internal, cost and secretarial auditors."
@@ -200,10 +245,24 @@ const issue: Issue = {
           ]
         },
         {
+          "heading": "USFDA / Regulatory",
+          "items": [
+            {
+              "text": "Strides Pharma — Strides receives USFDA EIR for Bengaluru flagship facility after VAI inspection closure."
+            }
+          ]
+        },
+        {
           "heading": "Mergers & Spin-offs",
           "items": [
             {
-              "text": "Markolines Pavem — BSE and NSE gave no-objection to Markolines Infra's amalgamation into Markolines Pavement Technologies on August 17, 2026."
+              "text": "HEG — NCLT approved HEG’s composite scheme; shareholders get 1 HEG Graphite share per HEG share."
+            },
+            {
+              "text": "Kothari Sugars — NSE granted no-objection for KSCL's amalgamation into KPL, valid for six months from August 19, 2026."
+            },
+            {
+              "text": "TVS Holdings — NCLT sanctioned TVS Holdings scheme issuing 46 bonus preference shares for each 1 equity share."
             }
           ]
         },
@@ -211,13 +270,13 @@ const issue: Issue = {
           "heading": "Open Offers",
           "items": [
             {
-              "text": "Lippi Systems — Post-offer ad for Lippi Systems open offer; acquirers to hold 74.58% after 33,82,231 shares accepted."
+              "text": "Dhoot Transmission — Deutsche Bank disclosed indirect encumbrance over 87,632,093 Dhoot Transmission shares, 42.41%, created on 17 March 2025."
             },
             {
-              "text": "Sudarshan Colorants — Sudarshan Europe completed open offer, raising promoter group stake in Heubach Colorants India to 70.26%."
+              "text": "S I Paper Mills — Nandini Modi-Kirit Modi announce open offer for 48.75 lakh shares at ₹120, totaling ₹58.5 crore."
             },
             {
-              "text": "RPP Infra Proj. — Promoter group Ms. N A Yagavi sold 17,34,389 shares on 12-13 Aug 2026; holding fell to 4.51%."
+              "text": "ACI Infocom — Credora Partners open offer for up to 3.70 crore shares at ₹1.53 each, dated August 17, 2026."
             }
           ]
         },
@@ -225,21 +284,13 @@ const issue: Issue = {
           "heading": "Fund Raising",
           "items": [
             {
-              "text": "B P C L — BPCL board approved NCD issuance up to Rs.5,000 crore in up to 10 tranches within one year."
+              "text": "Fedbank Financi. — Board meets August 25, 2026 to consider raising up to Rs. 2,500 crore via debt instruments."
             },
             {
-              "text": "Shree Ram Prote. — Shareholders approved sale of undertaking and QIP capital raise at EOGM on March 5, 2026."
+              "text": "SK Minerals & Additives — Board meets on 24 Aug 2026 to consider preferential allotment of convertible warrants."
             },
             {
-              "text": "JMJ Fintech — Board approved Rs1.58 crore preferential issue, Rs0.15 dividend, AGM on 17 Sep 2026."
-            }
-          ]
-        },
-        {
-          "heading": "Bonus",
-          "items": [
-            {
-              "text": "Bizotic Commer. — Board approved 5:1 bonus issue, allotting 4,82,10,000 shares on 18 August 2026."
+              "text": "IndiGrid Trust — IndiGrid plans Series AI and AJ NCD issuance totaling Rs 1,100 crore under approved Rs 6,400 crore borrowings."
             }
           ]
         }
@@ -261,22 +312,22 @@ const issue: Issue = {
           "heading": "Recent calls with materials",
           "items": [
             {
-              "text": "Senco Gold — View Transcript, View Summary"
+              "text": "Va Tech Wabag — View Transcript, View Summary"
             },
             {
-              "text": "Engineers India — View Transcript, View Summary"
+              "text": "Maximus Interna. — View Recording"
             },
             {
-              "text": "Vodafone Idea — View Transcript, View Summary"
+              "text": "JSW Cement — View Transcript, View Summary"
             },
             {
-              "text": "Baroda Extrusion — View Transcript, View Summary"
+              "text": "Womancart — View Transcript, View Summary"
             },
             {
-              "text": "Dev Accele. — View Transcript, View Summary"
+              "text": "Indian Bank — View Presentation"
             },
             {
-              "text": "Matrimony.com — View Transcript, View Summary"
+              "text": "VST Till. Tract. — View Transcript, View Summary"
             }
           ]
         }
@@ -355,10 +406,10 @@ const issue: Issue = {
               "text": "Alan Scott Ente. — Ratio 1:6 · ₹65.00 premium"
             },
             {
-              "text": "Viceroy Hotels — Ratio 6:7 · ₹105.00 premium"
+              "text": "Manoj Jewellers — Ratio 1:1 · ₹0.00 premium"
             },
             {
-              "text": "Kshitij Polyline — Ratio 2:5 · ₹1.17 premium"
+              "text": "Viceroy Hotels — Ratio 6:7 · ₹105.00 premium"
             }
           ]
         },
