@@ -1,18 +1,8 @@
 {
-  "fetchedAt": "2026-08-21T14:43:02.175Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "merger": 9,
-    "fund-raising": 7,
-    "other": 23,
-    "open-offer": 4,
-    "rights": 3,
-    "order-wins": 2,
-    "split": 1,
-    "capex": 1
-  },
-  "items": [
+  "capturedOn": "2026-08-21",
+  "capturedAt": "2026-08-21T14:43:02.175Z",
+  "count": 50,
+  "rows": [
     {
       "company": "KKV Agro Powers",
       "symbol": "KKVAPOW",
