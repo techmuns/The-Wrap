@@ -106,6 +106,7 @@ export default function DataToolsPage() {
     <div className="mx-auto max-w-5xl space-y-8">
       <PageHeader
         title="Data Tools"
+        icon="📊"
         subtitle="Live market-data trackers behind each weekly section."
       />
 
@@ -125,9 +126,9 @@ export default function DataToolsPage() {
             const Icon = t.icon;
             return (
               <Link key={t.href} href={t.href} className="group">
-                <Card className="h-full transition-colors hover:border-foreground/30">
+                <Card className="h-full transition-colors hover:border-primary/40">
                   <div className="flex items-start gap-3">
-                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-accent text-foreground">
+                    <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-primary/15 text-primary">
                       <Icon className="h-4 w-4" />
                     </span>
                     <div className="min-w-0">

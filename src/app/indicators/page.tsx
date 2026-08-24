@@ -71,7 +71,8 @@ export default function IndicatorsPage() {
   return (
     <div className="mx-auto max-w-4xl space-y-8">
       <PageHeader
-        title="Indicators"
+        title="TradingView Indicators"
+        icon="📈"
         subtitle="Our own TradingView indicator — free to copy onto your charts."
       />
 

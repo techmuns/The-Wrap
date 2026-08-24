@@ -1,37 +1,45 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { ExternalLink, Play } from "lucide-react";
 import { PageHeader } from "@/components/ui/PageHeader";
-import { cn } from "@/lib/cn";
+import { SearchInput } from "@/components/ui/SearchInput";
+import { FilterPills } from "@/components/ui/FilterPills";
 import { curated } from "@/content/curated";
 import type { CuratedCategory } from "@/types/library";
 
-const CATEGORIES: CuratedCategory[] = ["Investing Skills", "Expert Views", "Industry Deep Dives", "Company Deep Dives"];
+const CATEGORIES: CuratedCategory[] = [
+  "Investing Skills",
+  "Expert Views",
+  "Industry Deep Dives",
+  "Company Deep Dives",
+];
+const OPTIONS = ["All", ...CATEGORIES] as const;
+type Option = (typeof OPTIONS)[number];
 
 export default function CuratedPage() {
-  const [cat, setCat] = useState<CuratedCategory | "All">("All");
-  const filtered = cat === "All" ? curated : curated.filter((c) => c.category === cat);
+  const [cat, setCat] = useState<Option>("All");
+  const [q, setQ] = useState("");
+
+  const filtered = useMemo(() => {
+    const needle = q.trim().toLowerCase();
+    return curated.filter((c) => {
+      if (cat !== "All" && c.category !== cat) return false;
+      if (!needle) return true;
+      return `${c.title} ${c.by} ${c.note}`.toLowerCase().includes(needle);
+    });
+  }, [cat, q]);
 
   return (
     <div className="mx-auto max-w-5xl space-y-6">
-      <PageHeader title="Curated" subtitle="Hand-picked videos and explainers worth your time." />
+      <PageHeader
+        title="Curated"
+        icon="📡"
+        subtitle="Hand-picked videos and explainers worth your time."
+      />
 
-      <div className="flex flex-wrap gap-2">
-        {(["All", ...CATEGORIES] as const).map((c) => (
-          <button
-            key={c}
-            type="button"
-            onClick={() => setCat(c)}
-            className={cn(
-              "rounded-full border px-3 py-1.5 text-sm transition-colors",
-              cat === c ? "border-foreground/30 bg-accent font-medium text-foreground" : "text-muted-foreground hover:text-foreground"
-            )}
-          >
-            {c}
-          </button>
-        ))}
-      </div>
+      <SearchInput value={q} onChange={setQ} placeholder="Search curated content…" />
+      <FilterPills options={OPTIONS} value={cat} onChange={setCat} />
 
       <div className="grid gap-4 sm:grid-cols-2">
         {filtered.map((item) => (
@@ -40,7 +48,7 @@ export default function CuratedPage() {
             href={item.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="group flex gap-4 rounded-xl border bg-card p-5 transition-colors hover:border-foreground/30"
+            className="group flex gap-4 rounded-xl border bg-card p-5 transition-colors hover:border-primary/40"
           >
             <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-rose-500/15 text-rose-600 dark:text-rose-400">
               <Play className="h-5 w-5" />

@@ -9,13 +9,12 @@ export const metadata: Metadata = {
 };
 
 // Set the theme class before first paint to avoid a light/dark flash.
+// The Wrap is dark by default — only switch to light if the user explicitly chose it.
 const themeInitScript = `
 (function(){try{
   var t=localStorage.getItem('theme');
-  if(t==='dark'||(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)){
-    document.documentElement.classList.add('dark');
-  }
-}catch(e){}})();
+  if(t!=='light'){document.documentElement.classList.add('dark');}
+}catch(e){document.documentElement.classList.add('dark');}})();
 `;
 
 export default function RootLayout({

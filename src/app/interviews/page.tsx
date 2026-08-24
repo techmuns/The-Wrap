@@ -4,11 +4,13 @@ import { useState } from "react";
 import { ExternalLink, Mic, Radio, FileText } from "lucide-react";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { Explainer } from "@/components/ui/Explainer";
-import { cn } from "@/lib/cn";
+import { FilterPills } from "@/components/ui/FilterPills";
 import { interviews } from "@/content/interviews";
 import type { InterviewCategory } from "@/types/interview";
 
 const CATEGORIES: InterviewCategory[] = ["Business TV", "Long-Form & Founders", "Earnings Calls"];
+const OPTIONS = ["All", ...CATEGORIES] as const;
+type Option = (typeof OPTIONS)[number];
 
 const ICON: Record<InterviewCategory, typeof Mic> = {
   "Business TV": Radio,
@@ -17,13 +19,14 @@ const ICON: Record<InterviewCategory, typeof Mic> = {
 };
 
 export default function InterviewsPage() {
-  const [cat, setCat] = useState<InterviewCategory | "All">("All");
+  const [cat, setCat] = useState<Option>("All");
   const filtered = cat === "All" ? interviews : interviews.filter((i) => i.category === cat);
 
   return (
     <div className="mx-auto max-w-5xl space-y-6">
       <PageHeader
         title="Management Interviews"
+        icon="🎙️"
         subtitle="Hear listed-company management in their own words."
       />
 
@@ -32,21 +35,7 @@ export default function InterviewsPage() {
         matters="Management's own words — on strategy, guidance and tough questions — tell you more than any headline. The earnings-call transcripts are the most unfiltered source of all."
       />
 
-      <div className="flex flex-wrap gap-2">
-        {(["All", ...CATEGORIES] as const).map((c) => (
-          <button
-            key={c}
-            type="button"
-            onClick={() => setCat(c)}
-            className={cn(
-              "rounded-full border px-3 py-1.5 text-sm transition-colors",
-              cat === c ? "border-foreground/30 bg-accent font-medium text-foreground" : "text-muted-foreground hover:text-foreground"
-            )}
-          >
-            {c}
-          </button>
-        ))}
-      </div>
+      <FilterPills options={OPTIONS} value={cat} onChange={setCat} />
 
       <div className="grid gap-4 sm:grid-cols-2">
         {filtered.map((item) => {

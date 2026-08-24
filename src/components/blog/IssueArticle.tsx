@@ -1,18 +1,47 @@
 import Link from "next/link";
-import { ArrowRight, Star } from "lucide-react";
+import { ArrowRight, CalendarDays, Clock, Newspaper, Star } from "lucide-react";
+import { Badge } from "@/components/ui/Badge";
 import type { Issue } from "@/types/issue";
 
 export function IssueArticle({ issue }: { issue: Issue }) {
   return (
     <article className="space-y-8">
-      <header className="space-y-2 border-b pb-6">
-        <div className="text-sm text-muted-foreground">
-          {issue.date} · {issue.readingTime}
+      <header className="space-y-5">
+        {/* Banner */}
+        <div className="flex min-h-[180px] items-center justify-center overflow-hidden rounded-2xl border bg-gradient-to-br from-chart-1/25 via-chart-4/15 to-chart-3/20 sm:min-h-[240px]">
+          <Newspaper className="h-14 w-14 text-foreground/40" />
         </div>
-        <h1 className="text-3xl font-semibold leading-tight tracking-tight">
+
+        <div className="flex flex-wrap items-center gap-2">
+          <Badge variant="featured">Featured</Badge>
+          <Badge variant="free">Free</Badge>
+        </div>
+
+        <h1 className="text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
           {issue.title}
         </h1>
-        <p className="text-lg text-foreground/80">{issue.dek}</p>
+
+        <p className="border-l-4 border-primary pl-4 text-lg text-muted-foreground">
+          {issue.dek}
+        </p>
+
+        {/* Author row */}
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2 border-y py-3 text-sm text-muted-foreground">
+          <span className="flex items-center gap-2">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-br from-primary to-chart-4 text-xs font-bold text-primary-foreground">
+              W
+            </span>
+            <span className="font-medium text-foreground">The Wrap</span>
+          </span>
+          <span className="inline-flex items-center gap-1">
+            <CalendarDays className="h-4 w-4" />
+            {issue.date}
+          </span>
+          <span className="inline-flex items-center gap-1">
+            <Clock className="h-4 w-4" />
+            {issue.readingTime}
+          </span>
+        </div>
       </header>
 
       {issue.sections.map((section) => (

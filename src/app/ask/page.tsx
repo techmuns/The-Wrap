@@ -139,6 +139,7 @@ export default function AskPage() {
     <div className="mx-auto flex h-[calc(100vh-8rem)] max-w-3xl flex-col gap-4">
       <PageHeader
         title="Ask AI"
+        icon="✨"
         subtitle="Ask anything about the Indian market — powered by muns."
       />
 
