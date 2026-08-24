@@ -1,11 +1,8 @@
 {
-  "fetchedAt": "2026-08-24T15:08:31.179Z",
-  "source": "Screener",
-  "counts": {
-    "recent": 25,
-    "upcoming": 0
-  },
-  "items": [
+  "capturedOn": "2026-08-24",
+  "capturedAt": "2026-08-24T15:08:31.180Z",
+  "count": 25,
+  "rows": [
     {
       "company": "Annapurna Swadi.",
       "symbol": "ANNAPURNA",
