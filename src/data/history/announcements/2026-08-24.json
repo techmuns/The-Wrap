@@ -1,18 +1,8 @@
 {
-  "fetchedAt": "2026-08-24T14:50:37.758Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "capex": 5,
-    "other": 30,
-    "open-offer": 2,
-    "fund-raising": 2,
-    "bonus": 2,
-    "name-change": 5,
-    "merger": 3,
-    "rights": 1
-  },
-  "items": [
+  "capturedOn": "2026-08-24",
+  "capturedAt": "2026-08-24T14:50:37.759Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Fujiyama Power",
       "symbol": "UTLSOLAR",
