@@ -1,11 +1,12 @@
 import type { Issue } from "@/types/issue";
-import nov2024 from "./2024-11-17";
-import nov2025 from "./2025-11-30";
 
-/** All issues, newest first. */
-export const issues: Issue[] = [nov2025, nov2024].sort((a, b) =>
-  b.isoDate.localeCompare(a.isoDate)
-);
+import i0 from "./2026-08-24";
+import i1 from "./2025-11-30";
+import i2 from "./2024-11-17";
+
+// AUTO-GENERATED index by scripts/build-weekly-issue.ts — includes hand-written
+// issues and the auto-generated weekly wraps, newest first.
+export const issues: Issue[] = [i0, i1, i2].sort((a, b) => b.isoDate.localeCompare(a.isoDate));
 
 export function getIssue(slug: string): Issue | undefined {
   return issues.find((i) => i.slug === slug);

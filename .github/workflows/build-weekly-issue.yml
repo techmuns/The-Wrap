@@ -1,9 +1,9 @@
-name: Build Weekly Issue Draft
+name: Publish Weekly Wrap
 
-# Assembles a draft weekly Blog issue from the committed data feeds. Runs early
-# Sunday, after the week's daily data refreshes have all landed. The draft is a
-# starting point for review — a human writes the commentary and promotes it to
-# src/content/issues/ to publish. No secrets needed: it only reads src/data/*.json.
+# Assembles and PUBLISHES the weekly wrap from the committed data feeds. Runs
+# early Sunday, after the week's daily data refreshes have all landed. Every line
+# is composed automatically from independently-sourced, publicly-available data —
+# no human step, no secrets (it only reads src/data/*.json).
 
 on:
   schedule:
@@ -27,16 +27,19 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - name: Generate weekly draft
+      - name: Generate weekly wrap
         run: npm run build:weekly-issue
-      - name: Commit draft
+      - name: Commit & push
         run: |
-          if git diff --quiet -- src/content/drafts/; then
-            echo "No draft changes; nothing to commit."
+          if git diff --quiet -- src/content/issues/; then
+            echo "No wrap changes; nothing to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/content/drafts/
-          git commit -m "chore(blog): weekly issue draft ($(date -u +%Y-%m-%d))"
-          git push
+          git add src/content/issues/
+          git commit -m "chore(blog): weekly wrap ($(date -u +%Y-%m-%d))"
+          for i in 1 2 3 4 5; do
+            if git push; then echo "pushed"; break; fi
+            echo "push failed (attempt $i), rebasing"; git pull --rebase origin main; sleep $((2 ** i))
+          done

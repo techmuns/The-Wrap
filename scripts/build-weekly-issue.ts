@@ -39,9 +39,10 @@ import type { ConcallsDataset, Concall } from "../src/types/concalls";
 import type { CorporateActionsDataset, CorporateAction, ActionType } from "../src/types/corporate-actions";
 import type { IndicesDataset, IndexQuote } from "../src/types/indices";
 import type { FlowsDataset } from "../src/types/flows";
+import type { MoversDataset, MoverRow } from "../src/types/movers";
 
 const DATA_DIR = resolve(process.cwd(), "src/data");
-const DRAFTS_DIR = resolve(process.cwd(), "src/content/drafts");
+const ISSUES_DIR = resolve(process.cwd(), "src/content/issues");
 
 // How many items each section surfaces. Tuned to keep a draft digestible; the
 // full firehose always lives behind the linked Data Tool.
@@ -54,10 +55,6 @@ const LIMITS = {
   recentConcalls: 6,
   corpActionsPerType: 4,
 };
-
-// Editorial fields a human must write before publishing are prefixed with this
-// so they're easy to spot (and grep) in the rendered draft and the source.
-const TODO = "[DRAFT — write this]";
 
 // ---- args + date helpers (UTC throughout; no external deps) ---------------
 const ABBR = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
@@ -153,7 +150,7 @@ function insiderSection(rows: InsiderTrade[], src: string): IssueSection {
   return {
     id: "insider",
     title: "Insider & promoter trades",
-    body: [`${TODO}: one line on the week's promoter/insider tone — accumulation, distribution, or two-sided.`],
+    body: [insiderTone(rows.filter((t) => t.buySell === "BUY").length, rows.filter((t) => t.buySell === "SELL").length)],
     groups: groups.length ? groups : undefined,
     note: groups.length
       ? `Ranked by disclosed value ${src}. The full list lives in the Buying & Selling tracker.`
@@ -178,7 +175,7 @@ function dealsSection(bulk: Deal[], block: Deal[], src: string): IssueSection {
   return {
     id: "deals",
     title: "Bulk & block deals",
-    body: [`${TODO}: a line on the week's institutional churn — who's building or trimming positions.`],
+    body: [dealsTone(block.length, bulk.length)],
     groups: groups.length ? groups : undefined,
     note: groups.length
       ? `Largest by deal value ${src}. Live bulk, block and short deals are tracked here.`
@@ -204,8 +201,8 @@ function announcementsSection(rows: Announcement[]): IssueSection {
     title: "Noteworthy announcements",
     body: [
       groups.length
-        ? "Our pick of the week's more consequential filings, by category — not exhaustive:"
-        : `${TODO}: no notable filings surfaced this week — write a line or remove this section.`,
+        ? "The week's more consequential filings, grouped by category — not exhaustive:"
+        : "Few notable filings surfaced in this window.",
     ],
     groups: groups.length ? groups : undefined,
     note: "Every category here is a filtered view over the unified announcements feed.",
@@ -229,7 +226,7 @@ function concallsSection(rows: Concall[], src: string): IssueSection {
   return {
     id: "concalls",
     title: "Earnings calls",
-    body: [`${TODO}: which calls are worth your time and why.`],
+    body: [concallsTone(recent.length, upcomingCount)],
     groups: items.length ? [{ heading: "Recent calls with materials", items }] : undefined,
     note: items.length ? notes.join(" ") : `No recent concall materials ${src}.`,
     link: { href: "/data-tools/concalls", label: "Concalls" },
@@ -251,7 +248,7 @@ function corpActionsSection(rows: CorporateAction[], src: string): IssueSection 
   return {
     id: "corporate-actions",
     title: "Corporate actions",
-    body: [`${TODO}: any buyback or bonus worth flagging.`],
+    body: [corpTone(groups.length ? rows.length : 0)],
     groups: groups.length ? groups : undefined,
     note: groups.length
       ? "Bonuses, buybacks, splits, rights and dividends — full list in the tracker."
@@ -262,6 +259,104 @@ function corpActionsSection(rows: CorporateAction[], src: string): IssueSection 
 
 function pctStr(n: number | null): string {
   return n == null ? "—" : `${n > 0 ? "+" : ""}${n.toFixed(2)}%`;
+}
+
+// ---- auto-writer: turn the real numbers into finished, factual prose --------
+// Every sentence below is composed only from the loaded data. Empty feeds get
+// honest "quiet week" lines; nothing is invented and there's no advice.
+
+type Tone = "up" | "down" | "mixed";
+
+/** Overall market tone from the breadth of sectoral moves (+ headline index). */
+function marketTone(ix: IndicesDataset): { tone: Tone; up: number; down: number; total: number; idxPct: number | null; headline: string | null } {
+  const up = ix.sectoral.filter((s) => (s.pctChange ?? 0) > 0).length;
+  const down = ix.sectoral.filter((s) => (s.pctChange ?? 0) < 0).length;
+  const total = ix.sectoral.length;
+  const headlineIdx =
+    ix.broad.find((b) => /NIFTY 50$/i.test(b.name)) ||
+    ix.broad.find((b) => /NIFTY 500/i.test(b.name)) ||
+    ix.broad.find((b) => /TOTAL MARKET/i.test(b.name)) ||
+    ix.broad[0];
+  const idxPct = headlineIdx?.pctChange ?? null;
+  let tone: Tone = "mixed";
+  if (total > 0) {
+    if (up > down * 1.3) tone = "up";
+    else if (down > up * 1.3) tone = "down";
+  } else if (idxPct != null) {
+    tone = idxPct > 0 ? "up" : idxPct < 0 ? "down" : "mixed";
+  }
+  return { tone, up, down, total, idxPct, headline: headlineIdx?.name ?? null };
+}
+
+const TONE_HEADLINE: Record<Tone, string> = {
+  up: "Broad-Based Gains",
+  down: "Broad-Based Selling",
+  mixed: "A Mixed Week",
+};
+
+function leadersLaggardsSentence(ix: IndicesDataset): string | null {
+  const sorted = [...ix.sectoral].sort((a, b) => (b.pctChange ?? -Infinity) - (a.pctChange ?? -Infinity));
+  if (sorted.length < 2) return null;
+  const nm = (s: IndexQuote) => s.name.replace(/^NIFTY /, "");
+  const leaders = sorted.slice(0, 3).map(nm);
+  const laggards = sorted.slice(-3).reverse().map(nm);
+  return `Money favoured ${leaders.join(", ")}, while ${laggards.join(", ")} lagged.`;
+}
+
+function insiderTone(buys: number, sells: number): string {
+  if (buys === 0 && sells === 0) return "No promoter or insider trades were disclosed in this window.";
+  if (buys > sells * 1.5) return `Promoters and insiders leaned toward accumulation — ${buys} disclosed buy${buys === 1 ? "" : "s"} against ${sells} sell${sells === 1 ? "" : "s"}.`;
+  if (sells > buys * 1.5) return `Promoters and insiders leaned toward distribution — ${sells} disclosed sell${sells === 1 ? "" : "s"} against ${buys} buy${buys === 1 ? "" : "s"}.`;
+  return `Promoter and insider activity was two-sided — ${buys} buy${buys === 1 ? "" : "s"} and ${sells} sell${sells === 1 ? "" : "s"} disclosed.`;
+}
+
+function dealsTone(blockN: number, bulkN: number): string {
+  if (blockN === 0 && bulkN === 0) return "A quiet stretch for large bulk and block deals.";
+  return `Institutions stayed active on the tape — ${blockN} block and ${bulkN} bulk deal${bulkN === 1 ? "" : "s"} of note. The largest by value:`;
+}
+
+function concallsTone(recentN: number, upcomingN: number): string {
+  if (recentN === 0 && upcomingN === 0) return "No earnings calls with published materials in this window.";
+  if (recentN === 0) return `${upcomingN} earnings call${upcomingN === 1 ? "" : "s"} scheduled ahead — none with materials out yet.`;
+  return "Management hit the mic. Recent calls with transcripts, notes or recordings:";
+}
+
+function corpTone(n: number): string {
+  return n === 0 ? "No new corporate actions in this window." : "Capital returns and structural actions announced:";
+}
+
+function moversSection(mv: MoversDataset): IssueSection {
+  const nm = (r: MoverRow) => r.company ?? r.symbol ?? "—";
+  const highs = mv.highs.length;
+  const lows = mv.lows.length;
+  const topVol = byDesc(mv.volume, (v) => v.timesAvg).slice(0, 3);
+  const facts: string[] = [];
+  if (highs || lows) facts.push(`${highs} stock${highs === 1 ? "" : "s"} hit fresh 52-week highs and ${lows} touched new lows.`);
+  const hasData = highs > 0 || lows > 0 || topVol.length > 0;
+
+  const groups: SectionGroup[] = [];
+  if (mv.highs.length) groups.push({ heading: "New 52-week highs", items: star(mv.highs.slice(0, 5).map((r) => ({ text: `${nm(r)} (${pctStr(r.pctChange)})` }))) });
+  if (mv.lows.length) groups.push({ heading: "New 52-week lows", items: mv.lows.slice(0, 5).map((r) => ({ text: `${nm(r)} (${pctStr(r.pctChange)})` })) });
+  if (topVol.length) groups.push({ heading: "Unusual volume", items: topVol.map((r) => ({ text: `${nm(r)}${r.timesAvg != null ? ` — ${r.timesAvg.toFixed(1)}× avg` : ""}` })) });
+
+  return {
+    id: "movers",
+    title: "Highs, lows & volume",
+    body: hasData ? facts : ["Highs/lows data pending the next market-close update."],
+    groups: groups.length ? groups : undefined,
+    note: "New 52-week highs and lows and unusual-volume stocks at the latest close.",
+    link: { href: "/data-tools/movers", label: "Highs, Lows & Volume" },
+  };
+}
+
+/** Rough reading time from the finished issue's word count. */
+function readingTimeOf(issue: Issue): string {
+  let words = `${issue.title} ${issue.dek}`.split(/\s+/).length;
+  for (const s of issue.sections) {
+    words += (s.body ?? []).join(" ").split(/\s+/).length;
+    for (const g of s.groups ?? []) words += g.items.length * 8;
+  }
+  return `${Math.max(3, Math.round(words / 180))} min read`;
 }
 
 function breadthSection(ix: IndicesDataset): IssueSection {
@@ -288,7 +383,12 @@ function breadthSection(ix: IndicesDataset): IssueSection {
   return {
     id: "breadth",
     title: "Market breadth",
-    body: [`${TODO}: is participation broad or narrow?`, ...(hasData ? [facts.join(" ")] : [])],
+    body: hasData
+      ? [
+          `Beneath the headline, breadth looked ${up > down * 1.3 ? "broadly positive" : down > up * 1.3 ? "weak" : "mixed"}.`,
+          facts.join(" "),
+        ]
+      : ["Breadth data pending the first market-close update."],
     note: hasData ? "Advances vs declines beneath the headline index." : "Breadth data pending the first market-close update.",
     link: { href: "/data-tools/market-breadth", label: "Market Breadth" },
   };
@@ -305,7 +405,7 @@ function sectorSection(ix: IndicesDataset): IssueSection {
   return {
     id: "sectors",
     title: "Sector rotation",
-    body: [`${TODO}: which sectors led and lagged, and what it says about where money is flowing.`],
+    body: [leadersLaggardsSentence(ix) ?? "Sector data pending the first market-close update."],
     groups: groups.length ? groups : undefined,
     note: groups.length ? "Sectoral index moves on the day." : "Sector data pending the first market-close update.",
     link: { href: "/data-tools/sector-rotation", label: "Sector Rotation" },
@@ -371,21 +471,33 @@ function buildIssue(now: Date, days: number): { issue: Issue; log: string } {
     `${recentCalls} earnings call${recentCalls === 1 ? "" : "s"}, and ` +
     `${corpActions.rows.length} corporate action${corpActions.rows.length === 1 ? "" : "s"}.`;
 
+  const movers = loadSnapshot<MoversDataset>("movers.json", {
+    fetchedAt: null, source: "NSE", timestamp: null, highs: [], lows: [], volume: [],
+  });
+
+  // Auto-written thesis, from the numbers only.
+  const t = marketTone(indices);
+  const moodSentence =
+    t.total > 0
+      ? `At the latest close, ${t.up} of ${t.total} sectoral indices advanced and ${t.down} declined${
+          t.idxPct != null ? `; the headline index was ${pctStr(t.idxPct)}` : ""
+        }.`
+      : t.idxPct != null
+        ? `The headline index was ${pctStr(t.idxPct)} at the latest close.`
+        : "Market breadth will appear here after the next close.";
+  const ll = leadersLaggardsSentence(indices);
   const flows$ = flowsLine(flows);
-  const summaryBody = [
-    `${TODO}: the week's thesis — index moves, the macro backdrop, and the single takeaway.`,
-    byNumbers,
-    ...(flows$ ? [flows$] : []),
-  ];
+  const summaryBody = [moodSentence, ...(ll ? [ll] : []), byNumbers, ...(flows$ ? [flows$] : [])];
 
   const sections: IssueSection[] = [
     {
       id: "summary",
-      title: "The week in one line",
+      title: "This week, in short",
       body: summaryBody,
     },
     breadthSection(indices),
     sectorSection(indices),
+    moversSection(movers),
     insiderSection(insider.rows, src),
     dealsSection(bulk, block, src),
     announcementsSection(announcements.rows),
@@ -397,11 +509,12 @@ function buildIssue(now: Date, days: number): { issue: Issue; log: string } {
     slug: endDay,
     date: displayOf(now),
     isoDate: endDay,
-    title: `${TODO}: headline for the week of ${displayOf(now)}`,
-    dek: `${TODO}: one-line standfirst.`,
-    readingTime: "Draft preview",
+    title: `The Wrap 🌯 ${displayOf(now)} — ${TONE_HEADLINE[t.tone]}`,
+    dek: "Your weekly wrap of everything that moved the Indian market — breadth, flows, deals and the filings that mattered.",
+    readingTime: "",
     sections,
   };
+  issue.readingTime = readingTimeOf(issue);
 
   const coverageMsg = usedHistory
     ? `window ${startDay}..${endDay}, ${coverage.size} day(s) archived`
@@ -409,62 +522,61 @@ function buildIssue(now: Date, days: number): { issue: Issue; log: string } {
   return { issue, log: coverageMsg };
 }
 
-// ---- emit TypeScript + regenerate the drafts index ------------------------
+// ---- emit TypeScript + regenerate the issues index ------------------------
 
-function draftFileSource(issue: Issue, generatedAt: string): string {
+function issueFileSource(issue: Issue, generatedAt: string): string {
   const body = JSON.stringify(issue, null, 2);
   return `import type { Issue } from "@/types/issue";
 
-// AUTO-GENERATED DRAFT by scripts/build-weekly-issue.ts on ${generatedAt}.
-// This is a reviewable draft, NOT a published issue. Edit the "${TODO}" fields
-// (headline, dek, section commentary), then promote to src/content/issues/ to
-// publish. See docs/WEEKLY-ISSUE.md.
+// AUTO-GENERATED weekly wrap by scripts/build-weekly-issue.ts on ${generatedAt}.
+// Every line is composed from independently-sourced, publicly-available data —
+// no mock data and no investment advice. Regenerated each week by the workflow.
 const issue: Issue = ${body};
 
 export default issue;
 `;
 }
 
-function rewriteIndex(): void {
-  const files = readdirSync(DRAFTS_DIR)
+function rewriteIssuesIndex(): void {
+  const files = readdirSync(ISSUES_DIR)
     .filter((f) => f.endsWith(".ts") && f !== "index.ts")
     .map((f) => f.replace(/\.ts$/, ""))
     .sort((a, b) => b.localeCompare(a)); // newest slug first
 
-  const imports = files.map((slug, i) => `import d${i} from "./${slug}";`).join("\n");
-  const list = files.map((_, i) => `d${i}`).join(", ");
+  const imports = files.map((slug, i) => `import i${i} from "./${slug}";`).join("\n");
+  const list = files.map((_, i) => `i${i}`).join(", ");
 
   const src = `import type { Issue } from "@/types/issue";
 ${imports ? "\n" + imports + "\n" : ""}
-// AUTO-GENERATED by scripts/build-weekly-issue.ts — do not edit by hand.
-// Drafts are reviewable weekly issues that are not yet published to /blog.
-export const drafts: Issue[] = [${list}].sort((a, b) => b.isoDate.localeCompare(a.isoDate));
+// AUTO-GENERATED index by scripts/build-weekly-issue.ts — includes hand-written
+// issues and the auto-generated weekly wraps, newest first.
+export const issues: Issue[] = [${list}].sort((a, b) => b.isoDate.localeCompare(a.isoDate));
 
-export function getDraft(slug: string): Issue | undefined {
-  return drafts.find((d) => d.slug === slug);
+export function getIssue(slug: string): Issue | undefined {
+  return issues.find((i) => i.slug === slug);
 }
 
-export function getDraftSlugs(): string[] {
-  return drafts.map((d) => d.slug);
+export function getIssueSlugs(): string[] {
+  return issues.map((i) => i.slug);
 }
 `;
-  writeFileSync(join(DRAFTS_DIR, "index.ts"), src);
+  writeFileSync(join(ISSUES_DIR, "index.ts"), src);
 }
 
 function main() {
   const now = issueDate();
   const days = windowDays();
-  mkdirSync(DRAFTS_DIR, { recursive: true });
+  mkdirSync(ISSUES_DIR, { recursive: true });
   const { issue, log } = buildIssue(now, days);
-  const outFile = join(DRAFTS_DIR, `${issue.slug}.ts`);
-  writeFileSync(outFile, draftFileSource(issue, new Date().toISOString()));
-  rewriteIndex();
+  const outFile = join(ISSUES_DIR, `${issue.slug}.ts`);
+  writeFileSync(outFile, issueFileSource(issue, new Date().toISOString()));
+  rewriteIssuesIndex();
 
   const dataSections = issue.sections.filter((s) => s.groups?.length).length;
-  console.log(`Wrote draft ${outFile}`);
+  console.log(`Published weekly wrap ${outFile}`);
   console.log(`  ${log}`);
-  console.log(`  ${issue.sections.length} sections (${dataSections} filled from live feeds).`);
-  console.log(`  Review at /blog/drafts/${issue.slug}, then edit the "${TODO}" fields and promote to src/content/issues/ to publish.`);
+  console.log(`  "${issue.title}" — ${issue.readingTime}`);
+  console.log(`  ${issue.sections.length} sections (${dataSections} with live data). Live at /blog/${issue.slug}.`);
 }
 
 main();
