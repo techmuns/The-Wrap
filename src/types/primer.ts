@@ -5,7 +5,8 @@ export type PrimerCategory =
   | "Engineering"
   | "Pharma"
   | "Financials"
-  | "Technology";
+  | "Technology"
+  | "Automobiles";
 
 export interface PrimerSection {
   heading: string;
