@@ -77,7 +77,7 @@ export const contentGroup: NavGroup = {
       label: "Ask AI",
       icon: Sparkles,
       description:
-        "An assistant to ask questions about this week's market. Coming soon.",
+        "Ask anything about the Indian market — an assistant that can search the web and recent filings.",
     },
   ],
 };
