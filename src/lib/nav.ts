@@ -1,5 +1,5 @@
 import type { LucideIcon } from "lucide-react";
-import { Rocket, Newspaper, LineChart, Sparkles, BookOpen, Bookmark, Activity, MessagesSquare, Layers, Mic } from "lucide-react";
+import { Rocket, Newspaper, LineChart, Sparkles, BookOpen, Bookmark, Activity, Layers, Mic } from "lucide-react";
 
 export type NavItem = {
   href: string;
@@ -71,12 +71,6 @@ export const contentGroup: NavGroup = {
       label: "Indicators",
       icon: Activity,
       description: "Our TradingView charting indicators and how to use them.",
-    },
-    {
-      href: "/community",
-      label: "Community",
-      icon: MessagesSquare,
-      description: "Join fellow readers to discuss the week's market.",
     },
     {
       href: "/ask",
