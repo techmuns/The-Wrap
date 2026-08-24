@@ -7,6 +7,8 @@ export interface Book {
   /** Our one-line take on why it's worth reading. */
   note: string;
   mustRead?: boolean;
+  /** Topic tags for the chip filter row. */
+  topics?: string[];
 }
 
 export type CuratedCategory =

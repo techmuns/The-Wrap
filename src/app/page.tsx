@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { ActivityPanel } from "@/components/home/ActivityPanel";
+import { GettingStarted } from "@/components/home/GettingStarted";
 import { issues } from "@/content/issues";
 import { cn } from "@/lib/cn";
 
@@ -45,6 +46,8 @@ export default function HomePage() {
             title="The Wrap"
             subtitle="A free market-data terminal for the Indian stock market — real exchange data, plus a free weekly digest."
           />
+
+          <GettingStarted />
 
           {/* Latest issue hero */}
           {latest && (

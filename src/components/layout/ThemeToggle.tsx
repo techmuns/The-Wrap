@@ -3,6 +3,7 @@
 import { useSyncExternalStore } from "react";
 import { Moon, Sun } from "lucide-react";
 import { cn } from "@/lib/cn";
+import { markFlag } from "@/lib/progress";
 
 type Theme = "light" | "dark";
 
@@ -29,6 +30,7 @@ export function ThemeToggle() {
     try {
       localStorage.setItem("theme", next);
     } catch {}
+    markFlag("theme");
   };
 
   return (

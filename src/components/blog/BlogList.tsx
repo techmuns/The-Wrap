@@ -9,6 +9,14 @@ import { issues } from "@/content/issues";
 import type { Issue } from "@/types/issue";
 
 function Cover({ issue, className }: { issue: Issue; className?: string }) {
+  if (issue.image) {
+    return (
+      <div className={"relative overflow-hidden bg-muted " + (className ?? "")}>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={issue.image} alt={issue.title} loading="lazy" className="h-full w-full object-cover" />
+      </div>
+    );
+  }
   return (
     <div
       className={

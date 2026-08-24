@@ -34,5 +34,7 @@ export interface Issue {
   /** One-line thesis / standfirst. */
   dek: string;
   readingTime: string;
+  /** Optional hero image URL (drop in your own artwork); falls back to a banner. */
+  image?: string;
   sections: IssueSection[];
 }

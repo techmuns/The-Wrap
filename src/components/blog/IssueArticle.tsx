@@ -8,9 +8,16 @@ export function IssueArticle({ issue }: { issue: Issue }) {
     <article className="space-y-8">
       <header className="space-y-5">
         {/* Banner */}
-        <div className="flex min-h-[180px] items-center justify-center overflow-hidden rounded-2xl border bg-gradient-to-br from-chart-1/25 via-chart-4/15 to-chart-3/20 sm:min-h-[240px]">
-          <Newspaper className="h-14 w-14 text-foreground/40" />
-        </div>
+        {issue.image ? (
+          <div className="overflow-hidden rounded-2xl border bg-muted">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={issue.image} alt={issue.title} className="max-h-[420px] w-full object-cover" />
+          </div>
+        ) : (
+          <div className="flex min-h-[180px] items-center justify-center overflow-hidden rounded-2xl border bg-gradient-to-br from-chart-1/25 via-chart-4/15 to-chart-3/20 sm:min-h-[240px]">
+            <Newspaper className="h-14 w-14 text-foreground/40" />
+          </div>
+        )}
 
         <div className="flex flex-wrap items-center gap-2">
           <Badge variant="featured">Featured</Badge>
