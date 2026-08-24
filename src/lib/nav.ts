@@ -1,5 +1,5 @@
 import type { LucideIcon } from "lucide-react";
-import { Rocket, Newspaper, LineChart, Sparkles, BookOpen, Bookmark, Activity, MessagesSquare } from "lucide-react";
+import { Rocket, Newspaper, LineChart, Sparkles, BookOpen, Bookmark, Activity, MessagesSquare, Layers, Mic } from "lucide-react";
 
 export type NavItem = {
   href: string;
@@ -53,6 +53,18 @@ export const contentGroup: NavGroup = {
       label: "Curated",
       icon: Bookmark,
       description: "Hand-picked videos and explainers worth your time.",
+    },
+    {
+      href: "/primers",
+      label: "Industry Primers",
+      icon: Layers,
+      description: "How industries work — from first principles to listed players.",
+    },
+    {
+      href: "/interviews",
+      label: "Management Interviews",
+      icon: Mic,
+      description: "Notable management commentary and interviews.",
     },
     {
       href: "/indicators",
