@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { ArrowRight, CalendarDays, Clock, Newspaper, Star } from "lucide-react";
+import { ArrowRight, CalendarDays, Clock, Star } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
+import { pickGradient } from "@/lib/cover";
 import type { Issue } from "@/types/issue";
 
 export function IssueArticle({ issue }: { issue: Issue }) {
@@ -14,8 +15,16 @@ export function IssueArticle({ issue }: { issue: Issue }) {
             <img src={issue.image} alt={issue.title} className="max-h-[420px] w-full object-cover" />
           </div>
         ) : (
-          <div className="flex min-h-[180px] items-center justify-center overflow-hidden rounded-2xl border bg-gradient-to-br from-chart-1/25 via-chart-4/15 to-chart-3/20 sm:min-h-[240px]">
-            <Newspaper className="h-14 w-14 text-foreground/40" />
+          <div
+            className={`flex min-h-[180px] flex-col items-center justify-center gap-2 overflow-hidden rounded-2xl border bg-gradient-to-br ${pickGradient(issue.slug)} sm:min-h-[240px]`}
+          >
+            <span className="text-5xl leading-none" aria-hidden>
+              🌯
+            </span>
+            <span className="text-sm font-bold uppercase tracking-[0.25em] text-foreground/70">
+              The Wrap
+            </span>
+            <span className="text-xs text-foreground/50">{issue.date}</span>
           </div>
         )}
 

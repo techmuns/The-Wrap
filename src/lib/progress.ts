@@ -20,7 +20,6 @@ export function sectionKey(path: string): string | null {
   if (path.startsWith("/curated")) return "curated";
   if (path.startsWith("/primers")) return "primers";
   if (path.startsWith("/interviews")) return "interviews";
-  if (path.startsWith("/indicators")) return "indicators";
   if (path.startsWith("/ask")) return "ask";
   return null;
 }

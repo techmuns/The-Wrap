@@ -38,7 +38,7 @@ export function GettingStarted() {
     { label: "Read an industry primer", done: prog.visited.includes("primers"), href: "/primers" },
     { label: "Watch a curated video", done: prog.visited.includes("curated"), href: "/curated" },
     { label: "Browse the book list", done: prog.visited.includes("books"), href: "/books" },
-    { label: "Get the TradingView indicator", done: prog.visited.includes("indicators"), href: "/indicators" },
+    { label: "Read management interviews", done: prog.visited.includes("interviews"), href: "/interviews" },
     { label: "Switch up the theme (bottom-left)", done: prog.flags.includes("theme") },
     { label: "Build a 3-day visit streak", done: act.currentStreak >= 3 || act.bestStreak >= 3 },
   ];
@@ -98,8 +98,7 @@ export function GettingStarted() {
                 </span>
                 <span
                   className={
-                    "text-sm " +
-                    (s.done ? "text-muted-foreground line-through" : "text-foreground")
+                    "text-sm " + (s.done ? "text-muted-foreground" : "text-foreground")
                   }
                 >
                   {s.label}

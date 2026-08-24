@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { X, User } from "lucide-react";
+import { X } from "lucide-react";
 import { cn } from "@/lib/cn";
 import { navGroups, type NavItem } from "@/lib/nav";
 import { ThemeToggle } from "./ThemeToggle";
@@ -113,15 +113,9 @@ export function Sidebar({
           ))}
         </nav>
 
-        {/* Footer: profile + theme toggle */}
-        <div className="flex shrink-0 items-center gap-3 border-t px-4 py-3">
-          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-primary to-chart-4 text-primary-foreground">
-            <User className="h-4 w-4" />
-          </span>
-          <div className="min-w-0 flex-1">
-            <div className="truncate text-sm font-medium">Guest</div>
-            <div className="truncate text-xs text-muted-foreground">Free reader</div>
-          </div>
+        {/* Footer: theme toggle */}
+        <div className="flex shrink-0 items-center justify-between border-t px-4 py-3">
+          <span className="text-xs text-muted-foreground">Theme</span>
           <ThemeToggle />
         </div>
       </aside>

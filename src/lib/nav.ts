@@ -8,7 +8,6 @@ import {
   Library,
   Layers,
   Sparkles,
-  TrendingUp,
 } from "lucide-react";
 
 export type NavItem = {
@@ -83,17 +82,6 @@ export const navGroups: NavGroup[] = [
         icon: Sparkles,
         description:
           "Ask anything about the Indian market — searches the web and recent filings.",
-      },
-    ],
-  },
-  {
-    label: "Indicators",
-    items: [
-      {
-        href: "/indicators",
-        label: "TradingView Indicators",
-        icon: TrendingUp,
-        description: "Our TradingView charting indicators and how to use them.",
       },
     ],
   },

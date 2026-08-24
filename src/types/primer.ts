@@ -25,6 +25,8 @@ export interface Primer {
   /** One-line standfirst. */
   dek: string;
   readingTime: string;
+  /** Optional cover illustration URL; falls back to a branded emoji banner. */
+  image?: string;
   sections: PrimerSection[];
   /** Key listed Indian players. */
   players: PrimerPlayer[];

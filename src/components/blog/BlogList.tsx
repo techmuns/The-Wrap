@@ -2,10 +2,11 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { ArrowRight, CalendarDays, Clock, Heart, Newspaper } from "lucide-react";
+import { ArrowRight, CalendarDays, Clock, Heart } from "lucide-react";
 import { SearchInput } from "@/components/ui/SearchInput";
 import { Badge } from "@/components/ui/Badge";
 import { issues } from "@/content/issues";
+import { pickGradient } from "@/lib/cover";
 import type { Issue } from "@/types/issue";
 
 function Cover({ issue, className }: { issue: Issue; className?: string }) {
@@ -20,14 +21,17 @@ function Cover({ issue, className }: { issue: Issue; className?: string }) {
   return (
     <div
       className={
-        "relative flex items-center justify-center overflow-hidden bg-gradient-to-br from-chart-1/30 via-chart-4/20 to-chart-3/20 " +
+        `relative flex flex-col items-center justify-center gap-1.5 overflow-hidden bg-gradient-to-br ${pickGradient(issue.slug)} ` +
         (className ?? "")
       }
     >
-      <Newspaper className="h-10 w-10 text-foreground/40" />
-      <span className="absolute bottom-2 right-3 text-[11px] font-medium text-foreground/50">
-        {issue.date}
+      <span className="text-4xl leading-none" aria-hidden>
+        🌯
       </span>
+      <span className="text-xs font-bold uppercase tracking-[0.2em] text-foreground/70">
+        The Wrap
+      </span>
+      <span className="text-[11px] text-foreground/50">{issue.date}</span>
     </div>
   );
 }
