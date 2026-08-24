@@ -1,12 +1,8 @@
 {
-  "asOnDate": "24-Aug-2026",
-  "fetchedAt": "2026-08-24T14:09:41.569Z",
-  "counts": {
-    "bulk": 141,
-    "block": 26,
-    "short": 92
-  },
-  "bulk": [
+  "capturedOn": "2026-08-24",
+  "capturedAt": "2026-08-24T14:09:41.575Z",
+  "count": 259,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "ALLCARGO",
@@ -1698,9 +1694,7 @@
       "value": 8741760,
       "date": "24-Aug-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "MEESHO",
@@ -2012,9 +2006,7 @@
       "value": 969635279.3399999,
       "date": "24-Aug-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "AARTIIND",
