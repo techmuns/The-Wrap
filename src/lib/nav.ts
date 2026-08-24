@@ -1,5 +1,5 @@
 import type { LucideIcon } from "lucide-react";
-import { Rocket, Newspaper, LineChart, Sparkles } from "lucide-react";
+import { Rocket, Newspaper, LineChart, Sparkles, BookOpen, Bookmark } from "lucide-react";
 
 export type NavItem = {
   href: string;
@@ -41,6 +41,18 @@ export const contentGroup: NavGroup = {
       label: "Data Tools",
       icon: LineChart,
       description: "Live, free market-data trackers — the heart of The Wrap.",
+    },
+    {
+      href: "/books",
+      label: "Books",
+      icon: BookOpen,
+      description: "A curated reading list for investors — our picks.",
+    },
+    {
+      href: "/curated",
+      label: "Curated",
+      icon: Bookmark,
+      description: "Hand-picked videos and explainers worth your time.",
     },
     {
       href: "/ask",
