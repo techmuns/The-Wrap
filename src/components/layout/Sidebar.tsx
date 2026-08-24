@@ -48,8 +48,8 @@ function BrandMark({ onNavigate }: { onNavigate?: () => void }) {
       onClick={onNavigate}
       className="flex items-center gap-2.5 font-semibold tracking-tight"
     >
-      <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-primary to-chart-4 text-sm font-bold text-primary-foreground shadow-sm">
-        W
+      <span className="text-2xl leading-none" aria-hidden>
+        🌯
       </span>
       <span className="text-base">The Wrap</span>
     </Link>

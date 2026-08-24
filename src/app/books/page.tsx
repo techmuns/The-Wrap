@@ -5,9 +5,9 @@ import { Star } from "lucide-react";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { SearchInput } from "@/components/ui/SearchInput";
 import { FilterPills } from "@/components/ui/FilterPills";
-import { Badge } from "@/components/ui/Badge";
 import { books } from "@/content/books";
-import type { BookCategory } from "@/types/library";
+import covers from "@/data/book-covers.json";
+import type { Book, BookCategory } from "@/types/library";
 
 const CATEGORIES: BookCategory[] = [
   "Fundamentals",
@@ -17,6 +17,43 @@ const CATEGORIES: BookCategory[] = [
 ];
 const OPTIONS = ["All", ...CATEGORIES] as const;
 type Option = (typeof OPTIONS)[number];
+
+const coverMap = covers as Record<string, string>;
+
+function BookPoster({ book }: { book: Book }) {
+  const cover = coverMap[book.title];
+  return (
+    <div className="group" title={book.note}>
+      <div className="relative aspect-[2/3] overflow-hidden rounded-lg border bg-muted shadow-sm transition-transform group-hover:-translate-y-1">
+        {cover ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={cover}
+            alt={`${book.title} cover`}
+            loading="lazy"
+            className="h-full w-full object-cover"
+          />
+        ) : (
+          <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-chart-1/30 to-chart-4/20 p-3 text-center text-xs font-medium text-foreground/70">
+            {book.title}
+          </div>
+        )}
+        {book.mustRead && (
+          <span
+            className="absolute right-1.5 top-1.5 flex h-6 w-6 items-center justify-center rounded-full bg-chart-3 text-background shadow"
+            title="Must read"
+          >
+            <Star className="h-3.5 w-3.5 fill-current" />
+          </span>
+        )}
+      </div>
+      <div className="mt-2">
+        <div className="line-clamp-2 text-sm font-medium leading-snug">{book.title}</div>
+        <div className="mt-0.5 text-xs text-muted-foreground">{book.author}</div>
+      </div>
+    </div>
+  );
+}
 
 export default function BooksPage() {
   const [cat, setCat] = useState<Option>("All");
@@ -32,7 +69,7 @@ export default function BooksPage() {
   }, [cat, q]);
 
   return (
-    <div className="mx-auto max-w-5xl space-y-6">
+    <div className="mx-auto max-w-6xl space-y-6">
       <PageHeader
         title="Book Recommendations"
         icon="📚"
@@ -44,35 +81,15 @@ export default function BooksPage() {
 
       <div className="text-xs text-muted-foreground">{filtered.length} books</div>
 
-      <div className="grid gap-4 sm:grid-cols-2">
+      <div className="grid grid-cols-2 gap-x-4 gap-y-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
         {filtered.map((b) => (
-          <div
-            key={b.title}
-            className="rounded-xl border bg-card p-5 transition-colors hover:border-primary/40"
-          >
-            <div className="flex items-start justify-between gap-3">
-              <div className="min-w-0">
-                <div className="flex items-center gap-1.5 font-semibold leading-snug">
-                  {b.title}
-                  {b.mustRead && (
-                    <Star
-                      className="h-3.5 w-3.5 shrink-0 fill-current text-chart-3"
-                      aria-label="must read"
-                    />
-                  )}
-                </div>
-                <div className="mt-0.5 text-sm text-muted-foreground">{b.author}</div>
-              </div>
-              <Badge variant="category">{b.category}</Badge>
-            </div>
-            <p className="mt-3 text-sm text-foreground/80">{b.note}</p>
-          </div>
+          <BookPoster key={b.title} book={b} />
         ))}
       </div>
 
       <p className="text-xs text-muted-foreground">
-        Our own selection of widely-available books. Not affiliated with any
-        publisher or seller.
+        Our own selection of widely-available books. Cover images via Open
+        Library. Not affiliated with any publisher or seller.
       </p>
     </div>
   );

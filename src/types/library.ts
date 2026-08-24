@@ -16,11 +16,14 @@ export type CuratedCategory =
   | "Company Deep Dives";
 
 export interface CuratedItem {
-  /** What to watch — a channel, series or creator. */
+  /** The video title. */
   title: string;
+  /** The channel / creator. */
   by: string;
   category: CuratedCategory;
   note: string;
-  /** A YouTube link that always resolves (channel or search). */
-  url: string;
+  /** YouTube video ID — drives the real thumbnail and the watch link. */
+  videoId: string;
+  /** Small topic tags shown on the card. */
+  tags?: string[];
 }

@@ -16,7 +16,10 @@ export function Topbar({ onMenu }: { onMenu: () => void }) {
       >
         <Menu className="h-5 w-5" />
       </button>
-      <span className="text-sm font-semibold tracking-tight">The Wrap</span>
+      <span className="flex items-center gap-1.5 text-sm font-semibold tracking-tight">
+        <span className="text-lg leading-none" aria-hidden>🌯</span>
+        The Wrap
+      </span>
       <div className="ml-auto">
         <ThemeToggle />
       </div>
