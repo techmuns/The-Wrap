@@ -1,15 +1,8 @@
 {
-  "fetchedAt": "2026-08-25T15:27:57.452Z",
-  "source": "Screener",
-  "total": 125,
-  "byType": {
-    "bonus": 25,
-    "buyback": 25,
-    "split": 25,
-    "rights": 25,
-    "dividend": 25
-  },
-  "items": [
+  "capturedOn": "2026-08-25",
+  "capturedAt": "2026-08-25T15:27:57.453Z",
+  "count": 125,
+  "rows": [
     {
       "company": "Abhishek Integr.",
       "symbol": "AILIMITED",
