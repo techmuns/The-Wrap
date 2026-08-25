@@ -1,12 +1,8 @@
 {
-  "asOnDate": "25-Aug-2026",
-  "fetchedAt": "2026-08-25T14:12:31.260Z",
-  "counts": {
-    "bulk": 156,
-    "block": 26,
-    "short": 102
-  },
-  "bulk": [
+  "capturedOn": "2026-08-25",
+  "capturedAt": "2026-08-25T14:12:31.261Z",
+  "count": 284,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "ASPIRE",
@@ -1878,9 +1874,7 @@
       "value": 177065260.06,
       "date": "25-Aug-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "MEESHO",
@@ -2192,9 +2186,7 @@
       "value": 969635279.3399999,
       "date": "24-Aug-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "360ONE",
