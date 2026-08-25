@@ -1,19 +1,8 @@
 {
-  "fetchedAt": "2026-08-25T14:53:31.289Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "other": 30,
-    "fund-raising": 7,
-    "bonus": 1,
-    "buyback": 1,
-    "order-wins": 4,
-    "acquisitions": 1,
-    "rights": 4,
-    "open-offer": 1,
-    "name-change": 1
-  },
-  "items": [
+  "capturedOn": "2026-08-25",
+  "capturedAt": "2026-08-25T14:53:31.290Z",
+  "count": 50,
+  "rows": [
     {
       "company": "United Heat",
       "symbol": "UHTL",
