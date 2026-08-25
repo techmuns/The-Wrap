@@ -1,11 +1,8 @@
 {
-  "fetchedAt": "2026-08-25T15:12:47.260Z",
-  "source": "Screener",
-  "counts": {
-    "recent": 25,
-    "upcoming": 0
-  },
-  "items": [
+  "capturedOn": "2026-08-25",
+  "capturedAt": "2026-08-25T15:12:47.266Z",
+  "count": 25,
+  "rows": [
     {
       "company": "Khazanchi Jewell",
       "symbol": "543953",
