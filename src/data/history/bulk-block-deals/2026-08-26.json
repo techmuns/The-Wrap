@@ -1,12 +1,8 @@
 {
-  "asOnDate": "26-Aug-2026",
-  "fetchedAt": "2026-08-26T14:10:26.057Z",
-  "counts": {
-    "bulk": 221,
-    "block": 53,
-    "short": 275
-  },
-  "bulk": [
+  "capturedOn": "2026-08-26",
+  "capturedAt": "2026-08-26T14:10:26.058Z",
+  "count": 549,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "AAREYDRUGS",
@@ -2658,9 +2654,7 @@
       "value": 4971888,
       "date": "26-Aug-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "PWL",
@@ -3296,9 +3290,7 @@
       "value": 682590000,
       "date": "26-Aug-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "AADHARHFC",
