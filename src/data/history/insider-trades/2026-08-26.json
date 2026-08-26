@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-08-26T15:51:47.785Z",
-  "source": "Screener",
-  "total": 49,
-  "items": [
+  "capturedOn": "2026-08-26",
+  "capturedAt": "2026-08-26T15:51:47.786Z",
+  "count": 49,
+  "rows": [
     {
       "company": "Indo-MIM",
       "symbol": "INDOMIM",
