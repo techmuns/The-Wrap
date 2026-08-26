@@ -1,17 +1,8 @@
 {
-  "fetchedAt": "2026-08-26T14:52:14.399Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "other": 28,
-    "merger": 9,
-    "bonus": 3,
-    "order-wins": 2,
-    "rights": 2,
-    "fund-raising": 4,
-    "capex": 2
-  },
-  "items": [
+  "capturedOn": "2026-08-26",
+  "capturedAt": "2026-08-26T14:52:14.400Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Cohance Life",
       "symbol": "COHANCE",
