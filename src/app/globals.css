@@ -88,6 +88,12 @@
   }
 }
 
+/* Force these backgrounds (masthead + section bands) to render in print. */
+.report-color {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
 /* Print / "Download report": clean, light, chrome-free page for Save-as-PDF. */
 @media print {
   :root,

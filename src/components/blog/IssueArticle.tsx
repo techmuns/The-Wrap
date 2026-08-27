@@ -1,30 +1,39 @@
 import Link from "next/link";
 import { ArrowRight, CalendarDays, Clock, Star } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
-import { pickGradient } from "@/lib/cover";
 import type { Issue } from "@/types/issue";
+
+/** Per-section coloured band (emoji + colour), styled like the reference report. */
+const SECTION_STYLE: Record<string, { emoji: string; band: string }> = {
+  summary: { emoji: "📝", band: "bg-chart-1" },
+  breadth: { emoji: "📊", band: "bg-chart-5" },
+  sectors: { emoji: "🔁", band: "bg-chart-4" },
+  movers: { emoji: "🔥", band: "bg-chart-3" },
+  insider: { emoji: "💼", band: "bg-chart-2" },
+  deals: { emoji: "🪙", band: "bg-foreground" },
+  announcements: { emoji: "📣", band: "bg-chart-6" },
+  concalls: { emoji: "🎙️", band: "bg-chart-9" },
+  "corporate-actions": { emoji: "🏦", band: "bg-chart-10" },
+};
+
+const DEFAULT_STYLE = { emoji: "•", band: "bg-chart-1" };
 
 export function IssueArticle({ issue }: { issue: Issue }) {
   return (
-    <article className="space-y-8">
+    <article className="space-y-6">
       <header className="space-y-5">
-        {/* Banner */}
-        {issue.image ? (
+        {/* Branded masthead */}
+        <div className="report-color flex items-center justify-center gap-3 rounded-xl bg-[#0b1220] py-7 text-white">
+          <span className="text-3xl leading-none" aria-hidden>
+            🌯
+          </span>
+          <span className="text-2xl font-extrabold tracking-[0.3em]">THE WRAP</span>
+        </div>
+
+        {issue.image && (
           <div className="overflow-hidden rounded-2xl border bg-muted">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={issue.image} alt={issue.title} className="max-h-[420px] w-full object-cover" />
-          </div>
-        ) : (
-          <div
-            className={`flex min-h-[180px] flex-col items-center justify-center gap-2 overflow-hidden rounded-2xl border bg-gradient-to-br ${pickGradient(issue.slug)} sm:min-h-[240px]`}
-          >
-            <span className="text-5xl leading-none" aria-hidden>
-              🌯
-            </span>
-            <span className="text-sm font-bold uppercase tracking-[0.25em] text-foreground/70">
-              The Wrap
-            </span>
-            <span className="text-xs text-foreground/50">{issue.date}</span>
           </div>
         )}
 
@@ -60,62 +69,84 @@ export function IssueArticle({ issue }: { issue: Issue }) {
         </div>
       </header>
 
-      {issue.sections.map((section) => (
-        <section key={section.id} className="space-y-3">
-          <h2 className="text-lg font-semibold tracking-tight">
-            {section.title}
-          </h2>
-
-          {section.body?.map((para, i) => (
-            <p key={i} className="text-[15px] leading-relaxed text-foreground/90">
-              {para}
-            </p>
-          ))}
-
-          {section.groups?.map((group, gi) => (
-            <div key={gi} className="space-y-1.5">
-              {group.heading && (
-                <h3 className="text-sm font-medium text-muted-foreground">
-                  {group.heading}
-                </h3>
-              )}
-              <ul className="space-y-1.5">
-                {group.items.map((item, ii) => (
-                  <li key={ii} className="flex items-start gap-2 text-[15px]">
-                    {item.starred ? (
-                      <Star
-                        className="mt-1 h-3.5 w-3.5 shrink-0 fill-current text-chart-3"
-                        aria-label="must read"
-                      />
-                    ) : (
-                      <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-muted-foreground/50" />
-                    )}
-                    <span>{item.text}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-
-          {section.link && (
-            <Link
-              href={section.link.href}
-              className="inline-flex items-center gap-1 text-sm font-medium text-foreground hover:underline"
+      {issue.sections.map((section) => {
+        const style = SECTION_STYLE[section.id] ?? DEFAULT_STYLE;
+        const onDark = style.band === "bg-foreground";
+        return (
+          <section key={section.id} className="space-y-3 print:break-inside-avoid">
+            {/* Coloured section band */}
+            <div
+              className={`report-color flex items-center gap-2.5 rounded-lg px-4 py-2.5 ${style.band} ${
+                onDark ? "text-background" : "text-white"
+              }`}
             >
-              Open {section.link.label}
-              <ArrowRight className="h-3.5 w-3.5" />
-            </Link>
-          )}
+              <span className="text-lg leading-none" aria-hidden>
+                {style.emoji}
+              </span>
+              <h2 className="text-sm font-bold uppercase tracking-wide">{section.title}</h2>
+            </div>
 
-          {section.note && (
-            <p className="text-xs text-muted-foreground">{section.note}</p>
-          )}
-        </section>
-      ))}
+            <div className="space-y-3 px-1">
+              {section.body?.map((para, i) => (
+                <p key={i} className="text-[15px] leading-relaxed text-foreground/90">
+                  {para}
+                </p>
+              ))}
 
-      <footer className="border-t pt-6 text-xs leading-relaxed text-muted-foreground">
-        The Wrap publishes original writing and independently sourced data. This
-        is informational only, not investment advice — do your own research.
+              {section.groups?.map((group, gi) => (
+                <div key={gi} className="space-y-1.5">
+                  {group.heading && (
+                    <h3 className="text-sm font-semibold text-foreground">{group.heading}</h3>
+                  )}
+                  <ul className="space-y-1.5">
+                    {group.items.map((item, ii) => (
+                      <li key={ii} className="flex items-start gap-2 text-[15px]">
+                        {item.starred ? (
+                          <Star
+                            className="mt-1 h-3.5 w-3.5 shrink-0 fill-current text-chart-3"
+                            aria-label="must read"
+                          />
+                        ) : (
+                          <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-muted-foreground/50" />
+                        )}
+                        <span>{item.text}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+
+              {section.link && (
+                <Link
+                  href={section.link.href}
+                  className="no-print inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
+                >
+                  Open {section.link.label}
+                  <ArrowRight className="h-3.5 w-3.5" />
+                </Link>
+              )}
+
+              {section.note && (
+                <p className="text-xs text-muted-foreground">{section.note}</p>
+              )}
+            </div>
+          </section>
+        );
+      })}
+
+      <footer className="space-y-2 border-t pt-6 text-xs leading-relaxed text-muted-foreground print:break-inside-avoid">
+        <p className="font-semibold text-foreground">Disclaimer</p>
+        <p>
+          This report is for informational purposes only and is not investment
+          advice. It is compiled automatically from publicly available,
+          independently sourced market data; while we aim for accuracy, we cannot
+          guarantee its completeness or reliability.
+        </p>
+        <p>
+          Investing in securities carries risk. Do your own research or consult a
+          qualified financial adviser before making any decision. The Wrap is not
+          liable for any loss arising from reliance on this report.
+        </p>
       </footer>
     </article>
   );
