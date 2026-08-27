@@ -44,6 +44,12 @@ const trackers = [
     description: "Which sectors are leading and lagging today.",
   },
   {
+    href: "/data-tools/sector-momentum",
+    label: "Sector Momentum",
+    icon: Flame,
+    description: "% of each sector's stocks above their 4–52 week EMAs — the momentum heatmap.",
+  },
+  {
     href: "/data-tools/fii-dii",
     label: "FII/DII Flows",
     icon: ArrowLeftRight,

@@ -1,6 +1,6 @@
 import type { Issue } from "@/types/issue";
 
-// AUTO-GENERATED weekly wrap by scripts/build-weekly-issue.ts on 2026-08-27T09:57:39.768Z.
+// AUTO-GENERATED weekly wrap by scripts/build-weekly-issue.ts on 2026-08-27T10:21:03.245Z.
 // Every line is composed from independently-sourced, publicly-available data —
 // no mock data and no investment advice. Regenerated each week by the workflow.
 const issue: Issue = {
@@ -26,12 +26,626 @@ const issue: Issue = {
       "title": "Market breadth",
       "body": [
         "Beneath the headline, breadth looked mixed.",
-        "NIFTY TOTAL MARKET: 393 advancing vs 354 declining (-0.19%). 11 of 20 sectors up, 9 down."
+        "NIFTY TOTAL MARKET: 393 advancing vs 354 declining (-0.19%). 11 of 20 sectors up, 9 down.",
+        "Sector momentum grid — the share of each sector's stocks trading above their weekly moving averages (short-term 4W to long-term 52W):"
       ],
-      "note": "Advances vs declines beneath the headline index.",
+      "table": {
+        "columns": [
+          "Sector",
+          "4W EMA",
+          "20W EMA",
+          "30W EMA",
+          "40W EMA",
+          "52W EMA"
+        ],
+        "rows": [
+          {
+            "label": "Media Entertainment & Publication",
+            "cells": [
+              {
+                "text": "40%",
+                "value": -10,
+                "scale": 50
+              },
+              {
+                "text": "80%",
+                "value": 30,
+                "scale": 50
+              },
+              {
+                "text": "80%",
+                "value": 30,
+                "scale": 50
+              },
+              {
+                "text": "80%",
+                "value": 30,
+                "scale": 50
+              },
+              {
+                "text": "80%",
+                "value": 30,
+                "scale": 50
+              }
+            ]
+          },
+          {
+            "label": "Metals & Mining",
+            "cells": [
+              {
+                "text": "56%",
+                "value": 6,
+                "scale": 50
+              },
+              {
+                "text": "67%",
+                "value": 17,
+                "scale": 50
+              },
+              {
+                "text": "67%",
+                "value": 17,
+                "scale": 50
+              },
+              {
+                "text": "67%",
+                "value": 17,
+                "scale": 50
+              },
+              {
+                "text": "78%",
+                "value": 28,
+                "scale": 50
+              }
+            ]
+          },
+          {
+            "label": "Healthcare",
+            "cells": [
+              {
+                "text": "52%",
+                "value": 2,
+                "scale": 50
+              },
+              {
+                "text": "71%",
+                "value": 21,
+                "scale": 50
+              },
+              {
+                "text": "73%",
+                "value": 23,
+                "scale": 50
+              },
+              {
+                "text": "75%",
+                "value": 25,
+                "scale": 50
+              },
+              {
+                "text": "75%",
+                "value": 25,
+                "scale": 50
+              }
+            ]
+          },
+          {
+            "label": "Realty",
+            "cells": [
+              {
+                "text": "55%",
+                "value": 5,
+                "scale": 50
+              },
+              {
+                "text": "82%",
+                "value": 32,
+                "scale": 50
+              },
+              {
+                "text": "73%",
+                "value": 23,
+                "scale": 50
+              },
+              {
+                "text": "73%",
+                "value": 23,
+                "scale": 50
+              },
+              {
+                "text": "73%",
+                "value": 23,
+                "scale": 50
+              }
+            ]
+          },
+          {
+            "label": "Capital Goods",
+            "cells": [
+              {
+                "text": "54%",
+                "value": 4,
+                "scale": 50
+              },
+              {
+                "text": "67%",
+                "value": 17,
+                "scale": 50
+              },
+              {
+                "text": "71%",
+                "value": 21,
+                "scale": 50
+              },
+              {
+                "text": "71%",
+                "value": 21,
+                "scale": 50
+              },
+              {
+                "text": "70%",
+                "value": 20,
+                "scale": 50
+              }
+            ]
+          },
+          {
+            "label": "Diversified",
+            "cells": [
+              {
+                "text": "33%",
+                "value": -17,
+                "scale": 50
+              },
+              {
+                "text": "33%",
+                "value": -17,
+                "scale": 50
+              },
+              {
+                "text": "67%",
+                "value": 17,
+                "scale": 50
+              },
+              {
+                "text": "67%",
+                "value": 17,
+                "scale": 50
+              },
+              {
+                "text": "67%",
+                "value": 17,
+                "scale": 50
+              }
+            ]
+          },
+          {
+            "label": "Automobile and Auto Components",
+            "cells": [
+              {
+                "text": "47%",
+                "value": -3,
+                "scale": 50
+              },
+              {
+                "text": "71%",
+                "value": 21,
+                "scale": 50
+              },
+              {
+                "text": "74%",
+                "value": 24,
+                "scale": 50
+              },
+              {
+                "text": "71%",
+                "value": 21,
+                "scale": 50
+              },
+              {
+                "text": "66%",
+                "value": 16,
+                "scale": 50
+              }
+            ]
+          },
+          {
+            "label": "Services",
+            "cells": [
+              {
+                "text": "36%",
+                "value": -14,
+                "scale": 50
+              },
+              {
+                "text": "57%",
+                "value": 7,
+                "scale": 50
+              },
+              {
+                "text": "57%",
+                "value": 7,
+                "scale": 50
+              },
+              {
+                "text": "50%",
+                "value": 0,
+                "scale": 50
+              },
+              {
+                "text": "64%",
+                "value": 14,
+                "scale": 50
+              }
+            ]
+          },
+          {
+            "label": "Textiles",
+            "cells": [
+              {
+                "text": "40%",
+                "value": -10,
+                "scale": 50
+              },
+              {
+                "text": "40%",
+                "value": -10,
+                "scale": 50
+              },
+              {
+                "text": "60%",
+                "value": 10,
+                "scale": 50
+              },
+              {
+                "text": "60%",
+                "value": 10,
+                "scale": 50
+              },
+              {
+                "text": "60%",
+                "value": 10,
+                "scale": 50
+              }
+            ]
+          },
+          {
+            "label": "Financial Services",
+            "cells": [
+              {
+                "text": "45%",
+                "value": -5,
+                "scale": 50
+              },
+              {
+                "text": "57%",
+                "value": 7,
+                "scale": 50
+              },
+              {
+                "text": "58%",
+                "value": 8,
+                "scale": 50
+              },
+              {
+                "text": "58%",
+                "value": 8,
+                "scale": 50
+              },
+              {
+                "text": "55%",
+                "value": 5,
+                "scale": 50
+              }
+            ]
+          },
+          {
+            "label": "Chemicals",
+            "cells": [
+              {
+                "text": "54%",
+                "value": 4,
+                "scale": 50
+              },
+              {
+                "text": "50%",
+                "value": 0,
+                "scale": 50
+              },
+              {
+                "text": "58%",
+                "value": 8,
+                "scale": 50
+              },
+              {
+                "text": "54%",
+                "value": 4,
+                "scale": 50
+              },
+              {
+                "text": "54%",
+                "value": 4,
+                "scale": 50
+              }
+            ]
+          },
+          {
+            "label": "Oil Gas & Consumable Fuels",
+            "cells": [
+              {
+                "text": "24%",
+                "value": -26,
+                "scale": 50
+              },
+              {
+                "text": "47%",
+                "value": -3,
+                "scale": 50
+              },
+              {
+                "text": "47%",
+                "value": -3,
+                "scale": 50
+              },
+              {
+                "text": "47%",
+                "value": -3,
+                "scale": 50
+              },
+              {
+                "text": "47%",
+                "value": -3,
+                "scale": 50
+              }
+            ]
+          },
+          {
+            "label": "Consumer Durables",
+            "cells": [
+              {
+                "text": "44%",
+                "value": -6,
+                "scale": 50
+              },
+              {
+                "text": "56%",
+                "value": 6,
+                "scale": 50
+              },
+              {
+                "text": "56%",
+                "value": 6,
+                "scale": 50
+              },
+              {
+                "text": "56%",
+                "value": 6,
+                "scale": 50
+              },
+              {
+                "text": "44%",
+                "value": -6,
+                "scale": 50
+              }
+            ]
+          },
+          {
+            "label": "Consumer Services",
+            "cells": [
+              {
+                "text": "55%",
+                "value": 5,
+                "scale": 50
+              },
+              {
+                "text": "59%",
+                "value": 9,
+                "scale": 50
+              },
+              {
+                "text": "55%",
+                "value": 5,
+                "scale": 50
+              },
+              {
+                "text": "52%",
+                "value": 2,
+                "scale": 50
+              },
+              {
+                "text": "38%",
+                "value": -12,
+                "scale": 50
+              }
+            ]
+          },
+          {
+            "label": "Information Technology",
+            "cells": [
+              {
+                "text": "26%",
+                "value": -24,
+                "scale": 50
+              },
+              {
+                "text": "59%",
+                "value": 9,
+                "scale": 50
+              },
+              {
+                "text": "44%",
+                "value": -6,
+                "scale": 50
+              },
+              {
+                "text": "37%",
+                "value": -13,
+                "scale": 50
+              },
+              {
+                "text": "37%",
+                "value": -13,
+                "scale": 50
+              }
+            ]
+          },
+          {
+            "label": "Fast Moving Consumer Goods",
+            "cells": [
+              {
+                "text": "32%",
+                "value": -18,
+                "scale": 50
+              },
+              {
+                "text": "43%",
+                "value": -7,
+                "scale": 50
+              },
+              {
+                "text": "43%",
+                "value": -7,
+                "scale": 50
+              },
+              {
+                "text": "39%",
+                "value": -11,
+                "scale": 50
+              },
+              {
+                "text": "36%",
+                "value": -14,
+                "scale": 50
+              }
+            ]
+          },
+          {
+            "label": "Construction",
+            "cells": [
+              {
+                "text": "31%",
+                "value": -19,
+                "scale": 50
+              },
+              {
+                "text": "38%",
+                "value": -12,
+                "scale": 50
+              },
+              {
+                "text": "31%",
+                "value": -19,
+                "scale": 50
+              },
+              {
+                "text": "31%",
+                "value": -19,
+                "scale": 50
+              },
+              {
+                "text": "31%",
+                "value": -19,
+                "scale": 50
+              }
+            ]
+          },
+          {
+            "label": "Power",
+            "cells": [
+              {
+                "text": "12%",
+                "value": -38,
+                "scale": 50
+              },
+              {
+                "text": "18%",
+                "value": -32,
+                "scale": 50
+              },
+              {
+                "text": "29%",
+                "value": -21,
+                "scale": 50
+              },
+              {
+                "text": "29%",
+                "value": -21,
+                "scale": 50
+              },
+              {
+                "text": "29%",
+                "value": -21,
+                "scale": 50
+              }
+            ]
+          },
+          {
+            "label": "Telecommunication",
+            "cells": [
+              {
+                "text": "20%",
+                "value": -30,
+                "scale": 50
+              },
+              {
+                "text": "20%",
+                "value": -30,
+                "scale": 50
+              },
+              {
+                "text": "20%",
+                "value": -30,
+                "scale": 50
+              },
+              {
+                "text": "20%",
+                "value": -30,
+                "scale": 50
+              },
+              {
+                "text": "20%",
+                "value": -30,
+                "scale": 50
+              }
+            ]
+          },
+          {
+            "label": "Construction Materials",
+            "cells": [
+              {
+                "text": "18%",
+                "value": -32,
+                "scale": 50
+              },
+              {
+                "text": "27%",
+                "value": -23,
+                "scale": 50
+              },
+              {
+                "text": "27%",
+                "value": -23,
+                "scale": 50
+              },
+              {
+                "text": "18%",
+                "value": -32,
+                "scale": 50
+              },
+              {
+                "text": "18%",
+                "value": -32,
+                "scale": 50
+              }
+            ]
+          }
+        ],
+        "caption": "% of NSE Nifty 500 stocks in each sector trading above their weekly EMA (4–52 weeks). Green = strength, red = weakness."
+      },
+      "note": "Advances vs declines beneath the headline index; grid via Nifty 500 weekly EMAs.",
       "link": {
-        "href": "/data-tools/market-breadth",
-        "label": "Market Breadth"
+        "href": "/data-tools/sector-momentum",
+        "label": "Sector Momentum"
       }
     },
     {

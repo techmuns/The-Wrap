@@ -13,6 +13,24 @@ function heatStyle(cell: TableCell): React.CSSProperties {
   return { backgroundColor: `rgba(${rgb},${alpha})` };
 }
 
+/** Colour signed percentages (+1.2% green, -0.4% red) inside a string. */
+function Coloured({ text }: { text: string }) {
+  const parts = text.split(/([+-]\d[\d,]*(?:\.\d+)?%)/g);
+  return (
+    <>
+      {parts.map((p, i) =>
+        /^[+-]\d[\d,]*(?:\.\d+)?%$/.test(p) ? (
+          <span key={i} className={p.startsWith("+") ? "font-semibold text-positive" : "font-semibold text-negative"}>
+            {p}
+          </span>
+        ) : (
+          <span key={i}>{p}</span>
+        )
+      )}
+    </>
+  );
+}
+
 /** Per-section coloured band (emoji + colour), styled like the reference report. */
 const SECTION_STYLE: Record<string, { emoji: string; band: string }> = {
   summary: { emoji: "📝", band: "bg-chart-1" },
@@ -30,7 +48,7 @@ const DEFAULT_STYLE = { emoji: "•", band: "bg-chart-1" };
 
 export function IssueArticle({ issue }: { issue: Issue }) {
   return (
-    <article className="space-y-6">
+    <article className="space-y-8">
       <header className="space-y-5">
         {/* Branded masthead */}
         <div className="report-color flex items-center justify-center gap-3 rounded-xl bg-[#0b1220] py-7 text-white">
@@ -99,7 +117,7 @@ export function IssueArticle({ issue }: { issue: Issue }) {
             <div className="space-y-3 px-1">
               {section.body?.map((para, i) => (
                 <p key={i} className="text-[15px] leading-relaxed text-foreground/90">
-                  {para}
+                  <Coloured text={para} />
                 </p>
               ))}
 
@@ -163,7 +181,7 @@ export function IssueArticle({ issue }: { issue: Issue }) {
                         ) : (
                           <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-muted-foreground/50" />
                         )}
-                        <span>{item.text}</span>
+                        <span><Coloured text={item.text} /></span>
                       </li>
                     ))}
                   </ul>

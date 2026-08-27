@@ -40,6 +40,7 @@ import type { CorporateActionsDataset, CorporateAction, ActionType } from "../sr
 import type { IndicesDataset, IndexQuote } from "../src/types/indices";
 import type { FlowsDataset } from "../src/types/flows";
 import type { MoversDataset, MoverRow } from "../src/types/movers";
+import type { SectorEmaDataset } from "../src/types/sector-ema";
 
 const DATA_DIR = resolve(process.cwd(), "src/data");
 const ISSUES_DIR = resolve(process.cwd(), "src/content/issues");
@@ -359,7 +360,19 @@ function readingTimeOf(issue: Issue): string {
   return `${Math.max(3, Math.round(words / 180))} min read`;
 }
 
-function breadthSection(ix: IndicesDataset): IssueSection {
+function emaGridTable(ema: SectorEmaDataset): IssueTable | undefined {
+  if (!ema.sectors.length || !ema.periods.length) return undefined;
+  return {
+    columns: ["Sector", ...ema.periods.map((p) => `${p} EMA`)],
+    rows: ema.sectors.map((s) => ({
+      label: s.sector,
+      cells: s.pct.map((p) => ({ text: `${p}%`, value: p - 50, scale: 50 })),
+    })),
+    caption: `% of ${ema.universe} stocks in each sector trading above their weekly EMA (4–52 weeks). Green = strength, red = weakness.`,
+  };
+}
+
+function breadthSection(ix: IndicesDataset, ema: SectorEmaDataset): IssueSection {
   const headline =
     ix.broad.find((b) => /TOTAL MARKET/i.test(b.name)) ||
     ix.broad.find((b) => /NIFTY 500/i.test(b.name)) ||
@@ -380,17 +393,26 @@ function breadthSection(ix: IndicesDataset): IssueSection {
   if (ix.sectoral.length) facts.push(`${up} of ${ix.sectoral.length} sectors up, ${down} down.`);
   const hasData = facts.length > 0;
 
+  const grid = emaGridTable(ema);
+  const bodyLines = hasData
+    ? [
+        `Beneath the headline, breadth looked ${up > down * 1.3 ? "broadly positive" : down > up * 1.3 ? "weak" : "mixed"}.`,
+        facts.join(" "),
+      ]
+    : ["Breadth data pending the first market-close update."];
+  if (grid) {
+    bodyLines.push(
+      "Sector momentum grid — the share of each sector's stocks trading above their weekly moving averages (short-term 4W to long-term 52W):"
+    );
+  }
+
   return {
     id: "breadth",
     title: "Market breadth",
-    body: hasData
-      ? [
-          `Beneath the headline, breadth looked ${up > down * 1.3 ? "broadly positive" : down > up * 1.3 ? "weak" : "mixed"}.`,
-          facts.join(" "),
-        ]
-      : ["Breadth data pending the first market-close update."],
-    note: hasData ? "Advances vs declines beneath the headline index." : "Breadth data pending the first market-close update.",
-    link: { href: "/data-tools/market-breadth", label: "Market Breadth" },
+    body: bodyLines,
+    table: grid,
+    note: hasData ? "Advances vs declines beneath the headline index; grid via Nifty 500 weekly EMAs." : undefined,
+    link: { href: "/data-tools/sector-momentum", label: "Sector Momentum" },
   };
 }
 
@@ -491,6 +513,9 @@ function buildIssue(now: Date, days: number): { issue: Issue; log: string } {
   const movers = loadSnapshot<MoversDataset>("movers.json", {
     fetchedAt: null, source: "NSE", timestamp: null, highs: [], lows: [], volume: [],
   });
+  const ema = loadSnapshot<SectorEmaDataset>("sector-ema.json", {
+    fetchedAt: null, universe: "", periods: [], coverage: 0, sectors: [],
+  });
 
   // Auto-written thesis, from the numbers only.
   const t = marketTone(indices);
@@ -512,7 +537,7 @@ function buildIssue(now: Date, days: number): { issue: Issue; log: string } {
       title: "This week, in short",
       body: summaryBody,
     },
-    breadthSection(indices),
+    breadthSection(indices, ema),
     sectorSection(indices),
     moversSection(movers),
     insiderSection(insider.rows, src),
