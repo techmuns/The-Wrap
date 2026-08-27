@@ -7,6 +7,7 @@ import {
   TrendingUp,
   Megaphone,
   Sparkles,
+  Download,
 } from "lucide-react";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { ActivityPanel } from "@/components/home/ActivityPanel";
@@ -45,6 +46,17 @@ export default function HomePage() {
           <PageHeader
             title="The Wrap"
             subtitle="A free market-data terminal for the Indian stock market — real exchange data, plus a free weekly digest."
+            action={
+              latest ? (
+                <Link
+                  href={`/blog/${latest.slug}?download=1`}
+                  className="inline-flex shrink-0 items-center gap-1.5 rounded-lg border px-3 py-1.5 text-sm font-medium text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground"
+                >
+                  <Download className="h-4 w-4" />
+                  Download report
+                </Link>
+              ) : undefined
+            }
           />
 
           <GettingStarted />

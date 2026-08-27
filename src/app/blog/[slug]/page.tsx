@@ -4,6 +4,7 @@ import { ArrowLeft } from "lucide-react";
 import { IssueArticle } from "@/components/blog/IssueArticle";
 import { TrackIssueRead } from "@/components/blog/TrackIssueRead";
 import { DownloadReport } from "@/components/blog/DownloadReport";
+import { AutoPrint } from "@/components/blog/AutoPrint";
 import { getIssue, getIssueSlugs } from "@/content/issues";
 
 export function generateStaticParams() {
@@ -44,6 +45,7 @@ export default async function IssuePage({
       </div>
       <IssueArticle issue={issue} />
       <TrackIssueRead slug={issue.slug} />
+      <AutoPrint />
     </div>
   );
 }
