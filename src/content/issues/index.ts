@@ -1,6 +1,6 @@
 import type { Issue } from "@/types/issue";
 
-import i0 from "./2026-08-24";
+import i0 from "./2026-08-27";
 import i1 from "./2025-11-30";
 import i2 from "./2024-11-17";
 

@@ -31,7 +31,7 @@ import { formatCrore, formatQty } from "../src/lib/format";
 import { CATEGORY_ORDER } from "../src/lib/announcements/categories";
 import { ACTION_LABELS } from "../src/types/corporate-actions";
 import { readWindow, mergeWindow } from "./ingest/history";
-import type { Issue, IssueSection, SectionGroup, SectionItem } from "../src/types/issue";
+import type { Issue, IssueSection, SectionGroup, SectionItem, IssueTable, TableCell } from "../src/types/issue";
 import type { DealsDataset, Deal } from "../src/types/deals";
 import type { InsiderTradesDataset, InsiderTrade } from "../src/types/insider";
 import type { AnnouncementsDataset, Announcement } from "../src/types/announcements";
@@ -396,18 +396,35 @@ function breadthSection(ix: IndicesDataset): IssueSection {
 
 function sectorSection(ix: IndicesDataset): IssueSection {
   const sorted = [...ix.sectoral].sort((a, b) => (b.pctChange ?? -Infinity) - (a.pctChange ?? -Infinity));
-  const fmt = (s: IndexQuote): SectionItem => ({ text: `${s.name.replace(/^NIFTY /, "")}: ${pctStr(s.pctChange)}` });
-  const groups: SectionGroup[] = [];
+
+  // Colour-coded sector heatmap: day move + advancing/declining breadth.
+  let table: IssueTable | undefined;
   if (sorted.length) {
-    groups.push({ heading: "Leaders", items: sorted.slice(0, 3).map(fmt) });
-    groups.push({ heading: "Laggards", items: sorted.slice(-3).reverse().map(fmt) });
+    const rows = sorted.map((s) => {
+      const adv = s.advances ?? null;
+      const dec = s.declines ?? null;
+      const breadth = adv != null && dec != null && adv + dec > 0 ? (adv / (adv + dec)) * 100 : null;
+      const cells: TableCell[] = [
+        { text: pctStr(s.pctChange), value: s.pctChange ?? null, scale: 3 },
+        { text: adv != null ? String(adv) : "—" },
+        { text: dec != null ? String(dec) : "—" },
+        { text: breadth != null ? `${breadth.toFixed(0)}%` : "—", value: breadth != null ? breadth - 50 : null, scale: 50 },
+      ];
+      return { label: s.name.replace(/^NIFTY /, ""), cells };
+    });
+    table = {
+      columns: ["Sector", "Day %", "Adv", "Dec", "Breadth %"],
+      rows,
+      caption: "Day move and advancing-vs-declining breadth per sector, at the latest close. Green = strength, red = weakness.",
+    };
   }
+
   return {
     id: "sectors",
     title: "Sector rotation",
     body: [leadersLaggardsSentence(ix) ?? "Sector data pending the first market-close update."],
-    groups: groups.length ? groups : undefined,
-    note: groups.length ? "Sectoral index moves on the day." : "Sector data pending the first market-close update.",
+    table,
+    note: table ? undefined : "Sector data pending the first market-close update.",
     link: { href: "/data-tools/sector-rotation", label: "Sector Rotation" },
   };
 }
