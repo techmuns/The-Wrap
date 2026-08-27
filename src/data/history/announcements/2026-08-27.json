@@ -1,18 +1,8 @@
 {
-  "fetchedAt": "2026-08-27T23:42:51.978Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "name-change": 13,
-    "acquisitions": 2,
-    "other": 25,
-    "fund-raising": 5,
-    "merger": 2,
-    "rights": 1,
-    "capex": 1,
-    "open-offer": 1
-  },
-  "items": [
+  "capturedOn": "2026-08-27",
+  "capturedAt": "2026-08-27T23:42:51.979Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Lippi Systems",
       "symbol": "526604",
