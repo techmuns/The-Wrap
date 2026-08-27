@@ -87,3 +87,28 @@
     font-variant-numeric: tabular-nums;
   }
 }
+
+/* Print / "Download report": clean, light, chrome-free page for Save-as-PDF. */
+@media print {
+  :root,
+  :root.dark {
+    --background: 0 0% 100%;
+    --foreground: 222 20% 12%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 20% 12%;
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 12% 35%;
+    --accent: 222 20% 96%;
+    --border: 220 14% 85%;
+  }
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #fff !important;
+  }
+  a {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+}

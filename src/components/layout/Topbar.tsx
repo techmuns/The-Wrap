@@ -7,7 +7,7 @@ import { ThemeToggle } from "./ThemeToggle";
  *  where the persistent left sidebar takes over. */
 export function Topbar({ onMenu }: { onMenu: () => void }) {
   return (
-    <header className="sticky top-0 z-30 flex h-14 items-center gap-3 border-b bg-background/80 px-4 backdrop-blur lg:hidden">
+    <header className="sticky top-0 z-30 flex h-14 items-center gap-3 border-b bg-background/80 px-4 backdrop-blur lg:hidden print:hidden">
       <button
         type="button"
         onClick={onMenu}

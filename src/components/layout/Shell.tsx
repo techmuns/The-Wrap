@@ -12,9 +12,9 @@ export function Shell({ children }: { children: React.ReactNode }) {
     <div className="min-h-screen">
       <ProgressTracker />
       <Sidebar mobileOpen={mobileOpen} onClose={() => setMobileOpen(false)} />
-      <div className="lg:pl-64">
+      <div className="lg:pl-64 print:pl-0">
         <Topbar onMenu={() => setMobileOpen(true)} />
-        <main className="px-4 py-6 sm:px-6 lg:px-8">{children}</main>
+        <main className="px-4 py-6 sm:px-6 lg:px-8 print:p-0">{children}</main>
       </div>
     </div>
   );
