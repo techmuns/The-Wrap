@@ -50,7 +50,7 @@ export default function HomePage() {
               latest ? (
                 <Link
                   href={`/blog/${latest.slug}?download=1`}
-                  className="inline-flex shrink-0 items-center gap-1.5 rounded-lg border px-3 py-1.5 text-sm font-medium text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground"
+                  className="inline-flex shrink-0 items-center gap-1.5 rounded-lg bg-primary px-3.5 py-2 text-sm font-semibold text-primary-foreground shadow-sm transition-opacity hover:opacity-90"
                 >
                   <Download className="h-4 w-4" />
                   Download report
