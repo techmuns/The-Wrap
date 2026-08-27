@@ -1,12 +1,8 @@
 {
-  "asOnDate": "27-Aug-2026",
-  "fetchedAt": "2026-08-27T23:00:45.841Z",
-  "counts": {
-    "bulk": 196,
-    "block": 15,
-    "short": 369
-  },
-  "bulk": [
+  "capturedOn": "2026-08-27",
+  "capturedAt": "2026-08-27T23:00:45.843Z",
+  "count": 580,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "GCSL",
@@ -2358,9 +2354,7 @@
       "value": 12127014,
       "date": "27-Aug-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "APOLLOTYRE",
@@ -2540,9 +2534,7 @@
       "value": 3483617368,
       "date": "27-Aug-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "AARTIIND",
