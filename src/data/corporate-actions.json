@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-28T00:01:23.445Z",
+  "fetchedAt": "2026-08-28T23:42:42.701Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -411,6 +411,14 @@
       "isoDate": "2026-01-30"
     },
     {
+      "company": "Integ. Proteins",
+      "symbol": "519606",
+      "type": "split",
+      "detail": "10.00 · 1.00",
+      "date": "4 Sep 2026",
+      "isoDate": "2026-09-04"
+    },
+    {
       "company": "TCC Concept",
       "symbol": "TCC",
       "type": "split",
@@ -597,14 +605,6 @@
     {
       "company": "DSP Nifty Health",
       "symbol": "HEALTHADD",
-      "type": "split",
-      "detail": "10.00 · 1.00",
-      "date": "3 Jul 2026",
-      "isoDate": "2026-07-03"
-    },
-    {
-      "company": "DSP Nifty Midcap",
-      "symbol": "MIDQ50ADD",
       "type": "split",
       "detail": "10.00 · 1.00",
       "date": "3 Jul 2026",
@@ -835,6 +835,14 @@
       "isoDate": "2026-09-24"
     },
     {
+      "company": "Emerald Finance",
+      "symbol": "538882",
+      "type": "dividend",
+      "detail": "Final · 1.00%",
+      "date": "23 Sep 2026",
+      "isoDate": "2026-09-23"
+    },
+    {
       "company": "Satia Industries",
       "symbol": "SATIA",
       "type": "dividend",
@@ -999,14 +1007,6 @@
       "symbol": "504240",
       "type": "dividend",
       "detail": "Final · 20.00%",
-      "date": "22 Sep 2026",
-      "isoDate": "2026-09-22"
-    },
-    {
-      "company": "Deccan Cements",
-      "symbol": "DECCANCE",
-      "type": "dividend",
-      "detail": "Final · 10.00%",
       "date": "22 Sep 2026",
       "isoDate": "2026-09-22"
     }
