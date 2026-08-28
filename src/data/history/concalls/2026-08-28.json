@@ -1,11 +1,8 @@
 {
-  "fetchedAt": "2026-08-28T23:36:17.058Z",
-  "source": "Screener",
-  "counts": {
-    "recent": 25,
-    "upcoming": 0
-  },
-  "items": [
+  "capturedOn": "2026-08-28",
+  "capturedAt": "2026-08-28T23:36:17.059Z",
+  "count": 25,
+  "rows": [
     {
       "company": "Cyient",
       "symbol": "CYIENT",
