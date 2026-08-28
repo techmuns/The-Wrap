@@ -1,18 +1,8 @@
 {
-  "fetchedAt": "2026-08-28T23:30:51.848Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "fund-raising": 9,
-    "other": 26,
-    "acquisitions": 6,
-    "capex": 1,
-    "open-offer": 4,
-    "order-wins": 1,
-    "rights": 2,
-    "name-change": 1
-  },
-  "items": [
+  "capturedOn": "2026-08-28",
+  "capturedAt": "2026-08-28T23:30:51.849Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Max Estates",
       "symbol": "MAXESTATES",
