@@ -1,12 +1,8 @@
 {
-  "asOnDate": "28-Aug-2026",
-  "fetchedAt": "2026-08-28T23:07:50.398Z",
-  "counts": {
-    "bulk": 191,
-    "block": 46,
-    "short": 152
-  },
-  "bulk": [
+  "capturedOn": "2026-08-28",
+  "capturedAt": "2026-08-28T23:07:50.400Z",
+  "count": 389,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "TEJASNET",
@@ -2298,9 +2294,7 @@
       "value": 848334421.26,
       "date": "28-Aug-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "ATHERENERG",
@@ -2852,9 +2846,7 @@
       "value": 990000000,
       "date": "28-Aug-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "ABB",
