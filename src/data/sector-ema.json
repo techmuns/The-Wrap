@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-28T22:31:47.837Z",
+  "fetchedAt": "2026-08-29T16:50:22.880Z",
   "universe": "NSE Nifty 500",
   "periods": [
     "4W",
@@ -36,7 +36,7 @@
       "sector": "Healthcare",
       "count": 48,
       "pct": [
-        48,
+        50,
         69,
         75,
         75,
@@ -58,7 +58,7 @@
       "sector": "Capital Goods",
       "count": 63,
       "pct": [
-        56,
+        54,
         62,
         70,
         70,
@@ -113,7 +113,7 @@
       "sector": "Financial Services",
       "count": 101,
       "pct": [
-        42,
+        45,
         54,
         57,
         59,
@@ -124,7 +124,7 @@
       "sector": "Chemicals",
       "count": 26,
       "pct": [
-        42,
+        38,
         42,
         50,
         46,
@@ -137,7 +137,7 @@
       "pct": [
         50,
         50,
-        50,
+        56,
         56,
         44
       ]
@@ -157,7 +157,7 @@
       "sector": "Consumer Services",
       "count": 29,
       "pct": [
-        41,
+        45,
         55,
         52,
         48,
@@ -168,7 +168,7 @@
       "sector": "Information Technology",
       "count": 27,
       "pct": [
-        74,
+        67,
         63,
         63,
         44,
@@ -223,7 +223,7 @@
       "sector": "Construction Materials",
       "count": 11,
       "pct": [
-        9,
+        18,
         18,
         9,
         9,
