@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, CalendarDays, Clock, Star } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
-import type { Issue, TableCell } from "@/types/issue";
+import type { Issue, TableCell, IssueTable } from "@/types/issue";
 
 /** Green (positive) / red (negative) heat background for a table cell. */
 function heatStyle(cell: TableCell): React.CSSProperties {
@@ -28,6 +28,55 @@ function Coloured({ text }: { text: string }) {
         )
       )}
     </>
+  );
+}
+
+/** Renders one colour-coded table (heading + heat cells + zebra rows). */
+function TableBlock({ table }: { table: IssueTable }) {
+  const alignOf = (i: number): string => {
+    const a = table.align?.[i] ?? (i === 0 ? "left" : "right");
+    return a === "left" ? "text-left" : "text-right";
+  };
+  return (
+    <figure className="space-y-2">
+      {table.heading && <p className="text-sm font-semibold text-foreground">{table.heading}</p>}
+      <div className="overflow-x-auto rounded-lg border">
+        <table className="w-full min-w-[440px] border-collapse text-sm">
+          <thead>
+            <tr className="bg-muted/60">
+              {table.columns.map((col, ci) => (
+                <th
+                  key={ci}
+                  className={`px-3 py-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground ${alignOf(ci)}`}
+                >
+                  {col}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {table.rows.map((row, ri) => (
+              <tr key={ri} className="border-t odd:bg-muted/20">
+                <td className={`px-3 py-1.5 font-medium ${alignOf(0)}`}>{row.label}</td>
+                {row.cells.map((cell, ci) => {
+                  const heat = cell.value != null;
+                  return (
+                    <td
+                      key={ci}
+                      className={`px-3 py-1.5 ${alignOf(ci + 1)} ${heat ? "report-color tabular font-medium" : ""}`}
+                      style={heat ? heatStyle(cell) : undefined}
+                    >
+                      {heat ? cell.text : <Coloured text={cell.text} />}
+                    </td>
+                  );
+                })}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      {table.caption && <figcaption className="text-xs text-muted-foreground">{table.caption}</figcaption>}
+    </figure>
   );
 }
 
@@ -121,49 +170,11 @@ export function IssueArticle({ issue }: { issue: Issue }) {
                 </p>
               ))}
 
-              {section.table && (
-                <figure className="space-y-2">
-                  <div className="overflow-x-auto rounded-lg border">
-                    <table className="w-full min-w-[440px] border-collapse text-sm">
-                      <thead>
-                        <tr className="bg-muted/60">
-                          {section.table.columns.map((col, ci) => (
-                            <th
-                              key={ci}
-                              className={`px-3 py-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground ${
-                                ci === 0 ? "text-left" : "text-right"
-                              }`}
-                            >
-                              {col}
-                            </th>
-                          ))}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {section.table.rows.map((row, ri) => (
-                          <tr key={ri} className="border-t">
-                            <td className="px-3 py-1.5 font-medium">{row.label}</td>
-                            {row.cells.map((cell, ci) => (
-                              <td
-                                key={ci}
-                                className="report-color tabular px-3 py-1.5 text-right"
-                                style={heatStyle(cell)}
-                              >
-                                {cell.text}
-                              </td>
-                            ))}
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
-                  {section.table.caption && (
-                    <figcaption className="text-xs text-muted-foreground">
-                      {section.table.caption}
-                    </figcaption>
-                  )}
-                </figure>
-              )}
+              {section.table && <TableBlock table={section.table} />}
+
+              {section.tables?.map((t, ti) => (
+                <TableBlock key={ti} table={t} />
+              ))}
 
               {section.groups?.map((group, gi) => (
                 <div key={gi} className="space-y-1.5">

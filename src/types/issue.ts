@@ -22,8 +22,12 @@ export interface TableCell {
 }
 
 export interface IssueTable {
+  /** Optional sub-heading above the table (e.g. "Notable buying"). */
+  heading?: string;
   /** Column headers; the first is the row-label column. */
   columns: string[];
+  /** Per-column alignment; defaults to col 0 left, the rest right. */
+  align?: ("left" | "right")[];
   rows: { label: string; cells: TableCell[] }[];
   /** Small caption shown under the table. */
   caption?: string;
@@ -36,8 +40,10 @@ export interface IssueSection {
   body?: string[];
   /** Grouped lists (e.g. deal categories). */
   groups?: SectionGroup[];
-  /** A colour-coded data table (e.g. the sector heatmap). */
+  /** A single colour-coded data table (e.g. the sector heatmap). */
   table?: IssueTable;
+  /** Several headed tables (e.g. buying / selling). */
+  tables?: IssueTable[];
   /** A small muted note, e.g. pointing at a live tracker. */
   note?: string;
   /** Optional link to a live Data Tool. */

@@ -31,7 +31,7 @@ import { formatCrore, formatQty } from "../src/lib/format";
 import { CATEGORY_ORDER } from "../src/lib/announcements/categories";
 import { ACTION_LABELS } from "../src/types/corporate-actions";
 import { readWindow, mergeWindow } from "./ingest/history";
-import type { Issue, IssueSection, SectionGroup, SectionItem, IssueTable, TableCell } from "../src/types/issue";
+import type { Issue, IssueSection, IssueTable, TableCell } from "../src/types/issue";
 import type { DealsDataset, Deal } from "../src/types/deals";
 import type { InsiderTradesDataset, InsiderTrade } from "../src/types/insider";
 import type { AnnouncementsDataset, Announcement } from "../src/types/announcements";
@@ -128,32 +128,43 @@ function byDesc<T>(arr: T[], key: (x: T) => number | null | undefined): T[] {
 function byRecent<T>(arr: T[], key: (x: T) => string | null | undefined): T[] {
   return [...arr].sort((a, b) => (key(b) ?? "").localeCompare(key(a) ?? ""));
 }
-function star(items: SectionItem[]): SectionItem[] {
-  return items.map((it, i) => (i === 0 ? { ...it, starred: true } : it));
-}
 
 // ---- section builders (`src` = human phrase for where the data came from) --
+
+// A ₹-crore value cell, coloured by side (green buy / red sell), intensity by size.
+function crCell(valueCr: number | null | undefined, side: "buy" | "sell", scale = 1500): TableCell {
+  if (valueCr == null) return { text: "—" };
+  return { text: formatCrore(valueCr), value: side === "buy" ? valueCr : -valueCr, scale };
+}
 
 function insiderSection(rows: InsiderTrade[], src: string): IssueSection {
   const buys = byDesc(rows.filter((t) => t.buySell === "BUY"), (t) => t.value).slice(0, LIMITS.insiderPerSide);
   const sells = byDesc(rows.filter((t) => t.buySell === "SELL"), (t) => t.value).slice(0, LIMITS.insiderPerSide);
 
-  const fmt = (t: InsiderTrade): SectionItem => {
-    const who = [t.person, t.role ? `(${t.role})` : ""].filter(Boolean).join(" ");
-    const size = t.value != null ? formatCrore(t.value) : t.shares != null ? `${formatQty(t.shares)} sh` : "size n/a";
-    return { text: `${t.company ?? t.symbol ?? "—"} — ${who || "insider"}, ${size}` };
-  };
+  const who = (t: InsiderTrade) =>
+    [t.person, t.role ? `(${t.role})` : ""].filter(Boolean).join(" ") || "insider";
+  const rowOf = (t: InsiderTrade, side: "buy" | "sell") => ({
+    label: t.company ?? t.symbol ?? "—",
+    cells: [
+      { text: who(t) },
+      t.value != null
+        ? crCell(t.value, side)
+        : { text: t.shares != null ? `${formatQty(t.shares)} sh` : "—" },
+    ],
+  });
 
-  const groups: SectionGroup[] = [];
-  if (buys.length) groups.push({ heading: "Notable buying", items: star(buys.map(fmt)) });
-  if (sells.length) groups.push({ heading: "Notable selling", items: star(sells.map(fmt)) });
+  const cols = ["Company", "Insider", "₹ cr"];
+  const align: ("left" | "right")[] = ["left", "left", "right"];
+  const tables: IssueTable[] = [];
+  if (buys.length) tables.push({ heading: "Notable buying", columns: cols, align, rows: buys.map((t) => rowOf(t, "buy")) });
+  if (sells.length) tables.push({ heading: "Notable selling", columns: cols, align, rows: sells.map((t) => rowOf(t, "sell")) });
 
   return {
     id: "insider",
     title: "Insider & promoter trades",
     body: [insiderTone(rows.filter((t) => t.buySell === "BUY").length, rows.filter((t) => t.buySell === "SELL").length)],
-    groups: groups.length ? groups : undefined,
-    note: groups.length
+    tables: tables.length ? tables : undefined,
+    note: tables.length
       ? `Ranked by disclosed value ${src}. The full list lives in the Buying & Selling tracker.`
       : `No insider or promoter trades ${src}.`,
     link: { href: "/data-tools/insider-trades", label: "Buying & Selling" },
@@ -161,24 +172,32 @@ function insiderSection(rows: InsiderTrade[], src: string): IssueSection {
 }
 
 function dealsSection(bulk: Deal[], block: Deal[], src: string): IssueSection {
-  const fmt = (d: Deal): SectionItem => {
-    const verb = d.buySell === "BUY" ? "bought" : d.buySell === "SELL" ? "sold" : "traded";
-    const who = d.clientName ? `${d.clientName} ${verb} ` : "";
-    return { text: `${d.name ?? d.symbol ?? "—"} — ${who}${formatCrore(d.value)}` };
+  const rowOf = (d: Deal) => {
+    const side = d.buySell === "BUY" ? "buy" : d.buySell === "SELL" ? "sell" : null;
+    return {
+      label: d.name ?? d.symbol ?? "—",
+      cells: [
+        { text: d.clientName ?? "—" },
+        { text: d.buySell === "BUY" ? "Bought" : d.buySell === "SELL" ? "Sold" : "—" },
+        side ? crCell(d.value, side, 2000) : { text: formatCrore(d.value) },
+      ],
+    };
   };
   const topBlock = byDesc(block, (d) => d.value).slice(0, LIMITS.blockDeals);
   const topBulk = byDesc(bulk, (d) => d.value).slice(0, LIMITS.bulkDeals);
 
-  const groups: SectionGroup[] = [];
-  if (topBlock.length) groups.push({ heading: "Block deals", items: star(topBlock.map(fmt)) });
-  if (topBulk.length) groups.push({ heading: "Bulk deals", items: topBulk.map(fmt) });
+  const cols = ["Company", "Client", "Side", "₹ cr"];
+  const align: ("left" | "right")[] = ["left", "left", "left", "right"];
+  const tables: IssueTable[] = [];
+  if (topBlock.length) tables.push({ heading: "Block deals", columns: cols, align, rows: topBlock.map(rowOf) });
+  if (topBulk.length) tables.push({ heading: "Bulk deals", columns: cols, align, rows: topBulk.map(rowOf) });
 
   return {
     id: "deals",
     title: "Bulk & block deals",
     body: [dealsTone(block.length, bulk.length)],
-    groups: groups.length ? groups : undefined,
-    note: groups.length
+    tables: tables.length ? tables : undefined,
+    note: tables.length
       ? `Largest by deal value ${src}. Live bulk, block and short deals are tracked here.`
       : `No bulk or block deals ${src}.`,
     link: { href: "/data-tools/bulk-block-deals", label: "Bulk & Block Deals" },
@@ -186,26 +205,32 @@ function dealsSection(bulk: Deal[], block: Deal[], src: string): IssueSection {
 }
 
 function announcementsSection(rows: Announcement[]): IssueSection {
-  const groups: SectionGroup[] = [];
+  const tables: IssueTable[] = [];
   for (const cat of CATEGORY_ORDER) {
     if (cat.slug === "other" || cat.slug === "concall") continue; // noise / own section
-    if (groups.length >= LIMITS.annMaxCategories) break;
+    if (tables.length >= LIMITS.annMaxCategories) break;
     const inCat = byRecent(rows.filter((a) => a.category === cat.slug), (a) => a.isoDate).slice(0, LIMITS.annPerCategory);
     if (!inCat.length) continue;
-    const emphasise = cat.slug === "capex" || cat.slug === "order-wins" || cat.slug === "acquisitions";
-    const items = inCat.map((a) => ({ text: `${a.company ?? a.symbol ?? "—"} — ${a.headline ?? a.subject ?? ""}`.trim() }));
-    groups.push({ heading: cat.label, items: emphasise ? star(items) : items });
+    tables.push({
+      heading: cat.label,
+      columns: ["Company", "What happened"],
+      align: ["left", "left"],
+      rows: inCat.map((a) => ({
+        label: a.company ?? a.symbol ?? "—",
+        cells: [{ text: (a.headline ?? a.subject ?? "").trim() || "—" }],
+      })),
+    });
   }
 
   return {
     id: "announcements",
     title: "Noteworthy announcements",
     body: [
-      groups.length
+      tables.length
         ? "The week's more consequential filings, grouped by category — not exhaustive:"
         : "Few notable filings surfaced in this window.",
     ],
-    groups: groups.length ? groups : undefined,
+    tables: tables.length ? tables : undefined,
     note: "Every category here is a filtered view over the unified announcements feed.",
     link: { href: "/data-tools/announcements", label: "Announcements" },
   };
@@ -215,10 +240,17 @@ function concallsSection(rows: Concall[], src: string): IssueSection {
   const recent = byRecent(rows.filter((c) => c.kind === "recent"), (c) => c.isoDate).slice(0, LIMITS.recentConcalls);
   const upcomingCount = rows.filter((c) => c.kind === "upcoming").length;
 
-  const items: SectionItem[] = recent.map((c) => {
-    const labels = [...new Set(c.links.map((l) => l.label))].filter(Boolean);
-    return { text: `${c.company ?? c.symbol ?? "—"}${labels.length ? ` — ${labels.join(", ")}` : ""}` };
-  });
+  const table: IssueTable | undefined = recent.length
+    ? {
+        heading: "Recent calls with materials",
+        columns: ["Company", "Materials"],
+        align: ["left", "left"],
+        rows: recent.map((c) => {
+          const labels = [...new Set(c.links.map((l) => l.label))].filter(Boolean);
+          return { label: c.company ?? c.symbol ?? "—", cells: [{ text: labels.join(", ") || "—" }] };
+        }),
+      }
+    : undefined;
 
   const notes: string[] = [];
   if (upcomingCount > 0) notes.push(`${upcomingCount} call${upcomingCount === 1 ? "" : "s"} scheduled ahead.`);
@@ -228,30 +260,32 @@ function concallsSection(rows: Concall[], src: string): IssueSection {
     id: "concalls",
     title: "Earnings calls",
     body: [concallsTone(recent.length, upcomingCount)],
-    groups: items.length ? [{ heading: "Recent calls with materials", items }] : undefined,
-    note: items.length ? notes.join(" ") : `No recent concall materials ${src}.`,
+    tables: table ? [table] : undefined,
+    note: recent.length ? notes.join(" ") : `No recent concall materials ${src}.`,
     link: { href: "/data-tools/concalls", label: "Concalls" },
   };
 }
 
 function corpActionsSection(rows: CorporateAction[], src: string): IssueSection {
   const order: ActionType[] = ["buyback", "bonus", "split", "rights", "dividend"];
-  const groups: SectionGroup[] = [];
+  const tables: IssueTable[] = [];
   for (const type of order) {
     const inType = byRecent(rows.filter((a) => a.type === type), (a) => a.isoDate).slice(0, LIMITS.corpActionsPerType);
     if (!inType.length) continue;
-    groups.push({
+    tables.push({
       heading: ACTION_LABELS[type],
-      items: inType.map((a) => ({ text: `${a.company ?? a.symbol ?? "—"}${a.detail ? ` — ${a.detail}` : ""}` })),
+      columns: ["Company", "Detail"],
+      align: ["left", "left"],
+      rows: inType.map((a) => ({ label: a.company ?? a.symbol ?? "—", cells: [{ text: a.detail ?? "—" }] })),
     });
   }
 
   return {
     id: "corporate-actions",
     title: "Corporate actions",
-    body: [corpTone(groups.length ? rows.length : 0)],
-    groups: groups.length ? groups : undefined,
-    note: groups.length
+    body: [corpTone(tables.length ? rows.length : 0)],
+    tables: tables.length ? tables : undefined,
+    note: tables.length
       ? "Bonuses, buybacks, splits, rights and dividends — full list in the tracker."
       : `No corporate actions ${src}.`,
     link: { href: "/data-tools/corporate-actions", label: "Corporate Actions" },
@@ -330,21 +364,44 @@ function moversSection(mv: MoversDataset): IssueSection {
   const nm = (r: MoverRow) => r.company ?? r.symbol ?? "—";
   const highs = mv.highs.length;
   const lows = mv.lows.length;
-  const topVol = byDesc(mv.volume, (v) => v.timesAvg).slice(0, 3);
+  const topVol = byDesc(mv.volume, (v) => v.timesAvg).slice(0, 5);
   const facts: string[] = [];
   if (highs || lows) facts.push(`${highs} stock${highs === 1 ? "" : "s"} hit fresh 52-week highs and ${lows} touched new lows.`);
   const hasData = highs > 0 || lows > 0 || topVol.length > 0;
 
-  const groups: SectionGroup[] = [];
-  if (mv.highs.length) groups.push({ heading: "New 52-week highs", items: star(mv.highs.slice(0, 5).map((r) => ({ text: `${nm(r)} (${pctStr(r.pctChange)})` }))) });
-  if (mv.lows.length) groups.push({ heading: "New 52-week lows", items: mv.lows.slice(0, 5).map((r) => ({ text: `${nm(r)} (${pctStr(r.pctChange)})` })) });
-  if (topVol.length) groups.push({ heading: "Unusual volume", items: topVol.map((r) => ({ text: `${nm(r)}${r.timesAvg != null ? ` — ${r.timesAvg.toFixed(1)}× avg` : ""}` })) });
+  const pctCell = (r: MoverRow): TableCell => ({ text: pctStr(r.pctChange), value: r.pctChange ?? null, scale: 5 });
+
+  const tables: IssueTable[] = [];
+  if (mv.highs.length)
+    tables.push({
+      heading: "New 52-week highs",
+      columns: ["Company", "Day %"],
+      align: ["left", "right"],
+      rows: mv.highs.slice(0, 8).map((r) => ({ label: nm(r), cells: [pctCell(r)] })),
+    });
+  if (mv.lows.length)
+    tables.push({
+      heading: "New 52-week lows",
+      columns: ["Company", "Day %"],
+      align: ["left", "right"],
+      rows: mv.lows.slice(0, 8).map((r) => ({ label: nm(r), cells: [pctCell(r)] })),
+    });
+  if (topVol.length)
+    tables.push({
+      heading: "Unusual volume",
+      columns: ["Company", "× Avg vol", "Day %"],
+      align: ["left", "right", "right"],
+      rows: topVol.map((r) => ({
+        label: nm(r),
+        cells: [{ text: r.timesAvg != null ? `${r.timesAvg.toFixed(1)}×` : "—" }, pctCell(r)],
+      })),
+    });
 
   return {
     id: "movers",
     title: "Highs, lows & volume",
     body: hasData ? facts : ["Highs/lows data pending the next market-close update."],
-    groups: groups.length ? groups : undefined,
+    tables: tables.length ? tables : undefined,
     note: "New 52-week highs and lows and unusual-volume stocks at the latest close.",
     link: { href: "/data-tools/movers", label: "Highs, Lows & Volume" },
   };
@@ -356,6 +413,7 @@ function readingTimeOf(issue: Issue): string {
   for (const s of issue.sections) {
     words += (s.body ?? []).join(" ").split(/\s+/).length;
     for (const g of s.groups ?? []) words += g.items.length * 8;
+    for (const t of [...(s.table ? [s.table] : []), ...(s.tables ?? [])]) words += t.rows.length * 8;
   }
   return `${Math.max(3, Math.round(words / 180))} min read`;
 }
@@ -614,7 +672,7 @@ function main() {
   writeFileSync(outFile, issueFileSource(issue, new Date().toISOString()));
   rewriteIssuesIndex();
 
-  const dataSections = issue.sections.filter((s) => s.groups?.length).length;
+  const dataSections = issue.sections.filter((s) => s.table || s.tables?.length || s.groups?.length).length;
   console.log(`Published weekly wrap ${outFile}`);
   console.log(`  ${log}`);
   console.log(`  "${issue.title}" — ${issue.readingTime}`);

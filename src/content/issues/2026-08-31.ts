@@ -1,15 +1,15 @@
 import type { Issue } from "@/types/issue";
 
-// AUTO-GENERATED weekly wrap by scripts/build-weekly-issue.ts on 2026-08-30T10:45:30.805Z.
+// AUTO-GENERATED weekly wrap by scripts/build-weekly-issue.ts on 2026-08-31T07:41:47.954Z.
 // Every line is composed from independently-sourced, publicly-available data —
 // no mock data and no investment advice. Regenerated each week by the workflow.
 const issue: Issue = {
-  "slug": "2026-08-30",
-  "date": "30 Aug 2026",
-  "isoDate": "2026-08-30",
-  "title": "The Wrap 🌯 30 Aug 2026 — A Mixed Week",
+  "slug": "2026-08-31",
+  "date": "31 Aug 2026",
+  "isoDate": "2026-08-31",
+  "title": "The Wrap 🌯 31 Aug 2026 — A Mixed Week",
   "dek": "Your weekly wrap of everything that moved the Indian market — breadth, flows, deals and the filings that mattered.",
-  "readingTime": "5 min read",
+  "readingTime": "7 min read",
   "sections": [
     {
       "id": "summary",
@@ -17,7 +17,7 @@ const issue: Issue = {
       "body": [
         "At the latest close, 10 of 20 sectoral indices advanced and 10 declined; the headline index was +0.35%.",
         "Money favoured IT, CAPITAL MARKETS, METAL, while CHEMICALS, CEMENT, CONSUMER DURABLES lagged.",
-        "Over the past week (5 trading days captured): 72 insider/promoter buys and 75 sells, 140 block and 899 bulk deals, 249 notable filings, 80 earnings calls, and 131 corporate actions.",
+        "Over the past week (4 trading days captured): 58 insider/promoter buys and 61 sells, 140 block and 759 bulk deals, 199 notable filings, 60 earnings calls, and 130 corporate actions.",
         "On 28-Aug-2026, FIIs net sold ₹5,040 cr; DIIs net bought ₹5,184 cr."
       ]
     },
@@ -1097,59 +1097,270 @@ const issue: Issue = {
       "body": [
         "132 stocks hit fresh 52-week highs and 84 touched new lows."
       ],
-      "groups": [
+      "tables": [
         {
           "heading": "New 52-week highs",
-          "items": [
+          "columns": [
+            "Company",
+            "Day %"
+          ],
+          "align": [
+            "left",
+            "right"
+          ],
+          "rows": [
             {
-              "text": "3B Blackbio Dx Limited (+6.65%)",
-              "starred": true
+              "label": "3B Blackbio Dx Limited",
+              "cells": [
+                {
+                  "text": "+6.65%",
+                  "value": 6.650373990964971,
+                  "scale": 5
+                }
+              ]
             },
             {
-              "text": "Aeroflex Industries Limited (+3.76%)"
+              "label": "Aeroflex Industries Limited",
+              "cells": [
+                {
+                  "text": "+3.76%",
+                  "value": 3.7636468109557555,
+                  "scale": 5
+                }
+              ]
             },
             {
-              "text": "Aether Industries Limited (+1.35%)"
+              "label": "Aether Industries Limited",
+              "cells": [
+                {
+                  "text": "+1.35%",
+                  "value": 1.353365527931795,
+                  "scale": 5
+                }
+              ]
             },
             {
-              "text": "Albert David Limited (+0.97%)"
+              "label": "Albert David Limited",
+              "cells": [
+                {
+                  "text": "+0.97%",
+                  "value": 0.9716371805672563,
+                  "scale": 5
+                }
+              ]
             },
             {
-              "text": "Alufluoride Limited (+4.91%)"
+              "label": "Alufluoride Limited",
+              "cells": [
+                {
+                  "text": "+4.91%",
+                  "value": 4.907306434023991,
+                  "scale": 5
+                }
+              ]
+            },
+            {
+              "label": "Anand Rathi Wealth Limited",
+              "cells": [
+                {
+                  "text": "+1.69%",
+                  "value": 1.685830775573778,
+                  "scale": 5
+                }
+              ]
+            },
+            {
+              "label": "Ansal Buildwell Limited",
+              "cells": [
+                {
+                  "text": "-5.09%",
+                  "value": -5.088108297350916,
+                  "scale": 5
+                }
+              ]
+            },
+            {
+              "label": "Aryaman Financial Services Limited",
+              "cells": [
+                {
+                  "text": "+7.99%",
+                  "value": 7.992,
+                  "scale": 5
+                }
+              ]
             }
           ]
         },
         {
           "heading": "New 52-week lows",
-          "items": [
+          "columns": [
+            "Company",
+            "Day %"
+          ],
+          "align": [
+            "left",
+            "right"
+          ],
+          "rows": [
             {
-              "text": "Aditya Birla Fashion and Retail Limited (-1.96%)"
+              "label": "Aditya Birla Fashion and Retail Limited",
+              "cells": [
+                {
+                  "text": "-1.96%",
+                  "value": -1.9574944071588367,
+                  "scale": 5
+                }
+              ]
             },
             {
-              "text": "Archean Chemical Industries Limited (+0.07%)"
+              "label": "Archean Chemical Industries Limited",
+              "cells": [
+                {
+                  "text": "+0.07%",
+                  "value": 0.07232152081826634,
+                  "scale": 5
+                }
+              ]
             },
             {
-              "text": "A G Universal Limited (-4.95%)"
+              "label": "A G Universal Limited",
+              "cells": [
+                {
+                  "text": "-4.95%",
+                  "value": -4.953560371517028,
+                  "scale": 5
+                }
+              ]
             },
             {
-              "text": "Alfred Herbert India Limited (-1.92%)"
+              "label": "Alfred Herbert India Limited",
+              "cells": [
+                {
+                  "text": "-1.92%",
+                  "value": -1.9169987632266043,
+                  "scale": 5
+                }
+              ]
             },
             {
-              "text": "Alok Industries Limited (-11.51%)"
+              "label": "Alok Industries Limited",
+              "cells": [
+                {
+                  "text": "-11.51%",
+                  "value": -11.505273250239693,
+                  "scale": 5
+                }
+              ]
+            },
+            {
+              "label": "Alpine Texworld Limited",
+              "cells": [
+                {
+                  "text": "-1.15%",
+                  "value": -1.1496317585773308,
+                  "scale": 5
+                }
+              ]
+            },
+            {
+              "label": "Arshiya Limited",
+              "cells": [
+                {
+                  "text": "-3.57%",
+                  "value": -3.5714285714285716,
+                  "scale": 5
+                }
+              ]
+            },
+            {
+              "label": "Avio Smart Market Stack Limited",
+              "cells": [
+                {
+                  "text": "-0.28%",
+                  "value": -0.2828854314002829,
+                  "scale": 5
+                }
+              ]
             }
           ]
         },
         {
           "heading": "Unusual volume",
-          "items": [
+          "columns": [
+            "Company",
+            "× Avg vol",
+            "Day %"
+          ],
+          "align": [
+            "left",
+            "right",
+            "right"
+          ],
+          "rows": [
             {
-              "text": "S. P. Apparels Limited — 6.9× avg"
+              "label": "S. P. Apparels Limited",
+              "cells": [
+                {
+                  "text": "6.9×"
+                },
+                {
+                  "text": "+7.14%",
+                  "value": 7.14,
+                  "scale": 5
+                }
+              ]
             },
             {
-              "text": "Strides Pharma Science Limited — 6.2× avg"
+              "label": "Strides Pharma Science Limited",
+              "cells": [
+                {
+                  "text": "6.2×"
+                },
+                {
+                  "text": "+3.60%",
+                  "value": 3.6,
+                  "scale": 5
+                }
+              ]
             },
             {
-              "text": "Ather Energy Limited — 6.0× avg"
+              "label": "Ather Energy Limited",
+              "cells": [
+                {
+                  "text": "6.0×"
+                },
+                {
+                  "text": "+8.09%",
+                  "value": 8.09,
+                  "scale": 5
+                }
+              ]
+            },
+            {
+              "label": "SecMark Consultancy Limited",
+              "cells": [
+                {
+                  "text": "5.8×"
+                },
+                {
+                  "text": "+20.00%",
+                  "value": 20,
+                  "scale": 5
+                }
+              ]
+            },
+            {
+              "label": "Mastek Limited",
+              "cells": [
+                {
+                  "text": "5.6×"
+                },
+                {
+                  "text": "+20.00%",
+                  "value": 20,
+                  "scale": 5
+                }
+              ]
             }
           ]
         }
@@ -1164,48 +1375,166 @@ const issue: Issue = {
       "id": "insider",
       "title": "Insider & promoter trades",
       "body": [
-        "Promoter and insider activity was two-sided — 72 buys and 75 sells disclosed."
+        "Promoter and insider activity was two-sided — 58 buys and 61 sells disclosed."
       ],
-      "groups": [
+      "tables": [
         {
           "heading": "Notable buying",
-          "items": [
+          "columns": [
+            "Company",
+            "Insider",
+            "₹ cr"
+          ],
+          "align": [
+            "left",
+            "left",
+            "right"
+          ],
+          "rows": [
             {
-              "text": "Mindspace Busine — Promoter Group (2) (K Raheja Corp Private Limited, K Raheja Corp Private Limited), ₹1,201.00 cr",
-              "starred": true
+              "label": "Mindspace Busine",
+              "cells": [
+                {
+                  "text": "Promoter Group (2) (K Raheja Corp Private Limited, K Raheja Corp Private Limited)"
+                },
+                {
+                  "text": "₹1,201.00 cr",
+                  "value": 12010000000,
+                  "scale": 1500
+                }
+              ]
             },
             {
-              "text": "Mindspace Busine — Promoter Group (6) (K Raheja Corp Private Limited, K Raheja Corp Priva...), ₹1,196.00 cr"
+              "label": "Mindspace Busine",
+              "cells": [
+                {
+                  "text": "Promoter Group (6) (K Raheja Corp Private Limited, K Raheja Corp Priva...)"
+                },
+                {
+                  "text": "₹1,196.00 cr",
+                  "value": 11960000000,
+                  "scale": 1500
+                }
+              ]
             },
             {
-              "text": "Ather Energy — Hero Motocorp Limited (Promoter), ₹960.00 cr"
+              "label": "Ather Energy",
+              "cells": [
+                {
+                  "text": "Hero Motocorp Limited (Promoter)"
+                },
+                {
+                  "text": "₹960.00 cr",
+                  "value": 9600000000,
+                  "scale": 1500
+                }
+              ]
             },
             {
-              "text": "Confidence Petro — Promoter Group (3) (Confidence Lpg Bottling Private Limited, Confidenc...), ₹50.71 cr"
+              "label": "Confidence Petro",
+              "cells": [
+                {
+                  "text": "Promoter Group (3) (Confidence Lpg Bottling Private Limited, Confidenc...)"
+                },
+                {
+                  "text": "₹50.71 cr",
+                  "value": 507100000,
+                  "scale": 1500
+                }
+              ]
             },
             {
-              "text": "Ather Energy — Promoter And Director (2) (Tarun Sanjay Mehta, Swapnil Babanlal Jain), ₹40.00 cr"
+              "label": "Ather Energy",
+              "cells": [
+                {
+                  "text": "Promoter And Director (2) (Tarun Sanjay Mehta, Swapnil Babanlal Jain)"
+                },
+                {
+                  "text": "₹40.00 cr",
+                  "value": 400000000,
+                  "scale": 1500
+                }
+              ]
             }
           ]
         },
         {
           "heading": "Notable selling",
-          "items": [
+          "columns": [
+            "Company",
+            "Insider",
+            "₹ cr"
+          ],
+          "align": [
+            "left",
+            "left",
+            "right"
+          ],
+          "rows": [
             {
-              "text": "Rubicon Research — Promoter (2) (General Atlantic Singapore Rr Pte Ltd, General Atl...), ₹2,325.00 cr",
-              "starred": true
+              "label": "Rubicon Research",
+              "cells": [
+                {
+                  "text": "Promoter (2) (General Atlantic Singapore Rr Pte Ltd, General Atl...)"
+                },
+                {
+                  "text": "₹2,325.00 cr",
+                  "value": -23250000000,
+                  "scale": 1500
+                }
+              ]
             },
             {
-              "text": "Indo-MIM — Designated Person (11) (Shankar Radha Kantam Manchikanti, Umamaheswara Var...), ₹58.20 cr"
+              "label": "Indo-MIM",
+              "cells": [
+                {
+                  "text": "Designated Person (11) (Shankar Radha Kantam Manchikanti, Umamaheswara Var...)"
+                },
+                {
+                  "text": "₹58.20 cr",
+                  "value": -582000000,
+                  "scale": 1500
+                }
+              ]
             },
             {
-              "text": "Info Edg.(India) — Hitesh Oberoi (Promoter And Director), ₹54.23 cr"
+              "label": "Inox Wind",
+              "cells": [
+                {
+                  "text": "Inox Leasing And Finance Limited (Promoter)"
+                },
+                {
+                  "text": "₹22.16 cr",
+                  "value": -221600000,
+                  "scale": 1500
+                }
+              ]
             },
             {
-              "text": "Inox Wind — Inox Leasing And Finance Limited (Promoter), ₹22.16 cr"
+              "label": "Indo-MIM",
+              "cells": [
+                {
+                  "text": "Designated Person (4) (Umamaheswara Varma Gudur, Umamaheswara Varma Gudur...)"
+                },
+                {
+                  "text": "₹20.62 cr",
+                  "value": -206200000,
+                  "scale": 1500
+                }
+              ]
             },
             {
-              "text": "Indo-MIM — Designated Person (4) (Umamaheswara Varma Gudur, Umamaheswara Varma Gudur...), ₹20.62 cr"
+              "label": "Jindal Steel",
+              "cells": [
+                {
+                  "text": "Sarika Jhunjhnuwala (Promoter Group)"
+                },
+                {
+                  "text": "₹10.82 cr",
+                  "value": -108200000,
+                  "scale": 1500
+                }
+              ]
             }
           ]
         }
@@ -1220,41 +1549,168 @@ const issue: Issue = {
       "id": "deals",
       "title": "Bulk & block deals",
       "body": [
-        "Institutions stayed active on the tape — 140 block and 899 bulk deals of note. The largest by value:"
+        "Institutions stayed active on the tape — 140 block and 759 bulk deals of note. The largest by value:"
       ],
-      "groups": [
+      "tables": [
         {
           "heading": "Block deals",
-          "items": [
+          "columns": [
+            "Company",
+            "Client",
+            "Side",
+            "₹ cr"
+          ],
+          "align": [
+            "left",
+            "left",
+            "left",
+            "right"
+          ],
+          "rows": [
             {
-              "text": "Ather Energy Limited — HERO MOTOCORP LIMITED bought ₹1,758.24 cr",
-              "starred": true
+              "label": "Ather Energy Limited",
+              "cells": [
+                {
+                  "text": "HERO MOTOCORP LIMITED"
+                },
+                {
+                  "text": "Bought"
+                },
+                {
+                  "text": "₹1,758.24 cr",
+                  "value": 17582400000,
+                  "scale": 2000
+                }
+              ]
             },
             {
-              "text": "Ather Energy Limited — GOVERNMENT OF SINGAPORE sold ₹1,758.24 cr"
+              "label": "Ather Energy Limited",
+              "cells": [
+                {
+                  "text": "GOVERNMENT OF SINGAPORE"
+                },
+                {
+                  "text": "Sold"
+                },
+                {
+                  "text": "₹1,758.24 cr",
+                  "value": -17582400000,
+                  "scale": 2000
+                }
+              ]
             },
             {
-              "text": "Welspun Corp Limited — WELSPUN INVESTMENTS AND COMMERCIALS LIMITED sold ₹1,365.18 cr"
+              "label": "Welspun Corp Limited",
+              "cells": [
+                {
+                  "text": "WELSPUN INVESTMENTS AND COMMERCIALS LIMITED"
+                },
+                {
+                  "text": "Sold"
+                },
+                {
+                  "text": "₹1,365.18 cr",
+                  "value": -13651800000.000002,
+                  "scale": 2000
+                }
+              ]
             },
             {
-              "text": "Apollo Tyres Ltd. — EMERALD SAGE INVESTMENT LTD sold ₹1,174.94 cr"
+              "label": "Apollo Tyres Ltd.",
+              "cells": [
+                {
+                  "text": "EMERALD SAGE INVESTMENT LTD"
+                },
+                {
+                  "text": "Sold"
+                },
+                {
+                  "text": "₹1,174.94 cr",
+                  "value": -11749350000,
+                  "scale": 2000
+                }
+              ]
             }
           ]
         },
         {
           "heading": "Bulk deals",
-          "items": [
+          "columns": [
+            "Company",
+            "Client",
+            "Side",
+            "₹ cr"
+          ],
+          "align": [
+            "left",
+            "left",
+            "left",
+            "right"
+          ],
+          "rows": [
             {
-              "text": "Ather Energy Limited — GOVERNMENT OF SINGAPORE sold ₹1,758.24 cr"
+              "label": "Ather Energy Limited",
+              "cells": [
+                {
+                  "text": "GOVERNMENT OF SINGAPORE"
+                },
+                {
+                  "text": "Sold"
+                },
+                {
+                  "text": "₹1,758.24 cr",
+                  "value": -17582400000,
+                  "scale": 2000
+                }
+              ]
             },
             {
-              "text": "Ather Energy Limited — HERO MOTOCORP LIMITED bought ₹1,758.24 cr"
+              "label": "Ather Energy Limited",
+              "cells": [
+                {
+                  "text": "HERO MOTOCORP LIMITED"
+                },
+                {
+                  "text": "Bought"
+                },
+                {
+                  "text": "₹1,758.24 cr",
+                  "value": 17582400000,
+                  "scale": 2000
+                }
+              ]
             },
             {
-              "text": "Welspun Corp Limited — WELSPUN INVESTMENTS AND COMMERCIALS LIMITED sold ₹1,365.18 cr"
+              "label": "Welspun Corp Limited",
+              "cells": [
+                {
+                  "text": "WELSPUN INVESTMENTS AND COMMERCIALS LIMITED"
+                },
+                {
+                  "text": "Sold"
+                },
+                {
+                  "text": "₹1,365.18 cr",
+                  "value": -13651800000.000002,
+                  "scale": 2000
+                }
+              ]
             },
             {
-              "text": "Billionbrains Garage Vn L — RIBBIT CAPITAL V L.P. sold ₹1,238.12 cr"
+              "label": "Billionbrains Garage Vn L",
+              "cells": [
+                {
+                  "text": "RIBBIT CAPITAL V L.P."
+                },
+                {
+                  "text": "Sold"
+                },
+                {
+                  "text": "₹1,238.12 cr",
+                  "value": -12381187112,
+                  "scale": 2000
+                }
+              ]
             }
           ]
         }
@@ -1271,113 +1727,284 @@ const issue: Issue = {
       "body": [
         "The week's more consequential filings, grouped by category — not exhaustive:"
       ],
-      "groups": [
+      "tables": [
         {
           "heading": "Capex & New Ventures",
-          "items": [
+          "columns": [
+            "Company",
+            "What happened"
+          ],
+          "align": [
+            "left",
+            "left"
+          ],
+          "rows": [
             {
-              "text": "Max Estates — Max Estates to acquire 84.71-acre Delhi land via share swap, unlocking INR 10,000-12,000 crore GDV.",
-              "starred": true
+              "label": "Max Estates",
+              "cells": [
+                {
+                  "text": "Max Estates to acquire 84.71-acre Delhi land via share swap, unlocking INR 10,000-12,000 crore GDV."
+                }
+              ]
             },
             {
-              "text": "Nestle India — Customs order demands ₹11.11 crore duty, ₹25 lakh redemption fine, and ₹50 lakh penalty."
+              "label": "Nestle India",
+              "cells": [
+                {
+                  "text": "Customs order demands ₹11.11 crore duty, ₹25 lakh redemption fine, and ₹50 lakh penalty."
+                }
+              ]
             },
             {
-              "text": "Innovision — Gurugram CGST issues GST DRC-01 notice on August 25, 2026, proposing ₹10.70 crore demand for FY20-25."
+              "label": "Innovision",
+              "cells": [
+                {
+                  "text": "Gurugram CGST issues GST DRC-01 notice on August 25, 2026, proposing ₹10.70 crore demand for FY20-25."
+                }
+              ]
             }
           ]
         },
         {
           "heading": "Order Wins",
-          "items": [
+          "columns": [
+            "Company",
+            "What happened"
+          ],
+          "align": [
+            "left",
+            "left"
+          ],
+          "rows": [
             {
-              "text": "Relicab Cable — Received international control cable supply order worth Rs 2.26 crore, deliverable by October 31, 2026.",
-              "starred": true
+              "label": "Relicab Cable",
+              "cells": [
+                {
+                  "text": "Received international control cable supply order worth Rs 2.26 crore, deliverable by October 31, 2026."
+                }
+              ]
             },
             {
-              "text": "B.R.Goyal Infra. — Received NHAI work order for Surapattu Fee Plaza user fee agency worth Rs. 119.85 crore for one year."
+              "label": "B.R.Goyal Infra.",
+              "cells": [
+                {
+                  "text": "Received NHAI work order for Surapattu Fee Plaza user fee agency worth Rs. 119.85 crore for one year."
+                }
+              ]
             },
             {
-              "text": "Jaykay Enter. — Allen Reinforced Plastics wins Rs 60.01 crore domestic order from BrahMos Aerospace to manufacture composite parts."
+              "label": "Jaykay Enter.",
+              "cells": [
+                {
+                  "text": "Allen Reinforced Plastics wins Rs 60.01 crore domestic order from BrahMos Aerospace to manufacture composite parts."
+                }
+              ]
             }
           ]
         },
         {
           "heading": "Acquisitions",
-          "items": [
+          "columns": [
+            "Company",
+            "What happened"
+          ],
+          "align": [
+            "left",
+            "left"
+          ],
+          "rows": [
             {
-              "text": "Max Estates — Board approved acquisition of 84.7-acre Delhi land platform via ₹420.23 crore share swap; EGM on September 24, 2026.",
-              "starred": true
+              "label": "Max Estates",
+              "cells": [
+                {
+                  "text": "Board approved acquisition of 84.7-acre Delhi land platform via ₹420.23 crore share swap; EGM on September 24, 2026."
+                }
+              ]
             },
             {
-              "text": "Max Estates — Max Estates presents 84.71-acre Delhi land acquisition for equity, implying ₹10,000-12,000 Cr GDV."
+              "label": "Max Estates",
+              "cells": [
+                {
+                  "text": "Max Estates presents 84.71-acre Delhi land acquisition for equity, implying ₹10,000-12,000 Cr GDV."
+                }
+              ]
             },
             {
-              "text": "Prataap Snacks — Prataap Snacks acquired 99.95% of RLOP Food Processing on August 25, 2026; remaining 0.05% pending."
+              "label": "Prataap Snacks",
+              "cells": [
+                {
+                  "text": "Prataap Snacks acquired 99.95% of RLOP Food Processing on August 25, 2026; remaining 0.05% pending."
+                }
+              ]
             }
           ]
         },
         {
           "heading": "Mergers & Spin-offs",
-          "items": [
+          "columns": [
+            "Company",
+            "What happened"
+          ],
+          "align": [
+            "left",
+            "left"
+          ],
+          "rows": [
             {
-              "text": "Atvo Enterprises — Board approved amalgamation of Atvo Agrochem, Shubhshree Health Care and Shorya Business into ATVO, pending NCLT and shareholder approvals."
+              "label": "Atvo Enterprises",
+              "cells": [
+                {
+                  "text": "Board approved amalgamation of Atvo Agrochem, Shubhshree Health Care and Shorya Business into ATVO, pending NCLT and shareholder approvals."
+                }
+              ]
             },
             {
-              "text": "Atvo Enterprises — ATVO board approved amalgamation of three group companies, subject to NCLT and shareholder approvals, on 26 Aug 2026."
+              "label": "Atvo Enterprises",
+              "cells": [
+                {
+                  "text": "ATVO board approved amalgamation of three group companies, subject to NCLT and shareholder approvals, on 26 Aug 2026."
+                }
+              ]
             },
             {
-              "text": "Sapphire Foods — Board approved revised merger scheme after SFML-Arctic SPA termination; secondary sale removed, merger with Devyani continues."
+              "label": "Sapphire Foods",
+              "cells": [
+                {
+                  "text": "Board approved revised merger scheme after SFML-Arctic SPA termination; secondary sale removed, merger with Devyani continues."
+                }
+              ]
             }
           ]
         },
         {
           "heading": "Open Offers",
-          "items": [
+          "columns": [
+            "Company",
+            "What happened"
+          ],
+          "align": [
+            "left",
+            "left"
+          ],
+          "rows": [
             {
-              "text": "S I Paper Mills — Detailed public statement for open offer to acquire 26% stake at Rs120 per share, gaining control."
+              "label": "S I Paper Mills",
+              "cells": [
+                {
+                  "text": "Detailed public statement for open offer to acquire 26% stake at Rs120 per share, gaining control."
+                }
+              ]
             },
             {
-              "text": "Mitshi India — Karronn Naresh Bajaj files LOF for 26% open offer at ₹15/share; deal includes 15.57% SPA stake."
+              "label": "Kalana Ispat",
+              "cells": [
+                {
+                  "text": "Aftabhusen S Khandwawala acquired 7,80,588 shares via warrant conversion on 26 Aug 2026, raising holding to 79.30%."
+                }
+              ]
             },
             {
-              "text": "Mitshi India — Karronn Naresh Bajaj launches open offer for 22,88,000 shares at ₹15; deal worth ₹3.43 crore."
+              "label": "Kronox Lab",
+              "cells": [
+                {
+                  "text": "DPS published on 28 Aug 2026 for Indo Borax and PAC open offer for KRONOX shares."
+                }
+              ]
             }
           ]
         },
         {
           "heading": "Fund Raising",
-          "items": [
+          "columns": [
+            "Company",
+            "What happened"
+          ],
+          "align": [
+            "left",
+            "left"
+          ],
+          "rows": [
             {
-              "text": "Max Estates — Board approved acquisition of nine land-owning firms and ₹420.23 crore preferential share issue for 84.7-acre Delhi platform."
+              "label": "Max Estates",
+              "cells": [
+                {
+                  "text": "Board approved acquisition of nine land-owning firms and ₹420.23 crore preferential share issue for 84.7-acre Delhi platform."
+                }
+              ]
             },
             {
-              "text": "Resourceful Auto — Board meeting on 2 Sep 2026 to consider fund raising via equity, convertible securities or warrants."
+              "label": "Resourceful Auto",
+              "cells": [
+                {
+                  "text": "Board meeting on 2 Sep 2026 to consider fund raising via equity, convertible securities or warrants."
+                }
+              ]
             },
             {
-              "text": "Viji Finance — On 26 Aug 2026, Viji Finance allotted 1 crore shares on warrant conversion; all warrants now fully converted."
+              "label": "Viji Finance",
+              "cells": [
+                {
+                  "text": "On 26 Aug 2026, Viji Finance allotted 1 crore shares on warrant conversion; all warrants now fully converted."
+                }
+              ]
             }
           ]
         },
         {
           "heading": "Buyback",
-          "items": [
+          "columns": [
+            "Company",
+            "What happened"
+          ],
+          "align": [
+            "left",
+            "left"
+          ],
+          "rows": [
             {
-              "text": "Gandhi Spl. Tube — Gandhi Special Tubes launches ₹78.13 crore buyback of 8,68,100 shares at ₹900; opens August 27, closes September 2, 2026."
+              "label": "Gandhi Spl. Tube",
+              "cells": [
+                {
+                  "text": "Gandhi Special Tubes launches ₹78.13 crore buyback of 8,68,100 shares at ₹900; opens August 27, closes September 2, 2026."
+                }
+              ]
             }
           ]
         },
         {
           "heading": "Bonus",
-          "items": [
+          "columns": [
+            "Company",
+            "What happened"
+          ],
+          "align": [
+            "left",
+            "left"
+          ],
+          "rows": [
             {
-              "text": "Mold-Tek Technol — Board approved 1:1 bonus issue, recommended ₹2 dividend, and set AGM on September 21, 2026."
+              "label": "Mold-Tek Technol",
+              "cells": [
+                {
+                  "text": "Board approved 1:1 bonus issue, recommended ₹2 dividend, and set AGM on September 21, 2026."
+                }
+              ]
             },
             {
-              "text": "Mold-Tek Pack. — Board approved 1:1 bonus issue, ₹3 final dividend, capital hike to ₹40 crore, new WTD and director appointments."
+              "label": "Mold-Tek Pack.",
+              "cells": [
+                {
+                  "text": "Board approved 1:1 bonus issue, ₹3 final dividend, capital hike to ₹40 crore, new WTD and director appointments."
+                }
+              ]
             },
             {
-              "text": "Mold-Tek Pack. — Board approved 1:1 bonus issue, ₹3 final dividend, authorized capital hike to ₹40 crore, and new directors."
+              "label": "Mold-Tek Pack.",
+              "cells": [
+                {
+                  "text": "Board approved 1:1 bonus issue, ₹3 final dividend, authorized capital hike to ₹40 crore, and new directors."
+                }
+              ]
             }
           ]
         }
@@ -1394,27 +2021,65 @@ const issue: Issue = {
       "body": [
         "Management hit the mic. Recent calls with transcripts, notes or recordings:"
       ],
-      "groups": [
+      "tables": [
         {
           "heading": "Recent calls with materials",
-          "items": [
+          "columns": [
+            "Company",
+            "Materials"
+          ],
+          "align": [
+            "left",
+            "left"
+          ],
+          "rows": [
             {
-              "text": "Cyient — View Recording"
+              "label": "Cyient",
+              "cells": [
+                {
+                  "text": "View Recording"
+                }
+              ]
             },
             {
-              "text": "EPL Ltd — View Transcript, View Summary"
+              "label": "EPL Ltd",
+              "cells": [
+                {
+                  "text": "View Transcript, View Summary"
+                }
+              ]
             },
             {
-              "text": "Bharat Forge — View Presentation"
+              "label": "Bharat Forge",
+              "cells": [
+                {
+                  "text": "View Presentation"
+                }
+              ]
             },
             {
-              "text": "JSW Cement — View Presentation"
+              "label": "JSW Cement",
+              "cells": [
+                {
+                  "text": "View Presentation"
+                }
+              ]
             },
             {
-              "text": "Precision Camshf — View Recording, View Summary"
+              "label": "Precision Camshf",
+              "cells": [
+                {
+                  "text": "View Recording, View Summary"
+                }
+              ]
             },
             {
-              "text": "Avanti Feeds — View Transcript, View Summary"
+              "label": "Avanti Feeds",
+              "cells": [
+                {
+                  "text": "View Transcript, View Summary"
+                }
+              ]
             }
           ]
         }
@@ -1431,89 +2096,229 @@ const issue: Issue = {
       "body": [
         "Capital returns and structural actions announced:"
       ],
-      "groups": [
+      "tables": [
         {
           "heading": "Buyback",
-          "items": [
+          "columns": [
+            "Company",
+            "Detail"
+          ],
+          "align": [
+            "left",
+            "left"
+          ],
+          "rows": [
             {
-              "text": "Gandhi Spl. Tube — Tender Offer · 900.00 · 78.12"
+              "label": "Gandhi Spl. Tube",
+              "cells": [
+                {
+                  "text": "Tender Offer · 900.00 · 78.12"
+                }
+              ]
             },
             {
-              "text": "Indl. Inv. Trust — Tender Offer · 150.00 · 25.00"
+              "label": "Indl. Inv. Trust",
+              "cells": [
+                {
+                  "text": "Tender Offer · 150.00 · 25.00"
+                }
+              ]
             },
             {
-              "text": "Orbit Exports — Tender Offer · 250.00 · 27.60"
+              "label": "Orbit Exports",
+              "cells": [
+                {
+                  "text": "Tender Offer · 250.00 · 27.60"
+                }
+              ]
             },
             {
-              "text": "Team Lease Serv. — Tender Offer · 1600.00 · 238.00"
+              "label": "Team Lease Serv.",
+              "cells": [
+                {
+                  "text": "Tender Offer · 1600.00 · 238.00"
+                }
+              ]
             }
           ]
         },
         {
           "heading": "Bonus",
-          "items": [
+          "columns": [
+            "Company",
+            "Detail"
+          ],
+          "align": [
+            "left",
+            "left"
+          ],
+          "rows": [
             {
-              "text": "Jonjua Overseas — Ratio 7:24"
+              "label": "Jonjua Overseas",
+              "cells": [
+                {
+                  "text": "Ratio 7:24"
+                }
+              ]
             },
             {
-              "text": "Abhishek Integr. — Ratio 1:1"
+              "label": "Abhishek Integr.",
+              "cells": [
+                {
+                  "text": "Ratio 1:1"
+                }
+              ]
             },
             {
-              "text": "Mayank Cattle Fo — Ratio 1:1"
+              "label": "Mayank Cattle Fo",
+              "cells": [
+                {
+                  "text": "Ratio 1:1"
+                }
+              ]
             },
             {
-              "text": "Goodluck India — Ratio 2:1"
+              "label": "Goodluck India",
+              "cells": [
+                {
+                  "text": "Ratio 2:1"
+                }
+              ]
             }
           ]
         },
         {
           "heading": "Stock Split",
-          "items": [
+          "columns": [
+            "Company",
+            "Detail"
+          ],
+          "align": [
+            "left",
+            "left"
+          ],
+          "rows": [
             {
-              "text": "TCC Concept — 10.00 · 2.00"
+              "label": "TCC Concept",
+              "cells": [
+                {
+                  "text": "10.00 · 2.00"
+                }
+              ]
             },
             {
-              "text": "Integ. Proteins — 10.00 · 1.00"
+              "label": "Integ. Proteins",
+              "cells": [
+                {
+                  "text": "10.00 · 1.00"
+                }
+              ]
             },
             {
-              "text": "Rotographics (I) — 10.00 · 2.00"
+              "label": "Rotographics (I)",
+              "cells": [
+                {
+                  "text": "10.00 · 2.00"
+                }
+              ]
             },
             {
-              "text": "Spice IslandsInd — 10.00 · 2.00"
+              "label": "Spice IslandsInd",
+              "cells": [
+                {
+                  "text": "10.00 · 2.00"
+                }
+              ]
             }
           ]
         },
         {
           "heading": "Rights Issue",
-          "items": [
+          "columns": [
+            "Company",
+            "Detail"
+          ],
+          "align": [
+            "left",
+            "left"
+          ],
+          "rows": [
             {
-              "text": "Jaykay Enter. — Ratio 3:19 · ₹74.00 premium"
+              "label": "Jaykay Enter.",
+              "cells": [
+                {
+                  "text": "Ratio 3:19 · ₹74.00 premium"
+                }
+              ]
             },
             {
-              "text": "NCL Res. & Finl. — Ratio 7:15 · ₹0.00 premium"
+              "label": "NCL Res. & Finl.",
+              "cells": [
+                {
+                  "text": "Ratio 7:15 · ₹0.00 premium"
+                }
+              ]
             },
             {
-              "text": "Ratnaveer Precis — Ratio 7:40 · ₹254.00 premium"
+              "label": "Ratnaveer Precis",
+              "cells": [
+                {
+                  "text": "Ratio 7:40 · ₹254.00 premium"
+                }
+              ]
             },
             {
-              "text": "Esaar (India) — Ratio 44:15 · ₹0.00 premium"
+              "label": "Esaar (India)",
+              "cells": [
+                {
+                  "text": "Ratio 44:15 · ₹0.00 premium"
+                }
+              ]
             }
           ]
         },
         {
           "heading": "Dividend",
-          "items": [
+          "columns": [
+            "Company",
+            "Detail"
+          ],
+          "align": [
+            "left",
+            "left"
+          ],
+          "rows": [
             {
-              "text": "S A I L — Final · 23.50%"
+              "label": "S A I L",
+              "cells": [
+                {
+                  "text": "Final · 23.50%"
+                }
+              ]
             },
             {
-              "text": "Engineers India — Final · 50.00%"
+              "label": "Engineers India",
+              "cells": [
+                {
+                  "text": "Final · 50.00%"
+                }
+              ]
             },
             {
-              "text": "Adtech Systems — Final · 11.00%"
+              "label": "Adtech Systems",
+              "cells": [
+                {
+                  "text": "Final · 11.00%"
+                }
+              ]
             },
             {
-              "text": "Satia Industries — Final · 40.00%"
+              "label": "Satia Industries",
+              "cells": [
+                {
+                  "text": "Final · 40.00%"
+                }
+              ]
             }
           ]
         }
