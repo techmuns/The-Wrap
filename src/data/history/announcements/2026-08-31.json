@@ -1,18 +1,8 @@
 {
-  "fetchedAt": "2026-08-31T19:55:56.695Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "capex": 4,
-    "merger": 4,
-    "other": 29,
-    "fund-raising": 3,
-    "acquisitions": 1,
-    "order-wins": 4,
-    "open-offer": 4,
-    "rights": 1
-  },
-  "items": [
+  "capturedOn": "2026-08-31",
+  "capturedAt": "2026-08-31T19:55:56.696Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Juniper Green",
       "symbol": "JNPR",
