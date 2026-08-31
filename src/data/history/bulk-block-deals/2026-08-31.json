@@ -1,12 +1,8 @@
 {
-  "asOnDate": "31-Aug-2026",
-  "fetchedAt": "2026-08-31T19:33:39.150Z",
-  "counts": {
-    "bulk": 213,
-    "block": 11,
-    "short": 88
-  },
-  "bulk": [
+  "capturedOn": "2026-08-31",
+  "capturedAt": "2026-08-31T19:33:39.151Z",
+  "count": 312,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "ASHOKA",
@@ -2562,9 +2558,7 @@
       "value": 368603123.02,
       "date": "31-Aug-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "NORTHARC",
@@ -2696,9 +2690,7 @@
       "value": 584000000,
       "date": "31-Aug-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "ABCAPITAL",
