@@ -1,11 +1,8 @@
 {
-  "fetchedAt": "2026-08-31T20:14:27.566Z",
-  "source": "Screener",
-  "counts": {
-    "recent": 25,
-    "upcoming": 0
-  },
-  "items": [
+  "capturedOn": "2026-08-31",
+  "capturedAt": "2026-08-31T20:14:27.567Z",
+  "count": 25,
+  "rows": [
     {
       "company": "Ardee Industries",
       "symbol": "ARDEE",
