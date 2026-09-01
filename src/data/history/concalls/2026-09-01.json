@@ -1,11 +1,8 @@
 {
-  "fetchedAt": "2026-09-01T17:54:13.145Z",
-  "source": "Screener",
-  "counts": {
-    "recent": 25,
-    "upcoming": 0
-  },
-  "items": [
+  "capturedOn": "2026-09-01",
+  "capturedAt": "2026-09-01T17:54:13.146Z",
+  "count": 25,
+  "rows": [
     {
       "company": "Juniper Green",
       "symbol": "JNPR",
