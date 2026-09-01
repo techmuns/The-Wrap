@@ -1,12 +1,8 @@
 {
-  "asOnDate": "01-Sep-2026",
-  "fetchedAt": "2026-09-01T17:22:25.144Z",
-  "counts": {
-    "bulk": 248,
-    "block": 3,
-    "short": 116
-  },
-  "bulk": [
+  "capturedOn": "2026-09-01",
+  "capturedAt": "2026-09-01T17:22:25.161Z",
+  "count": 367,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "AARADHYA",
@@ -2982,9 +2978,7 @@
       "value": 67084671.919999994,
       "date": "01-Sep-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "HATSUN",
@@ -3020,9 +3014,7 @@
       "value": 525375192,
       "date": "01-Sep-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "ABB",
