@@ -1,17 +1,8 @@
 {
-  "fetchedAt": "2026-09-01T17:46:48.228Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "fund-raising": 5,
-    "other": 31,
-    "order-wins": 7,
-    "merger": 1,
-    "acquisitions": 4,
-    "jv": 1,
-    "open-offer": 1
-  },
-  "items": [
+  "capturedOn": "2026-09-01",
+  "capturedAt": "2026-09-01T17:46:48.229Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Vertoz",
       "symbol": "VERTOZ",
