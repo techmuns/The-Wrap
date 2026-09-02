@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-02T15:34:12.173Z",
-  "source": "NSE",
-  "timestamp": "02-Sep-2026 15:30",
-  "broad": [
+  "capturedOn": "2026-09-02",
+  "capturedAt": "2026-09-02T15:34:12.173Z",
+  "count": 31,
+  "rows": [
     {
       "name": "NIFTY 50",
       "symbol": "NIFTY 50",
@@ -17,7 +17,8 @@
       "yearLow": 22182.55,
       "advances": 14,
       "declines": 36,
-      "unchanged": 0
+      "unchanged": 0,
+      "bucket": "broad"
     },
     {
       "name": "NIFTY NEXT 50",
@@ -33,7 +34,8 @@
       "yearLow": 59896.1,
       "advances": 24,
       "declines": 25,
-      "unchanged": 1
+      "unchanged": 1,
+      "bucket": "broad"
     },
     {
       "name": "NIFTY 100",
@@ -49,7 +51,8 @@
       "yearLow": 22720.45,
       "advances": 38,
       "declines": 61,
-      "unchanged": 1
+      "unchanged": 1,
+      "bucket": "broad"
     },
     {
       "name": "NIFTY 200",
@@ -65,7 +68,8 @@
       "yearLow": 12396.1,
       "advances": 76,
       "declines": 122,
-      "unchanged": 2
+      "unchanged": 2,
+      "bucket": "broad"
     },
     {
       "name": "NIFTY 500",
@@ -81,7 +85,8 @@
       "yearLow": 20385.65,
       "advances": 171,
       "declines": 325,
-      "unchanged": 4
+      "unchanged": 4,
+      "bucket": "broad"
     },
     {
       "name": "NIFTY MIDCAP 100",
@@ -97,7 +102,8 @@
       "yearLow": 52032.85,
       "advances": 38,
       "declines": 61,
-      "unchanged": 1
+      "unchanged": 1,
+      "bucket": "broad"
     },
     {
       "name": "NIFTY SMALLCAP 100",
@@ -113,7 +119,8 @@
       "yearLow": 14986,
       "advances": 36,
       "declines": 63,
-      "unchanged": 1
+      "unchanged": 1,
+      "bucket": "broad"
     },
     {
       "name": "NIFTY MIDCAP 150",
@@ -129,7 +136,8 @@
       "yearLow": 19218,
       "advances": 51,
       "declines": 97,
-      "unchanged": 2
+      "unchanged": 2,
+      "bucket": "broad"
     },
     {
       "name": "NIFTY SMALLCAP 250",
@@ -145,7 +153,8 @@
       "yearLow": 14143.45,
       "advances": 82,
       "declines": 167,
-      "unchanged": 1
+      "unchanged": 1,
+      "bucket": "broad"
     },
     {
       "name": "NIFTY TOTAL MARKET",
@@ -161,7 +170,8 @@
       "yearLow": 11436.55,
       "advances": 255,
       "declines": 491,
-      "unchanged": 8
+      "unchanged": 8,
+      "bucket": "broad"
     },
     {
       "name": "NIFTY MICROCAP 250",
@@ -177,10 +187,9 @@
       "yearLow": 18858.5,
       "advances": 84,
       "declines": 166,
-      "unchanged": 4
-    }
-  ],
-  "sectoral": [
+      "unchanged": 4,
+      "bucket": "broad"
+    },
     {
       "name": "NIFTY BANK",
       "symbol": "NIFTY BANK",
@@ -195,7 +204,8 @@
       "yearLow": 49954.85,
       "advances": 7,
       "declines": 7,
-      "unchanged": 0
+      "unchanged": 0,
+      "bucket": "sectoral"
     },
     {
       "name": "NIFTY FINANCIAL SERVICES",
@@ -211,7 +221,8 @@
       "yearLow": 23373.95,
       "advances": 9,
       "declines": 11,
-      "unchanged": 0
+      "unchanged": 0,
+      "bucket": "sectoral"
     },
     {
       "name": "NIFTY AUTO",
@@ -227,7 +238,8 @@
       "yearLow": 23560.1,
       "advances": 1,
       "declines": 14,
-      "unchanged": 0
+      "unchanged": 0,
+      "bucket": "sectoral"
     },
     {
       "name": "NIFTY FMCG",
@@ -243,7 +255,8 @@
       "yearLow": 45334.15,
       "advances": 3,
       "declines": 11,
-      "unchanged": 1
+      "unchanged": 1,
+      "bucket": "sectoral"
     },
     {
       "name": "NIFTY IT",
@@ -259,7 +272,8 @@
       "yearLow": 25699.1,
       "advances": 0,
       "declines": 10,
-      "unchanged": 0
+      "unchanged": 0,
+      "bucket": "sectoral"
     },
     {
       "name": "NIFTY MEDIA",
@@ -275,7 +289,8 @@
       "yearLow": 1245.05,
       "advances": 0,
       "declines": 10,
-      "unchanged": 0
+      "unchanged": 0,
+      "bucket": "sectoral"
     },
     {
       "name": "NIFTY METAL",
@@ -291,7 +306,8 @@
       "yearLow": 9572.1,
       "advances": 5,
       "declines": 10,
-      "unchanged": 0
+      "unchanged": 0,
+      "bucket": "sectoral"
     },
     {
       "name": "NIFTY PHARMA",
@@ -307,7 +323,8 @@
       "yearLow": 21149.9,
       "advances": 9,
       "declines": 11,
-      "unchanged": 0
+      "unchanged": 0,
+      "bucket": "sectoral"
     },
     {
       "name": "NIFTY PSU BANK",
@@ -323,7 +340,8 @@
       "yearLow": 6799.85,
       "advances": 8,
       "declines": 4,
-      "unchanged": 0
+      "unchanged": 0,
+      "bucket": "sectoral"
     },
     {
       "name": "NIFTY PRIVATE BANK",
@@ -339,7 +357,8 @@
       "yearLow": 23957.45,
       "advances": 4,
       "declines": 6,
-      "unchanged": 0
+      "unchanged": 0,
+      "bucket": "sectoral"
     },
     {
       "name": "NIFTY REALTY",
@@ -355,7 +374,8 @@
       "yearLow": 638.65,
       "advances": 4,
       "declines": 6,
-      "unchanged": 0
+      "unchanged": 0,
+      "bucket": "sectoral"
     },
     {
       "name": "NIFTY HEALTHCARE INDEX",
@@ -371,7 +391,8 @@
       "yearLow": 13536.5,
       "advances": 7,
       "declines": 12,
-      "unchanged": 1
+      "unchanged": 1,
+      "bucket": "sectoral"
     },
     {
       "name": "NIFTY CONSUMER DURABLES",
@@ -387,7 +408,8 @@
       "yearLow": 32587.95,
       "advances": 5,
       "declines": 8,
-      "unchanged": 0
+      "unchanged": 0,
+      "bucket": "sectoral"
     },
     {
       "name": "NIFTY OIL & GAS",
@@ -403,7 +425,8 @@
       "yearLow": 10580.95,
       "advances": 11,
       "declines": 4,
-      "unchanged": 0
+      "unchanged": 0,
+      "bucket": "sectoral"
     },
     {
       "name": "NIFTY CHEMICALS",
@@ -419,7 +442,8 @@
       "yearLow": 24851.65,
       "advances": 5,
       "declines": 15,
-      "unchanged": 0
+      "unchanged": 0,
+      "bucket": "sectoral"
     },
     {
       "name": "NIFTY CEMENT",
@@ -435,7 +459,8 @@
       "yearLow": 13534.8,
       "advances": 4,
       "declines": 12,
-      "unchanged": 0
+      "unchanged": 0,
+      "bucket": "sectoral"
     },
     {
       "name": "NIFTY COMMODITIES",
@@ -451,7 +476,8 @@
       "yearLow": 8724.95,
       "advances": 18,
       "declines": 12,
-      "unchanged": 0
+      "unchanged": 0,
+      "bucket": "sectoral"
     },
     {
       "name": "NIFTY ENERGY",
@@ -467,7 +493,8 @@
       "yearLow": 32890.3,
       "advances": 23,
       "declines": 17,
-      "unchanged": 0
+      "unchanged": 0,
+      "bucket": "sectoral"
     },
     {
       "name": "NIFTY INFRASTRUCTURE",
@@ -483,7 +510,8 @@
       "yearLow": 8426.65,
       "advances": 15,
       "declines": 14,
-      "unchanged": 1
+      "unchanged": 1,
+      "bucket": "sectoral"
     },
     {
       "name": "NIFTY CAPITAL MARKETS",
@@ -499,7 +527,8 @@
       "yearLow": 4111.65,
       "advances": 6,
       "declines": 11,
-      "unchanged": 0
+      "unchanged": 0,
+      "bucket": "sectoral"
     }
   ]
 }
