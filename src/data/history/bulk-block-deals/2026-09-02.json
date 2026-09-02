@@ -1,12 +1,8 @@
 {
-  "asOnDate": "02-Sep-2026",
-  "fetchedAt": "2026-09-02T17:14:13.481Z",
-  "counts": {
-    "bulk": 205,
-    "block": 12,
-    "short": 88
-  },
-  "bulk": [
+  "capturedOn": "2026-09-02",
+  "capturedAt": "2026-09-02T17:14:13.482Z",
+  "count": 305,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "ANNU",
@@ -2466,9 +2462,7 @@
       "value": 300919237.18,
       "date": "02-Sep-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "ASTERDM",
@@ -2612,9 +2606,7 @@
       "value": 5499274766.7,
       "date": "02-Sep-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "ADANIENT",
