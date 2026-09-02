@@ -1,16 +1,8 @@
 {
-  "fetchedAt": "2026-09-02T17:50:06.431Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "other": 33,
-    "acquisitions": 4,
-    "fund-raising": 3,
-    "open-offer": 2,
-    "order-wins": 3,
-    "merger": 5
-  },
-  "items": [
+  "capturedOn": "2026-09-02",
+  "capturedAt": "2026-09-02T17:50:06.432Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Picturepost Stu.",
       "symbol": "PPSL",
