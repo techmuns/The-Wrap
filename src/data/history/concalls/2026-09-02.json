@@ -1,11 +1,8 @@
 {
-  "fetchedAt": "2026-09-02T17:57:50.539Z",
-  "source": "Screener",
-  "counts": {
-    "recent": 25,
-    "upcoming": 0
-  },
-  "items": [
+  "capturedOn": "2026-09-02",
+  "capturedAt": "2026-09-02T17:57:50.540Z",
+  "count": 25,
+  "rows": [
     {
       "company": "Sudarshan Chem.",
       "symbol": "SUDARSCHEM",
