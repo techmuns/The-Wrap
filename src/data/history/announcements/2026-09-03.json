@@ -1,19 +1,8 @@
 {
-  "fetchedAt": "2026-09-03T17:46:29.406Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "other": 31,
-    "concall": 1,
-    "fund-raising": 5,
-    "merger": 6,
-    "capex": 2,
-    "regulatory": 1,
-    "rights": 1,
-    "order-wins": 1,
-    "bonus": 2
-  },
-  "items": [
+  "capturedOn": "2026-09-03",
+  "capturedAt": "2026-09-03T17:46:29.478Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Sahana Systems",
       "symbol": "SAHANA",
