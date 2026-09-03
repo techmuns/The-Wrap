@@ -1,15 +1,8 @@
 {
-  "fetchedAt": "2026-09-03T18:06:05.198Z",
-  "source": "Screener",
-  "total": 125,
-  "byType": {
-    "bonus": 25,
-    "buyback": 25,
-    "split": 25,
-    "rights": 25,
-    "dividend": 25
-  },
-  "items": [
+  "capturedOn": "2026-09-03",
+  "capturedAt": "2026-09-03T18:06:05.199Z",
+  "count": 125,
+  "rows": [
     {
       "company": "Jonjua Overseas",
       "symbol": "542446",
