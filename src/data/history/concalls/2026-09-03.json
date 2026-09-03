@@ -1,11 +1,8 @@
 {
-  "fetchedAt": "2026-09-03T17:56:23.866Z",
-  "source": "Screener",
-  "counts": {
-    "recent": 25,
-    "upcoming": 0
-  },
-  "items": [
+  "capturedOn": "2026-09-03",
+  "capturedAt": "2026-09-03T17:56:23.867Z",
+  "count": 25,
+  "rows": [
     {
       "company": "Sterlite Tech.",
       "symbol": "STLTECH",
