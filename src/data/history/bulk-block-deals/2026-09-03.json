@@ -1,12 +1,8 @@
 {
-  "asOnDate": "03-Sep-2026",
-  "fetchedAt": "2026-09-03T17:06:00.774Z",
-  "counts": {
-    "bulk": 189,
-    "block": 53,
-    "short": 77
-  },
-  "bulk": [
+  "capturedOn": "2026-09-03",
+  "capturedAt": "2026-09-03T17:06:00.775Z",
+  "count": 319,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "MANALIPETC",
@@ -2274,9 +2270,7 @@
       "value": 176596977.32999998,
       "date": "03-Sep-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "CLEANMAX",
@@ -2912,9 +2906,7 @@
       "value": 156788000,
       "date": "03-Sep-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "ABB",
