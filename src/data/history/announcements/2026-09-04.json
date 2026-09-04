@@ -1,18 +1,8 @@
 {
-  "fetchedAt": "2026-09-04T17:32:32.305Z",
-  "source": "Screener",
-  "total": 49,
-  "byCategory": {
-    "other": 31,
-    "order-wins": 3,
-    "fund-raising": 9,
-    "jv": 1,
-    "rights": 1,
-    "bonus": 1,
-    "acquisitions": 2,
-    "open-offer": 1
-  },
-  "items": [
+  "capturedOn": "2026-09-04",
+  "capturedAt": "2026-09-04T17:32:32.306Z",
+  "count": 49,
+  "rows": [
     {
       "company": "EMA Partners",
       "symbol": "EMAPARTNER",
