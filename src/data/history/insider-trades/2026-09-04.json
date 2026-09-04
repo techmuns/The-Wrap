@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-04T17:36:00.641Z",
-  "source": "Screener",
-  "total": 50,
-  "items": [
+  "capturedOn": "2026-09-04",
+  "capturedAt": "2026-09-04T17:36:00.728Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Excelsoft Tech.",
       "symbol": "EXCELSOFT",
