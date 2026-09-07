@@ -1,12 +1,8 @@
 {
-  "asOnDate": "07-Sep-2026",
-  "fetchedAt": "2026-09-07T18:18:53.063Z",
-  "counts": {
-    "bulk": 184,
-    "block": 2,
-    "short": 85
-  },
-  "bulk": [
+  "capturedOn": "2026-09-07",
+  "capturedAt": "2026-09-07T18:18:53.064Z",
+  "count": 271,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "ANDHRAPAP",
@@ -2214,9 +2210,7 @@
       "value": 143555068.99,
       "date": "07-Sep-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "NXST",
@@ -2240,9 +2234,7 @@
       "value": 1229204436,
       "date": "04-Sep-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "ABB",
