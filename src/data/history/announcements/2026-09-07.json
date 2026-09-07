@@ -1,19 +1,8 @@
 {
-  "fetchedAt": "2026-09-07T18:41:20.517Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "capex": 1,
-    "other": 26,
-    "fund-raising": 12,
-    "jv": 4,
-    "rights": 1,
-    "merger": 1,
-    "open-offer": 3,
-    "acquisitions": 1,
-    "buyback": 1
-  },
-  "items": [
+  "capturedOn": "2026-09-07",
+  "capturedAt": "2026-09-07T18:41:20.518Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Prism Johnson",
       "symbol": "PRSMJOHNSN",
