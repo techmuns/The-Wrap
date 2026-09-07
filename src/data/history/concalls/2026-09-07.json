@@ -1,11 +1,8 @@
 {
-  "fetchedAt": "2026-09-07T18:47:43.732Z",
-  "source": "Screener",
-  "counts": {
-    "recent": 25,
-    "upcoming": 0
-  },
-  "items": [
+  "capturedOn": "2026-09-07",
+  "capturedAt": "2026-09-07T18:47:43.826Z",
+  "count": 25,
+  "rows": [
     {
       "company": "Bank of Maha",
       "symbol": "MAHABANK",
