@@ -1,11 +1,8 @@
 {
-  "fetchedAt": "2026-09-08T17:58:56.217Z",
-  "source": "Screener",
-  "counts": {
-    "recent": 25,
-    "upcoming": 0
-  },
-  "items": [
+  "capturedOn": "2026-09-08",
+  "capturedAt": "2026-09-08T17:58:56.242Z",
+  "count": 25,
+  "rows": [
     {
       "company": "Federal Bank",
       "symbol": "FEDERALBNK",
