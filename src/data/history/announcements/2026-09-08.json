@@ -1,20 +1,8 @@
 {
-  "fetchedAt": "2026-09-08T17:52:08.232Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "fund-raising": 9,
-    "other": 29,
-    "acquisitions": 3,
-    "name-change": 1,
-    "jv": 1,
-    "split": 1,
-    "rights": 1,
-    "merger": 2,
-    "order-wins": 1,
-    "capex": 2
-  },
-  "items": [
+  "capturedOn": "2026-09-08",
+  "capturedAt": "2026-09-08T17:52:08.233Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Zinema Media",
       "symbol": "538579",
