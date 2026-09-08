@@ -1,15 +1,8 @@
 {
-  "fetchedAt": "2026-09-08T18:07:00.076Z",
-  "source": "Screener",
-  "total": 125,
-  "byType": {
-    "bonus": 25,
-    "buyback": 25,
-    "split": 25,
-    "rights": 25,
-    "dividend": 25
-  },
-  "items": [
+  "capturedOn": "2026-09-08",
+  "capturedAt": "2026-09-08T18:07:00.078Z",
+  "count": 125,
+  "rows": [
     {
       "company": "TVS Holdings",
       "symbol": "TVSHLTD",
