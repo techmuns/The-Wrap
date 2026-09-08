@@ -1,12 +1,8 @@
 {
-  "asOnDate": "08-Sep-2026",
-  "fetchedAt": "2026-09-08T17:19:36.986Z",
-  "counts": {
-    "bulk": 206,
-    "block": 2,
-    "short": 89
-  },
-  "bulk": [
+  "capturedOn": "2026-09-08",
+  "capturedAt": "2026-09-08T17:19:36.987Z",
+  "count": 297,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "ANDHRAPAP",
@@ -2478,9 +2474,7 @@
       "value": 154799007.61,
       "date": "08-Sep-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "NXST",
@@ -2504,9 +2498,7 @@
       "value": 1229204436,
       "date": "04-Sep-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "63MOONS",
