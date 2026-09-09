@@ -1,17 +1,8 @@
 {
-  "fetchedAt": "2026-09-09T17:45:24.381Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "other": 30,
-    "rights": 4,
-    "open-offer": 2,
-    "acquisitions": 2,
-    "fund-raising": 8,
-    "jv": 1,
-    "order-wins": 3
-  },
-  "items": [
+  "capturedOn": "2026-09-09",
+  "capturedAt": "2026-09-09T17:45:24.382Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Olympic Cards",
       "symbol": "534190",
