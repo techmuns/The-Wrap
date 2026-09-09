@@ -1,12 +1,8 @@
 {
-  "asOnDate": "09-Sep-2026",
-  "fetchedAt": "2026-09-09T17:12:47.586Z",
-  "counts": {
-    "bulk": 193,
-    "block": 2,
-    "short": 89
-  },
-  "bulk": [
+  "capturedOn": "2026-09-09",
+  "capturedAt": "2026-09-09T17:12:47.587Z",
+  "count": 284,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "GRAPHITE",
@@ -2322,9 +2318,7 @@
       "value": 950704121.8000001,
       "date": "09-Sep-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "NXST",
@@ -2348,9 +2342,7 @@
       "value": 1229204436,
       "date": "04-Sep-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "360ONE",
