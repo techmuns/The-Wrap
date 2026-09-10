@@ -1,11 +1,8 @@
 {
-  "fetchedAt": "2026-09-10T17:46:24.018Z",
-  "source": "Screener",
-  "counts": {
-    "recent": 25,
-    "upcoming": 0
-  },
-  "items": [
+  "capturedOn": "2026-09-10",
+  "capturedAt": "2026-09-10T17:46:24.019Z",
+  "count": 25,
+  "rows": [
     {
       "company": "AJC Jewel",
       "symbol": "544425",
