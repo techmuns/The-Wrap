@@ -1,12 +1,8 @@
 {
-  "asOnDate": "10-Sep-2026",
-  "fetchedAt": "2026-09-10T17:04:22.183Z",
-  "counts": {
-    "bulk": 123,
-    "block": 2,
-    "short": 92
-  },
-  "bulk": [
+  "capturedOn": "2026-09-10",
+  "capturedAt": "2026-09-10T17:04:22.184Z",
+  "count": 217,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "ABH",
@@ -1482,9 +1478,7 @@
       "value": 117163167.94,
       "date": "10-Sep-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "NXST",
@@ -1508,9 +1502,7 @@
       "value": 1229204436,
       "date": "04-Sep-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "ADANIENSOL",
