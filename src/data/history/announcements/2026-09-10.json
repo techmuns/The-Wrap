@@ -1,21 +1,8 @@
 {
-  "fetchedAt": "2026-09-10T17:38:11.075Z",
-  "source": "Screener",
-  "total": 49,
-  "byCategory": {
-    "other": 22,
-    "merger": 2,
-    "fund-raising": 7,
-    "capex": 4,
-    "rights": 4,
-    "order-wins": 4,
-    "jv": 1,
-    "acquisitions": 2,
-    "open-offer": 1,
-    "bonus": 1,
-    "buyback": 1
-  },
-  "items": [
+  "capturedOn": "2026-09-10",
+  "capturedAt": "2026-09-10T17:38:11.076Z",
+  "count": 49,
+  "rows": [
     {
       "company": "Ratnaveer Precis",
       "symbol": "RATNAVEER",
