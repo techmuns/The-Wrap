@@ -1,19 +1,8 @@
 {
-  "fetchedAt": "2026-09-11T17:42:11.209Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "other": 33,
-    "merger": 1,
-    "rights": 2,
-    "jv": 1,
-    "acquisitions": 3,
-    "capex": 4,
-    "order-wins": 1,
-    "fund-raising": 4,
-    "open-offer": 1
-  },
-  "items": [
+  "capturedOn": "2026-09-11",
+  "capturedAt": "2026-09-11T17:42:11.210Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Gabriel India",
       "symbol": "GABRIEL",
