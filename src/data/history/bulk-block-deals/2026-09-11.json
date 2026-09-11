@@ -1,12 +1,8 @@
 {
-  "asOnDate": "11-Sep-2026",
-  "fetchedAt": "2026-09-11T17:04:35.850Z",
-  "counts": {
-    "bulk": 218,
-    "block": 39,
-    "short": 97
-  },
-  "bulk": [
+  "capturedOn": "2026-09-11",
+  "capturedAt": "2026-09-11T17:04:35.851Z",
+  "count": 354,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "AEROPLANE",
@@ -2622,9 +2618,7 @@
       "value": 2278400000,
       "date": "11-Sep-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "BLACKBUCK",
@@ -3092,9 +3086,7 @@
       "value": 252500000,
       "date": "11-Sep-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "ADANIENT",
