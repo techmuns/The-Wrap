@@ -1,11 +1,8 @@
 {
-  "fetchedAt": "2026-09-14T19:30:41.183Z",
-  "source": "Screener",
-  "counts": {
-    "recent": 25,
-    "upcoming": 0
-  },
-  "items": [
+  "capturedOn": "2026-09-14",
+  "capturedAt": "2026-09-14T19:30:41.184Z",
+  "count": 25,
+  "rows": [
     {
       "company": "Coforge",
       "symbol": "COFORGE",
