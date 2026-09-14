@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-14T19:20:58.997Z",
-  "source": "Screener",
-  "total": 50,
-  "items": [
+  "capturedOn": "2026-09-14",
+  "capturedAt": "2026-09-14T19:20:59.008Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Phychem Technologies",
       "symbol": "544902",
