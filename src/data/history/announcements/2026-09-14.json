@@ -1,20 +1,8 @@
 {
-  "fetchedAt": "2026-09-14T19:13:33.884Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "capex": 5,
-    "other": 22,
-    "jv": 3,
-    "fund-raising": 9,
-    "regulatory": 1,
-    "open-offer": 1,
-    "acquisitions": 2,
-    "rights": 4,
-    "order-wins": 2,
-    "buyback": 1
-  },
-  "items": [
+  "capturedOn": "2026-09-14",
+  "capturedAt": "2026-09-14T19:13:33.885Z",
+  "count": 50,
+  "rows": [
     {
       "company": "ACME Solar Hold.",
       "symbol": "ACMESOLAR",
