@@ -1,12 +1,8 @@
 {
-  "asOnDate": "15-Sep-2026",
-  "fetchedAt": "2026-09-15T17:43:09.560Z",
-  "counts": {
-    "bulk": 178,
-    "block": 39,
-    "short": 81
-  },
-  "bulk": [
+  "capturedOn": "2026-09-15",
+  "capturedAt": "2026-09-15T17:43:09.561Z",
+  "count": 298,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "KOPRAN",
@@ -2142,9 +2138,7 @@
       "value": 82914721.85,
       "date": "15-Sep-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "BLACKBUCK",
@@ -2612,9 +2606,7 @@
       "value": 252500000,
       "date": "11-Sep-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "ADANIENSOL",
