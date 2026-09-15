@@ -1,11 +1,8 @@
 {
-  "fetchedAt": "2026-09-15T18:19:40.336Z",
-  "source": "Screener",
-  "counts": {
-    "recent": 25,
-    "upcoming": 0
-  },
-  "items": [
+  "capturedOn": "2026-09-15",
+  "capturedAt": "2026-09-15T18:19:40.337Z",
+  "count": 25,
+  "rows": [
     {
       "company": "Srinibas Pradhan",
       "symbol": "SPCON",
