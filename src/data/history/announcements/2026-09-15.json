@@ -1,19 +1,8 @@
 {
-  "fetchedAt": "2026-09-15T18:05:37.685Z",
-  "source": "Screener",
-  "total": 49,
-  "byCategory": {
-    "order-wins": 5,
-    "fund-raising": 5,
-    "other": 28,
-    "rights": 2,
-    "jv": 1,
-    "open-offer": 2,
-    "merger": 4,
-    "capex": 1,
-    "acquisitions": 1
-  },
-  "items": [
+  "capturedOn": "2026-09-15",
+  "capturedAt": "2026-09-15T18:05:37.686Z",
+  "count": 49,
+  "rows": [
     {
       "company": "Apollo Micro Sys",
       "symbol": "APOLLO",
