@@ -1,11 +1,8 @@
 {
-  "fetchedAt": "2026-09-16T18:16:50.856Z",
-  "source": "Screener",
-  "counts": {
-    "recent": 25,
-    "upcoming": 0
-  },
-  "items": [
+  "capturedOn": "2026-09-16",
+  "capturedAt": "2026-09-16T18:16:50.947Z",
+  "count": 25,
+  "rows": [
     {
       "company": "Tempsens Instruments",
       "symbol": "TEMPSENS",
