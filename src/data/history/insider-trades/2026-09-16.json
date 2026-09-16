@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-16T18:11:23.534Z",
-  "source": "Screener",
-  "total": 50,
-  "items": [
+  "capturedOn": "2026-09-16",
+  "capturedAt": "2026-09-16T18:11:23.535Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Jaro Institute",
       "symbol": "JARO",
