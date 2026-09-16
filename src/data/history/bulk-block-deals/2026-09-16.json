@@ -1,12 +1,8 @@
 {
-  "asOnDate": "16-Sep-2026",
-  "fetchedAt": "2026-09-16T17:40:35.495Z",
-  "counts": {
-    "bulk": 225,
-    "block": 39,
-    "short": 101
-  },
-  "bulk": [
+  "capturedOn": "2026-09-16",
+  "capturedAt": "2026-09-16T17:40:35.497Z",
+  "count": 365,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "MVELECTRO",
@@ -2706,9 +2702,7 @@
       "value": 177851824.66,
       "date": "16-Sep-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "BLACKBUCK",
@@ -3176,9 +3170,7 @@
       "value": 252500000,
       "date": "11-Sep-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "ABBOTINDIA",
