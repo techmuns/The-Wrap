@@ -1,18 +1,8 @@
 {
-  "fetchedAt": "2026-09-16T18:06:37.130Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "other": 33,
-    "bonus": 1,
-    "fund-raising": 6,
-    "order-wins": 5,
-    "rights": 1,
-    "open-offer": 1,
-    "jv": 2,
-    "merger": 1
-  },
-  "items": [
+  "capturedOn": "2026-09-16",
+  "capturedAt": "2026-09-16T18:06:37.131Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Pet Plastics",
       "symbol": "524046",
