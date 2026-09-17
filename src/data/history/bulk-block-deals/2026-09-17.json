@@ -1,12 +1,8 @@
 {
-  "asOnDate": "17-Sep-2026",
-  "fetchedAt": "2026-09-17T17:41:09.521Z",
-  "counts": {
-    "bulk": 212,
-    "block": 4,
-    "short": 65
-  },
-  "bulk": [
+  "capturedOn": "2026-09-17",
+  "capturedAt": "2026-09-17T17:41:09.521Z",
+  "count": 281,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "ABH",
@@ -2550,9 +2546,7 @@
       "value": 17518000,
       "date": "17-Sep-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "ASIANPAINT",
@@ -2600,9 +2594,7 @@
       "value": 423990000,
       "date": "17-Sep-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "ABCAPITAL",
