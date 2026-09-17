@@ -1,19 +1,8 @@
 {
-  "fetchedAt": "2026-09-17T18:07:09.820Z",
-  "source": "Screener",
-  "total": 49,
-  "byCategory": {
-    "order-wins": 3,
-    "jv": 2,
-    "other": 19,
-    "capex": 9,
-    "fund-raising": 11,
-    "acquisitions": 1,
-    "buyback": 1,
-    "rights": 2,
-    "open-offer": 1
-  },
-  "items": [
+  "capturedOn": "2026-09-17",
+  "capturedAt": "2026-09-17T18:07:09.820Z",
+  "count": 49,
+  "rows": [
     {
       "company": "Marvel Decor",
       "symbol": "MDL",
