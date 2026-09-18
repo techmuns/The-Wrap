@@ -1,19 +1,8 @@
 {
-  "fetchedAt": "2026-09-18T17:38:44.417Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "other": 25,
-    "acquisitions": 2,
-    "merger": 5,
-    "open-offer": 2,
-    "capex": 1,
-    "fund-raising": 8,
-    "order-wins": 3,
-    "name-change": 2,
-    "bonus": 2
-  },
-  "items": [
+  "capturedOn": "2026-09-18",
+  "capturedAt": "2026-09-18T17:38:44.419Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Apollo Pipes",
       "symbol": "APOLLOPIPE",
