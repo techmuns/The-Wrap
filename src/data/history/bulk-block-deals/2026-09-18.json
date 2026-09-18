@@ -1,12 +1,8 @@
 {
-  "asOnDate": "18-Sep-2026",
-  "fetchedAt": "2026-09-18T17:08:29.961Z",
-  "counts": {
-    "bulk": 225,
-    "block": 5,
-    "short": 73
-  },
-  "bulk": [
+  "capturedOn": "2026-09-18",
+  "capturedAt": "2026-09-18T17:08:29.962Z",
+  "count": 303,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "RIR",
@@ -2706,9 +2702,7 @@
       "value": 110749272.75999999,
       "date": "18-Sep-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "ENTERO",
@@ -2768,9 +2762,7 @@
       "value": 309452256,
       "date": "18-Sep-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "360ONE",
