@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-18T16:37:45.882Z",
+  "fetchedAt": "2026-09-19T16:00:16.251Z",
   "universe": "NSE Nifty 500",
   "periods": [
     "4W",
@@ -14,7 +14,7 @@
       "sector": "Healthcare",
       "count": 48,
       "pct": [
-        67,
+        63,
         71,
         73,
         73,
@@ -47,7 +47,7 @@
       "sector": "Capital Goods",
       "count": 63,
       "pct": [
-        46,
+        35,
         51,
         56,
         57,
@@ -58,7 +58,7 @@
       "sector": "Metals & Mining",
       "count": 18,
       "pct": [
-        33,
+        22,
         33,
         39,
         50,
@@ -80,9 +80,9 @@
       "sector": "Automobile and Auto Components",
       "count": 38,
       "pct": [
-        39,
+        32,
         47,
-        55,
+        53,
         53,
         53
       ]
@@ -91,9 +91,9 @@
       "sector": "Financial Services",
       "count": 101,
       "pct": [
-        41,
-        47,
-        52,
+        35,
+        44,
+        51,
         52,
         50
       ]
@@ -102,10 +102,10 @@
       "sector": "Services",
       "count": 14,
       "pct": [
-        64,
-        50,
-        50,
         57,
+        50,
+        50,
+        50,
         50
       ]
     },
@@ -113,7 +113,7 @@
       "sector": "Realty",
       "count": 11,
       "pct": [
-        18,
+        0,
         36,
         55,
         45,
@@ -124,8 +124,8 @@
       "sector": "Telecommunication",
       "count": 10,
       "pct": [
+        20,
         30,
-        40,
         30,
         30,
         40
@@ -135,7 +135,7 @@
       "sector": "Chemicals",
       "count": 26,
       "pct": [
-        42,
+        27,
         42,
         38,
         38,
@@ -146,7 +146,7 @@
       "sector": "Consumer Services",
       "count": 29,
       "pct": [
-        62,
+        45,
         55,
         55,
         52,
@@ -157,7 +157,7 @@
       "sector": "Information Technology",
       "count": 27,
       "pct": [
-        22,
+        15,
         30,
         33,
         37,
@@ -179,7 +179,7 @@
       "sector": "Fast Moving Consumer Goods",
       "count": 28,
       "pct": [
-        39,
+        29,
         21,
         21,
         29,
@@ -201,7 +201,7 @@
       "sector": "Power",
       "count": 17,
       "pct": [
-        53,
+        35,
         12,
         24,
         24,
@@ -223,7 +223,7 @@
       "sector": "Construction Materials",
       "count": 11,
       "pct": [
-        27,
+        9,
         9,
         9,
         9,
