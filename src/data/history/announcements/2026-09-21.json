@@ -1,20 +1,8 @@
 {
-  "fetchedAt": "2026-09-21T19:15:19.835Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "capex": 4,
-    "rights": 1,
-    "fund-raising": 4,
-    "jv": 1,
-    "other": 25,
-    "order-wins": 4,
-    "merger": 1,
-    "name-change": 4,
-    "acquisitions": 4,
-    "open-offer": 2
-  },
-  "items": [
+  "capturedOn": "2026-09-21",
+  "capturedAt": "2026-09-21T19:15:19.836Z",
+  "count": 50,
+  "rows": [
     {
       "company": "NTPC Green Ene.",
       "symbol": "NTPCGREEN",
