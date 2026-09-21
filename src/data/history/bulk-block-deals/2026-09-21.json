@@ -1,12 +1,8 @@
 {
-  "asOnDate": "21-Sep-2026",
-  "fetchedAt": "2026-09-21T18:50:56.850Z",
-  "counts": {
-    "bulk": 217,
-    "block": 5,
-    "short": 115
-  },
-  "bulk": [
+  "capturedOn": "2026-09-21",
+  "capturedAt": "2026-09-21T18:50:56.851Z",
+  "count": 337,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "AARTIPHARM",
@@ -2610,9 +2606,7 @@
       "value": 588513490.56,
       "date": "21-Sep-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "ENTERO",
@@ -2672,9 +2666,7 @@
       "value": 309452256,
       "date": "18-Sep-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "ACE",
