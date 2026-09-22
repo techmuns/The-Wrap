@@ -1,11 +1,8 @@
 {
-  "fetchedAt": "2026-09-22T18:11:20.553Z",
-  "source": "Screener",
-  "counts": {
-    "recent": 25,
-    "upcoming": 0
-  },
-  "items": [
+  "capturedOn": "2026-09-22",
+  "capturedAt": "2026-09-22T18:11:20.554Z",
+  "count": 25,
+  "rows": [
     {
       "company": "Sun Pharma.Inds.",
       "symbol": "SUNPHARMA",
