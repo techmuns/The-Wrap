@@ -1,12 +1,8 @@
 {
-  "asOnDate": "22-Sep-2026",
-  "fetchedAt": "2026-09-22T17:41:17.806Z",
-  "counts": {
-    "bulk": 185,
-    "block": 5,
-    "short": 207
-  },
-  "bulk": [
+  "capturedOn": "2026-09-22",
+  "capturedAt": "2026-09-22T17:41:17.807Z",
+  "count": 397,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "KSHITIJPOL",
@@ -2226,9 +2222,7 @@
       "value": 1451503256.24,
       "date": "22-Sep-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "RHIM",
@@ -2288,9 +2282,7 @@
       "value": 8258840640,
       "date": "22-Sep-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "ABB",
