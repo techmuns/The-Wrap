@@ -1,15 +1,8 @@
 {
-  "fetchedAt": "2026-09-22T18:18:47.473Z",
-  "source": "Screener",
-  "total": 125,
-  "byType": {
-    "bonus": 25,
-    "buyback": 25,
-    "split": 25,
-    "rights": 25,
-    "dividend": 25
-  },
-  "items": [
+  "capturedOn": "2026-09-22",
+  "capturedAt": "2026-09-22T18:18:47.477Z",
+  "count": 125,
+  "rows": [
     {
       "company": "Chavda Infra Ltd",
       "symbol": "CHAVDA",
