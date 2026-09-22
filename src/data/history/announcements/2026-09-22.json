@@ -1,20 +1,8 @@
 {
-  "fetchedAt": "2026-09-22T18:01:59.152Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "other": 25,
-    "jv": 1,
-    "merger": 6,
-    "fund-raising": 7,
-    "acquisitions": 2,
-    "bonus": 1,
-    "order-wins": 1,
-    "name-change": 5,
-    "open-offer": 1,
-    "buyback": 1
-  },
-  "items": [
+  "capturedOn": "2026-09-22",
+  "capturedAt": "2026-09-22T18:01:59.153Z",
+  "count": 50,
+  "rows": [
     {
       "company": "IRB Infra.Devl.",
       "symbol": "IRB",
