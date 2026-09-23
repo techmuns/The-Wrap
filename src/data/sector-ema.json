@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-22T17:08:44.554Z",
+  "fetchedAt": "2026-09-23T17:22:06.881Z",
   "universe": "NSE Nifty 500",
   "periods": [
     "4W",
@@ -8,35 +8,35 @@
     "40W",
     "52W"
   ],
-  "coverage": 499,
+  "coverage": 500,
   "sectors": [
     {
       "sector": "Healthcare",
       "count": 48,
       "pct": [
-        54,
-        71,
+        73,
+        73,
         75,
-        75,
-        73
+        73,
+        75
       ]
     },
     {
       "sector": "Metals & Mining",
       "count": 18,
       "pct": [
-        28,
-        28,
-        44,
-        50,
-        61
+        78,
+        56,
+        67,
+        67,
+        72
       ]
     },
     {
       "sector": "Textiles",
       "count": 5,
       "pct": [
-        40,
+        80,
         40,
         40,
         40,
@@ -55,10 +55,32 @@
       ]
     },
     {
+      "sector": "Capital Goods",
+      "count": 63,
+      "pct": [
+        43,
+        52,
+        54,
+        56,
+        59
+      ]
+    },
+    {
+      "sector": "Automobile and Auto Components",
+      "count": 38,
+      "pct": [
+        34,
+        47,
+        55,
+        58,
+        58
+      ]
+    },
+    {
       "sector": "Services",
       "count": 14,
       "pct": [
-        57,
+        64,
         50,
         50,
         50,
@@ -66,21 +88,10 @@
       ]
     },
     {
-      "sector": "Capital Goods",
-      "count": 62,
-      "pct": [
-        31,
-        45,
-        52,
-        53,
-        56
-      ]
-    },
-    {
       "sector": "Realty",
       "count": 11,
       "pct": [
-        36,
+        64,
         55,
         55,
         55,
@@ -88,13 +99,13 @@
       ]
     },
     {
-      "sector": "Automobile and Auto Components",
-      "count": 38,
+      "sector": "Oil Gas & Consumable Fuels",
+      "count": 17,
       "pct": [
-        24,
-        42,
-        50,
-        53,
+        47,
+        47,
+        47,
+        47,
         53
       ]
     },
@@ -102,22 +113,22 @@
       "sector": "Financial Services",
       "count": 101,
       "pct": [
-        23,
-        36,
-        49,
+        38,
+        41,
         50,
+        52,
         49
       ]
     },
     {
-      "sector": "Oil Gas & Consumable Fuels",
-      "count": 17,
+      "sector": "Chemicals",
+      "count": 26,
       "pct": [
-        41,
-        47,
-        41,
-        41,
-        47
+        38,
+        38,
+        42,
+        38,
+        38
       ]
     },
     {
@@ -127,7 +138,7 @@
         59,
         55,
         52,
-        52,
+        48,
         38
       ]
     },
@@ -135,22 +146,11 @@
       "sector": "Fast Moving Consumer Goods",
       "count": 28,
       "pct": [
-        21,
-        25,
-        25,
+        61,
+        32,
         29,
+        32,
         36
-      ]
-    },
-    {
-      "sector": "Chemicals",
-      "count": 26,
-      "pct": [
-        38,
-        38,
-        38,
-        35,
-        35
       ]
     },
     {
@@ -169,32 +169,43 @@
       "count": 27,
       "pct": [
         15,
+        26,
         30,
         33,
-        30,
         33
-      ]
-    },
-    {
-      "sector": "Power",
-      "count": 17,
-      "pct": [
-        12,
-        6,
-        18,
-        24,
-        24
       ]
     },
     {
       "sector": "Construction",
       "count": 13,
       "pct": [
-        15,
+        38,
         23,
         23,
         23,
-        23
+        31
+      ]
+    },
+    {
+      "sector": "Consumer Durables",
+      "count": 16,
+      "pct": [
+        31,
+        44,
+        44,
+        38,
+        31
+      ]
+    },
+    {
+      "sector": "Power",
+      "count": 17,
+      "pct": [
+        29,
+        12,
+        24,
+        24,
+        24
       ]
     },
     {
@@ -209,22 +220,11 @@
       ]
     },
     {
-      "sector": "Consumer Durables",
-      "count": 16,
-      "pct": [
-        13,
-        31,
-        38,
-        38,
-        19
-      ]
-    },
-    {
       "sector": "Construction Materials",
       "count": 11,
       "pct": [
-        27,
-        9,
+        36,
+        18,
         18,
         18,
         18
