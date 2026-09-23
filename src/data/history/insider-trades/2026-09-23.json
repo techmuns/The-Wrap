@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-23T18:24:03.978Z",
-  "source": "Screener",
-  "total": 49,
-  "items": [
+  "capturedOn": "2026-09-23",
+  "capturedAt": "2026-09-23T18:24:03.979Z",
+  "count": 49,
+  "rows": [
     {
       "company": "Veegaland Developers",
       "symbol": "VEEGALAND",
