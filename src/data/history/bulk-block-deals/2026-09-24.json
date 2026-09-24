@@ -1,12 +1,8 @@
 {
-  "asOnDate": "24-Sep-2026",
-  "fetchedAt": "2026-09-24T17:54:08.110Z",
-  "counts": {
-    "bulk": 226,
-    "block": 30,
-    "short": 91
-  },
-  "bulk": [
+  "capturedOn": "2026-09-24",
+  "capturedAt": "2026-09-24T17:54:08.111Z",
+  "count": 347,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "HEROMOTORS",
@@ -2718,9 +2714,7 @@
       "value": 300977680.3,
       "date": "24-Sep-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "SANOFI",
@@ -3080,9 +3074,7 @@
       "value": 1354500000,
       "date": "24-Sep-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "ADANIPORTS",
