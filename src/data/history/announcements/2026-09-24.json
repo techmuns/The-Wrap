@@ -1,19 +1,8 @@
 {
-  "fetchedAt": "2026-09-24T18:22:38.718Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "capex": 4,
-    "fund-raising": 9,
-    "other": 21,
-    "acquisitions": 6,
-    "open-offer": 2,
-    "jv": 1,
-    "rights": 2,
-    "merger": 2,
-    "order-wins": 3
-  },
-  "items": [
+  "capturedOn": "2026-09-24",
+  "capturedAt": "2026-09-24T18:22:38.720Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Steamhouse India",
       "symbol": "STEAMHOUSE",
