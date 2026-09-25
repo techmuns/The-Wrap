@@ -1,18 +1,8 @@
 {
-  "fetchedAt": "2026-09-25T18:27:38.647Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "other": 27,
-    "open-offer": 1,
-    "fund-raising": 10,
-    "acquisitions": 1,
-    "rights": 3,
-    "order-wins": 3,
-    "merger": 4,
-    "jv": 1
-  },
-  "items": [
+  "capturedOn": "2026-09-25",
+  "capturedAt": "2026-09-25T18:27:38.655Z",
+  "count": 50,
+  "rows": [
     {
       "company": "ICICI Bank",
       "symbol": "ICICIBANK",
