@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-25T18:35:14.551Z",
-  "source": "Screener",
-  "total": 49,
-  "items": [
+  "capturedOn": "2026-09-25",
+  "capturedAt": "2026-09-25T18:35:14.552Z",
+  "count": 49,
+  "rows": [
     {
       "company": "TruAlt Bioenergy",
       "symbol": "TRUALT",
