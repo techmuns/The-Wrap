@@ -1,12 +1,8 @@
 {
-  "asOnDate": "25-Sep-2026",
-  "fetchedAt": "2026-09-25T18:01:17.083Z",
-  "counts": {
-    "bulk": 237,
-    "block": 6,
-    "short": 75
-  },
-  "bulk": [
+  "capturedOn": "2026-09-25",
+  "capturedAt": "2026-09-25T18:01:17.084Z",
+  "count": 318,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "AAATECH",
@@ -2850,9 +2846,7 @@
       "value": 910623252,
       "date": "25-Sep-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "ADANIENT",
@@ -2924,9 +2918,7 @@
       "value": 1235900000,
       "date": "25-Sep-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "360ONE",
