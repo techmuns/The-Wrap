@@ -1,12 +1,8 @@
 {
-  "asOnDate": "28-Sep-2026",
-  "fetchedAt": "2026-09-28T20:10:53.212Z",
-  "counts": {
-    "bulk": 184,
-    "block": 4,
-    "short": 83
-  },
-  "bulk": [
+  "capturedOn": "2026-09-28",
+  "capturedAt": "2026-09-28T20:10:53.214Z",
+  "count": 271,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "RAYMOND",
@@ -2214,9 +2210,7 @@
       "value": 443688161.08000004,
       "date": "28-Sep-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "ELECTCAST",
@@ -2264,9 +2258,7 @@
       "value": 1337355360,
       "date": "28-Sep-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "ABCAPITAL",
