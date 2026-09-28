@@ -1,17 +1,8 @@
 {
-  "fetchedAt": "2026-09-28T20:29:22.678Z",
-  "source": "Screener",
-  "total": 49,
-  "byCategory": {
-    "acquisitions": 4,
-    "rights": 4,
-    "other": 29,
-    "merger": 5,
-    "order-wins": 2,
-    "fund-raising": 3,
-    "open-offer": 2
-  },
-  "items": [
+  "capturedOn": "2026-09-28",
+  "capturedAt": "2026-09-28T20:29:22.680Z",
+  "count": 49,
+  "rows": [
     {
       "company": "Anupam Rasayan",
       "symbol": "ANURAS",
