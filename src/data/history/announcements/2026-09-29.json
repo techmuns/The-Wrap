@@ -1,17 +1,8 @@
 {
-  "fetchedAt": "2026-09-29T19:15:41.577Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "other": 22,
-    "fund-raising": 11,
-    "capex": 3,
-    "jv": 3,
-    "acquisitions": 2,
-    "order-wins": 3,
-    "merger": 6
-  },
-  "items": [
+  "capturedOn": "2026-09-29",
+  "capturedAt": "2026-09-29T19:15:41.578Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Rajeswari Infra.",
       "symbol": "526823",
