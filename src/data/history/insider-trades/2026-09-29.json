@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-29T19:25:15.015Z",
-  "source": "Screener",
-  "total": 48,
-  "items": [
+  "capturedOn": "2026-09-29",
+  "capturedAt": "2026-09-29T19:25:15.016Z",
+  "count": 48,
+  "rows": [
     {
       "company": "Seksaria Finance",
       "symbol": "544907",
