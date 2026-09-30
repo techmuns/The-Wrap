@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-30T19:17:56.494Z",
-  "source": "Screener",
-  "total": 49,
-  "items": [
+  "capturedOn": "2026-09-30",
+  "capturedAt": "2026-09-30T19:17:56.495Z",
+  "count": 49,
+  "rows": [
     {
       "company": "Fusion Klassroom Edutech",
       "symbol": "544856",
