@@ -1,12 +1,8 @@
 {
-  "asOnDate": "30-Sep-2026",
-  "fetchedAt": "2026-09-30T18:30:31.476Z",
-  "counts": {
-    "bulk": 179,
-    "block": 14,
-    "short": 217
-  },
-  "bulk": [
+  "capturedOn": "2026-09-30",
+  "capturedAt": "2026-09-30T18:30:31.566Z",
+  "count": 410,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "AAREYDRUGS",
@@ -2154,9 +2150,7 @@
       "value": 50040000,
       "date": "30-Sep-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "EBGNG",
@@ -2324,9 +2318,7 @@
       "value": 252000000,
       "date": "30-Sep-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "ABB",
