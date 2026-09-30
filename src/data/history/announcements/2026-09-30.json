@@ -1,17 +1,8 @@
 {
-  "fetchedAt": "2026-09-30T19:03:45.625Z",
-  "source": "Screener",
-  "total": 45,
-  "byCategory": {
-    "order-wins": 3,
-    "jv": 1,
-    "other": 35,
-    "capex": 2,
-    "fund-raising": 2,
-    "rights": 1,
-    "acquisitions": 1
-  },
-  "items": [
+  "capturedOn": "2026-09-30",
+  "capturedAt": "2026-09-30T19:03:45.626Z",
+  "count": 45,
+  "rows": [
     {
       "company": "Yes Bank",
       "symbol": "YESBANK",
