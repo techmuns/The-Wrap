@@ -1,1657 +1,1694 @@
 {
-  "fetchedAt": "2026-09-30T18:01:16.308Z",
-  "source": "NSE",
-  "timestamp": "30-Sep-2026 16:00:00",
-  "highs": [
+  "capturedOn": "2026-09-30",
+  "capturedAt": "2026-09-30T18:01:16.309Z",
+  "count": 241,
+  "rows": [
     {
       "symbol": "3BBLACKBIO",
       "company": "3B Blackbio Dx Limited",
       "last": 1691.5,
-      "pctChange": 4.239847168299748
+      "pctChange": 4.239847168299748,
+      "kind": "high"
     },
     {
       "symbol": "AARTIPHARM",
       "company": "Aarti Pharmalabs Limited",
       "last": 954,
-      "pctChange": -1.9325657894736843
+      "pctChange": -1.9325657894736843,
+      "kind": "high"
     },
     {
       "symbol": "ABSMARINE",
       "company": "ABS Marine Services Limited",
       "last": 345,
-      "pctChange": 8.37128946128475
+      "pctChange": 8.37128946128475,
+      "kind": "high"
     },
     {
       "symbol": "ACCPL",
       "company": "Accretion Pharmaceuticals Limited",
       "last": 214,
-      "pctChange": 1.4458402465039109
+      "pctChange": 1.4458402465039109,
+      "kind": "high"
     },
     {
       "symbol": "ADROITIND",
       "company": "Adroit Industries (India) Limited",
       "last": 248.39,
-      "pctChange": 5.697872340425532
+      "pctChange": 5.697872340425532,
+      "kind": "high"
     },
     {
       "symbol": "ADROITINFO",
       "company": "Adroit Infotech Limited",
       "last": 14.69,
-      "pctChange": 3.232607167955025
+      "pctChange": 3.232607167955025,
+      "kind": "high"
     },
     {
       "symbol": "AEQUS",
       "company": "Aequs Limited",
       "last": 280,
-      "pctChange": 3.0813974892316756
+      "pctChange": 3.0813974892316756,
+      "kind": "high"
     },
     {
       "symbol": "AHCL",
       "company": "Anlon Healthcare Limited",
       "last": 34.58,
-      "pctChange": -4.973893926902996
+      "pctChange": -4.973893926902996,
+      "kind": "high"
     },
     {
       "symbol": "AIMTRON",
       "company": "Aimtron Electronics Limited",
       "last": 1959.5,
-      "pctChange": 4.595921853314828
+      "pctChange": 4.595921853314828,
+      "kind": "high"
     },
     {
       "symbol": "AKANKSHA",
       "company": "Akanksha Power and Infrastructure Limited",
       "last": 173.9,
-      "pctChange": 3.7589498806682577
+      "pctChange": 3.7589498806682577,
+      "kind": "high"
     },
     {
       "symbol": "ANAWIL",
       "company": "Anawil Wire and Engineering Limited",
       "last": 474.55,
-      "pctChange": -6.768172888015717
+      "pctChange": -6.768172888015717,
+      "kind": "high"
     },
     {
       "symbol": "ARMEE",
       "company": "ArMee Infotech Limited",
       "last": 300,
-      "pctChange": -20
+      "pctChange": -20,
+      "kind": "high"
     },
     {
       "symbol": "ASHUTOSH",
       "company": "Ashutosh Fibre Limited",
       "last": 152,
-      "pctChange": -6.948270584634221
+      "pctChange": -6.948270584634221,
+      "kind": "high"
     },
     {
       "symbol": "AUGMONT",
       "company": "Augmont Enterprises Limited",
       "last": 1098,
-      "pctChange": 3.3703633967237807
+      "pctChange": 3.3703633967237807,
+      "kind": "high"
     },
     {
       "symbol": "AXISCADES",
       "company": "AXISCADES Technologies Limited",
       "last": 2221,
-      "pctChange": 7.429621747121989
+      "pctChange": 7.429621747121989,
+      "kind": "high"
     },
     {
       "symbol": "AZAD",
       "company": "Azad Engineering Limited",
       "last": 2990,
-      "pctChange": 2.6010568938302105
+      "pctChange": 2.6010568938302105,
+      "kind": "high"
     },
     {
       "symbol": "BEEKAY",
       "company": "Beekay Steel Industries Limited",
       "last": 459.95,
-      "pctChange": 6.150473113316409
+      "pctChange": 6.150473113316409,
+      "kind": "high"
     },
     {
       "symbol": "BHADORA",
       "company": "Bhadora Industries Limited",
       "last": 140.25,
-      "pctChange": 4.977544910179641
+      "pctChange": 4.977544910179641,
+      "kind": "high"
     },
     {
       "symbol": "BHAGERIA",
       "company": "Bhageria Industries Limited",
       "last": 407,
-      "pctChange": 7.714701601164483
+      "pctChange": 7.714701601164483,
+      "kind": "high"
     },
     {
       "symbol": "BLUEWATER",
       "company": "Blue Water Logistics Limited",
       "last": 580,
-      "pctChange": 0
+      "pctChange": 0,
+      "kind": "high"
     },
     {
       "symbol": "BOSCH-HCIL",
       "company": "BOSCH HOME COMFORT INDIA LIMITED",
       "last": 1879,
-      "pctChange": -2.8639371381306864
+      "pctChange": -2.8639371381306864,
+      "kind": "high"
     },
     {
       "symbol": "CENTEXT-RE",
       "company": "Century Extrusions Limited-RE",
       "last": 3.7,
-      "pctChange": 32.61648745519713
+      "pctChange": 32.61648745519713,
+      "kind": "high"
     },
     {
       "symbol": "COREIN",
       "company": "Coreintegra Consulting Services Limited",
       "last": 78.95,
-      "pctChange": 1.088348271446863
+      "pctChange": 1.088348271446863,
+      "kind": "high"
     },
     {
       "symbol": "CREDENT",
       "company": "Credent Connect N Care Limited",
       "last": 396.5,
-      "pctChange": -2.687446312430973
+      "pctChange": -2.687446312430973,
+      "kind": "high"
     },
     {
       "symbol": "CUBEXTUB",
       "company": "Cubex Tubings Limited",
       "last": 177.6,
-      "pctChange": 1.0583817002389895
+      "pctChange": 1.0583817002389895,
+      "kind": "high"
     },
     {
       "symbol": "CUPID",
       "company": "Cupid Limited",
       "last": 311.7,
-      "pctChange": 8.229166666666666
+      "pctChange": 8.229166666666666,
+      "kind": "high"
     },
     {
       "symbol": "DELTACORP",
       "company": "Delta Corp Limited",
       "last": 80.74,
-      "pctChange": 2.6051594865929597
+      "pctChange": 2.6051594865929597,
+      "kind": "high"
     },
     {
       "symbol": "DPABHUSHAN",
       "company": "D. P. Abhushan Limited",
       "last": 1798,
-      "pctChange": 7.936126785928683
+      "pctChange": 7.936126785928683,
+      "kind": "high"
     },
     {
       "symbol": "DSKULKARNI",
       "company": "DS Kulkarni Developers Limited",
       "last": 25.56,
-      "pctChange": 1.9952114924181963
+      "pctChange": 1.9952114924181963,
+      "kind": "high"
     },
     {
       "symbol": "DYNAMATECH",
       "company": "Dynamatic Technologies Limited",
       "last": 13520,
-      "pctChange": 3.482587064676617
+      "pctChange": 3.482587064676617,
+      "kind": "high"
     },
     {
       "symbol": "ELEVATE",
       "company": "Elevate Campuses Limited",
       "last": 319.7,
-      "pctChange": -9.969022810475922
+      "pctChange": -9.969022810475922,
+      "kind": "high"
     },
     {
       "symbol": "EMIL",
       "company": "Electronics Mart India Limited",
       "last": 204,
-      "pctChange": 6.410724531844974
+      "pctChange": 6.410724531844974,
+      "kind": "high"
     },
     {
       "symbol": "ESAFSFB",
       "company": "ESAF Small Finance Bank Limited",
       "last": 44.5,
-      "pctChange": -0.0898069151324652
+      "pctChange": -0.0898069151324652,
+      "kind": "high"
     },
     {
       "symbol": "GCSL",
       "company": "Gretex Corporate Services Limited",
       "last": 675.05,
-      "pctChange": 1.320825515947467
+      "pctChange": 1.320825515947467,
+      "kind": "high"
     },
     {
       "symbol": "GFSTEELS",
       "company": "Grand Foundry Limited",
       "last": 37.55,
-      "pctChange": 4.976237070170534
+      "pctChange": 4.976237070170534,
+      "kind": "high"
     },
     {
       "symbol": "GJL",
       "company": "Grover Jewells Limited",
       "last": 447.85,
-      "pctChange": 4.993552924627828
+      "pctChange": 4.993552924627828,
+      "kind": "high"
     },
     {
       "symbol": "GLOBALPET",
       "company": "Global Pet Industries Limited",
       "last": 175,
-      "pctChange": 4.166666666666667
+      "pctChange": 4.166666666666667,
+      "kind": "high"
     },
     {
       "symbol": "GOLDSTAR",
       "company": "Goldstar Power Limited",
       "last": 12.25,
-      "pctChange": 4.700854700854701
+      "pctChange": 4.700854700854701,
+      "kind": "high"
     },
     {
       "symbol": "GSPLTRANS",
       "company": "GSPL Transmission Limited",
       "last": 144.4,
-      "pctChange": -5
+      "pctChange": -5,
+      "kind": "high"
     },
     {
       "symbol": "HALDYNGL",
       "company": "Haldyn Glass Limited",
       "last": 154,
-      "pctChange": -0.09730781706130393
+      "pctChange": -0.09730781706130393,
+      "kind": "high"
     },
     {
       "symbol": "HITECHCORP",
       "company": "Hitech Corporation Limited",
       "last": 346,
-      "pctChange": 1.0366476857935465
+      "pctChange": 1.0366476857935465,
+      "kind": "high"
     },
     {
       "symbol": "IMPEXFERRO",
       "company": "Impex Ferro Tech Limited",
       "last": 6.5,
-      "pctChange": 1.8808777429467085
+      "pctChange": 1.8808777429467085,
+      "kind": "high"
     },
     {
       "symbol": "INDSWFTLAB",
       "company": "Ind-Swift Laboratories Limited",
       "last": 388,
-      "pctChange": -6.07601065117405
+      "pctChange": -6.07601065117405,
+      "kind": "high"
     },
     {
       "symbol": "INFINIUM",
       "company": "Infinium Pharmachem Limited",
       "last": 293.15,
-      "pctChange": 10
+      "pctChange": 10,
+      "kind": "high"
     },
     {
       "symbol": "INTEGRITY",
       "company": "Integrity Infrabuild Developers Limited",
       "last": 186.8,
-      "pctChange": 4.943820224719101
+      "pctChange": 4.943820224719101,
+      "kind": "high"
     },
     {
       "symbol": "INVPRECQ",
       "company": "Investment & Precision Castings Limited",
       "last": 1555,
-      "pctChange": 2.2219300552195635
+      "pctChange": 2.2219300552195635,
+      "kind": "high"
     },
     {
       "symbol": "JASH",
       "company": "Jash Engineering Limited",
       "last": 592,
-      "pctChange": -1.0695187165775402
+      "pctChange": -1.0695187165775402,
+      "kind": "high"
     },
     {
       "symbol": "JGCHEM",
       "company": "J.G.Chemicals Limited",
       "last": 638,
-      "pctChange": -3.1352007894936613
+      "pctChange": -3.1352007894936613,
+      "kind": "high"
     },
     {
       "symbol": "JNPR",
       "company": "Juniper Green Energy Limited",
       "last": 273,
-      "pctChange": 0.2570694087403599
+      "pctChange": 0.2570694087403599,
+      "kind": "high"
     },
     {
       "symbol": "JSIPL",
       "company": "Jindal Supreme (India) Limited",
       "last": 160.79,
-      "pctChange": 4.995429019198119
+      "pctChange": 4.995429019198119,
+      "kind": "high"
     },
     {
       "symbol": "KARAMTARA",
       "company": "Karamtara Engineering Limited",
       "last": 395.35,
-      "pctChange": 9.987480873556823
+      "pctChange": 9.987480873556823,
+      "kind": "high"
     },
     {
       "symbol": "KATARIA",
       "company": "Kataria Industries Limited",
       "last": 161,
-      "pctChange": 9.449354180829367
+      "pctChange": 9.449354180829367,
+      "kind": "high"
     },
     {
       "symbol": "KINGFA",
       "company": "Kingfa Science & Technology (India) Limited",
       "last": 6500,
-      "pctChange": -0.3755077017395969
+      "pctChange": -0.3755077017395969,
+      "kind": "high"
     },
     {
       "symbol": "KOPRAN",
       "company": "Kopran Limited",
       "last": 279,
-      "pctChange": -4.090752836026126
+      "pctChange": -4.090752836026126,
+      "kind": "high"
     },
     {
       "symbol": "LALITHAA",
       "company": "Lalithaa Jewellery Mart Limited",
       "last": 383,
-      "pctChange": 2.1333333333333333
+      "pctChange": 2.1333333333333333,
+      "kind": "high"
     },
     {
       "symbol": "LIQUIDCASE",
       "company": "Zerodha Fund House - Zerodha Nifty 1D Rate Liquid ETF",
       "last": 116.15,
-      "pctChange": 0.02583534274888047
+      "pctChange": 0.02583534274888047,
+      "kind": "high"
     },
     {
       "symbol": "LIQUIDSHRI",
       "company": "Shriram Mutual Fund -SHRIRAM NIFTY 1D RATE LIQUID ETF",
       "last": 1123.56,
-      "pctChange": 0.013352204448954522
+      "pctChange": 0.013352204448954522,
+      "kind": "high"
     },
     {
       "symbol": "LLOYDSENGG",
       "company": "LLOYDS ENGINEERING WORKS LIMITED",
       "last": 98.35,
-      "pctChange": -3.7577062334866427
+      "pctChange": -3.7577062334866427,
+      "kind": "high"
     },
     {
       "symbol": "LRRPL",
       "company": "Lead Reclaim And Rubber Products Limited",
       "last": 108.2,
-      "pctChange": 4.9975739932071805
+      "pctChange": 4.9975739932071805,
+      "kind": "high"
     },
     {
       "symbol": "MAHSEAMLES",
       "company": "Maharashtra Seamless Limited",
       "last": 737,
-      "pctChange": 2.0987739835145804
+      "pctChange": 2.0987739835145804,
+      "kind": "high"
     },
     {
       "symbol": "MANIKA",
       "company": "Manika Plastech Limited",
       "last": 42.5,
-      "pctChange": 1.6017212526894573
+      "pctChange": 1.6017212526894573,
+      "kind": "high"
     },
     {
       "symbol": "MBECL",
       "company": "Mcnally Bharat Engineering Company Limited",
       "last": 484.32,
-      "pctChange": 1.9986100288524313
+      "pctChange": 1.9986100288524313,
+      "kind": "high"
     },
     {
       "symbol": "MOREPENLAB",
       "company": "Morepen Laboratories Limited",
       "last": 125.7,
-      "pctChange": 5.808080808080808
+      "pctChange": 5.808080808080808,
+      "kind": "high"
     },
     {
       "symbol": "MUKANDLTD",
       "company": "Mukand Limited",
       "last": 180,
-      "pctChange": 4.35387558699055
+      "pctChange": 4.35387558699055,
+      "kind": "high"
     },
     {
       "symbol": "NAZARA",
       "company": "Nazara Technologies Limited",
       "last": 393,
-      "pctChange": 1.184346035015448
+      "pctChange": 1.184346035015448,
+      "kind": "high"
     },
     {
       "symbol": "NIF500BETA",
       "company": "UTI Mutual Fund - UTI Nifty 500 Exchange Traded Fund",
       "last": 38.25,
-      "pctChange": 1.7828632251197445
+      "pctChange": 1.7828632251197445,
+      "kind": "high"
     },
     {
       "symbol": "NURECA",
       "company": "Nureca Limited",
       "last": 369.1,
-      "pctChange": 2.1023513139695713
+      "pctChange": 2.1023513139695713,
+      "kind": "high"
     },
     {
       "symbol": "OCCLLTD",
       "company": "OCCL Limited",
       "last": 187.44,
-      "pctChange": 4.9966390320412275
+      "pctChange": 4.9966390320412275,
+      "kind": "high"
     },
     {
       "symbol": "ONELIFECAP",
       "company": "Onelife Capital Advisors Limited",
       "last": 40.4,
-      "pctChange": 3.669489350782653
+      "pctChange": 3.669489350782653,
+      "kind": "high"
     },
     {
       "symbol": "ONEPOINT",
       "company": "One Point One Solutions Limited",
       "last": 73.33,
-      "pctChange": 2.387601228707065
+      "pctChange": 2.387601228707065,
+      "kind": "high"
     },
     {
       "symbol": "ORBTEXP",
       "company": "Orbit Exports Limited",
       "last": 255,
-      "pctChange": -2.6754704018930577
+      "pctChange": -2.6754704018930577,
+      "kind": "high"
     },
     {
       "symbol": "PARTY-RE",
       "company": "Party Cruisers Ltd-RE",
       "last": 0.15,
-      "pctChange": 50
+      "pctChange": 50,
+      "kind": "high"
     },
     {
       "symbol": "POOJALOGIS",
       "company": "Pooja Logistics Limited",
       "last": 123.9,
-      "pctChange": 5
+      "pctChange": 5,
+      "kind": "high"
     },
     {
       "symbol": "PRASOLCHEM",
       "company": "Prasol Chemicals Limited",
       "last": 815,
-      "pctChange": -2.993513063143486
+      "pctChange": -2.993513063143486,
+      "kind": "high"
     },
     {
       "symbol": "PREMIUM",
       "company": "Premium Plast Limited",
       "last": 46,
-      "pctChange": 4.545454545454546
+      "pctChange": 4.545454545454546,
+      "kind": "high"
     },
     {
       "symbol": "QPOWER",
       "company": "Quality Power Electrical Equipments Limited",
       "last": 1585,
-      "pctChange": -1.815028185591278
+      "pctChange": -1.815028185591278,
+      "kind": "high"
     },
     {
       "symbol": "QUADFUTURE",
       "company": "Quadrant Future Tek Limited",
       "last": 546.65,
-      "pctChange": 0.8300285898736512
+      "pctChange": 0.8300285898736512,
+      "kind": "high"
     },
     {
       "symbol": "RATNAVEER",
       "company": "Ratnaveer Precision Engineering Limited",
       "last": 330,
-      "pctChange": -0.3472746489506266
+      "pctChange": -0.3472746489506266,
+      "kind": "high"
     },
     {
       "symbol": "RAYMOND",
       "company": "Raymond Limited",
       "last": 1202,
-      "pctChange": 1.3704406493780308
+      "pctChange": 1.3704406493780308,
+      "kind": "high"
     },
     {
       "symbol": "RBZJEWEL",
       "company": "RBZ Jewellers Limited",
       "last": 207.66,
-      "pctChange": 4.99544948933158
+      "pctChange": 4.99544948933158,
+      "kind": "high"
     },
     {
       "symbol": "ROSSTECH",
       "company": "Rossell Techsys Limited",
       "last": 1486,
-      "pctChange": 0.29020719443882026
+      "pctChange": 0.29020719443882026,
+      "kind": "high"
     },
     {
       "symbol": "RPTECH",
       "company": "Rashi Peripherals Limited",
       "last": 950.1,
-      "pctChange": 2.674663640784568
+      "pctChange": 2.674663640784568,
+      "kind": "high"
     },
     {
       "symbol": "SALSTEEL",
       "company": "S.A.L. Steel Limited",
       "last": 98,
-      "pctChange": 0.9476720230737536
+      "pctChange": 0.9476720230737536,
+      "kind": "high"
     },
     {
       "symbol": "SAMBHV",
       "company": "Sambhv Steel Tubes Limited",
       "last": 164.4,
-      "pctChange": 1.331360946745562
+      "pctChange": 1.331360946745562,
+      "kind": "high"
     },
     {
       "symbol": "SBC",
       "company": "SBC Exports Limited",
       "last": 58.75,
-      "pctChange": 7.345148912844875
+      "pctChange": 7.345148912844875,
+      "kind": "high"
     },
     {
       "symbol": "SHEKHAWATI",
       "company": "Shekhawati Industries Limited",
       "last": 31.68,
-      "pctChange": 4.970178926441352
+      "pctChange": 4.970178926441352,
+      "kind": "high"
     },
     {
       "symbol": "SHERA",
       "company": "Shera Energy Limited",
       "last": 198,
-      "pctChange": 1.3824884792626728
+      "pctChange": 1.3824884792626728,
+      "kind": "high"
     },
     {
       "symbol": "SHILPAMED",
       "company": "Shilpa Medicare Limited",
       "last": 1041.95,
-      "pctChange": -1.30712763438314
+      "pctChange": -1.30712763438314,
+      "kind": "high"
     },
     {
       "symbol": "SHIVAUM",
       "company": "Shiv Aum Steels Limited",
       "last": 555.05,
-      "pctChange": 1.7693436010267694
+      "pctChange": 1.7693436010267694,
+      "kind": "high"
     },
     {
       "symbol": "SHREEJISPG",
       "company": "Shreeji Shipping Global Limited",
       "last": 766.5,
-      "pctChange": 0.4192322808856282
+      "pctChange": 0.4192322808856282,
+      "kind": "high"
     },
     {
       "symbol": "SHUKRAPHAR",
       "company": "Shukra Pharmaceuticals Limited",
       "last": 62.16,
-      "pctChange": 3.084577114427861
+      "pctChange": 3.084577114427861,
+      "kind": "high"
     },
     {
       "symbol": "SIGMAADV",
       "company": "SIGMA ADVANCED SYSTEMS LIMITED",
       "last": 1025.7,
-      "pctChange": 4.995393591974613
+      "pctChange": 4.995393591974613,
+      "kind": "high"
     },
     {
       "symbol": "SOTL",
       "company": "Savita Oil Technologies Limited",
       "last": 715,
-      "pctChange": -0.2789400278940028
+      "pctChange": -0.2789400278940028,
+      "kind": "high"
     },
     {
       "symbol": "SPECTRAA",
       "company": "SpectraA Technology Solutions Limited",
       "last": 251,
-      "pctChange": 1.1688835147118097
+      "pctChange": 1.1688835147118097,
+      "kind": "high"
     },
     {
       "symbol": "SPECTRUM",
       "company": "Spectrum Electrical Industries Limited",
       "last": 3850,
-      "pctChange": 3.4695906904243596
+      "pctChange": 3.4695906904243596,
+      "kind": "high"
     },
     {
       "symbol": "SSWL",
       "company": "Steel Strips Wheels Limited",
       "last": 406,
-      "pctChange": 1.3353300886060153
+      "pctChange": 1.3353300886060153,
+      "kind": "high"
     },
     {
       "symbol": "SUNFLAG",
       "company": "Sunflag Iron And Steel Company Limited",
       "last": 452.65,
-      "pctChange": -2.5091535645057075
+      "pctChange": -2.5091535645057075,
+      "kind": "high"
     },
     {
       "symbol": "SUNTV",
       "company": "Sun TV Network Limited",
       "last": 596,
-      "pctChange": 7.727067329417081
+      "pctChange": 7.727067329417081,
+      "kind": "high"
     },
     {
       "symbol": "SWARAJ",
       "company": "Swaraj Suiting Limited",
       "last": 390.5,
-      "pctChange": 4.635584137191854
+      "pctChange": 4.635584137191854,
+      "kind": "high"
     },
     {
       "symbol": "SWASTIKAIN",
       "company": "Swastika Infra Limited",
       "last": 210,
-      "pctChange": 5
+      "pctChange": 5,
+      "kind": "high"
     },
     {
       "symbol": "SYMBIOTEC",
       "company": "Symbiotec Pharmalab Limited",
       "last": 1179.55,
-      "pctChange": 3.0894948435588185
+      "pctChange": 3.0894948435588185,
+      "kind": "high"
     },
     {
       "symbol": "SYNCOMF",
       "company": "Syncom Formulations (India) Limited",
       "last": 24.9,
-      "pctChange": -4.889228418640183
+      "pctChange": -4.889228418640183,
+      "kind": "high"
     },
     {
       "symbol": "SYRMA",
       "company": "Syrma SGS Technology Limited",
       "last": 1785.5,
-      "pctChange": 5.488597424081295
+      "pctChange": 5.488597424081295,
+      "kind": "high"
     },
     {
       "symbol": "TAURIAN",
       "company": "Taurian MPS Limited",
       "last": 593,
-      "pctChange": -1.4295212765957446
+      "pctChange": -1.4295212765957446,
+      "kind": "high"
     },
     {
       "symbol": "TEAMTECH",
       "company": "Teamtech Formwork Solutions Limited",
       "last": 143.85,
-      "pctChange": 5
+      "pctChange": 5,
+      "kind": "high"
     },
     {
       "symbol": "TEGA",
       "company": "Tega Industries Limited",
       "last": 2100,
-      "pctChange": 1.9120644472483743
+      "pctChange": 1.9120644472483743,
+      "kind": "high"
     },
     {
       "symbol": "TFCILTD",
       "company": "Tourism Finance Corporation of India Limited",
       "last": 141.48,
-      "pctChange": 1.8427872156636913
+      "pctChange": 1.8427872156636913,
+      "kind": "high"
     },
     {
       "symbol": "THELEELA",
       "company": "Leela Palaces Hotels & Resorts Limited",
       "last": 579,
-      "pctChange": 8.50824587706147
+      "pctChange": 8.50824587706147,
+      "kind": "high"
     },
     {
       "symbol": "UTSSAV",
       "company": "Utssav CZ Gold Jewels Limited",
       "last": 746.1,
-      "pctChange": 2.0028710096383895
+      "pctChange": 2.0028710096383895,
+      "kind": "high"
     },
     {
       "symbol": "VALIANTORG",
       "company": "Valiant Organics Limited",
       "last": 458,
-      "pctChange": 13.198220464656451
+      "pctChange": 13.198220464656451,
+      "kind": "high"
     },
     {
       "symbol": "VELJAN",
       "company": "Veljan Denison Limited",
       "last": 2186.8,
-      "pctChange": 4.998319489124694
-    }
-  ],
-  "lows": [
+      "pctChange": 4.998319489124694,
+      "kind": "high"
+    },
     {
       "symbol": "AASTHA",
       "company": "Aastha Spintex Limited",
       "last": 34.04,
-      "pctChange": -9.299227284838796
+      "pctChange": -9.299227284838796,
+      "kind": "low"
     },
     {
       "symbol": "ABFRL",
       "company": "Aditya Birla Fashion and Retail Limited",
       "last": 46.2,
-      "pctChange": -0.08650519031141868
+      "pctChange": -0.08650519031141868,
+      "kind": "low"
     },
     {
       "symbol": "ABHAPOWER",
       "company": "Abha Power and Steel Limited",
       "last": 23.4,
-      "pctChange": 1.2987012987012987
+      "pctChange": 1.2987012987012987,
+      "kind": "low"
     },
     {
       "symbol": "ABMKNO",
       "company": "ABM Knowledgeware Limited",
       "last": 170,
-      "pctChange": 0.8363485378729462
+      "pctChange": 0.8363485378729462,
+      "kind": "low"
     },
     {
       "symbol": "ADROITIND",
       "company": "Adroit Industries (India) Limited",
       "last": 248.39,
-      "pctChange": 5.697872340425532
+      "pctChange": 5.697872340425532,
+      "kind": "low"
     },
     {
       "symbol": "ADVIKCA",
       "company": "Advik Capital Limited",
       "last": 0.99,
-      "pctChange": 2.0618556701030926
+      "pctChange": 2.0618556701030926,
+      "kind": "low"
     },
     {
       "symbol": "AGRITECH",
       "company": "Agri-Tech (India) Limited",
       "last": 91,
-      "pctChange": -2.3500375576778625
+      "pctChange": -2.3500375576778625,
+      "kind": "low"
     },
     {
       "symbol": "AHLUCONT",
       "company": "Ahluwalia Contracts (India) Limited",
       "last": 550,
-      "pctChange": -0.2810261988940259
+      "pctChange": -0.2810261988940259,
+      "kind": "low"
     },
     {
       "symbol": "APCL",
       "company": "Anjani Portland Cement Limited",
       "last": 93.01,
-      "pctChange": -2.0122208175305523
+      "pctChange": -2.0122208175305523,
+      "kind": "low"
     },
     {
       "symbol": "APS",
       "company": "Australian Premium Solar (India) Limited",
       "last": 227.9,
-      "pctChange": -0.740418118466899
+      "pctChange": -0.740418118466899,
+      "kind": "low"
     },
     {
       "symbol": "AQYLON",
       "company": "Aqylon Nexus Limited",
       "last": 16.26,
-      "pctChange": -4.967855055523086
+      "pctChange": -4.967855055523086,
+      "kind": "low"
     },
     {
       "symbol": "ARMEE",
       "company": "ArMee Infotech Limited",
       "last": 300,
-      "pctChange": -20
+      "pctChange": -20,
+      "kind": "low"
     },
     {
       "symbol": "ASALCBR",
       "company": "Associated Alcohols & Breweries Ltd.",
       "last": 615.15,
-      "pctChange": -3.0649227860069335
+      "pctChange": -3.0649227860069335,
+      "kind": "low"
     },
     {
       "symbol": "ASTRAZEN",
       "company": "AstraZeneca Pharma India Limited",
       "last": 6186,
-      "pctChange": -1.0952114477576145
+      "pctChange": -1.0952114477576145,
+      "kind": "low"
     },
     {
       "symbol": "ASTRON",
       "company": "Astron Paper & Board Mill Limited",
       "last": 2.8,
-      "pctChange": -4.436860068259386
+      "pctChange": -4.436860068259386,
+      "kind": "low"
     },
     {
       "symbol": "ATALREAL",
       "company": "Atal Realtech Limited",
       "last": 12.62,
-      "pctChange": 4.904405652535329
+      "pctChange": 4.904405652535329,
+      "kind": "low"
     },
     {
       "symbol": "AURIONPRO",
       "company": "Aurionpro Solutions Limited",
       "last": 621.5,
-      "pctChange": -2.002522863450016
+      "pctChange": -2.002522863450016,
+      "kind": "low"
     },
     {
       "symbol": "AVROIND",
       "company": "AVRO INDIA LIMITED",
       "last": 6.94,
-      "pctChange": -0.5730659025787965
+      "pctChange": -0.5730659025787965,
+      "kind": "low"
     },
     {
       "symbol": "AXIOMGAS",
       "company": "Axiom Gas Engineering Limited",
       "last": 46.4,
-      "pctChange": -4.918032786885246
+      "pctChange": -4.918032786885246,
+      "kind": "low"
     },
     {
       "symbol": "BANK10BETF",
       "company": "BAJAJ FINSERV MUTUAL FUND - Bajaj Finserv BSE Top 10 Banks ETF",
       "last": 19.77,
-      "pctChange": 1.6452442159383034
+      "pctChange": 1.6452442159383034,
+      "kind": "low"
     },
     {
       "symbol": "BARFLEX",
       "company": "Barflex Polyfilms Limited",
       "last": 49.25,
-      "pctChange": -3.4313725490196076
+      "pctChange": -3.4313725490196076,
+      "kind": "low"
     },
     {
       "symbol": "BCONCEPTS",
       "company": "Brand Concepts Limited",
       "last": 140.55,
-      "pctChange": 0.933572710951526
+      "pctChange": 0.933572710951526,
+      "kind": "low"
     },
     {
       "symbol": "BHARATRAS",
       "company": "Bharat Rasayan Limited",
       "last": 1000.1,
-      "pctChange": -0.5568260912797057
+      "pctChange": -0.5568260912797057,
+      "kind": "low"
     },
     {
       "symbol": "BIKAJI",
       "company": "Bikaji Foods International Limited",
       "last": 518.7,
-      "pctChange": -2.343970629765603
+      "pctChange": -2.343970629765603,
+      "kind": "low"
     },
     {
       "symbol": "BLS",
       "company": "BLS International Services Limited",
       "last": 218.37,
-      "pctChange": -0.5374629924846277
+      "pctChange": -0.5374629924846277,
+      "kind": "low"
     },
     {
       "symbol": "BRITANNIA",
       "company": "Britannia Industries Limited",
       "last": 4830,
-      "pctChange": -0.10341261633919338
+      "pctChange": -0.10341261633919338,
+      "kind": "low"
     },
     {
       "symbol": "BRNL",
       "company": "Bharat Road Network Limited",
       "last": 15.8,
-      "pctChange": -3.951367781155015
+      "pctChange": -3.951367781155015,
+      "kind": "low"
     },
     {
       "symbol": "BUTTERFLY",
       "company": "Butterfly Gandhimathi Appliances Limited",
       "last": 551.55,
-      "pctChange": -1.7282850779510022
+      "pctChange": -1.7282850779510022,
+      "kind": "low"
     },
     {
       "symbol": "CANFINHOME",
       "company": "Can Fin Homes Limited",
       "last": 719,
-      "pctChange": -1.7356840235069018
+      "pctChange": -1.7356840235069018,
+      "kind": "low"
     },
     {
       "symbol": "CENTRUM",
       "company": "Centrum Capital Limited",
       "last": 19.6,
-      "pctChange": -4.669260700389105
+      "pctChange": -4.669260700389105,
+      "kind": "low"
     },
     {
       "symbol": "CMSINFO",
       "company": "CMS Info Systems Limited",
       "last": 222.49,
-      "pctChange": -2.914866692848104
+      "pctChange": -2.914866692848104,
+      "kind": "low"
     },
     {
       "symbol": "COLPAL",
       "company": "Colgate Palmolive (India) Limited",
       "last": 1763.3,
-      "pctChange": -1.2212200997143017
+      "pctChange": -1.2212200997143017,
+      "kind": "low"
     },
     {
       "symbol": "COREIN",
       "company": "Coreintegra Consulting Services Limited",
       "last": 78.95,
-      "pctChange": 1.088348271446863
+      "pctChange": 1.088348271446863,
+      "kind": "low"
     },
     {
       "symbol": "CROMPTON",
       "company": "Crompton Greaves Consumer Electricals Limited",
       "last": 208.67,
-      "pctChange": -1.2773808960590434
+      "pctChange": -1.2773808960590434,
+      "kind": "low"
     },
     {
       "symbol": "CSSL",
       "company": "Clear Secured Services Limited",
       "last": 74,
-      "pctChange": -1.3333333333333333
+      "pctChange": -1.3333333333333333,
+      "kind": "low"
     },
     {
       "symbol": "DBCORP",
       "company": "D.B.Corp Limited",
       "last": 174.55,
-      "pctChange": -0.6714846639731407
+      "pctChange": -0.6714846639731407,
+      "kind": "low"
     },
     {
       "symbol": "DEVIT",
       "company": "Dev Information Technology Limited",
       "last": 21.82,
-      "pctChange": 1.0653080129689672
+      "pctChange": 1.0653080129689672,
+      "kind": "low"
     },
     {
       "symbol": "DHRUV",
       "company": "Dhruv Consultancy Services Limited",
       "last": 20.1,
-      "pctChange": -3.781713738630924
+      "pctChange": -3.781713738630924,
+      "kind": "low"
     },
     {
       "symbol": "DHTL",
       "company": "Docmode Health Technologies Limited",
       "last": 24.95,
-      "pctChange": -4.9523809523809526
+      "pctChange": -4.9523809523809526,
+      "kind": "low"
     },
     {
       "symbol": "DOLATALGO",
       "company": "Dolat Algotech Limited",
       "last": 64.7,
-      "pctChange": -1.2364524500076324
+      "pctChange": -1.2364524500076324,
+      "kind": "low"
     },
     {
       "symbol": "DPSCLTD",
       "company": "DPSC Limited",
       "last": 6.9,
-      "pctChange": 0
+      "pctChange": 0,
+      "kind": "low"
     },
     {
       "symbol": "EIDPARRY",
       "company": "EID Parry India Limited",
       "last": 683.5,
-      "pctChange": -1.8312387791741471
+      "pctChange": -1.8312387791741471,
+      "kind": "low"
     },
     {
       "symbol": "ELEVATE",
       "company": "Elevate Campuses Limited",
       "last": 319.7,
-      "pctChange": -9.969022810475922
+      "pctChange": -9.969022810475922,
+      "kind": "low"
     },
     {
       "symbol": "ELMDIV",
       "company": "Edelweiss MF - Edelweiss BSE LargeMid (60:40) Stable Dividend 50 ETF",
       "last": 34.61,
-      "pctChange": -0.9161179501860864
+      "pctChange": -0.9161179501860864,
+      "kind": "low"
     },
     {
       "symbol": "ENIL",
       "company": "Entertainment Network (India) Limited",
       "last": 95.6,
-      "pctChange": 0.2832266862477709
+      "pctChange": 0.2832266862477709,
+      "kind": "low"
     },
     {
       "symbol": "EUROPRATIK",
       "company": "Euro Pratik Sales Limited",
       "last": 191.5,
-      "pctChange": -5.221479831724821
+      "pctChange": -5.221479831724821,
+      "kind": "low"
     },
     {
       "symbol": "FLFL",
       "company": "Future Lifestyle Fashions Limited",
       "last": 1.09,
-      "pctChange": -0.9090909090909091
+      "pctChange": -0.9090909090909091,
+      "kind": "low"
     },
     {
       "symbol": "FMCGADD",
       "company": "DSP Mutual Fund - DSP Nifty FMCG ETF",
       "last": 44.91,
-      "pctChange": -0.6196061075459173
+      "pctChange": -0.6196061075459173,
+      "kind": "low"
     },
     {
       "symbol": "FMCGIETF",
       "company": "ICICI PRUDENTIAL MUTUAL FUND - ICICI Prudential Nifty FMCG ETF",
       "last": 48.09,
-      "pctChange": -0.5377456049638056
+      "pctChange": -0.5377456049638056,
+      "kind": "low"
     },
     {
       "symbol": "FOCUS",
       "company": "Focus Lighting and Fixtures Limited",
       "last": 56.26,
-      "pctChange": -1.4193096197652006
+      "pctChange": -1.4193096197652006,
+      "kind": "low"
     },
     {
       "symbol": "FORTIS",
       "company": "Fortis Healthcare Limited",
       "last": 770,
-      "pctChange": -6.326034063260341
+      "pctChange": -6.326034063260341,
+      "kind": "low"
     },
     {
       "symbol": "GANESHCP",
       "company": "Ganesh Consumer Products Limited",
       "last": 151.99,
-      "pctChange": -0.7120459890253462
+      "pctChange": -0.7120459890253462,
+      "kind": "low"
     },
     {
       "symbol": "GAYAHWS",
       "company": "Gayatri Highways Limited",
       "last": 1.76,
-      "pctChange": -4.3478260869565215
+      "pctChange": -4.3478260869565215,
+      "kind": "low"
     },
     {
       "symbol": "GENSOL",
       "company": "Gensol Engineering Limited",
       "last": 14.39,
-      "pctChange": -4.953764861294584
+      "pctChange": -4.953764861294584,
+      "kind": "low"
     },
     {
       "symbol": "GLOBUSSPR",
       "company": "Globus Spirits Limited",
       "last": 784.5,
-      "pctChange": -2.522365805168986
+      "pctChange": -2.522365805168986,
+      "kind": "low"
     },
     {
       "symbol": "GODREJCP",
       "company": "Godrej Consumer Products Limited",
       "last": 850,
-      "pctChange": -0.5847953216374269
+      "pctChange": -0.5847953216374269,
+      "kind": "low"
     },
     {
       "symbol": "GRMOVER",
       "company": "GRM Overseas Limited",
       "last": 78.06,
-      "pctChange": -0.8887760284408329
+      "pctChange": -0.8887760284408329,
+      "kind": "low"
     },
     {
       "symbol": "GSPLTRANS",
       "company": "GSPL Transmission Limited",
       "last": 144.4,
-      "pctChange": -5
+      "pctChange": -5,
+      "kind": "low"
     },
     {
       "symbol": "HAVELLS",
       "company": "Havells India Limited",
       "last": 1016,
-      "pctChange": -2.616697019074092
+      "pctChange": -2.616697019074092,
+      "kind": "low"
     },
     {
       "symbol": "ICEMAKE",
       "company": "Ice Make Refrigeration Limited",
       "last": 633.85,
-      "pctChange": -0.02365930599369085
+      "pctChange": -0.02365930599369085,
+      "kind": "low"
     },
     {
       "symbol": "ICICIPRULI",
       "company": "ICICI Prudential Life Insurance Company Limited",
       "last": 443.8,
-      "pctChange": -0.16870993139129456
+      "pctChange": -0.16870993139129456,
+      "kind": "low"
     },
     {
       "symbol": "ICRA",
       "company": "ICRA Limited",
       "last": 4235,
-      "pctChange": -1.463505432885828
+      "pctChange": -1.463505432885828,
+      "kind": "low"
     },
     {
       "symbol": "INDIACEM",
       "company": "The India Cements Limited",
       "last": 301,
-      "pctChange": -0.8890352321369773
+      "pctChange": -0.8890352321369773,
+      "kind": "low"
     },
     {
       "symbol": "INDRAMEDCO",
       "company": "Indraprastha Medical Corporation Limited",
       "last": 349.2,
-      "pctChange": -1.5783540022547915
+      "pctChange": -1.5783540022547915,
+      "kind": "low"
     },
     {
       "symbol": "ISHAN",
       "company": "Ishan International Limited",
       "last": 0.5,
-      "pctChange": 0
+      "pctChange": 0,
+      "kind": "low"
     },
     {
       "symbol": "ITTL",
       "company": "Innovative Tyres & Tubes Limited",
       "last": 61.95,
-      "pctChange": 0.48661800486618007
+      "pctChange": 0.48661800486618007,
+      "kind": "low"
     },
     {
       "symbol": "IVZBANKNF",
       "company": "Invesco Mutual Fund - Invesco India Nifty Bank ETF",
       "last": 53.23,
-      "pctChange": -2.258538376790305
+      "pctChange": -2.258538376790305,
+      "kind": "low"
     },
     {
       "symbol": "JYOTHYLAB",
       "company": "Jyothy Labs Limited",
       "last": 186.95,
-      "pctChange": 1.4598936285683273
+      "pctChange": 1.4598936285683273,
+      "kind": "low"
     },
     {
       "symbol": "KANDARP",
       "company": "Kandarp Digi Smart BPO Limited",
       "last": 62.75,
-      "pctChange": -4.996214988644966
+      "pctChange": -4.996214988644966,
+      "kind": "low"
     },
     {
       "symbol": "KDL",
       "company": "Kore Digital Limited",
       "last": 49.65,
-      "pctChange": -4.976076555023924
+      "pctChange": -4.976076555023924,
+      "kind": "low"
     },
     {
       "symbol": "KEC",
       "company": "KEC International Limited",
       "last": 376,
-      "pctChange": -0.6211180124223602
+      "pctChange": -0.6211180124223602,
+      "kind": "low"
     },
     {
       "symbol": "MACOBSTECH",
       "company": "Macobs Technologies Limited",
       "last": 190,
-      "pctChange": -1.6817593790426908
+      "pctChange": -1.6817593790426908,
+      "kind": "low"
     },
     {
       "symbol": "METROBRAND",
       "company": "Metro Brands Limited",
       "last": 833,
-      "pctChange": -4.488906724760649
+      "pctChange": -4.488906724760649,
+      "kind": "low"
     },
     {
       "symbol": "MFSL",
       "company": "Max Financial Services Limited",
       "last": 1373.4,
-      "pctChange": -1.3645504165469693
+      "pctChange": -1.3645504165469693,
+      "kind": "low"
     },
     {
       "symbol": "MOOILGAS",
       "company": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty Oil & Gas ETF",
       "last": 10.67,
-      "pctChange": -0.4664179104477612
+      "pctChange": -0.4664179104477612,
+      "kind": "low"
     },
     {
       "symbol": "MSCI360",
       "company": "360 ONE Mutual Fund - 360 ONE MSCI India ETF",
       "last": 9.84,
-      "pctChange": 0.7164790174002047
+      "pctChange": 0.7164790174002047,
+      "kind": "low"
     },
     {
       "symbol": "NIF500BETA",
       "company": "UTI Mutual Fund - UTI Nifty 500 Exchange Traded Fund",
       "last": 38.25,
-      "pctChange": 1.7828632251197445
+      "pctChange": 1.7828632251197445,
+      "kind": "low"
     },
     {
       "symbol": "NILE",
       "company": "Nile Limited",
       "last": 1218,
-      "pctChange": -3.6925753143037876
+      "pctChange": -3.6925753143037876,
+      "kind": "low"
     },
     {
       "symbol": "NIRMAN",
       "company": "Nirman Agri Genetics Limited",
       "last": 26.5,
-      "pctChange": 0
+      "pctChange": 0,
+      "kind": "low"
     },
     {
       "symbol": "NUCLEUS",
       "company": "Nucleus Software Exports Limited",
       "last": 647.15,
-      "pctChange": -0.8275227951881082
+      "pctChange": -0.8275227951881082,
+      "kind": "low"
     },
     {
       "symbol": "OMPOWER",
       "company": "Om Power Transmission Limited",
       "last": 156.72,
-      "pctChange": -3.9588184826571884
+      "pctChange": -3.9588184826571884,
+      "kind": "low"
     },
     {
       "symbol": "ONGC",
       "company": "Oil & Natural Gas Corporation Limited",
       "last": 225.8,
-      "pctChange": -1.826086956521739
+      "pctChange": -1.826086956521739,
+      "kind": "low"
     },
     {
       "symbol": "OSWALPUMPS",
       "company": "Oswal Pumps Limited",
       "last": 267.8,
-      "pctChange": 0.5821596244131455
+      "pctChange": 0.5821596244131455,
+      "kind": "low"
     },
     {
       "symbol": "PFIZER",
       "company": "Pfizer Limited",
       "last": 3875,
-      "pctChange": -0.9685910705614762
+      "pctChange": -0.9685910705614762,
+      "kind": "low"
     },
     {
       "symbol": "PGHH",
       "company": "Procter & Gamble Hygiene and Health Care Limited",
       "last": 6811,
-      "pctChange": -0.8804482281888961
+      "pctChange": -0.8804482281888961,
+      "kind": "low"
     },
     {
       "symbol": "PILANIINVS",
       "company": "Pilani Investment and Industries Corporation Limited",
       "last": 3973.6,
-      "pctChange": -1.3431983514164412
+      "pctChange": -1.3431983514164412,
+      "kind": "low"
     },
     {
       "symbol": "POLICYBZR",
       "company": "PB Fintech Limited",
       "last": 1063.9,
-      "pctChange": -1.581868640148011
+      "pctChange": -1.581868640148011,
+      "kind": "low"
     },
     {
       "symbol": "POOJALOGIS",
       "company": "Pooja Logistics Limited",
       "last": 123.9,
-      "pctChange": 5
+      "pctChange": 5,
+      "kind": "low"
     },
     {
       "symbol": "RAJESHEXPO",
       "company": "Rajesh Exports Limited",
       "last": 64.4,
-      "pctChange": 1.6093404859577154
+      "pctChange": 1.6093404859577154,
+      "kind": "low"
     },
     {
       "symbol": "RAMKY",
       "company": "Ramky Infrastructure Limited",
       "last": 274.5,
-      "pctChange": -6.648529161707192
+      "pctChange": -6.648529161707192,
+      "kind": "low"
     },
     {
       "symbol": "RELIANCE",
       "company": "Reliance Industries Limited",
       "last": 1187,
-      "pctChange": 0.4230118443316413
+      "pctChange": 0.4230118443316413,
+      "kind": "low"
     },
     {
       "symbol": "RELINFRA",
       "company": "Reliance Infrastructure Limited",
       "last": 44.28,
-      "pctChange": 1.9806540764624596
+      "pctChange": 1.9806540764624596,
+      "kind": "low"
     },
     {
       "symbol": "REXPRO",
       "company": "Rexpro Enterprises Limited",
       "last": 33.3,
-      "pctChange": -0.7451564828614009
+      "pctChange": -0.7451564828614009,
+      "kind": "low"
     },
     {
       "symbol": "RPPINFRA",
       "company": "R.P.P. Infra Projects Limited",
       "last": 51.25,
-      "pctChange": 0.8858267716535433
+      "pctChange": 0.8858267716535433,
+      "kind": "low"
     },
     {
       "symbol": "SALASAR",
       "company": "Salasar Techno Engineering Limited",
       "last": 4.07,
-      "pctChange": -2.1634615384615383
+      "pctChange": -2.1634615384615383,
+      "kind": "low"
     },
     {
       "symbol": "SANOFICONR",
       "company": "Sanofi Consumer Healthcare India Limited",
       "last": 3800.1,
-      "pctChange": -1.7300232738557022
+      "pctChange": -1.7300232738557022,
+      "kind": "low"
     },
     {
       "symbol": "SBIFUNDS",
       "company": "SBI Funds Management Limited",
       "last": 514.3,
-      "pctChange": -0.6759366550791811
+      "pctChange": -0.6759366550791811,
+      "kind": "low"
     },
     {
       "symbol": "SGLRES",
       "company": "SGL Resources Limited",
       "last": 2.38,
-      "pctChange": 2.1459227467811157
+      "pctChange": 2.1459227467811157,
+      "kind": "low"
     },
     {
       "symbol": "SHANTHALA",
       "company": "Shanthala FMCG Products Limited",
       "last": 13.5,
-      "pctChange": -3.9145907473309607
+      "pctChange": -3.9145907473309607,
+      "kind": "low"
     },
     {
       "symbol": "SHIVACEM",
       "company": "Shiva Cement Limited",
       "last": 13.69,
-      "pctChange": -8.18242790073776
+      "pctChange": -8.18242790073776,
+      "kind": "low"
     },
     {
       "symbol": "SHRIKRISH",
       "company": "Shri Krishna Devcon Limited",
       "last": 34,
-      "pctChange": -5.8171745152354575
+      "pctChange": -5.8171745152354575,
+      "kind": "low"
     },
     {
       "symbol": "SITINET",
       "company": "Siti Networks Limited",
       "last": 0.28,
-      "pctChange": 3.7037037037037037
+      "pctChange": 3.7037037037037037,
+      "kind": "low"
     },
     {
       "symbol": "SJVN",
       "company": "SJVN Limited",
       "last": 59.2,
-      "pctChange": -1.0529834531171653
+      "pctChange": -1.0529834531171653,
+      "kind": "low"
     },
     {
       "symbol": "SONA",
       "company": "Sonaselection India Limited",
       "last": 96.1,
-      "pctChange": -2.3473224265826644
+      "pctChange": -2.3473224265826644,
+      "kind": "low"
     },
     {
       "symbol": "STUDDS",
       "company": "Studds Accessories Limited",
       "last": 395,
-      "pctChange": -0.16428661695943383
+      "pctChange": -0.16428661695943383,
+      "kind": "low"
     },
     {
       "symbol": "SUMMITSEC",
       "company": "Summit Securities Limited",
       "last": 1320.8,
-      "pctChange": -0.13609556933313172
+      "pctChange": -0.13609556933313172,
+      "kind": "low"
     },
     {
       "symbol": "SUNSHIEL",
       "company": "Sunshield Chemicals Limited",
       "last": 1040,
-      "pctChange": -4.367816091954023
+      "pctChange": -4.367816091954023,
+      "kind": "low"
     },
     {
       "symbol": "SWASTIKAIN",
       "company": "Swastika Infra Limited",
       "last": 210,
-      "pctChange": 5
+      "pctChange": 5,
+      "kind": "low"
     },
     {
       "symbol": "TATACONSUM",
       "company": "TATA CONSUMER PRODUCTS LIMITED",
       "last": 949.5,
-      "pctChange": -1.8807481657538494
+      "pctChange": -1.8807481657538494,
+      "kind": "low"
     },
     {
       "symbol": "TATAELXSI",
       "company": "Tata Elxsi Limited",
       "last": 3088.9,
-      "pctChange": -3.823520254071053
+      "pctChange": -3.823520254071053,
+      "kind": "low"
     },
     {
       "symbol": "TERASOFT",
       "company": "Tera Software Limited",
       "last": 204.95,
-      "pctChange": -2.054958183990442
+      "pctChange": -2.054958183990442,
+      "kind": "low"
     },
     {
       "symbol": "TGL",
       "company": "Teerth Gopicon Limited",
       "last": 13.45,
-      "pctChange": -1.8248175182481752
+      "pctChange": -1.8248175182481752,
+      "kind": "low"
     },
     {
       "symbol": "THACKER",
       "company": "Thacker & Company Limited",
       "last": 954,
-      "pctChange": -4.293739967897271
+      "pctChange": -4.293739967897271,
+      "kind": "low"
     },
     {
       "symbol": "TOUCHWOOD",
       "company": "Touchwood Entertainment Limited",
       "last": 59.79,
-      "pctChange": -0.33338889814969164
+      "pctChange": -0.33338889814969164,
+      "kind": "low"
     },
     {
       "symbol": "TRF",
       "company": "TRF Limited",
       "last": 198.01,
-      "pctChange": -2.410054213898472
+      "pctChange": -2.410054213898472,
+      "kind": "low"
     },
     {
       "symbol": "TURTLEMINT",
       "company": "Turtlemint Fintech Solutions Limited",
       "last": 75.8,
-      "pctChange": -4.678068410462776
+      "pctChange": -4.678068410462776,
+      "kind": "low"
     },
     {
       "symbol": "TVSHLTD",
       "company": "TVS Holdings Limited",
       "last": 12074,
-      "pctChange": -1.8214343795739145
+      "pctChange": -1.8214343795739145,
+      "kind": "low"
     },
     {
       "symbol": "UBL",
       "company": "United Breweries Limited",
       "last": 1156,
-      "pctChange": -4.478598578747315
+      "pctChange": -4.478598578747315,
+      "kind": "low"
     },
     {
       "symbol": "UNITEDTEA",
       "company": "The United Nilgiri Tea Estates Company Limited",
       "last": 427.9,
-      "pctChange": 1.4943074003795067
+      "pctChange": 1.4943074003795067,
+      "kind": "low"
     },
     {
       "symbol": "USK",
       "company": "Udayshivakumar Infra Limited",
       "last": 19.1,
-      "pctChange": -2.401635155850792
+      "pctChange": -2.401635155850792,
+      "kind": "low"
     },
     {
       "symbol": "VALUE360",
       "company": "Value 360 Communications Limited",
       "last": 55.95,
-      "pctChange": -0.08928571428571429
+      "pctChange": -0.08928571428571429,
+      "kind": "low"
     },
     {
       "symbol": "VARMORA",
       "company": "Varmora Granito Limited",
       "last": 139.17,
-      "pctChange": -8.555095604178987
+      "pctChange": -8.555095604178987,
+      "kind": "low"
     },
     {
       "symbol": "VASA",
       "company": "Vasa Retail and Overseas Ltd",
       "last": 3.55,
-      "pctChange": 0
+      "pctChange": 0,
+      "kind": "low"
     },
     {
       "symbol": "VINATIORGA",
       "company": "Vinati Organics Limited",
       "last": 1173.9,
-      "pctChange": -0.034062845950779186
+      "pctChange": -0.034062845950779186,
+      "kind": "low"
     },
     {
       "symbol": "VINNY",
       "company": "Vinny Overseas Limited",
       "last": 0.9,
-      "pctChange": 0
+      "pctChange": 0,
+      "kind": "low"
     },
     {
       "symbol": "VINOD",
       "company": "Vinod Texworld Limited",
       "last": 56.5,
-      "pctChange": -4.96215306980656
+      "pctChange": -4.96215306980656,
+      "kind": "low"
     },
     {
       "symbol": "VIRINCHI",
       "company": "Virinchi Limited",
       "last": 13.54,
-      "pctChange": 1.2715033657442034
+      "pctChange": 1.2715033657442034,
+      "kind": "low"
     },
     {
       "symbol": "VOLTAS",
       "company": "Voltas Limited",
       "last": 1070,
-      "pctChange": -1.834862385321101
+      "pctChange": -1.834862385321101,
+      "kind": "low"
     },
     {
       "symbol": "WAAREEENER",
       "company": "Waaree Energies Limited",
       "last": 2374.4,
-      "pctChange": -0.23529411764705882
+      "pctChange": -0.23529411764705882,
+      "kind": "low"
     },
     {
       "symbol": "WAAREEINDO",
       "company": "Indosolar Limited",
       "last": 208.3,
-      "pctChange": -1.1155945881794447
-    }
-  ],
-  "volume": [
-    {
-      "symbol": "RITES",
-      "company": "RITES Limited",
-      "last": 212.34,
-      "pctChange": 10.42,
-      "volume": 50416237,
-      "timesAvg": 5.795412974877313
-    },
-    {
-      "symbol": "BNAGROCHEM",
-      "company": "BN Agrochem Limited",
-      "last": 217.6,
-      "pctChange": 5,
-      "volume": 102349,
-      "timesAvg": 5.764030073494213
-    },
-    {
-      "symbol": "TVSELECT",
-      "company": "TVS Electronics Limited",
-      "last": 417,
-      "pctChange": 11.41,
-      "volume": 2795681,
-      "timesAvg": 5.704765124317942
-    },
-    {
-      "symbol": "EBGNG",
-      "company": "GNG Electronics Limited",
-      "last": 687,
-      "pctChange": 1.81,
-      "volume": 4326414,
-      "timesAvg": 5.699888608537728
-    },
-    {
-      "symbol": "ESTER",
-      "company": "Ester Industries Limited",
-      "last": 100.66,
-      "pctChange": 19.05,
-      "volume": 3656608,
-      "timesAvg": 5.652354524249093
-    },
-    {
-      "symbol": "UNIONGOLD",
-      "company": "Union Mutual Fund - Union Gold ETF",
-      "last": 149.9,
-      "pctChange": 4.83,
-      "volume": 162729,
-      "timesAvg": 5.570621662330549
-    },
-    {
-      "symbol": "ITDC",
-      "company": "India Tourism Development Corporation Limited",
-      "last": 676.5,
-      "pctChange": 2.94,
-      "volume": 4549325,
-      "timesAvg": 5.383696576387942
-    },
-    {
-      "symbol": "ULTRAMAR",
-      "company": "Ultramarine & Pigments Limited",
-      "last": 408.1,
-      "pctChange": -2.49,
-      "volume": 1302805,
-      "timesAvg": 5.316627455941496
-    },
-    {
-      "symbol": "IRCON",
-      "company": "Ircon International Limited",
-      "last": 116.5,
-      "pctChange": 13.69,
-      "volume": 76654100,
-      "timesAvg": 5.2793643337922544
-    },
-    {
-      "symbol": "JSWHL",
-      "company": "JSW Holdings Limited",
-      "last": 11375,
-      "pctChange": 3.41,
-      "volume": 51678,
-      "timesAvg": 5.260293493935024
-    },
-    {
-      "symbol": "FAZE3Q",
-      "company": "Faze Three Limited",
-      "last": 437,
-      "pctChange": 3.51,
-      "volume": 402154,
-      "timesAvg": 5.256880673982523
-    },
-    {
-      "symbol": "JWL",
-      "company": "Jupiter Wagons Limited",
-      "last": 232.2,
-      "pctChange": 5.63,
-      "volume": 24061117,
-      "timesAvg": 5.256015220328985
-    },
-    {
-      "symbol": "BLEL",
-      "company": "Behari Lal Engineering Limited",
-      "last": 485.3,
-      "pctChange": 8.56,
-      "volume": 15601996,
-      "timesAvg": 5.233962055274974
-    },
-    {
-      "symbol": "MOGSEC",
-      "company": "Motilal Oswal Mutual Fund - Motilal Oswal 5 Year G Sec ETF - Growth",
-      "last": 65.2,
-      "pctChange": 0.84,
-      "volume": 221149,
-      "timesAvg": 5.220436474369819
-    },
-    {
-      "symbol": "MUNJALAU",
-      "company": "Munjal Auto Industries Limited",
-      "last": 109.99,
-      "pctChange": 3.3,
-      "volume": 9221059,
-      "timesAvg": 5.167205945078685
-    },
-    {
-      "symbol": "ESSARSHPNG",
-      "company": "Essar Shipping Limited",
-      "last": 18.97,
-      "pctChange": 11.92,
-      "volume": 6789502,
-      "timesAvg": 5.130025202436148
-    },
-    {
-      "symbol": "ALICON",
-      "company": "Alicon Castalloy Limited",
-      "last": 869.8,
-      "pctChange": 20,
-      "volume": 953310,
-      "timesAvg": 4.879285900736517
-    },
-    {
-      "symbol": "TPLPLASTEH",
-      "company": "TPL Plastech Limited",
-      "last": 71.3,
-      "pctChange": 9.26,
-      "volume": 2013255,
-      "timesAvg": 4.821191878529974
-    },
-    {
-      "symbol": "KSB",
-      "company": "Ksb Limited",
-      "last": 860.1,
-      "pctChange": 4.28,
-      "volume": 5216083,
-      "timesAvg": 4.814605856569611
-    },
-    {
-      "symbol": "BANK10BETF",
-      "company": "BAJAJ FINSERV MUTUAL FUND - Bajaj Finserv BSE Top 10 Banks ETF",
-      "last": 19.77,
-      "pctChange": 1.65,
-      "volume": 10012558,
-      "timesAvg": 4.790367171642466
-    },
-    {
-      "symbol": "PASHUPATI",
-      "company": "Pashupati Cotspin Limited",
-      "last": 74.18,
-      "pctChange": -20,
-      "volume": 2778737,
-      "timesAvg": 4.623671199628164
-    },
-    {
-      "symbol": "HEALTHY",
-      "company": "Aditya Birla Sun Life MF-Aditya Birla Sun Life Nifty Healthcare ETF",
-      "last": 16.68,
-      "pctChange": -2.68,
-      "volume": 7501875,
-      "timesAvg": 4.592395180292162
-    },
-    {
-      "symbol": "SUNTV",
-      "company": "Sun TV Network Limited",
-      "last": 596,
-      "pctChange": 7.73,
-      "volume": 34672457,
-      "timesAvg": 4.590728788449925
-    },
-    {
-      "symbol": "FSL",
-      "company": "Firstsource Solutions Limited",
-      "last": 254.05,
-      "pctChange": 2.07,
-      "volume": 6657490,
-      "timesAvg": 4.542538041325615
-    },
-    {
-      "symbol": "VESUVIUS",
-      "company": "Vesuvius India Limited",
-      "last": 425.45,
-      "pctChange": 6.31,
-      "volume": 8173574,
-      "timesAvg": 4.412279379031349
+      "pctChange": -1.1155945881794447,
+      "kind": "low"
     }
   ]
 }
