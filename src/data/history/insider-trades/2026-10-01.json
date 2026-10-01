@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-01T19:31:27.125Z",
-  "source": "Screener",
-  "total": 48,
-  "items": [
+  "capturedOn": "2026-10-01",
+  "capturedAt": "2026-10-01T19:31:27.126Z",
+  "count": 48,
+  "rows": [
     {
       "company": "Augmont Enterpri",
       "symbol": "AUGMONT",
