@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-01T18:31:56.048Z",
+  "fetchedAt": "2026-10-02T17:58:38.182Z",
   "universe": "NSE Nifty 500",
   "periods": [
     "4W",
@@ -25,11 +25,22 @@
       "sector": "Healthcare",
       "count": 44,
       "pct": [
-        14,
+        16,
         59,
         57,
         57,
-        61
+        64
+      ]
+    },
+    {
+      "sector": "Capital Goods",
+      "count": 69,
+      "pct": [
+        28,
+        41,
+        49,
+        51,
+        51
       ]
     },
     {
@@ -38,27 +49,27 @@
       "pct": [
         0,
         15,
+        31,
         38,
-        54,
-        54
+        46
       ]
     },
     {
-      "sector": "Capital Goods",
-      "count": 69,
+      "sector": "Services",
+      "count": 14,
       "pct": [
-        25,
-        41,
-        49,
-        51,
-        51
+        21,
+        36,
+        36,
+        36,
+        43
       ]
     },
     {
       "sector": "Textiles",
       "count": 5,
       "pct": [
-        40,
+        20,
         20,
         40,
         40,
@@ -80,7 +91,7 @@
       "sector": "Oil Gas & Consumable Fuels",
       "count": 19,
       "pct": [
-        11,
+        16,
         32,
         32,
         32,
@@ -88,22 +99,11 @@
       ]
     },
     {
-      "sector": "Services",
-      "count": 14,
-      "pct": [
-        14,
-        36,
-        36,
-        36,
-        36
-      ]
-    },
-    {
       "sector": "Chemicals",
       "count": 26,
       "pct": [
         4,
-        27,
+        31,
         31,
         31,
         31
@@ -124,7 +124,7 @@
       "sector": "Metals & Mining",
       "count": 20,
       "pct": [
-        0,
+        5,
         0,
         15,
         15,
@@ -135,7 +135,7 @@
       "sector": "Information Technology",
       "count": 25,
       "pct": [
-        28,
+        8,
         20,
         32,
         32,
@@ -146,10 +146,10 @@
       "sector": "Financial Services",
       "count": 98,
       "pct": [
-        8,
+        5,
         14,
-        18,
-        22,
+        20,
+        23,
         27
       ]
     },
@@ -157,7 +157,7 @@
       "sector": "Telecommunication",
       "count": 11,
       "pct": [
-        27,
+        18,
         18,
         18,
         27,
@@ -168,8 +168,8 @@
       "sector": "Consumer Services",
       "count": 23,
       "pct": [
-        13,
-        35,
+        17,
+        39,
         39,
         43,
         26
@@ -182,7 +182,7 @@
         7,
         14,
         18,
-        18,
+        21,
         25
       ]
     },
@@ -201,7 +201,7 @@
       "sector": "Power",
       "count": 19,
       "pct": [
-        5,
+        11,
         11,
         11,
         16,
