@@ -1,19 +1,8 @@
 {
-  "fetchedAt": "2026-10-02T19:08:33.845Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "other": 25,
-    "acquisitions": 3,
-    "order-wins": 7,
-    "open-offer": 2,
-    "fund-raising": 8,
-    "concall": 2,
-    "capex": 1,
-    "jv": 1,
-    "merger": 1
-  },
-  "items": [
+  "capturedOn": "2026-10-02",
+  "capturedAt": "2026-10-02T19:08:33.847Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Emcure Pharma",
       "symbol": "EMCURE",
