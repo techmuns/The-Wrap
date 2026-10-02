@@ -1,11 +1,8 @@
 {
-  "fetchedAt": "2026-10-02T19:26:07.248Z",
-  "source": "Screener",
-  "counts": {
-    "recent": 25,
-    "upcoming": 0
-  },
-  "items": [
+  "capturedOn": "2026-10-02",
+  "capturedAt": "2026-10-02T19:26:07.249Z",
+  "count": 25,
+  "rows": [
     {
       "company": "Monolithisch Ind",
       "symbol": "MONOLITH",
