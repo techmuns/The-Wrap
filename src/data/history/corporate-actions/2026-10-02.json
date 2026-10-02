@@ -1,15 +1,8 @@
 {
-  "fetchedAt": "2026-10-02T19:32:44.900Z",
-  "source": "Screener",
-  "total": 125,
-  "byType": {
-    "bonus": 25,
-    "buyback": 25,
-    "split": 25,
-    "rights": 25,
-    "dividend": 25
-  },
-  "items": [
+  "capturedOn": "2026-10-02",
+  "capturedAt": "2026-10-02T19:32:44.902Z",
+  "count": 125,
+  "rows": [
     {
       "company": "Mold-Tek Pack.",
       "symbol": "MOLDTKPAC",
