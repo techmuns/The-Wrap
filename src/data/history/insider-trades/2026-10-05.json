@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-05T21:29:05.309Z",
-  "source": "Screener",
-  "total": 47,
-  "items": [
+  "capturedOn": "2026-10-05",
+  "capturedAt": "2026-10-05T21:29:05.310Z",
+  "count": 47,
+  "rows": [
     {
       "company": "Hy-Tech Engineer",
       "symbol": "HTEL",
