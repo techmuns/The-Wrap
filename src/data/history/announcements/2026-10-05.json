@@ -1,20 +1,8 @@
 {
-  "fetchedAt": "2026-10-05T21:26:55.242Z",
-  "source": "Screener",
-  "total": 49,
-  "byCategory": {
-    "rights": 3,
-    "merger": 5,
-    "fund-raising": 10,
-    "other": 20,
-    "concall": 1,
-    "capex": 2,
-    "acquisitions": 2,
-    "open-offer": 1,
-    "order-wins": 2,
-    "jv": 3
-  },
-  "items": [
+  "capturedOn": "2026-10-05",
+  "capturedAt": "2026-10-05T21:26:55.243Z",
+  "count": 49,
+  "rows": [
     {
       "company": "Ola Electric",
       "symbol": "OLAELEC",
