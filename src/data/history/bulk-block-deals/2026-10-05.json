@@ -1,12 +1,8 @@
 {
-  "asOnDate": "05-Oct-2026",
-  "fetchedAt": "2026-10-05T21:11:21.410Z",
-  "counts": {
-    "bulk": 180,
-    "block": 6,
-    "short": 115
-  },
-  "bulk": [
+  "capturedOn": "2026-10-05",
+  "capturedAt": "2026-10-05T21:11:21.411Z",
+  "count": 301,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "ACEVECTOR",
@@ -2166,9 +2162,7 @@
       "value": 93117338.16,
       "date": "05-Oct-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "EDELWEISS",
@@ -2240,9 +2234,7 @@
       "value": 859994050,
       "date": "01-Oct-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "360ONE",
