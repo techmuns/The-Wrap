@@ -1,11 +1,8 @@
 {
-  "fetchedAt": "2026-10-05T21:33:13.406Z",
-  "source": "Screener",
-  "counts": {
-    "recent": 25,
-    "upcoming": 0
-  },
-  "items": [
+  "capturedOn": "2026-10-05",
+  "capturedAt": "2026-10-05T21:33:13.408Z",
+  "count": 25,
+  "rows": [
     {
       "company": "Manipal Payment",
       "symbol": "MPIMANIPAL",
