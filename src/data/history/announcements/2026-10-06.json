@@ -1,19 +1,8 @@
 {
-  "fetchedAt": "2026-10-06T19:24:48.109Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "other": 25,
-    "fund-raising": 5,
-    "order-wins": 6,
-    "acquisitions": 4,
-    "jv": 2,
-    "rights": 5,
-    "capex": 1,
-    "merger": 1,
-    "open-offer": 1
-  },
-  "items": [
+  "capturedOn": "2026-10-06",
+  "capturedAt": "2026-10-06T19:24:48.110Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Reliance Communi",
       "symbol": "RCOM",
