@@ -1,11 +1,8 @@
 {
-  "fetchedAt": "2026-10-07T20:02:58.732Z",
-  "source": "Screener",
-  "counts": {
-    "recent": 25,
-    "upcoming": 0
-  },
-  "items": [
+  "capturedOn": "2026-10-07",
+  "capturedAt": "2026-10-07T20:02:58.733Z",
+  "count": 25,
+  "rows": [
     {
       "company": "A R C I",
       "symbol": "ARCIL",
