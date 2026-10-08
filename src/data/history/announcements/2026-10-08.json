@@ -1,19 +1,8 @@
 {
-  "fetchedAt": "2026-10-08T19:47:29.725Z",
-  "source": "Screener",
-  "total": 50,
-  "byCategory": {
-    "other": 24,
-    "acquisitions": 2,
-    "rights": 6,
-    "fund-raising": 7,
-    "capex": 2,
-    "regulatory": 1,
-    "order-wins": 4,
-    "merger": 3,
-    "name-change": 1
-  },
-  "items": [
+  "capturedOn": "2026-10-08",
+  "capturedAt": "2026-10-08T19:47:29.783Z",
+  "count": 50,
+  "rows": [
     {
       "company": "Popees Baby Care India",
       "symbol": "531971",
