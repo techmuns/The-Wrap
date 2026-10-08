@@ -1,11 +1,8 @@
 {
-  "fetchedAt": "2026-10-08T20:01:19.293Z",
-  "source": "Screener",
-  "counts": {
-    "recent": 25,
-    "upcoming": 0
-  },
-  "items": [
+  "capturedOn": "2026-10-08",
+  "capturedAt": "2026-10-08T20:01:19.337Z",
+  "count": 25,
+  "rows": [
     {
       "company": "TCS",
       "symbol": "TCS",
