@@ -1,12 +1,8 @@
 {
-  "asOnDate": "08-Oct-2026",
-  "fetchedAt": "2026-10-08T19:21:06.877Z",
-  "counts": {
-    "bulk": 216,
-    "block": 10,
-    "short": 92
-  },
-  "bulk": [
+  "capturedOn": "2026-10-08",
+  "capturedAt": "2026-10-08T19:21:06.878Z",
+  "count": 318,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "PNGSREVA",
@@ -2598,9 +2594,7 @@
       "value": 339230566.16,
       "date": "08-Oct-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "ICICIBANK",
@@ -2720,9 +2714,7 @@
       "value": 1073037663,
       "date": "08-Oct-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "3MINDIA",
