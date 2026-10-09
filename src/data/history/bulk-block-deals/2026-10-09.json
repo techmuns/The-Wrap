@@ -1,12 +1,8 @@
 {
-  "asOnDate": "09-Oct-2026",
-  "fetchedAt": "2026-10-09T18:54:55.072Z",
-  "counts": {
-    "bulk": 155,
-    "block": 10,
-    "short": 67
-  },
-  "bulk": [
+  "capturedOn": "2026-10-09",
+  "capturedAt": "2026-10-09T18:54:55.073Z",
+  "count": 232,
+  "rows": [
     {
       "category": "bulk",
       "symbol": "AQYLON",
@@ -1866,9 +1862,7 @@
       "value": 54263965,
       "date": "09-Oct-2026",
       "remarks": null
-    }
-  ],
-  "block": [
+    },
     {
       "category": "block",
       "symbol": "ICICIBANK",
@@ -1988,9 +1982,7 @@
       "value": 1073037663,
       "date": "08-Oct-2026",
       "remarks": null
-    }
-  ],
-  "short": [
+    },
     {
       "category": "short",
       "symbol": "360ONE",
