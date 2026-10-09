@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-10-09T19:32:27.478Z",
-  "source": "Screener",
-  "total": 49,
-  "items": [
+  "capturedOn": "2026-10-09",
+  "capturedAt": "2026-10-09T19:32:27.479Z",
+  "count": 49,
+  "rows": [
     {
       "company": "Aequs",
       "symbol": "AEQUS",
