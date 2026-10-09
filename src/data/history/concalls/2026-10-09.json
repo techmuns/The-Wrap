@@ -1,11 +1,8 @@
 {
-  "fetchedAt": "2026-10-09T19:36:18.997Z",
-  "source": "Screener",
-  "counts": {
-    "recent": 25,
-    "upcoming": 0
-  },
-  "items": [
+  "capturedOn": "2026-10-09",
+  "capturedAt": "2026-10-09T19:36:18.998Z",
+  "count": 25,
+  "rows": [
     {
       "company": "Waterways Leisur",
       "symbol": "CORDELIA",
