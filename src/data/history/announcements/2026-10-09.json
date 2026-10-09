@@ -1,19 +1,8 @@
 {
-  "fetchedAt": "2026-10-09T19:24:30.977Z",
-  "source": "Screener",
-  "total": 49,
-  "byCategory": {
-    "other": 28,
-    "fund-raising": 3,
-    "open-offer": 6,
-    "rights": 4,
-    "buyback": 1,
-    "merger": 3,
-    "capex": 2,
-    "acquisitions": 1,
-    "order-wins": 1
-  },
-  "items": [
+  "capturedOn": "2026-10-09",
+  "capturedAt": "2026-10-09T19:24:30.978Z",
+  "count": 49,
+  "rows": [
     {
       "company": "Embassy Develop",
       "symbol": "EMBDL",
