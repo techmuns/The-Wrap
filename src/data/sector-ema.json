@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-10T17:25:55.133Z",
+  "fetchedAt": "2026-10-12T21:22:01.263Z",
   "universe": "NSE Nifty 500",
   "periods": [
     "4W",
@@ -16,8 +16,8 @@
       "pct": [
         50,
         50,
-        50,
-        50,
+        75,
+        75,
         75
       ]
     },
@@ -25,10 +25,10 @@
       "sector": "Healthcare",
       "count": 44,
       "pct": [
-        14,
-        36,
-        50,
+        18,
+        43,
         55,
+        52,
         52
       ]
     },
@@ -36,21 +36,21 @@
       "sector": "Capital Goods",
       "count": 69,
       "pct": [
-        23,
-        33,
-        39,
-        46,
-        48
+        38,
+        35,
+        41,
+        49,
+        49
       ]
     },
     {
       "sector": "Services",
       "count": 14,
       "pct": [
-        36,
+        29,
         43,
-        43,
-        43,
+        50,
+        50,
         43
       ]
     },
@@ -60,41 +60,30 @@
       "pct": [
         40,
         20,
-        20,
+        40,
         40,
         40
-      ]
-    },
-    {
-      "sector": "Information Technology",
-      "count": 25,
-      "pct": [
-        40,
-        32,
-        32,
-        36,
-        36
-      ]
-    },
-    {
-      "sector": "Chemicals",
-      "count": 26,
-      "pct": [
-        23,
-        19,
-        31,
-        31,
-        35
       ]
     },
     {
       "sector": "Automobile and Auto Components",
       "count": 40,
       "pct": [
-        3,
-        23,
+        15,
         28,
         33,
+        33,
+        38
+      ]
+    },
+    {
+      "sector": "Chemicals",
+      "count": 26,
+      "pct": [
+        27,
+        15,
+        35,
+        35,
         35
       ]
     },
@@ -102,11 +91,11 @@
       "sector": "Financial Services",
       "count": 98,
       "pct": [
+        29,
         23,
-        18,
-        22,
-        28,
-        32
+        23,
+        32,
+        34
       ]
     },
     {
@@ -121,10 +110,21 @@
       ]
     },
     {
+      "sector": "Information Technology",
+      "count": 25,
+      "pct": [
+        40,
+        28,
+        28,
+        32,
+        32
+      ]
+    },
+    {
       "sector": "Consumer Durables",
       "count": 16,
       "pct": [
-        19,
+        38,
         19,
         25,
         25,
@@ -132,23 +132,12 @@
       ]
     },
     {
-      "sector": "Consumer Services",
-      "count": 23,
-      "pct": [
-        30,
-        48,
-        43,
-        43,
-        30
-      ]
-    },
-    {
       "sector": "Fast Moving Consumer Goods",
       "count": 28,
       "pct": [
-        39,
-        18,
-        18,
+        32,
+        21,
+        21,
         21,
         29
       ]
@@ -157,11 +146,22 @@
       "sector": "Telecommunication",
       "count": 11,
       "pct": [
-        45,
+        27,
+        18,
         18,
         27,
-        27,
         27
+      ]
+    },
+    {
+      "sector": "Consumer Services",
+      "count": 23,
+      "pct": [
+        39,
+        43,
+        43,
+        43,
+        26
       ]
     },
     {
@@ -169,9 +169,9 @@
       "count": 13,
       "pct": [
         0,
-        0,
         8,
         8,
+        15,
         23
       ]
     },
@@ -179,9 +179,9 @@
       "sector": "Construction",
       "count": 13,
       "pct": [
-        8,
+        23,
         15,
-        15,
+        23,
         23,
         23
       ]
@@ -191,17 +191,17 @@
       "count": 19,
       "pct": [
         5,
+        16,
         11,
         11,
-        5,
-        16
+        21
       ]
     },
     {
       "sector": "Metals & Mining",
       "count": 20,
       "pct": [
-        15,
+        10,
         5,
         5,
         10,
