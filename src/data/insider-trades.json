@@ -1,8 +1,99 @@
 {
-  "fetchedAt": "2026-10-09T19:32:27.478Z",
+  "fetchedAt": "2026-10-12T22:11:29.482Z",
   "source": "Screener",
   "total": 49,
   "items": [
+    {
+      "company": "Embassy Off.REIT",
+      "symbol": "EMBASSY",
+      "person": "Designated Person (2)",
+      "role": "Donnie Dominic George, Donnie Dominic George",
+      "buySell": "SELL",
+      "shares": null,
+      "pct": null,
+      "value": 23700000,
+      "mode": "Sold",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "ECS Biztech",
+      "symbol": "540063",
+      "person": "Mandora Finserve Private Limited",
+      "role": "Promoter Group",
+      "buySell": "SELL",
+      "shares": 1143410,
+      "pct": null,
+      "value": 2584000,
+      "mode": "Off Market",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "ECS Biztech",
+      "symbol": "540063",
+      "person": "Komal Infotech Private Limited",
+      "role": "Promoter Group",
+      "buySell": "BUY",
+      "shares": 1143410,
+      "pct": null,
+      "value": 2584000,
+      "mode": "Off Market",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Natco Pharma",
+      "symbol": "NATCOPHARM",
+      "person": "V.C. Nannapaneni",
+      "role": "Promoter And Director",
+      "buySell": "BUY",
+      "shares": 850000,
+      "pct": null,
+      "value": 671000000,
+      "mode": "Pledge Creation",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Info Edg.(India)",
+      "symbol": "NAUKRI",
+      "person": "Info Edge Employees Stock Option Plan Trust",
+      "role": "Trust",
+      "buySell": "SELL",
+      "shares": 882,
+      "pct": null,
+      "value": null,
+      "mode": "ESOP",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "HCL Technologies",
+      "symbol": "HCLTECH",
+      "person": "Hcl Technologies Stock Options Trust",
+      "role": "Designated Person",
+      "buySell": "SELL",
+      "shares": 2798,
+      "pct": null,
+      "value": 3347000,
+      "mode": "ESOS",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Ganon Products",
+      "symbol": "512443",
+      "person": "Kamla Business Ventures Private Limited",
+      "role": "Promoter",
+      "buySell": "SELL",
+      "shares": 95503,
+      "pct": null,
+      "value": 641000,
+      "mode": "Sold",
+      "date": "yesterday",
+      "isoDate": null
+    },
     {
       "company": "Aequs",
       "symbol": "AEQUS",
@@ -13,8 +104,8 @@
       "pct": null,
       "value": 23170000000,
       "mode": null,
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
     },
     {
       "company": "Safa Systems",
@@ -26,8 +117,8 @@
       "pct": null,
       "value": 5900000,
       "mode": "Allotment",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
     },
     {
       "company": "Safa Systems",
@@ -39,8 +130,8 @@
       "pct": null,
       "value": 18000000,
       "mode": "Allotment",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
     },
     {
       "company": "Avenue Super.",
@@ -52,8 +143,8 @@
       "pct": null,
       "value": 11700000,
       "mode": "ESOP",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
     },
     {
       "company": "Avenue Super.",
@@ -65,8 +156,8 @@
       "pct": null,
       "value": 201600000,
       "mode": "ESOP",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
     },
     {
       "company": "Regency Fincorp",
@@ -78,8 +169,8 @@
       "pct": null,
       "value": null,
       "mode": "Off Market",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
     },
     {
       "company": "Zensar Tech.",
@@ -91,8 +182,8 @@
       "pct": null,
       "value": 14200000,
       "mode": "ESOP",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
     },
     {
       "company": "W S Inds.",
@@ -104,8 +195,8 @@
       "pct": null,
       "value": 488999.99999999994,
       "mode": "Bought",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
     },
     {
       "company": "KEI Industries",
@@ -117,8 +208,8 @@
       "pct": null,
       "value": 7425000,
       "mode": "ESOP",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
     },
     {
       "company": "KEI Industries",
@@ -130,8 +221,8 @@
       "pct": null,
       "value": 2700000,
       "mode": "ESOP",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
     },
     {
       "company": "CSL Finance",
@@ -143,8 +234,8 @@
       "pct": null,
       "value": 57100000,
       "mode": "Inter-se-Transfer",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
     },
     {
       "company": "CSL Finance",
@@ -156,8 +247,8 @@
       "pct": null,
       "value": 57100000,
       "mode": "Inter-se-Transfer",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
     },
     {
       "company": "Vintage Coffee",
@@ -234,97 +325,6 @@
       "pct": null,
       "value": 2005000,
       "mode": "Preferential Offer",
-      "date": "8 Oct 2026",
-      "isoDate": "2026-10-08"
-    },
-    {
-      "company": "Royal Cush. Vin.",
-      "symbol": "ROYALCUSHN",
-      "person": "Promoter Group (5)",
-      "role": "Suvrat Mahesh Shah, Jay Vinod Shah, Vivek Deepak M...",
-      "buySell": "BUY",
-      "shares": 2054472,
-      "pct": null,
-      "value": 20500000,
-      "mode": "Scheme of Amalgamation/Merger/Demerger/Arrangement",
-      "date": "8 Oct 2026",
-      "isoDate": "2026-10-08"
-    },
-    {
-      "company": "Royal Cush. Vin.",
-      "symbol": "ROYALCUSHN",
-      "person": "Promoter And Director (2)",
-      "role": "Mahesh Kantilal Shah, Jayesh Amrutlal Motasha",
-      "buySell": "BUY",
-      "shares": 825897,
-      "pct": null,
-      "value": 8259000,
-      "mode": "Scheme of Amalgamation/Merger/Demerger/Arrangement",
-      "date": "8 Oct 2026",
-      "isoDate": "2026-10-08"
-    },
-    {
-      "company": "Royal Cush. Vin.",
-      "symbol": "ROYALCUSHN",
-      "person": "Promoter (3)",
-      "role": "Vinod Kantilal Shah, Deepak Amrutlal Motasha, Muke...",
-      "buySell": "BUY",
-      "shares": 1236791,
-      "pct": null,
-      "value": 12400000,
-      "mode": "Scheme of Amalgamation/Merger/Demerger/Arrangement",
-      "date": "8 Oct 2026",
-      "isoDate": "2026-10-08"
-    },
-    {
-      "company": "Ideaforge Tech",
-      "symbol": "IDEAFORGE",
-      "person": "Kruthi Aramanamada",
-      "role": "Designated Person",
-      "buySell": "BUY",
-      "shares": 2572,
-      "pct": null,
-      "value": 1982000,
-      "mode": "ESOP",
-      "date": "8 Oct 2026",
-      "isoDate": "2026-10-08"
-    },
-    {
-      "company": "Lakshmi Engg.",
-      "symbol": "505302",
-      "person": "Smt Aishwarya Pathy",
-      "role": "Promoter And Director",
-      "buySell": "BUY",
-      "shares": 655,
-      "pct": null,
-      "value": 1619000.0000000002,
-      "mode": "Bought",
-      "date": "8 Oct 2026",
-      "isoDate": "2026-10-08"
-    },
-    {
-      "company": "Info Edg.(India)",
-      "symbol": "NAUKRI",
-      "person": "Swati Vashistha Revised",
-      "role": "Designated Person",
-      "buySell": "SELL",
-      "shares": 1541,
-      "pct": null,
-      "value": 1932000,
-      "mode": "Revocation Of Pledge",
-      "date": "8 Oct 2026",
-      "isoDate": "2026-10-08"
-    },
-    {
-      "company": "Info Edg.(India)",
-      "symbol": "NAUKRI",
-      "person": "Info Edge Employees Stock Option Plan Trust",
-      "role": "Trust",
-      "buySell": "SELL",
-      "shares": 680,
-      "pct": null,
-      "value": null,
-      "mode": "ESOP",
       "date": "8 Oct 2026",
       "isoDate": "2026-10-08"
     },
