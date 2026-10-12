@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-09T19:49:01.463Z",
+  "fetchedAt": "2026-10-12T22:16:59.541Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -10,6 +10,14 @@
     "dividend": 25
   },
   "items": [
+    {
+      "company": "Titan Biotech",
+      "symbol": "524717",
+      "type": "bonus",
+      "detail": "Ratio 1:4",
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
+    },
     {
       "company": "OneClick Logisti",
       "symbol": "OLIL",
@@ -201,14 +209,6 @@
       "detail": "Ratio 2:1",
       "date": "16 Jul 2026",
       "isoDate": "2026-07-16"
-    },
-    {
-      "company": "Hindusthan Insulators &",
-      "symbol": "539984",
-      "type": "bonus",
-      "detail": "Ratio 2:1",
-      "date": "10 Jul 2026",
-      "isoDate": "2026-07-10"
     },
     {
       "company": "Transport Corp.",
@@ -811,12 +811,28 @@
       "isoDate": "2026-08-06"
     },
     {
+      "company": "Canara Robeco",
+      "symbol": "CRAMC",
+      "type": "dividend",
+      "detail": "Interim · 20.00%",
+      "date": "16 Oct 2026",
+      "isoDate": "2026-10-16"
+    },
+    {
       "company": "Anand Rathi Wea.",
       "symbol": "ANANDRATHI",
       "type": "dividend",
       "detail": "Interim 1 · 80.00%",
       "date": "15 Oct 2026",
       "isoDate": "2026-10-15"
+    },
+    {
+      "company": "Energy InfrTrust",
+      "symbol": "542543",
+      "type": "dividend",
+      "detail": "Final · 3.88%",
+      "date": "14 Oct 2026",
+      "isoDate": "2026-10-14"
     },
     {
       "company": "TCS",
@@ -991,22 +1007,6 @@
       "symbol": "ARFIN",
       "type": "dividend",
       "detail": "Interim · 12.00%",
-      "date": "24 Sep 2026",
-      "isoDate": "2026-09-24"
-    },
-    {
-      "company": "Engineers India",
-      "symbol": "ENGINERSIN",
-      "type": "dividend",
-      "detail": "Final · 50.00%",
-      "date": "24 Sep 2026",
-      "isoDate": "2026-09-24"
-    },
-    {
-      "company": "Adtech Systems",
-      "symbol": "544185",
-      "type": "dividend",
-      "detail": "Final · 11.00%",
       "date": "24 Sep 2026",
       "isoDate": "2026-09-24"
     }
