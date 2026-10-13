@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-12T22:16:59.541Z",
+  "fetchedAt": "2026-10-13T20:23:18.264Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -811,12 +811,52 @@
       "isoDate": "2026-08-06"
     },
     {
+      "company": "ICICI AMC",
+      "symbol": "ICICIAMC",
+      "type": "dividend",
+      "detail": "Interim · 3000.00%",
+      "date": "21 Oct 2026",
+      "isoDate": "2026-10-21"
+    },
+    {
+      "company": "HCL Technologies",
+      "symbol": "HCLTECH",
+      "type": "dividend",
+      "detail": "Interim 3 · 600.00%",
+      "date": "16 Oct 2026",
+      "isoDate": "2026-10-16"
+    },
+    {
+      "company": "Hind.Composites",
+      "symbol": "HINDCOMPOS",
+      "type": "dividend",
+      "detail": "Special · 420.00%",
+      "date": "16 Oct 2026",
+      "isoDate": "2026-10-16"
+    },
+    {
       "company": "Canara Robeco",
       "symbol": "CRAMC",
       "type": "dividend",
       "detail": "Interim · 20.00%",
       "date": "16 Oct 2026",
       "isoDate": "2026-10-16"
+    },
+    {
+      "company": "Propshare Celestia",
+      "symbol": "544752",
+      "type": "dividend",
+      "detail": "Final · 2.12%",
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
+    },
+    {
+      "company": "PropsharePlatina",
+      "symbol": "544295",
+      "type": "dividend",
+      "detail": "Final · 2.19%",
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
     },
     {
       "company": "Anand Rathi Wea.",
@@ -969,46 +1009,6 @@
       "detail": "Final · 2.50%",
       "date": "25 Sep 2026",
       "isoDate": "2026-09-25"
-    },
-    {
-      "company": "A D S Diagnostic",
-      "symbol": "523031",
-      "type": "dividend",
-      "detail": "Final · 12.00%",
-      "date": "25 Sep 2026",
-      "isoDate": "2026-09-25"
-    },
-    {
-      "company": "Noble Polymers",
-      "symbol": "539200",
-      "type": "dividend",
-      "detail": "Final · 1.00%",
-      "date": "25 Sep 2026",
-      "isoDate": "2026-09-25"
-    },
-    {
-      "company": "Sri Lotus",
-      "symbol": "LOTUSDEV",
-      "type": "dividend",
-      "detail": "Final · 50.00%",
-      "date": "25 Sep 2026",
-      "isoDate": "2026-09-25"
-    },
-    {
-      "company": "Shri Venkatesh",
-      "symbol": "543373",
-      "type": "dividend",
-      "detail": "Final · 10.00%",
-      "date": "24 Sep 2026",
-      "isoDate": "2026-09-24"
-    },
-    {
-      "company": "Arfin India",
-      "symbol": "ARFIN",
-      "type": "dividend",
-      "detail": "Interim · 12.00%",
-      "date": "24 Sep 2026",
-      "isoDate": "2026-09-24"
     }
   ]
 }
