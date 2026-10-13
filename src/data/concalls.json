@@ -1,11 +1,260 @@
 {
-  "fetchedAt": "2026-10-12T22:12:18.092Z",
+  "fetchedAt": "2026-10-13T20:18:01.449Z",
   "source": "Screener",
   "counts": {
     "recent": 25,
     "upcoming": 0
   },
   "items": [
+    {
+      "company": "T R I L",
+      "symbol": "TARIL",
+      "kind": "recent",
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://webcms.transformerindia.com/uploads/10047513_6b91b65360.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23335600/"
+        }
+      ]
+    },
+    {
+      "company": "Tata Elxsi",
+      "symbol": "TATAELXSI",
+      "kind": "recent",
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.tataelxsi.com/storage/PDF/Investors/October2026/10047483.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23335599/"
+        }
+      ]
+    },
+    {
+      "company": "GTPL Hathway",
+      "symbol": "GTPL",
+      "kind": "recent",
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d589762-4a7d-4185-8f5c-6140ce2efa7f.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Karnika Industri",
+      "symbol": "KARNIKA",
+      "kind": "recent",
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://karnikaindustries.com/wp-content/uploads/2026/10/Karnika-Q2-H1-of-FY-2027-Earnings-Call-Audio.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23335596/"
+        }
+      ]
+    },
+    {
+      "company": "ICICI Pru Life",
+      "symbol": "ICICIPRULI",
+      "kind": "recent",
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.icicilife.com/content/dam/icicipru/about-us/BusinessPresentations/FY2027/10047322.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23335595/"
+        }
+      ]
+    },
+    {
+      "company": "Tata Elxsi",
+      "symbol": "TATAELXSI",
+      "kind": "recent",
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c4b9e1d1-d40c-424b-ac60-7f3e72a2cd31.pdf"
+        }
+      ]
+    },
+    {
+      "company": "A R C I",
+      "symbol": "ARCIL",
+      "kind": "recent",
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e82ed1d-c7c9-479b-8241-13b857fcb353.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23335593/"
+        }
+      ]
+    },
+    {
+      "company": "Anand Rathi Shar",
+      "symbol": "ARSSBL",
+      "kind": "recent",
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cadeb2bb-153f-4b04-a94b-82ad0613ac14.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Den Networks",
+      "symbol": "DEN",
+      "kind": "recent",
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=837c0c9b-40e3-4041-9681-dcb94fcfdfab.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Glass Wall Syst.",
+      "symbol": "GLASSWALL",
+      "kind": "recent",
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=feeb0817-21cb-46a3-8614-6e1130bd8ebd.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23335589/"
+        }
+      ]
+    },
+    {
+      "company": "Eimco Elecon(I)",
+      "symbol": "EIMCOELECO",
+      "kind": "recent",
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7611968-3fef-4da5-8ec1-17851d1dab67.pdf"
+        }
+      ]
+    },
+    {
+      "company": "ICICI Pru Life",
+      "symbol": "ICICIPRULI",
+      "kind": "recent",
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d67dba2-ebad-4fa6-8cbd-6649f0c98dd8.pdf"
+        }
+      ]
+    },
+    {
+      "company": "ICICI Pru Life",
+      "symbol": "ICICIPRULI",
+      "kind": "recent",
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d76d5f58-1bcc-42aa-905c-0cea30b33896.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Adroit Industries",
+      "symbol": "ADROITIND",
+      "kind": "recent",
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4fcd12f-ae28-455b-aa50-7f2d8ce208d5.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Karnika Industri",
+      "symbol": "KARNIKA",
+      "kind": "recent",
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.com/corporate/KARNIKA_13102026115944_INVESTOR_PRESENTATION-NSE-Q2_AND_H1_FY27.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Ganesh Benzopl.",
+      "symbol": "GANESHBE",
+      "kind": "recent",
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca6861c8-4889-4262-9f9c-0c96203f0edb.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23335511/"
+        }
+      ]
+    },
+    {
+      "company": "Piramal Finance.",
+      "symbol": "PIRAMALFIN",
+      "kind": "recent",
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f75fe60-48ed-405d-bec2-dfa47dce62ab.pdf"
+        }
+      ]
+    },
     {
       "company": "HCL Technologies",
       "symbol": "HCLTECH",
@@ -127,255 +376,6 @@
         {
           "label": "View Presentation",
           "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4aaf5f35-2092-4b92-8113-996a0fd201c3.pdf"
-        }
-      ]
-    },
-    {
-      "company": "Globe Intl. Car.",
-      "symbol": "GICL",
-      "kind": "recent",
-      "date": "12 Oct 2026",
-      "isoDate": "2026-10-12",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://nsearchives.nseindia.com/corporate/GICL_12102026154855_IP.pdf"
-        }
-      ]
-    },
-    {
-      "company": "Canara Robeco",
-      "symbol": "CRAMC",
-      "kind": "recent",
-      "date": "10 Oct 2026",
-      "isoDate": "2026-10-10",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b43800a-181b-455c-93df-1c23bb6f18ed.pdf"
-        }
-      ]
-    },
-    {
-      "company": "Avenue Super.",
-      "symbol": "DMART",
-      "kind": "recent",
-      "date": "10 Oct 2026",
-      "isoDate": "2026-10-10",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=28519d83-e15b-41c1-842c-b589621d6439.pdf"
-        }
-      ]
-    },
-    {
-      "company": "Steamhouse India",
-      "symbol": "STEAMHOUSE",
-      "kind": "recent",
-      "date": "10 Oct 2026",
-      "isoDate": "2026-10-10",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3566973f-5ed0-4863-aad7-828db9a73be1.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23335161/"
-        }
-      ]
-    },
-    {
-      "company": "Canara HSBC",
-      "symbol": "CANHLIFE",
-      "kind": "recent",
-      "date": "9 Oct 2026",
-      "isoDate": "2026-10-09",
-      "links": [
-        {
-          "label": "View Recording",
-          "url": "https://www.canarahsbclife.com/content/dam/chli/pdfs/investor-relations/financials/investor-presentantion-and-call-recordings/5/6m-fy27%E2%80%93call-recording-transcript.mp3"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23335104/"
-        }
-      ]
-    },
-    {
-      "company": "Can Fin Homes",
-      "symbol": "CANFINHOME",
-      "kind": "recent",
-      "date": "9 Oct 2026",
-      "isoDate": "2026-10-09",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=caa7d276-fde8-4808-80b3-969b5e66de76.pdf"
-        }
-      ]
-    },
-    {
-      "company": "Waterways Leisur",
-      "symbol": "CORDELIA",
-      "kind": "recent",
-      "date": "9 Oct 2026",
-      "isoDate": "2026-10-09",
-      "links": [
-        {
-          "label": "View Recording",
-          "url": "https://images.cordeliacruises.com/cordelia_v2/public/Audio/Waterways_Leisure_Tourism-09102026.mp3"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23335074/"
-        }
-      ]
-    },
-    {
-      "company": "Poonawalla Fin",
-      "symbol": "POONAWALLA",
-      "kind": "recent",
-      "date": "9 Oct 2026",
-      "isoDate": "2026-10-09",
-      "links": [
-        {
-          "label": "View Recording",
-          "url": "https://poonawallafincorp.com/documents/20121/0/Q2-FY27-Call-Recording.mp3"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23335072/"
-        }
-      ]
-    },
-    {
-      "company": "Anand Rathi Wea.",
-      "symbol": "ANANDRATHI",
-      "kind": "recent",
-      "date": "9 Oct 2026",
-      "isoDate": "2026-10-09",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=90543029-e2e0-4880-89e4-588e5fcdcbc8.pdf"
-        }
-      ]
-    },
-    {
-      "company": "Waterways Leisur",
-      "symbol": "CORDELIA",
-      "kind": "recent",
-      "date": "9 Oct 2026",
-      "isoDate": "2026-10-09",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9140fa1-bd4d-4bad-89b9-d3c263b92136.pdf"
-        }
-      ]
-    },
-    {
-      "company": "Karamtara Engg.",
-      "symbol": "KARAMTARA",
-      "kind": "recent",
-      "date": "9 Oct 2026",
-      "isoDate": "2026-10-09",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fc1f6092-a094-4012-b638-23e910212888.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23335068/"
-        }
-      ]
-    },
-    {
-      "company": "Canara HSBC",
-      "symbol": "CANHLIFE",
-      "kind": "recent",
-      "date": "9 Oct 2026",
-      "isoDate": "2026-10-09",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52097c1c-d95c-4358-8382-b5a370af5738.pdf"
-        }
-      ]
-    },
-    {
-      "company": "Poonawalla Fin",
-      "symbol": "POONAWALLA",
-      "kind": "recent",
-      "date": "9 Oct 2026",
-      "isoDate": "2026-10-09",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8d759fd3-bf0b-48c5-b228-4a0250f226da.pdf"
-        }
-      ]
-    },
-    {
-      "company": "Rentomojo",
-      "symbol": "RENTOMOJO",
-      "kind": "recent",
-      "date": "9 Oct 2026",
-      "isoDate": "2026-10-09",
-      "links": [
-        {
-          "label": "View Recording",
-          "url": "https://rentomojo-static-assets.s3.ap-south-1.amazonaws.com/production/earnings/q1fy27-earnings-call-recording.mp3"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23335018/"
-        }
-      ]
-    },
-    {
-      "company": "TCS",
-      "symbol": "TCS",
-      "kind": "recent",
-      "date": "8 Oct 2026",
-      "isoDate": "2026-10-08",
-      "links": [
-        {
-          "label": "View Recording",
-          "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2026-27/q2/Management%20Commentary/Archived%20webcast%20of%20TCS%20Earnings%20Conference%20Call%20Q2%20FY27.mp3"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23334993/"
-        }
-      ]
-    },
-    {
-      "company": "Novus Loyalty",
-      "symbol": "544735",
-      "kind": "recent",
-      "date": "8 Oct 2026",
-      "isoDate": "2026-10-08",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c382f418-641d-4289-a01a-3493443d5407.pdf"
-        }
-      ]
-    },
-    {
-      "company": "Novus Loyalty",
-      "symbol": "544735",
-      "kind": "recent",
-      "date": "8 Oct 2026",
-      "isoDate": "2026-10-08",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=356ae77e-dc69-4f49-beea-19b8ab52b12c.pdf"
         }
       ]
     }
