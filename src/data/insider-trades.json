@@ -1,8 +1,60 @@
 {
-  "fetchedAt": "2026-10-12T22:11:29.482Z",
+  "fetchedAt": "2026-10-13T20:15:16.867Z",
   "source": "Screener",
   "total": 49,
   "items": [
+    {
+      "company": "Olympia Industri",
+      "symbol": "521105",
+      "person": "Navin Kumar Pansari",
+      "role": "Promoter And Director",
+      "buySell": "BUY",
+      "shares": 151516,
+      "pct": null,
+      "value": null,
+      "mode": null,
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "eClerx Services",
+      "symbol": "ECLERX",
+      "person": "Eclerx Employee Welfare",
+      "role": "Trust",
+      "buySell": "SELL",
+      "shares": 5123,
+      "pct": null,
+      "value": 3636999.9999999995,
+      "mode": "Off Market",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Onix Solar",
+      "symbol": "ONIXSOLAR",
+      "person": "Onix Renewable Limited",
+      "role": "Promoter",
+      "buySell": "SELL",
+      "shares": 746000,
+      "pct": null,
+      "value": 279900000,
+      "mode": "Sold",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Netripples Soft.",
+      "symbol": "542117",
+      "person": "Netripples",
+      "role": "Connected Person",
+      "buySell": "SELL",
+      "shares": 0,
+      "pct": null,
+      "value": null,
+      "mode": "Others",
+      "date": "12 Oct 2026",
+      "isoDate": "2026-10-12"
+    },
     {
       "company": "Embassy Off.REIT",
       "symbol": "EMBASSY",
@@ -13,8 +65,8 @@
       "pct": null,
       "value": 23700000,
       "mode": "Sold",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "12 Oct 2026",
+      "isoDate": "2026-10-12"
     },
     {
       "company": "ECS Biztech",
@@ -26,8 +78,8 @@
       "pct": null,
       "value": 2584000,
       "mode": "Off Market",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "12 Oct 2026",
+      "isoDate": "2026-10-12"
     },
     {
       "company": "ECS Biztech",
@@ -39,8 +91,8 @@
       "pct": null,
       "value": 2584000,
       "mode": "Off Market",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "12 Oct 2026",
+      "isoDate": "2026-10-12"
     },
     {
       "company": "Natco Pharma",
@@ -52,8 +104,8 @@
       "pct": null,
       "value": 671000000,
       "mode": "Pledge Creation",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "12 Oct 2026",
+      "isoDate": "2026-10-12"
     },
     {
       "company": "Info Edg.(India)",
@@ -65,8 +117,8 @@
       "pct": null,
       "value": null,
       "mode": "ESOP",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "12 Oct 2026",
+      "isoDate": "2026-10-12"
     },
     {
       "company": "HCL Technologies",
@@ -78,8 +130,8 @@
       "pct": null,
       "value": 3347000,
       "mode": "ESOS",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "12 Oct 2026",
+      "isoDate": "2026-10-12"
     },
     {
       "company": "Ganon Products",
@@ -91,8 +143,8 @@
       "pct": null,
       "value": 641000,
       "mode": "Sold",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "12 Oct 2026",
+      "isoDate": "2026-10-12"
     },
     {
       "company": "Aequs",
@@ -277,56 +329,134 @@
       "isoDate": "2026-10-08"
     },
     {
-      "company": "Vintage Coffee",
-      "symbol": "VINCOFE",
-      "person": "Promoter And Director (3)",
-      "role": "Balakrishna Tati, Mohit Rathi, Vishal Jethalia",
+      "company": "Maxvolt Energy",
+      "symbol": "MAXVOLT",
+      "person": "Satendra Shukla",
+      "role": "Promoter (SAST)",
+      "buySell": null,
+      "shares": 448986,
+      "pct": null,
+      "value": null,
+      "mode": "Acq",
+      "date": "12 Oct 2026",
+      "isoDate": "2026-10-12"
+    },
+    {
+      "company": "S J Logistics (I",
+      "symbol": "SJLOGISTIC",
+      "person": "Rupanki Prashant Shah",
+      "role": "Promoter (SAST)",
+      "buySell": null,
+      "shares": 52250,
+      "pct": null,
+      "value": null,
+      "mode": "Acq",
+      "date": "12 Oct 2026",
+      "isoDate": "2026-10-12"
+    },
+    {
+      "company": "Magson Retail",
+      "symbol": "MAGSON",
+      "person": "Anil Natvaral Pethani",
+      "role": "Promoter (SAST)",
       "buySell": "SELL",
-      "shares": 8913179,
+      "shares": 42000,
       "pct": null,
-      "value": 1670000000,
-      "mode": "Revocation Of Pledge",
-      "date": "8 Oct 2026",
-      "isoDate": "2026-10-08"
+      "value": null,
+      "mode": "Sell",
+      "date": "12 Oct 2026",
+      "isoDate": "2026-10-12"
     },
     {
-      "company": "iSERA Lifesciences",
-      "symbol": "534920",
-      "person": "Promoter Group (23)",
-      "role": "Venkatesh Madhav Bhat, Pravin Vaman Suryarao, Mada...",
-      "buySell": "BUY",
-      "shares": 1635000,
+      "company": "Magson Retail",
+      "symbol": "MAGSON",
+      "person": "Jennifer Rajesh Fracis",
+      "role": "Promoter (SAST)",
+      "buySell": "SELL",
+      "shares": 131000,
       "pct": null,
-      "value": 78800000,
-      "mode": "Preferential Offer",
-      "date": "8 Oct 2026",
-      "isoDate": "2026-10-08"
+      "value": null,
+      "mode": "Sell",
+      "date": "12 Oct 2026",
+      "isoDate": "2026-10-12"
     },
     {
-      "company": "iSERA Lifesciences",
-      "symbol": "534920",
-      "person": "Promoter (7)",
-      "role": "Shubhangi Dhanraj Garad, Sumeet Dhanraj Garad, Pra...",
-      "buySell": "BUY",
-      "shares": 6880500,
+      "company": "Magson Retail",
+      "symbol": "MAGSON",
+      "person": "Ranjan Nitinbhai Patel",
+      "role": "Promoter (SAST)",
+      "buySell": "SELL",
+      "shares": 36000,
       "pct": null,
-      "value": 331599999.99999994,
-      "mode": "Preferential Offer",
-      "date": "8 Oct 2026",
-      "isoDate": "2026-10-08"
+      "value": null,
+      "mode": "Sell",
+      "date": "12 Oct 2026",
+      "isoDate": "2026-10-12"
     },
     {
-      "company": "iSERA Lifesciences",
-      "symbol": "534920",
-      "person": "Mangina S Rao",
-      "role": "Director",
-      "buySell": "BUY",
-      "shares": 41600,
+      "company": "BEW Engg",
+      "symbol": "BEWLTD",
+      "person": "HImalaya Finance & Investment Co.",
+      "role": "Promoter (SAST)",
+      "buySell": "SELL",
+      "shares": 284000,
       "pct": null,
-      "value": 2005000,
-      "mode": "Preferential Offer",
-      "date": "8 Oct 2026",
-      "isoDate": "2026-10-08"
+      "value": null,
+      "mode": "Sell",
+      "date": "12 Oct 2026",
+      "isoDate": "2026-10-12"
+    },
+    {
+      "company": "Silgo Retail",
+      "symbol": "SILGO",
+      "person": "Nitin Jain",
+      "role": "Promoter (SAST)",
+      "buySell": null,
+      "shares": 93750,
+      "pct": null,
+      "value": null,
+      "mode": "Acq",
+      "date": "12 Oct 2026",
+      "isoDate": "2026-10-12"
+    },
+    {
+      "company": "Kapston Services",
+      "symbol": "KAPSTON",
+      "person": "MR. SRIKANTH KODALI",
+      "role": "Promoter (SAST)",
+      "buySell": "SELL",
+      "shares": 912913,
+      "pct": null,
+      "value": null,
+      "mode": "Sell",
+      "date": "12 Oct 2026",
+      "isoDate": "2026-10-12"
+    },
+    {
+      "company": "Priti Internati.",
+      "symbol": "PRITI",
+      "person": "Priti Lohiya",
+      "role": "Promoter (SAST)",
+      "buySell": "SELL",
+      "shares": 3600000,
+      "pct": null,
+      "value": null,
+      "mode": "Sell",
+      "date": "12 Oct 2026",
+      "isoDate": "2026-10-12"
+    },
+    {
+      "company": "M Tek Copper",
+      "symbol": "MCL",
+      "person": "MR. VISHAL Tulsibhai MONPARA",
+      "role": "Promoter (SAST)",
+      "buySell": "SELL",
+      "shares": 8500,
+      "pct": null,
+      "value": null,
+      "mode": "Sell",
+      "date": "12 Oct 2026",
+      "isoDate": "2026-10-12"
     },
     {
       "company": "Maxvolt Energy",
@@ -509,136 +639,6 @@
       "mode": "Release",
       "date": "6 Oct 2026",
       "isoDate": "2026-10-06"
-    },
-    {
-      "company": "Magson Retail",
-      "symbol": "MAGSON",
-      "person": "Manish Shivnarayan Pancholi",
-      "role": "Promoter (SAST)",
-      "buySell": "SELL",
-      "shares": 31000,
-      "pct": null,
-      "value": null,
-      "mode": "Sell",
-      "date": "6 Oct 2026",
-      "isoDate": "2026-10-06"
-    },
-    {
-      "company": "Kapston Services",
-      "symbol": "KAPSTON",
-      "person": "MR. SRIKANTH KODALI",
-      "role": "Promoter (SAST)",
-      "buySell": "SELL",
-      "shares": 1200000,
-      "pct": null,
-      "value": null,
-      "mode": "Sell",
-      "date": "6 Oct 2026",
-      "isoDate": "2026-10-06"
-    },
-    {
-      "company": "Milton Industri.",
-      "symbol": "MILTON",
-      "person": "Ajay Jain",
-      "role": "Promoter (SAST)",
-      "buySell": "SELL",
-      "shares": 514800,
-      "pct": null,
-      "value": null,
-      "mode": "Sell",
-      "date": "6 Oct 2026",
-      "isoDate": "2026-10-06"
-    },
-    {
-      "company": "Milton Industri.",
-      "symbol": "MILTON",
-      "person": "Aadit Jain",
-      "role": "Promoter (SAST)",
-      "buySell": null,
-      "shares": 283800,
-      "pct": null,
-      "value": null,
-      "mode": "Acq",
-      "date": "6 Oct 2026",
-      "isoDate": "2026-10-06"
-    },
-    {
-      "company": "M Tek Copper",
-      "symbol": "MCL",
-      "person": "MR. RAJESH ODHAVJIBHAI PATEL",
-      "role": "Promoter (SAST)",
-      "buySell": "SELL",
-      "shares": 9000,
-      "pct": null,
-      "value": null,
-      "mode": "Sell",
-      "date": "6 Oct 2026",
-      "isoDate": "2026-10-06"
-    },
-    {
-      "company": "M Tek Copper",
-      "symbol": "MCL",
-      "person": "MR. DIVYA ARVINDHAI MONPARA",
-      "role": "Promoter (SAST)",
-      "buySell": "SELL",
-      "shares": 9000,
-      "pct": null,
-      "value": null,
-      "mode": "Sell",
-      "date": "6 Oct 2026",
-      "isoDate": "2026-10-06"
-    },
-    {
-      "company": "Arvind Port &",
-      "symbol": "ARVINDPORT",
-      "person": "Vinit Arvind Shah",
-      "role": "Promoter (SAST)",
-      "buySell": null,
-      "shares": 3000,
-      "pct": null,
-      "value": null,
-      "mode": "Acq",
-      "date": "6 Oct 2026",
-      "isoDate": "2026-10-06"
-    },
-    {
-      "company": "Marine Electric.",
-      "symbol": "MARINE",
-      "person": "KDU Enterprises Private Limited",
-      "role": "Promoter (SAST)",
-      "buySell": "SELL",
-      "shares": 4200000,
-      "pct": null,
-      "value": null,
-      "mode": "Sell",
-      "date": "6 Oct 2026",
-      "isoDate": "2026-10-06"
-    },
-    {
-      "company": "Manas Polymers",
-      "symbol": "MPEL",
-      "person": "Sonal K Gupta",
-      "role": "Promoter (SAST)",
-      "buySell": null,
-      "shares": 838400,
-      "pct": null,
-      "value": null,
-      "mode": "Acq",
-      "date": "5 Oct 2026",
-      "isoDate": "2026-10-05"
-    },
-    {
-      "company": "Manas Polymers",
-      "symbol": "MPEL",
-      "person": "Kamal Jagdish Gupta",
-      "role": "Promoter (SAST)",
-      "buySell": null,
-      "shares": 857600,
-      "pct": null,
-      "value": null,
-      "mode": "Acq",
-      "date": "5 Oct 2026",
-      "isoDate": "2026-10-05"
     }
   ]
 }
