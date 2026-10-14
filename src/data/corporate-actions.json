@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-13T20:23:18.264Z",
+  "fetchedAt": "2026-10-14T18:56:58.833Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -411,6 +411,22 @@
       "isoDate": "2026-04-24"
     },
     {
+      "company": "Knowledge Marine",
+      "symbol": "KMEW",
+      "type": "split",
+      "detail": "5.00 · 1.00",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
+    },
+    {
+      "company": "Guj.Nat.Resour.",
+      "symbol": "GNRL",
+      "type": "split",
+      "detail": "10.00 · 1.00",
+      "date": "5 Nov 2026",
+      "isoDate": "2026-11-05"
+    },
+    {
       "company": "Galaxy Agrico",
       "symbol": "531911",
       "type": "split",
@@ -593,22 +609,6 @@
       "detail": "10.00 · 1.00",
       "date": "28 Aug 2026",
       "isoDate": "2026-08-28"
-    },
-    {
-      "company": "Waterways Leisur",
-      "symbol": "CORDELIA",
-      "type": "split",
-      "detail": "10.00 · 1.00",
-      "date": "25 Aug 2026",
-      "isoDate": "2026-08-25"
-    },
-    {
-      "company": "TD Power Systems",
-      "symbol": "TDPOWERSYS",
-      "type": "split",
-      "detail": "2.00 · 1.00",
-      "date": "24 Aug 2026",
-      "isoDate": "2026-08-24"
     },
     {
       "company": "Shivam Autotech",
@@ -843,6 +843,14 @@
       "isoDate": "2026-10-16"
     },
     {
+      "company": "PropshareTitania",
+      "symbol": "544462",
+      "type": "dividend",
+      "detail": "Final · 2.27%",
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
+    },
+    {
       "company": "Propshare Celestia",
       "symbol": "544752",
       "type": "dividend",
@@ -1001,14 +1009,6 @@
       "detail": "Final · 5.00%",
       "date": "29 Sep 2026",
       "isoDate": "2026-09-29"
-    },
-    {
-      "company": "Shreeji Global",
-      "symbol": "SHETHJI",
-      "type": "dividend",
-      "detail": "Final · 2.50%",
-      "date": "25 Sep 2026",
-      "isoDate": "2026-09-25"
     }
   ]
 }
