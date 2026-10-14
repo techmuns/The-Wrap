@@ -1,8 +1,47 @@
 {
-  "fetchedAt": "2026-10-13T20:15:16.867Z",
+  "fetchedAt": "2026-10-14T18:36:54.780Z",
   "source": "Screener",
   "total": 49,
   "items": [
+    {
+      "company": "Infosys",
+      "symbol": "INFY",
+      "person": "Infosys Employee Benefits Trust",
+      "role": "Trust",
+      "buySell": "SELL",
+      "shares": 50,
+      "pct": null,
+      "value": 51000,
+      "mode": "Off Market",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Embassy Develop",
+      "symbol": "EMBDL",
+      "person": "Embassy Property Developments Private Limited",
+      "role": "Promoter Group",
+      "buySell": "BUY",
+      "shares": 32518900,
+      "pct": null,
+      "value": 906500000,
+      "mode": "Preferential Offer",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "HCL Technologies",
+      "symbol": "HCLTECH",
+      "person": "Hcl Technologies Stock Options Trust",
+      "role": "Designated Person",
+      "buySell": "SELL",
+      "shares": 1285,
+      "pct": null,
+      "value": 1512000,
+      "mode": "ESOS",
+      "date": "yesterday",
+      "isoDate": null
+    },
     {
       "company": "Olympia Industri",
       "symbol": "521105",
@@ -13,8 +52,8 @@
       "pct": null,
       "value": null,
       "mode": null,
-      "date": "yesterday",
-      "isoDate": null
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13"
     },
     {
       "company": "eClerx Services",
@@ -26,8 +65,8 @@
       "pct": null,
       "value": 3636999.9999999995,
       "mode": "Off Market",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13"
     },
     {
       "company": "Onix Solar",
@@ -39,8 +78,8 @@
       "pct": null,
       "value": 279900000,
       "mode": "Sold",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13"
     },
     {
       "company": "Netripples Soft.",
@@ -288,45 +327,6 @@
       "mode": "Inter-se-Transfer",
       "date": "9 Oct 2026",
       "isoDate": "2026-10-09"
-    },
-    {
-      "company": "CSL Finance",
-      "symbol": "CSLFINANCE",
-      "person": "Promoter Group (2)",
-      "role": "Csl Capital Private Limited, Csl Capital Private Limited",
-      "buySell": "BUY",
-      "shares": 265686,
-      "pct": null,
-      "value": 57100000,
-      "mode": "Inter-se-Transfer",
-      "date": "9 Oct 2026",
-      "isoDate": "2026-10-09"
-    },
-    {
-      "company": "Vintage Coffee",
-      "symbol": "VINCOFE",
-      "person": "Chin Corp Holding Pte Limited",
-      "role": "Promoter Group",
-      "buySell": "SELL",
-      "shares": 4185205,
-      "pct": null,
-      "value": 736400000,
-      "mode": "Revocation Of Pledge",
-      "date": "8 Oct 2026",
-      "isoDate": "2026-10-08"
-    },
-    {
-      "company": "Vintage Coffee",
-      "symbol": "VINCOFE",
-      "person": "Promoter And Director (2)",
-      "role": "Mohit Rathi, Vishal Jethalia",
-      "buySell": "SELL",
-      "shares": 0,
-      "pct": null,
-      "value": null,
-      "mode": "Revocation Of Pledge",
-      "date": "8 Oct 2026",
-      "isoDate": "2026-10-08"
     },
     {
       "company": "Maxvolt Energy",
