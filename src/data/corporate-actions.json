@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-14T18:56:58.833Z",
+  "fetchedAt": "2026-10-15T18:53:49.502Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -811,6 +811,62 @@
       "isoDate": "2026-08-06"
     },
     {
+      "company": "HDB FINANC SER",
+      "symbol": "HDBFS",
+      "type": "dividend",
+      "detail": "Interim · 20.00%",
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
+    },
+    {
+      "company": "ICICI Lombard",
+      "symbol": "ICICIGI",
+      "type": "dividend",
+      "detail": "Interim · 70.00%",
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
+    },
+    {
+      "company": "I R F C",
+      "symbol": "IRFC",
+      "type": "dividend",
+      "detail": "Interim 3 · 11.50%",
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
+    },
+    {
+      "company": "Angel One",
+      "symbol": "ANGELONE",
+      "type": "dividend",
+      "detail": "Interim 2 · 140.00%",
+      "date": "22 Oct 2026",
+      "isoDate": "2026-10-22"
+    },
+    {
+      "company": "Tips Music",
+      "symbol": "TIPSMUSIC",
+      "type": "dividend",
+      "detail": "Interim 1 · 650.00%",
+      "date": "22 Oct 2026",
+      "isoDate": "2026-10-22"
+    },
+    {
+      "company": "M R P L",
+      "symbol": "MRPL",
+      "type": "dividend",
+      "detail": "Interim · 30.00%",
+      "date": "21 Oct 2026",
+      "isoDate": "2026-10-21"
+    },
+    {
+      "company": "Elecon Engg.Co",
+      "symbol": "ELECON",
+      "type": "dividend",
+      "detail": "Interim · 50.00%",
+      "date": "21 Oct 2026",
+      "isoDate": "2026-10-21"
+    },
+    {
       "company": "ICICI AMC",
       "symbol": "ICICIAMC",
       "type": "dividend",
@@ -953,62 +1009,6 @@
       "detail": "Final · 100.00%",
       "date": "5 Oct 2026",
       "isoDate": "2026-10-05"
-    },
-    {
-      "company": "Indraprastha Gas",
-      "symbol": "IGL",
-      "type": "dividend",
-      "detail": "Final · 75.00%",
-      "date": "1 Oct 2026",
-      "isoDate": "2026-10-01"
-    },
-    {
-      "company": "R Systems Intl.",
-      "symbol": "RSYSTEMS",
-      "type": "dividend",
-      "detail": "Interim 2 · 800.00%",
-      "date": "1 Oct 2026",
-      "isoDate": "2026-10-01"
-    },
-    {
-      "company": "Goenka Business",
-      "symbol": "538787",
-      "type": "dividend",
-      "detail": "Final · 5.00%",
-      "date": "1 Oct 2026",
-      "isoDate": "2026-10-01"
-    },
-    {
-      "company": "Sainik Finance",
-      "symbol": "530265",
-      "type": "dividend",
-      "detail": "Interim · 5.00%",
-      "date": "1 Oct 2026",
-      "isoDate": "2026-10-01"
-    },
-    {
-      "company": "Saraswati Saree",
-      "symbol": "SSDL",
-      "type": "dividend",
-      "detail": "Interim · 30.00%",
-      "date": "30 Sep 2026",
-      "isoDate": "2026-09-30"
-    },
-    {
-      "company": "S A I L",
-      "symbol": "SAIL",
-      "type": "dividend",
-      "detail": "Final · 23.50%",
-      "date": "30 Sep 2026",
-      "isoDate": "2026-09-30"
-    },
-    {
-      "company": "Leo Dryfruits",
-      "symbol": "544329",
-      "type": "dividend",
-      "detail": "Final · 5.00%",
-      "date": "29 Sep 2026",
-      "isoDate": "2026-09-29"
     }
   ]
 }
