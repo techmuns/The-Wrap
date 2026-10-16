@@ -1,0 +1,1007 @@
+{
+  "capturedOn": "2026-10-16",
+  "capturedAt": "2026-10-16T18:25:00.475Z",
+  "count": 125,
+  "rows": [
+    {
+      "company": "Titan Biotech",
+      "symbol": "524717",
+      "type": "bonus",
+      "detail": "Ratio 1:4",
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
+    },
+    {
+      "company": "OneClick Logisti",
+      "symbol": "OLIL",
+      "type": "bonus",
+      "detail": "Ratio 1:2",
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
+    },
+    {
+      "company": "JOJO",
+      "symbol": "531910",
+      "type": "bonus",
+      "detail": "Ratio 1:1",
+      "date": "12 Oct 2026",
+      "isoDate": "2026-10-12"
+    },
+    {
+      "company": "ANI Integrated",
+      "symbol": "AISL",
+      "type": "bonus",
+      "detail": "Ratio 1:1",
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
+    },
+    {
+      "company": "Mold-Tek Pack.",
+      "symbol": "MOLDTKPAC",
+      "type": "bonus",
+      "detail": "Ratio 1:1",
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
+    },
+    {
+      "company": "Mold-Tek Technol",
+      "symbol": "MOLDTECH",
+      "type": "bonus",
+      "detail": "Ratio 1:1",
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
+    },
+    {
+      "company": "P. H. Capital",
+      "symbol": "500143",
+      "type": "bonus",
+      "detail": "Ratio 10:1",
+      "date": "7 Oct 2026",
+      "isoDate": "2026-10-07"
+    },
+    {
+      "company": "GTV Engineering",
+      "symbol": "539479",
+      "type": "bonus",
+      "detail": "Ratio 2:1",
+      "date": "7 Oct 2026",
+      "isoDate": "2026-10-07"
+    },
+    {
+      "company": "Arihant Academy",
+      "symbol": "ARIHANTACA",
+      "type": "bonus",
+      "detail": "Ratio 1:1",
+      "date": "1 Oct 2026",
+      "isoDate": "2026-10-01"
+    },
+    {
+      "company": "M E T S",
+      "symbol": "538401",
+      "type": "bonus",
+      "detail": "Ratio 1:1",
+      "date": "1 Oct 2026",
+      "isoDate": "2026-10-01"
+    },
+    {
+      "company": "Aastha Spintex",
+      "symbol": "AASTHA",
+      "type": "bonus",
+      "detail": "Ratio 1:1",
+      "date": "28 Sep 2026",
+      "isoDate": "2026-09-28"
+    },
+    {
+      "company": "Chavda Infra Ltd",
+      "symbol": "CHAVDA",
+      "type": "bonus",
+      "detail": "Ratio 1:1",
+      "date": "24 Sep 2026",
+      "isoDate": "2026-09-24"
+    },
+    {
+      "company": "Ideal Technopl.",
+      "symbol": "IDEALTECHO",
+      "type": "bonus",
+      "detail": "Ratio 1:1",
+      "date": "11 Sep 2026",
+      "isoDate": "2026-09-11"
+    },
+    {
+      "company": "Pearl Global Ind",
+      "symbol": "PGIL",
+      "type": "bonus",
+      "detail": "Ratio 1:1",
+      "date": "11 Sep 2026",
+      "isoDate": "2026-09-11"
+    },
+    {
+      "company": "Jonjua Overseas",
+      "symbol": "542446",
+      "type": "bonus",
+      "detail": "Ratio 7:24",
+      "date": "4 Sep 2026",
+      "isoDate": "2026-09-04"
+    },
+    {
+      "company": "Abhishek Integr.",
+      "symbol": "AILIMITED",
+      "type": "bonus",
+      "detail": "Ratio 1:1",
+      "date": "24 Aug 2026",
+      "isoDate": "2026-08-24"
+    },
+    {
+      "company": "Mayank Cattle Fo",
+      "symbol": "544106",
+      "type": "bonus",
+      "detail": "Ratio 1:1",
+      "date": "24 Aug 2026",
+      "isoDate": "2026-08-24"
+    },
+    {
+      "company": "Goodluck India",
+      "symbol": "GOODLUCK",
+      "type": "bonus",
+      "detail": "Ratio 2:1",
+      "date": "21 Aug 2026",
+      "isoDate": "2026-08-21"
+    },
+    {
+      "company": "Kahan Packaging",
+      "symbol": "543979",
+      "type": "bonus",
+      "detail": "Ratio 3:1",
+      "date": "20 Aug 2026",
+      "isoDate": "2026-08-20"
+    },
+    {
+      "company": "Organic Recyclin",
+      "symbol": "543997",
+      "type": "bonus",
+      "detail": "Ratio 1:2",
+      "date": "20 Aug 2026",
+      "isoDate": "2026-08-20"
+    },
+    {
+      "company": "Bizotic Commer.",
+      "symbol": "543926",
+      "type": "bonus",
+      "detail": "Ratio 5:1",
+      "date": "17 Aug 2026",
+      "isoDate": "2026-08-17"
+    },
+    {
+      "company": "Sahana Systems",
+      "symbol": "SAHANA",
+      "type": "bonus",
+      "detail": "Ratio 1:5",
+      "date": "31 Jul 2026",
+      "isoDate": "2026-07-31"
+    },
+    {
+      "company": "Hardwyn India",
+      "symbol": "HARDWYN",
+      "type": "bonus",
+      "detail": "Ratio 2:5",
+      "date": "28 Jul 2026",
+      "isoDate": "2026-07-28"
+    },
+    {
+      "company": "Kalind",
+      "symbol": "526935",
+      "type": "bonus",
+      "detail": "Ratio 1:2",
+      "date": "24 Jul 2026",
+      "isoDate": "2026-07-24"
+    },
+    {
+      "company": "Fredun Pharma",
+      "symbol": "FREDUN",
+      "type": "bonus",
+      "detail": "Ratio 2:1",
+      "date": "16 Jul 2026",
+      "isoDate": "2026-07-16"
+    },
+    {
+      "company": "Transport Corp.",
+      "symbol": "TCI",
+      "type": "buyback",
+      "detail": "Tender Offer · 960.00 · 150.00",
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
+    },
+    {
+      "company": "Shardul Sec.",
+      "symbol": "SHARDUL",
+      "type": "buyback",
+      "detail": "Tender Offer · 60.00 · 115.20",
+      "date": "8 Oct 2026",
+      "isoDate": "2026-10-08"
+    },
+    {
+      "company": "Global Pet Indus",
+      "symbol": "GLOBALPET",
+      "type": "buyback",
+      "detail": "Tender Offer · 160.00 · 13.56",
+      "date": "25 Sep 2026",
+      "isoDate": "2026-09-25"
+    },
+    {
+      "company": "PVR Inox",
+      "symbol": "PVRINOX",
+      "type": "buyback",
+      "detail": "Tender Offer · 1450.00 · 300.00",
+      "date": "4 Sep 2026",
+      "isoDate": "2026-09-04"
+    },
+    {
+      "company": "Gandhi Spl. Tube",
+      "symbol": "GANDHITUBE",
+      "type": "buyback",
+      "detail": "Tender Offer · 900.00 · 78.12",
+      "date": "21 Aug 2026",
+      "isoDate": "2026-08-21"
+    },
+    {
+      "company": "Indl. Inv. Trust",
+      "symbol": "IITL",
+      "type": "buyback",
+      "detail": "Tender Offer · 150.00 · 25.00",
+      "date": "18 Aug 2026",
+      "isoDate": "2026-08-18"
+    },
+    {
+      "company": "Orbit Exports",
+      "symbol": "ORBTEXP",
+      "type": "buyback",
+      "detail": "Tender Offer · 250.00 · 27.60",
+      "date": "15 Jul 2026",
+      "isoDate": "2026-07-15"
+    },
+    {
+      "company": "Team Lease Serv.",
+      "symbol": "TEAMLEASE",
+      "type": "buyback",
+      "detail": "Tender Offer · 1600.00 · 238.00",
+      "date": "3 Jul 2026",
+      "isoDate": "2026-07-03"
+    },
+    {
+      "company": "Rolex Rings",
+      "symbol": "ROLEXRINGS",
+      "type": "buyback",
+      "detail": "Tender Offer · 180.00 · 180.00",
+      "date": "3 Jul 2026",
+      "isoDate": "2026-07-03"
+    },
+    {
+      "company": "Patel Integrated",
+      "symbol": "PATINTLOG",
+      "type": "buyback",
+      "detail": "Tender Offer · 20.00 · 10.80",
+      "date": "30 Jun 2026",
+      "isoDate": "2026-06-30"
+    },
+    {
+      "company": "Kajaria Ceramics",
+      "symbol": "KAJARIACER",
+      "type": "buyback",
+      "detail": "Tender Offer · 1380.00 · 296.70",
+      "date": "29 Jun 2026",
+      "isoDate": "2026-06-29"
+    },
+    {
+      "company": "Bajaj Auto",
+      "symbol": "BAJAJ-AUTO",
+      "type": "buyback",
+      "detail": "Tender Offer · 12000.00 · 5632.00",
+      "date": "24 Jun 2026",
+      "isoDate": "2026-06-24"
+    },
+    {
+      "company": "Cyient",
+      "symbol": "CYIENT",
+      "type": "buyback",
+      "detail": "Tender Offer · 1125.00 · 720.00",
+      "date": "17 Jun 2026",
+      "isoDate": "2026-06-17"
+    },
+    {
+      "company": "Wipro",
+      "symbol": "WIPRO",
+      "type": "buyback",
+      "detail": "Tender Offer · 250.00 · 15000.00",
+      "date": "5 Jun 2026",
+      "isoDate": "2026-06-05"
+    },
+    {
+      "company": "Zydus Lifesci.",
+      "symbol": "ZYDUSLIFE",
+      "type": "buyback",
+      "detail": "Tender Offer · 1260.00 · 1100.00",
+      "date": "29 May 2026",
+      "isoDate": "2026-05-29"
+    },
+    {
+      "company": "Dhanuka Agritech",
+      "symbol": "DHANUKA",
+      "type": "buyback",
+      "detail": "Tender Offer · 1400.00 · 70.00",
+      "date": "29 May 2026",
+      "isoDate": "2026-05-29"
+    },
+    {
+      "company": "Cybertech Sys.",
+      "symbol": "CYBERTECH",
+      "type": "buyback",
+      "detail": "Tender Offer · 170.00 · 14.45",
+      "date": "29 May 2026",
+      "isoDate": "2026-05-29"
+    },
+    {
+      "company": "Welspun Living",
+      "symbol": "WELSPUNLIV",
+      "type": "buyback",
+      "detail": "Tender Offer · 175.00 · 252.00",
+      "date": "22 May 2026",
+      "isoDate": "2026-05-22"
+    },
+    {
+      "company": "CMS Info Systems",
+      "symbol": "CMSINFO",
+      "type": "buyback",
+      "detail": "Tender Offer · 340.00 · 167.00",
+      "date": "22 May 2026",
+      "isoDate": "2026-05-22"
+    },
+    {
+      "company": "Garware Tech.",
+      "symbol": "GARFIBRES",
+      "type": "buyback",
+      "detail": "Tender Offer · 680.00 · 110.00",
+      "date": "20 May 2026",
+      "isoDate": "2026-05-20"
+    },
+    {
+      "company": "Onward Technolog",
+      "symbol": "ONWARDTEC",
+      "type": "buyback",
+      "detail": "Tender Offer · 328.00 · 18.00",
+      "date": "18 May 2026",
+      "isoDate": "2026-05-18"
+    },
+    {
+      "company": "Sarla Performanc",
+      "symbol": "SARLAPOLY",
+      "type": "buyback",
+      "detail": "Tender Offer · 110.00 · 44.00",
+      "date": "15 May 2026",
+      "isoDate": "2026-05-15"
+    },
+    {
+      "company": "Jagsonpal Pharma",
+      "symbol": "JAGSNPHARM",
+      "type": "buyback",
+      "detail": "Tender Offer · 250.00 · 40.00",
+      "date": "4 May 2026",
+      "isoDate": "2026-05-04"
+    },
+    {
+      "company": "EMA Partners",
+      "symbol": "EMAPARTNER",
+      "type": "buyback",
+      "detail": "Tender Offer · 100.00 · 7.25",
+      "date": "30 Apr 2026",
+      "isoDate": "2026-04-30"
+    },
+    {
+      "company": "Windlas Biotech",
+      "symbol": "WINDLAS",
+      "type": "buyback",
+      "detail": "Tender Offer · 1000.00 · 47.00",
+      "date": "24 Apr 2026",
+      "isoDate": "2026-04-24"
+    },
+    {
+      "company": "Knowledge Marine",
+      "symbol": "KMEW",
+      "type": "split",
+      "detail": "5.00 · 1.00",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
+    },
+    {
+      "company": "Guj.Nat.Resour.",
+      "symbol": "GNRL",
+      "type": "split",
+      "detail": "10.00 · 1.00",
+      "date": "5 Nov 2026",
+      "isoDate": "2026-11-05"
+    },
+    {
+      "company": "Galaxy Agrico",
+      "symbol": "531911",
+      "type": "split",
+      "detail": "10.00 · 1.00",
+      "date": "30 Oct 2026",
+      "isoDate": "2026-10-30"
+    },
+    {
+      "company": "Meenakshi (I)",
+      "symbol": "544831",
+      "type": "split",
+      "detail": "10.00 · 5.00",
+      "date": "30 Oct 2026",
+      "isoDate": "2026-10-30"
+    },
+    {
+      "company": "Midaas Fashions",
+      "symbol": "530757",
+      "type": "split",
+      "detail": "10.00 · 5.00",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26"
+    },
+    {
+      "company": "Azad India",
+      "symbol": "AZADIND",
+      "type": "split",
+      "detail": "10.00 · 2.00",
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
+    },
+    {
+      "company": "JSW Dulux",
+      "symbol": "JSWDULUX",
+      "type": "split",
+      "detail": "10.00 · 1.00",
+      "date": "22 Oct 2026",
+      "isoDate": "2026-10-22"
+    },
+    {
+      "company": "Jattashankar Ind",
+      "symbol": "514318",
+      "type": "split",
+      "detail": "10.00 · 1.00",
+      "date": "19 Oct 2026",
+      "isoDate": "2026-10-19"
+    },
+    {
+      "company": "Noble Polymers",
+      "symbol": "539200",
+      "type": "split",
+      "detail": "5.00 · 10.00",
+      "date": "16 Oct 2026",
+      "isoDate": "2026-10-16"
+    },
+    {
+      "company": "Bansal Wire Inds",
+      "symbol": "BANSALWIRE",
+      "type": "split",
+      "detail": "5.00 · 1.00",
+      "date": "16 Oct 2026",
+      "isoDate": "2026-10-16"
+    },
+    {
+      "company": "Samor Reality",
+      "symbol": "543376",
+      "type": "split",
+      "detail": "10.00 · 2.00",
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
+    },
+    {
+      "company": "AvenuesAI",
+      "symbol": "CCAVENUE",
+      "type": "split",
+      "detail": "1.00 · 10.00",
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13"
+    },
+    {
+      "company": "Shankara Buildpro",
+      "symbol": "BUILDPRO",
+      "type": "split",
+      "detail": "10.00 · 2.00",
+      "date": "8 Oct 2026",
+      "isoDate": "2026-10-08"
+    },
+    {
+      "company": "BLS E-Services",
+      "symbol": "BLSE",
+      "type": "split",
+      "detail": "10.00 · 5.00",
+      "date": "6 Oct 2026",
+      "isoDate": "2026-10-06"
+    },
+    {
+      "company": "Naturite Agro",
+      "symbol": "538926",
+      "type": "split",
+      "detail": "10.00 · 5.00",
+      "date": "25 Sep 2026",
+      "isoDate": "2026-09-25"
+    },
+    {
+      "company": "Midwest Energy",
+      "symbol": "526570",
+      "type": "split",
+      "detail": "10.00 · 1.00",
+      "date": "25 Sep 2026",
+      "isoDate": "2026-09-25"
+    },
+    {
+      "company": "TAAL Tech",
+      "symbol": "TAALTECH",
+      "type": "split",
+      "detail": "10.00 · 2.00",
+      "date": "22 Sep 2026",
+      "isoDate": "2026-09-22"
+    },
+    {
+      "company": "Oriana Power Ltd",
+      "symbol": "ORIANA",
+      "type": "split",
+      "detail": "10.00 · 2.00",
+      "date": "18 Sep 2026",
+      "isoDate": "2026-09-18"
+    },
+    {
+      "company": "Kairosoft AI",
+      "symbol": "506122",
+      "type": "split",
+      "detail": "10.00 · 1.00",
+      "date": "18 Sep 2026",
+      "isoDate": "2026-09-18"
+    },
+    {
+      "company": "Integ. Proteins",
+      "symbol": "519606",
+      "type": "split",
+      "detail": "10.00 · 1.00",
+      "date": "4 Sep 2026",
+      "isoDate": "2026-09-04"
+    },
+    {
+      "company": "TCC Concept",
+      "symbol": "TCC",
+      "type": "split",
+      "detail": "10.00 · 2.00",
+      "date": "4 Sep 2026",
+      "isoDate": "2026-09-04"
+    },
+    {
+      "company": "Rotographics (I)",
+      "symbol": "539922",
+      "type": "split",
+      "detail": "10.00 · 2.00",
+      "date": "28 Aug 2026",
+      "isoDate": "2026-08-28"
+    },
+    {
+      "company": "Spice IslandsInd",
+      "symbol": "526827",
+      "type": "split",
+      "detail": "10.00 · 2.00",
+      "date": "28 Aug 2026",
+      "isoDate": "2026-08-28"
+    },
+    {
+      "company": "DSP Gold ETF",
+      "symbol": "GOLDADD",
+      "type": "split",
+      "detail": "10.00 · 1.00",
+      "date": "28 Aug 2026",
+      "isoDate": "2026-08-28"
+    },
+    {
+      "company": "DSP Silver ETF",
+      "symbol": "SILVERADD",
+      "type": "split",
+      "detail": "10.00 · 1.00",
+      "date": "28 Aug 2026",
+      "isoDate": "2026-08-28"
+    },
+    {
+      "company": "Shivam Autotech",
+      "symbol": "SHIVAMAUTO",
+      "type": "rights",
+      "detail": "Ratio 19:25 · ₹10.00 premium",
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
+    },
+    {
+      "company": "Shraddha Prime",
+      "symbol": "SHRADDHA",
+      "type": "rights",
+      "detail": "Ratio 3:20 · ₹150.00 premium",
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
+    },
+    {
+      "company": "Cont. Controls",
+      "symbol": "531460",
+      "type": "rights",
+      "detail": "Ratio 16:5 · ₹0.00 premium",
+      "date": "14 Oct 2026",
+      "isoDate": "2026-10-14"
+    },
+    {
+      "company": "Ola Electric",
+      "symbol": "OLAELEC",
+      "type": "rights",
+      "detail": "Ratio 2:25 · ₹17.00 premium",
+      "date": "13 Oct 2026",
+      "isoDate": "2026-10-13"
+    },
+    {
+      "company": "Natco Pharma",
+      "symbol": "NATCOPHARM",
+      "type": "rights",
+      "detail": "Ratio 2:21 · ₹748.00 premium",
+      "date": "1 Oct 2026",
+      "isoDate": "2026-10-01"
+    },
+    {
+      "company": "Tuni Text. Mills",
+      "symbol": "531411",
+      "type": "rights",
+      "detail": "Ratio 15:4 · ₹0.00 premium",
+      "date": "16 Sep 2026",
+      "isoDate": "2026-09-16"
+    },
+    {
+      "company": "Century Extrus.",
+      "symbol": "CENTEXT",
+      "type": "rights",
+      "detail": "Ratio 3:8 · ₹14.00 premium",
+      "date": "15 Sep 2026",
+      "isoDate": "2026-09-15"
+    },
+    {
+      "company": "Party Cruisers",
+      "symbol": "PARTYCRUS",
+      "type": "rights",
+      "detail": "Ratio 1:6 · ₹110.00 premium",
+      "date": "11 Sep 2026",
+      "isoDate": "2026-09-11"
+    },
+    {
+      "company": "Salem Erode Inv.",
+      "symbol": "540181",
+      "type": "rights",
+      "detail": "Ratio 1:1 · ₹19.00 premium",
+      "date": "3 Sep 2026",
+      "isoDate": "2026-09-03"
+    },
+    {
+      "company": "Anondita Medi.",
+      "symbol": "ANONDITA",
+      "type": "rights",
+      "detail": "Ratio 97:1831 · ₹940.00 premium",
+      "date": "2 Sep 2026",
+      "isoDate": "2026-09-02"
+    },
+    {
+      "company": "Manas Polymers",
+      "symbol": "MPEL",
+      "type": "rights",
+      "detail": "Ratio 2:1 · ₹6.00 premium",
+      "date": "31 Aug 2026",
+      "isoDate": "2026-08-31"
+    },
+    {
+      "company": "Jaykay Enter.",
+      "symbol": "JAYKAY",
+      "type": "rights",
+      "detail": "Ratio 3:19 · ₹74.00 premium",
+      "date": "28 Aug 2026",
+      "isoDate": "2026-08-28"
+    },
+    {
+      "company": "NCL Res. & Finl.",
+      "symbol": "530557",
+      "type": "rights",
+      "detail": "Ratio 7:15 · ₹0.00 premium",
+      "date": "27 Aug 2026",
+      "isoDate": "2026-08-27"
+    },
+    {
+      "company": "Ratnaveer Precis",
+      "symbol": "RATNAVEER",
+      "type": "rights",
+      "detail": "Ratio 7:40 · ₹254.00 premium",
+      "date": "25 Aug 2026",
+      "isoDate": "2026-08-25"
+    },
+    {
+      "company": "Esaar (India)",
+      "symbol": "531502",
+      "type": "rights",
+      "detail": "Ratio 44:15 · ₹0.00 premium",
+      "date": "25 Aug 2026",
+      "isoDate": "2026-08-25"
+    },
+    {
+      "company": "Quint Digital",
+      "symbol": "QUINT",
+      "type": "rights",
+      "detail": "Ratio 1:1 · ₹0.00 premium",
+      "date": "25 Aug 2026",
+      "isoDate": "2026-08-25"
+    },
+    {
+      "company": "Ducon Tech",
+      "symbol": "DUCON",
+      "type": "rights",
+      "detail": "Ratio 10:13 · ₹0.00 premium",
+      "date": "25 Aug 2026",
+      "isoDate": "2026-08-25"
+    },
+    {
+      "company": "Rajgor Castor",
+      "symbol": "RCDL",
+      "type": "rights",
+      "detail": "Ratio 1:1 · ₹0.00 premium",
+      "date": "24 Aug 2026",
+      "isoDate": "2026-08-24"
+    },
+    {
+      "company": "Manoj Jewellers",
+      "symbol": "544400",
+      "type": "rights",
+      "detail": "Ratio 1:1 · ₹10.00 premium",
+      "date": "21 Aug 2026",
+      "isoDate": "2026-08-21"
+    },
+    {
+      "company": "Containe Tech.",
+      "symbol": "543606",
+      "type": "rights",
+      "detail": "Ratio 2:1 · ₹5.00 premium",
+      "date": "21 Aug 2026",
+      "isoDate": "2026-08-21"
+    },
+    {
+      "company": "Alan Scott Ente.",
+      "symbol": "539115",
+      "type": "rights",
+      "detail": "Ratio 1:6 · ₹65.00 premium",
+      "date": "21 Aug 2026",
+      "isoDate": "2026-08-21"
+    },
+    {
+      "company": "Viceroy Hotels",
+      "symbol": "VHLTD",
+      "type": "rights",
+      "detail": "Ratio 6:7 · ₹105.00 premium",
+      "date": "20 Aug 2026",
+      "isoDate": "2026-08-20"
+    },
+    {
+      "company": "Kshitij Polyline",
+      "symbol": "KSHITIJPOL",
+      "type": "rights",
+      "detail": "Ratio 2:5 · ₹1.17 premium",
+      "date": "19 Aug 2026",
+      "isoDate": "2026-08-19"
+    },
+    {
+      "company": "Shanti Gold",
+      "symbol": "SHANTIGOLD",
+      "type": "rights",
+      "detail": "Ratio 19:295 · ₹205.00 premium",
+      "date": "6 Aug 2026",
+      "isoDate": "2026-08-06"
+    },
+    {
+      "company": "Genesys Intl.",
+      "symbol": "GENESYS",
+      "type": "rights",
+      "detail": "Ratio 3:5 · ₹45.00 premium",
+      "date": "6 Aug 2026",
+      "isoDate": "2026-08-06"
+    },
+    {
+      "company": "HDB FINANC SER",
+      "symbol": "HDBFS",
+      "type": "dividend",
+      "detail": "Interim · 20.00%",
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
+    },
+    {
+      "company": "ICICI Lombard",
+      "symbol": "ICICIGI",
+      "type": "dividend",
+      "detail": "Interim · 70.00%",
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
+    },
+    {
+      "company": "I R F C",
+      "symbol": "IRFC",
+      "type": "dividend",
+      "detail": "Interim 3 · 11.50%",
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
+    },
+    {
+      "company": "Angel One",
+      "symbol": "ANGELONE",
+      "type": "dividend",
+      "detail": "Interim 2 · 140.00%",
+      "date": "22 Oct 2026",
+      "isoDate": "2026-10-22"
+    },
+    {
+      "company": "Tips Music",
+      "symbol": "TIPSMUSIC",
+      "type": "dividend",
+      "detail": "Interim 1 · 650.00%",
+      "date": "22 Oct 2026",
+      "isoDate": "2026-10-22"
+    },
+    {
+      "company": "M R P L",
+      "symbol": "MRPL",
+      "type": "dividend",
+      "detail": "Interim · 30.00%",
+      "date": "21 Oct 2026",
+      "isoDate": "2026-10-21"
+    },
+    {
+      "company": "Elecon Engg.Co",
+      "symbol": "ELECON",
+      "type": "dividend",
+      "detail": "Interim · 50.00%",
+      "date": "21 Oct 2026",
+      "isoDate": "2026-10-21"
+    },
+    {
+      "company": "ICICI AMC",
+      "symbol": "ICICIAMC",
+      "type": "dividend",
+      "detail": "Interim · 3000.00%",
+      "date": "21 Oct 2026",
+      "isoDate": "2026-10-21"
+    },
+    {
+      "company": "HCL Technologies",
+      "symbol": "HCLTECH",
+      "type": "dividend",
+      "detail": "Interim 3 · 600.00%",
+      "date": "16 Oct 2026",
+      "isoDate": "2026-10-16"
+    },
+    {
+      "company": "Hind.Composites",
+      "symbol": "HINDCOMPOS",
+      "type": "dividend",
+      "detail": "Special · 420.00%",
+      "date": "16 Oct 2026",
+      "isoDate": "2026-10-16"
+    },
+    {
+      "company": "Canara Robeco",
+      "symbol": "CRAMC",
+      "type": "dividend",
+      "detail": "Interim · 20.00%",
+      "date": "16 Oct 2026",
+      "isoDate": "2026-10-16"
+    },
+    {
+      "company": "PropshareTitania",
+      "symbol": "544462",
+      "type": "dividend",
+      "detail": "Final · 2.27%",
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
+    },
+    {
+      "company": "Propshare Celestia",
+      "symbol": "544752",
+      "type": "dividend",
+      "detail": "Final · 2.12%",
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
+    },
+    {
+      "company": "PropsharePlatina",
+      "symbol": "544295",
+      "type": "dividend",
+      "detail": "Final · 2.19%",
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
+    },
+    {
+      "company": "Anand Rathi Wea.",
+      "symbol": "ANANDRATHI",
+      "type": "dividend",
+      "detail": "Interim 1 · 80.00%",
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
+    },
+    {
+      "company": "Energy InfrTrust",
+      "symbol": "542543",
+      "type": "dividend",
+      "detail": "Final · 3.88%",
+      "date": "14 Oct 2026",
+      "isoDate": "2026-10-14"
+    },
+    {
+      "company": "TCS",
+      "symbol": "TCS",
+      "type": "dividend",
+      "detail": "Interim 2 · 1200.00%",
+      "date": "14 Oct 2026",
+      "isoDate": "2026-10-14"
+    },
+    {
+      "company": "Vedanta",
+      "symbol": "VEDL",
+      "type": "dividend",
+      "detail": "Interim 1 · 500.00%",
+      "date": "14 Oct 2026",
+      "isoDate": "2026-10-14"
+    },
+    {
+      "company": "D.K. Enterprises",
+      "symbol": "DKEGL",
+      "type": "dividend",
+      "detail": "Interim · 5.00%",
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
+    },
+    {
+      "company": "Caspian Corporat",
+      "symbol": "534732",
+      "type": "dividend",
+      "detail": "Final · 5.00%",
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
+    },
+    {
+      "company": "Accelya Solution",
+      "symbol": "ACCELYA",
+      "type": "dividend",
+      "detail": "Final · 350.00%",
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
+    },
+    {
+      "company": "Sahana Systems",
+      "symbol": "SAHANA",
+      "type": "dividend",
+      "detail": "Final · 10.00%",
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
+    },
+    {
+      "company": "Skyways Air Ser.",
+      "symbol": "SKYWAYS",
+      "type": "dividend",
+      "detail": "Interim 1 · 2.50%",
+      "date": "9 Oct 2026",
+      "isoDate": "2026-10-09"
+    },
+    {
+      "company": "PTC India",
+      "symbol": "PTC",
+      "type": "dividend",
+      "detail": "Final · 55.00%",
+      "date": "7 Oct 2026",
+      "isoDate": "2026-10-07"
+    },
+    {
+      "company": "NMDC",
+      "symbol": "NMDC",
+      "type": "dividend",
+      "detail": "Final · 100.00%",
+      "date": "5 Oct 2026",
+      "isoDate": "2026-10-05"
+    }
+  ]
+}
