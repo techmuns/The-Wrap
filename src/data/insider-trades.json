@@ -1,8 +1,99 @@
 {
-  "fetchedAt": "2026-10-16T18:02:12.029Z",
+  "fetchedAt": "2026-10-19T19:54:30.841Z",
   "source": "Screener",
   "total": 49,
   "items": [
+    {
+      "company": "Koura Fine Diamo",
+      "symbol": "544139",
+      "person": "Soham Kamlesh Lodhiya",
+      "role": "Promoter Group",
+      "buySell": "BUY",
+      "shares": 215000,
+      "pct": null,
+      "value": 6730000,
+      "mode": "Preferential Offer",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Avenue Super.",
+      "symbol": "DMART",
+      "person": "Designated Person (9)",
+      "role": "Prakrati Saxena, Ajay Bansal, Amit Khanna, Jatin K...",
+      "buySell": "BUY",
+      "shares": 11225,
+      "pct": null,
+      "value": 37900000,
+      "mode": "Pledge Creation",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Avenue Super.",
+      "symbol": "DMART",
+      "person": "Designated Person (2)",
+      "role": "Hemant Prabhakar Waghmare, Abhishek Ranganathan",
+      "buySell": "SELL",
+      "shares": 4475,
+      "pct": null,
+      "value": 15000000,
+      "mode": "Invocation of pledge",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Nava",
+      "symbol": "NAVA",
+      "person": "Employee (2)",
+      "role": "Bhagam Rama Rao, Bhagam Rama Rao",
+      "buySell": "BUY",
+      "shares": 20000,
+      "pct": null,
+      "value": 9960000,
+      "mode": "ESOP",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "HCL Technologies",
+      "symbol": "HCLTECH",
+      "person": "Hcl Technologies Stock Options Trust",
+      "role": "Designated Person",
+      "buySell": "SELL",
+      "shares": 124426,
+      "pct": null,
+      "value": 167399999.99999997,
+      "mode": "ESOS",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Expo Engineering",
+      "symbol": "526614",
+      "person": "Promoter And Director (2)",
+      "role": "Hasanain Shaukatali Mewawala, Murtuza Shaukatali Mewawala",
+      "buySell": "BUY",
+      "shares": 1474285,
+      "pct": null,
+      "value": 103200000,
+      "mode": "Conversion of security",
+      "date": "17 Oct 2026",
+      "isoDate": "2026-10-17"
+    },
+    {
+      "company": "Expo Engineering",
+      "symbol": "526614",
+      "person": "Mumtaz Nathani",
+      "role": "Directors Immediate Relative",
+      "buySell": "BUY",
+      "shares": 85715,
+      "pct": null,
+      "value": 6000000,
+      "mode": "Conversion of security",
+      "date": "17 Oct 2026",
+      "isoDate": "2026-10-17"
+    },
     {
       "company": "S H Kelkar & Co.",
       "symbol": "SHK",
@@ -13,8 +104,8 @@
       "pct": null,
       "value": 1950000000,
       "mode": null,
-      "date": "today",
-      "isoDate": null
+      "date": "16 Oct 2026",
+      "isoDate": "2026-10-16"
     },
     {
       "company": "Natco Pharma",
@@ -26,8 +117,8 @@
       "pct": null,
       "value": 11800000,
       "mode": "Off Market",
-      "date": "today",
-      "isoDate": null
+      "date": "16 Oct 2026",
+      "isoDate": "2026-10-16"
     },
     {
       "company": "Natco Pharma",
@@ -39,8 +130,8 @@
       "pct": null,
       "value": 322000,
       "mode": "Off Market",
-      "date": "today",
-      "isoDate": null
+      "date": "16 Oct 2026",
+      "isoDate": "2026-10-16"
     },
     {
       "company": "Natco Pharma",
@@ -52,8 +143,8 @@
       "pct": null,
       "value": 4360000,
       "mode": "Off Market",
-      "date": "today",
-      "isoDate": null
+      "date": "16 Oct 2026",
+      "isoDate": "2026-10-16"
     },
     {
       "company": "Natco Pharma",
@@ -65,8 +156,8 @@
       "pct": null,
       "value": 8452000,
       "mode": "Bought",
-      "date": "today",
-      "isoDate": null
+      "date": "16 Oct 2026",
+      "isoDate": "2026-10-16"
     },
     {
       "company": "Info Edg.(India)",
@@ -78,8 +169,8 @@
       "pct": null,
       "value": 664000,
       "mode": null,
-      "date": "today",
-      "isoDate": null
+      "date": "16 Oct 2026",
+      "isoDate": "2026-10-16"
     },
     {
       "company": "HCL Technologies",
@@ -91,8 +182,8 @@
       "pct": null,
       "value": 3807000,
       "mode": "ESOS",
-      "date": "today",
-      "isoDate": null
+      "date": "16 Oct 2026",
+      "isoDate": "2026-10-16"
     },
     {
       "company": "Texmo Pipes",
@@ -104,8 +195,8 @@
       "pct": null,
       "value": 209500000,
       "mode": "Preferential Offer",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
     },
     {
       "company": "Aequs",
@@ -117,8 +208,8 @@
       "pct": null,
       "value": 23010000000,
       "mode": "Pledge Creation",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
     },
     {
       "company": "Koura Fine Diamo",
@@ -130,8 +221,8 @@
       "pct": null,
       "value": 3238000.0000000005,
       "mode": "Preferential Offer",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
     },
     {
       "company": "Avenue Super.",
@@ -143,8 +234,8 @@
       "pct": null,
       "value": 115700000,
       "mode": "Pledge Creation",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
     },
     {
       "company": "Swan Corp",
@@ -156,8 +247,8 @@
       "pct": null,
       "value": 798100000,
       "mode": "Pledge Creation",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
     },
     {
       "company": "Responsive Ind",
@@ -169,8 +260,8 @@
       "pct": null,
       "value": 168100000,
       "mode": "Pledge Creation",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
     },
     {
       "company": "Responsive Ind",
@@ -182,8 +273,8 @@
       "pct": null,
       "value": 159000000,
       "mode": null,
-      "date": "yesterday",
-      "isoDate": null
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
     },
     {
       "company": "Natco Pharma",
@@ -195,8 +286,8 @@
       "pct": null,
       "value": 7043000.000000001,
       "mode": "Off Market",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
     },
     {
       "company": "Natco Pharma",
@@ -208,8 +299,8 @@
       "pct": null,
       "value": 49200000,
       "mode": "Sold",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
     },
     {
       "company": "Natco Pharma",
@@ -221,8 +312,8 @@
       "pct": null,
       "value": 18300000,
       "mode": "Off Market",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
     },
     {
       "company": "Natco Pharma",
@@ -234,99 +325,8 @@
       "pct": null,
       "value": 9213000,
       "mode": "Sold",
-      "date": "yesterday",
-      "isoDate": null
-    },
-    {
-      "company": "Natco Pharma",
-      "symbol": "NATCOPHARM",
-      "person": "Promoter (2)",
-      "role": "Durga Devi Nannapaneni, Vistra Itcl India Limited ...",
-      "buySell": "SELL",
-      "shares": null,
-      "pct": null,
-      "value": 2725000,
-      "mode": "Off Market",
-      "date": "yesterday",
-      "isoDate": null
-    },
-    {
-      "company": "Nazara Technolo.",
-      "symbol": "NAZARA",
-      "person": "Raymond Albaladejo Stauffer",
-      "role": "Kmp",
-      "buySell": "BUY",
-      "shares": 19067969,
-      "pct": null,
-      "value": 5830000000,
-      "mode": "Allotment",
-      "date": "14 Oct 2026",
-      "isoDate": "2026-10-14"
-    },
-    {
-      "company": "Nazara Technolo.",
-      "symbol": "NAZARA",
-      "person": "Designated Person (3)",
-      "role": "Maxime Loppin, Alexandre Paul Jean Noirot Cosson, ...",
-      "buySell": "BUY",
-      "shares": 1981469,
-      "pct": null,
-      "value": 606300000,
-      "mode": "Allotment",
-      "date": "14 Oct 2026",
-      "isoDate": "2026-10-14"
-    },
-    {
-      "company": "Infosys",
-      "symbol": "INFY",
-      "person": "Infosys Employee Benefits Trust",
-      "role": "Trust",
-      "buySell": "SELL",
-      "shares": 50,
-      "pct": null,
-      "value": 51000,
-      "mode": "Off Market",
-      "date": "14 Oct 2026",
-      "isoDate": "2026-10-14"
-    },
-    {
-      "company": "Embassy Develop",
-      "symbol": "EMBDL",
-      "person": "Embassy Property Developments Private Limited",
-      "role": "Promoter Group",
-      "buySell": "BUY",
-      "shares": 32518900,
-      "pct": null,
-      "value": 906500000,
-      "mode": "Preferential Offer",
-      "date": "14 Oct 2026",
-      "isoDate": "2026-10-14"
-    },
-    {
-      "company": "HCL Technologies",
-      "symbol": "HCLTECH",
-      "person": "Hcl Technologies Stock Options Trust",
-      "role": "Designated Person",
-      "buySell": "SELL",
-      "shares": 1285,
-      "pct": null,
-      "value": 1512000,
-      "mode": "ESOS",
-      "date": "14 Oct 2026",
-      "isoDate": "2026-10-14"
-    },
-    {
-      "company": "Olympia Industri",
-      "symbol": "521105",
-      "person": "Navin Kumar Pansari",
-      "role": "Promoter And Director",
-      "buySell": "BUY",
-      "shares": 151516,
-      "pct": null,
-      "value": null,
-      "mode": null,
-      "date": "13 Oct 2026",
-      "isoDate": "2026-10-13"
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
     },
     {
       "company": "Maxvolt Energy",
@@ -338,8 +338,8 @@
       "pct": null,
       "value": null,
       "mode": "Acq",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
     },
     {
       "company": "MOS Utility",
@@ -351,8 +351,8 @@
       "pct": null,
       "value": null,
       "mode": "Invocation",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
     },
     {
       "company": "M Tek Copper",
@@ -364,8 +364,8 @@
       "pct": null,
       "value": null,
       "mode": "Sell",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
     },
     {
       "company": "M Tek Copper",
@@ -377,8 +377,8 @@
       "pct": null,
       "value": null,
       "mode": "Sell",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "15 Oct 2026",
+      "isoDate": "2026-10-15"
     },
     {
       "company": "Maxvolt Energy",
