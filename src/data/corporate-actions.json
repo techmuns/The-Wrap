@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-16T18:25:00.474Z",
+  "fetchedAt": "2026-10-19T20:14:11.444Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -211,6 +211,14 @@
       "isoDate": "2026-07-16"
     },
     {
+      "company": "VRL Logistics",
+      "symbol": "VRLLOG",
+      "type": "buyback",
+      "detail": "Tender Offer · 320.00 · 280.00",
+      "date": "22 Oct 2026",
+      "isoDate": "2026-10-22"
+    },
+    {
       "company": "Transport Corp.",
       "symbol": "TCI",
       "type": "buyback",
@@ -403,14 +411,6 @@
       "isoDate": "2026-04-30"
     },
     {
-      "company": "Windlas Biotech",
-      "symbol": "WINDLAS",
-      "type": "buyback",
-      "detail": "Tender Offer · 1000.00 · 47.00",
-      "date": "24 Apr 2026",
-      "isoDate": "2026-04-24"
-    },
-    {
       "company": "Knowledge Marine",
       "symbol": "KMEW",
       "type": "split",
@@ -441,6 +441,14 @@
       "detail": "10.00 · 5.00",
       "date": "30 Oct 2026",
       "isoDate": "2026-10-30"
+    },
+    {
+      "company": "Chandni Machines",
+      "symbol": "542627",
+      "type": "split",
+      "detail": "10.00 · 1.00",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29"
     },
     {
       "company": "Midaas Fashions",
@@ -579,7 +587,7 @@
       "isoDate": "2026-09-04"
     },
     {
-      "company": "Rotographics (I)",
+      "company": "Novalum Materials",
       "symbol": "539922",
       "type": "split",
       "detail": "10.00 · 2.00",
@@ -597,14 +605,6 @@
     {
       "company": "DSP Gold ETF",
       "symbol": "GOLDADD",
-      "type": "split",
-      "detail": "10.00 · 1.00",
-      "date": "28 Aug 2026",
-      "isoDate": "2026-08-28"
-    },
-    {
-      "company": "DSP Silver ETF",
-      "symbol": "SILVERADD",
       "type": "split",
       "detail": "10.00 · 1.00",
       "date": "28 Aug 2026",
@@ -811,6 +811,78 @@
       "isoDate": "2026-08-06"
     },
     {
+      "company": "L&T Technology",
+      "symbol": "LTTS",
+      "type": "dividend",
+      "detail": "Interim · 1000.00%",
+      "date": "27 Oct 2026",
+      "isoDate": "2026-10-27"
+    },
+    {
+      "company": "Bhansali Engg.",
+      "symbol": "BEPL",
+      "type": "dividend",
+      "detail": "Interim 2 · 100.00%",
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
+    },
+    {
+      "company": "Garuda Cons",
+      "symbol": "GARUDA",
+      "type": "dividend",
+      "detail": "Interim · 0.60%",
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
+    },
+    {
+      "company": "Artemis Electri.",
+      "symbol": "AEPL",
+      "type": "dividend",
+      "detail": "Interim · 0.60%",
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
+    },
+    {
+      "company": "360 ONE",
+      "symbol": "360ONE",
+      "type": "dividend",
+      "detail": "Interim 2 · 750.00%",
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
+    },
+    {
+      "company": "Oberoi Realty",
+      "symbol": "OBEROIRLTY",
+      "type": "dividend",
+      "detail": "Interim 2 · 20.00%",
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
+    },
+    {
+      "company": "LTM",
+      "symbol": "LTM",
+      "type": "dividend",
+      "detail": "Interim · 2500.00%",
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
+    },
+    {
+      "company": "Tech Mahindra",
+      "symbol": "TECHM",
+      "type": "dividend",
+      "detail": "Interim · 300.00%",
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
+    },
+    {
+      "company": "Modison",
+      "symbol": "MODISONLTD",
+      "type": "dividend",
+      "detail": "Interim · 400.00%",
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
+    },
+    {
       "company": "HDB FINANC SER",
       "symbol": "HDBFS",
       "type": "dividend",
@@ -830,7 +902,7 @@
       "company": "I R F C",
       "symbol": "IRFC",
       "type": "dividend",
-      "detail": "Interim 3 · 11.50%",
+      "detail": "Interim · 11.50%",
       "date": "23 Oct 2026",
       "isoDate": "2026-10-23"
     },
@@ -937,78 +1009,6 @@
       "detail": "Final · 3.88%",
       "date": "14 Oct 2026",
       "isoDate": "2026-10-14"
-    },
-    {
-      "company": "TCS",
-      "symbol": "TCS",
-      "type": "dividend",
-      "detail": "Interim 2 · 1200.00%",
-      "date": "14 Oct 2026",
-      "isoDate": "2026-10-14"
-    },
-    {
-      "company": "Vedanta",
-      "symbol": "VEDL",
-      "type": "dividend",
-      "detail": "Interim 1 · 500.00%",
-      "date": "14 Oct 2026",
-      "isoDate": "2026-10-14"
-    },
-    {
-      "company": "D.K. Enterprises",
-      "symbol": "DKEGL",
-      "type": "dividend",
-      "detail": "Interim · 5.00%",
-      "date": "9 Oct 2026",
-      "isoDate": "2026-10-09"
-    },
-    {
-      "company": "Caspian Corporat",
-      "symbol": "534732",
-      "type": "dividend",
-      "detail": "Final · 5.00%",
-      "date": "9 Oct 2026",
-      "isoDate": "2026-10-09"
-    },
-    {
-      "company": "Accelya Solution",
-      "symbol": "ACCELYA",
-      "type": "dividend",
-      "detail": "Final · 350.00%",
-      "date": "9 Oct 2026",
-      "isoDate": "2026-10-09"
-    },
-    {
-      "company": "Sahana Systems",
-      "symbol": "SAHANA",
-      "type": "dividend",
-      "detail": "Final · 10.00%",
-      "date": "9 Oct 2026",
-      "isoDate": "2026-10-09"
-    },
-    {
-      "company": "Skyways Air Ser.",
-      "symbol": "SKYWAYS",
-      "type": "dividend",
-      "detail": "Interim 1 · 2.50%",
-      "date": "9 Oct 2026",
-      "isoDate": "2026-10-09"
-    },
-    {
-      "company": "PTC India",
-      "symbol": "PTC",
-      "type": "dividend",
-      "detail": "Final · 55.00%",
-      "date": "7 Oct 2026",
-      "isoDate": "2026-10-07"
-    },
-    {
-      "company": "NMDC",
-      "symbol": "NMDC",
-      "type": "dividend",
-      "detail": "Final · 100.00%",
-      "date": "5 Oct 2026",
-      "isoDate": "2026-10-05"
     }
   ]
 }
