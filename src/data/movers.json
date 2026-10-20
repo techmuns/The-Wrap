@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-19T18:44:31.621Z",
+  "fetchedAt": "2026-10-20T17:14:21.553Z",
   "source": "NSE",
   "timestamp": "19-Oct-2026 16:00:00",
   "highs": [
@@ -28,6 +28,12 @@
       "pctChange": 1.770334928229665
     },
     {
+      "symbol": "ARABIAN",
+      "company": "Arabian Petroleum Limited",
+      "last": 106.35,
+      "pctChange": 1.770334928229665
+    },
+    {
       "symbol": "BMISL",
       "company": "Bench Mark Infotech Services Limited",
       "last": 213,
@@ -38,6 +44,12 @@
       "company": "AvenuesAI Limited",
       "last": 129,
       "pctChange": -6.724511930585683
+    },
+    {
+      "symbol": "CKKRETAIL",
+      "company": "C K K Retail Mart Limited",
+      "last": 284.5,
+      "pctChange": 9.994200657258844
     },
     {
       "symbol": "CKKRETAIL",
@@ -172,6 +184,18 @@
       "pctChange": 5.009633911368016
     },
     {
+      "symbol": "MADHUSUDAN",
+      "company": "Madhusudan Masala Limited",
+      "last": 272.5,
+      "pctChange": 5.009633911368016
+    },
+    {
+      "symbol": "MEGAFLEX",
+      "company": "Mega Flex Plastics Limited",
+      "last": 157.4,
+      "pctChange": 2.8758169934640523
+    },
+    {
       "symbol": "MEGAFLEX",
       "company": "Mega Flex Plastics Limited",
       "last": 157.4,
@@ -216,6 +240,12 @@
     {
       "symbol": "ONWARDTEC",
       "company": "Onward Technologies Limited",
+      "last": 454.8,
+      "pctChange": 549.7142857142857
+    },
+    {
+      "symbol": "ONWARDTEC",
+      "company": "Onward Technologies Limited",
       "last": 454.15,
       "pctChange": 6.258773982218063
     },
@@ -224,6 +254,12 @@
       "company": "Petro Carbon and Chemicals Limited",
       "last": 440,
       "pctChange": -0.22675736961451248
+    },
+    {
+      "symbol": "PCJEWELLER",
+      "company": "PC Jeweller Limited",
+      "last": 18.16,
+      "pctChange": 26.993006993006993
     },
     {
       "symbol": "PCJEWELLER",
@@ -270,8 +306,20 @@
     {
       "symbol": "SHANTIGOLD",
       "company": "Shanti Gold International Limited",
+      "last": 425.9,
+      "pctChange": 114.02010050251256
+    },
+    {
+      "symbol": "SHANTIGOLD",
+      "company": "Shanti Gold International Limited",
       "last": 413.5,
       "pctChange": -2.3151429246397353
+    },
+    {
+      "symbol": "SHEETAL",
+      "company": "Sheetal Universal Limited",
+      "last": 375,
+      "pctChange": 2.0685900925421885
     },
     {
       "symbol": "SHEETAL",
@@ -326,6 +374,12 @@
       "company": "The South Indian Bank Limited",
       "last": 54.05,
       "pctChange": 5.053449951409135
+    },
+    {
+      "symbol": "STEAMHOUSE",
+      "company": "Steamhouse India Limited",
+      "last": 130.24,
+      "pctChange": 60.79012345679013
     },
     {
       "symbol": "STEAMHOUSE",
@@ -410,6 +464,12 @@
       "company": "Viceroy Hotels Limited",
       "last": 156.98,
       "pctChange": 0.5830716985967835
+    },
+    {
+      "symbol": "VINSYS",
+      "company": "Vinsys IT Services India Limited",
+      "last": 599.5,
+      "pctChange": 1.7826825127334465
     },
     {
       "symbol": "VINSYS",
@@ -540,6 +600,12 @@
       "pctChange": 0.49554013875123887
     },
     {
+      "symbol": "BARFLEX",
+      "company": "Barflex Polyfilms Limited",
+      "last": 50.7,
+      "pctChange": 0.49554013875123887
+    },
+    {
       "symbol": "BLIL",
       "company": "Balmer Lawrie Investments Limited",
       "last": 64.48,
@@ -568,6 +634,12 @@
       "company": "Bharat Road Network Limited",
       "last": 14.75,
       "pctChange": -5.690537084398977
+    },
+    {
+      "symbol": "CADSYS",
+      "company": "Cadsys (India) Limited",
+      "last": 32.5,
+      "pctChange": -0.9146341463414634
     },
     {
       "symbol": "CADSYS",
@@ -630,6 +702,12 @@
       "pctChange": -6.676783004552352
     },
     {
+      "symbol": "DIGIKORE",
+      "company": "Digikore Studios Limited",
+      "last": 30.75,
+      "pctChange": -6.676783004552352
+    },
+    {
       "symbol": "DMART",
       "company": "Avenue Supermarts Limited",
       "last": 3304,
@@ -658,6 +736,12 @@
       "company": "Elitecon International Limited",
       "last": 6.65,
       "pctChange": -4.178674351585014
+    },
+    {
+      "symbol": "ENVIRO",
+      "company": "Envirotech Systems Limited",
+      "last": 55.9,
+      "pctChange": -9.838709677419354
     },
     {
       "symbol": "ENVIRO",
@@ -882,6 +966,12 @@
       "pctChange": -4.912280701754386
     },
     {
+      "symbol": "KDL",
+      "company": "Kore Digital Limited",
+      "last": 27.1,
+      "pctChange": -4.912280701754386
+    },
+    {
       "symbol": "KEC",
       "company": "KEC International Limited",
       "last": 343.15,
@@ -1000,6 +1090,12 @@
       "company": "One Global Service Provider Limited",
       "last": 439.6,
       "pctChange": -19.992719992719994
+    },
+    {
+      "symbol": "OSELDEVICE",
+      "company": "Osel Devices Limited",
+      "last": 345,
+      "pctChange": -2.0025564550489987
     },
     {
       "symbol": "OSELDEVICE",
@@ -1272,6 +1368,12 @@
       "pctChange": -7.5074387731746395
     },
     {
+      "symbol": "TEJA",
+      "company": "Teja Engineering Industries Limited",
+      "last": 202.05,
+      "pctChange": -7.5074387731746395
+    },
+    {
       "symbol": "TGL",
       "company": "Teerth Gopicon Limited",
       "last": 11.25,
@@ -1306,6 +1408,12 @@
       "company": "Triveni Power Transmission Limited",
       "last": 529.35,
       "pctChange": -4.9982053122756644
+    },
+    {
+      "symbol": "TUNWAL",
+      "company": "Tunwal E-Motors Limited",
+      "last": 24.2,
+      "pctChange": -1.2244897959183674
     },
     {
       "symbol": "TUNWAL",
@@ -1396,6 +1504,12 @@
       "company": "Vishal Mega Mart Limited",
       "last": 94.44,
       "pctChange": -1.625
+    },
+    {
+      "symbol": "VMOBILE",
+      "company": "Vinit Mobile Limited",
+      "last": 49,
+      "pctChange": -5.314009661835748
     },
     {
       "symbol": "VMOBILE",
