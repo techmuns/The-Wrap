@@ -1,11 +1,41 @@
 {
-  "fetchedAt": "2026-10-19T20:02:17.693Z",
+  "fetchedAt": "2026-10-20T18:34:56.721Z",
   "source": "Screener",
   "counts": {
     "recent": 25,
     "upcoming": 0
   },
   "items": [
+    {
+      "company": "HDB FINANC SER",
+      "symbol": "HDBFS",
+      "kind": "recent",
+      "date": "20 Oct 2026",
+      "isoDate": "2026-10-20",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9156af89-9b47-4561-b4e5-a85d1385032b.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23338004/"
+        }
+      ]
+    },
+    {
+      "company": "Varmora Granito",
+      "symbol": "VARMORA",
+      "kind": "recent",
+      "date": "20 Oct 2026",
+      "isoDate": "2026-10-20",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12ae67b1-ce26-46ea-8527-76f4d6ff1db8.pdf"
+        }
+      ]
+    },
     {
       "company": "Just Dial",
       "symbol": "JUSTDIAL",
@@ -55,6 +85,10 @@
         {
           "label": "View Recording",
           "url": "https://www.indiacements.co.in/uploads/investor/audio/investor-call-audio-Q2FY2026-27.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23337746/"
         }
       ]
     },
@@ -354,40 +388,6 @@
         {
           "label": "View Summary",
           "url": "https://www.screener.in/concalls/summary/23337726/"
-        }
-      ]
-    },
-    {
-      "company": "Polycab India",
-      "symbol": "POLYCAB",
-      "kind": "recent",
-      "date": "19 Oct 2026",
-      "isoDate": "2026-10-19",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23337725/"
-        }
-      ]
-    },
-    {
-      "company": "Hindustan Zinc",
-      "symbol": "HINDZINC",
-      "kind": "recent",
-      "date": "19 Oct 2026",
-      "isoDate": "2026-10-19",
-      "links": [
-        {
-          "label": "View Recording",
-          "url": "https://concalls.screener.in/concalls/ed03125b-e173-4567-87b9-5d301e6e6d04/recording.mp3"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23337724/"
         }
       ]
     }
