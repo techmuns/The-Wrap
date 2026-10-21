@@ -1,8 +1,86 @@
 {
-  "fetchedAt": "2026-10-20T18:27:30.214Z",
+  "fetchedAt": "2026-10-21T18:36:54.439Z",
   "source": "Screener",
   "total": 49,
   "items": [
+    {
+      "company": "S H Kelkar & Co.",
+      "symbol": "SHK",
+      "person": "Promoter Group (2)",
+      "role": "Keva Constructions Private Limited, Keva Construct...",
+      "buySell": "BUY",
+      "shares": 3198000,
+      "pct": null,
+      "value": 431900000,
+      "mode": null,
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Mangal Credit",
+      "symbol": "MANCREDIT",
+      "person": "Promoter And Director (4)",
+      "role": "Meghraj Sohanlal Jain, Hardik Meghraj Jain, Meghra...",
+      "buySell": "BUY",
+      "shares": 1500000,
+      "pct": null,
+      "value": 370500000,
+      "mode": "Allotment",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Mangal Credit",
+      "symbol": "MANCREDIT",
+      "person": "Promoter (6)",
+      "role": "Seema Ajit Jain, Ritu Jain, Indra Meghraj Jain, Ri...",
+      "buySell": "BUY",
+      "shares": 3300000,
+      "pct": null,
+      "value": 815100000,
+      "mode": "Allotment",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Mangal Credit",
+      "symbol": "MANCREDIT",
+      "person": "Connected Person (2)",
+      "role": "Disha Jagdish Jain, Disha Jagdish Jain",
+      "buySell": "BUY",
+      "shares": 200000,
+      "pct": null,
+      "value": 49400000.00000001,
+      "mode": "Allotment",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Karur Vysya Bank",
+      "symbol": "KARURVYSYA",
+      "person": "R Nageswari",
+      "role": "Promoter Group",
+      "buySell": "SELL",
+      "shares": 1000,
+      "pct": null,
+      "value": 375000,
+      "mode": "Sold",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Karur Vysya Bank",
+      "symbol": "KARURVYSYA",
+      "person": "G Rajasekaran",
+      "role": "Promoter",
+      "buySell": "SELL",
+      "shares": 1000,
+      "pct": null,
+      "value": 375000,
+      "mode": "Sold",
+      "date": "yesterday",
+      "isoDate": null
+    },
     {
       "company": "Koura Fine Diamo",
       "symbol": "544139",
@@ -13,8 +91,8 @@
       "pct": null,
       "value": 6730000,
       "mode": "Preferential Offer",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "19 Oct 2026",
+      "isoDate": "2026-10-19"
     },
     {
       "company": "Avenue Super.",
@@ -26,8 +104,8 @@
       "pct": null,
       "value": 37900000,
       "mode": "Pledge Creation",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "19 Oct 2026",
+      "isoDate": "2026-10-19"
     },
     {
       "company": "Avenue Super.",
@@ -39,8 +117,8 @@
       "pct": null,
       "value": 15000000,
       "mode": "Invocation of pledge",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "19 Oct 2026",
+      "isoDate": "2026-10-19"
     },
     {
       "company": "Nava",
@@ -52,8 +130,8 @@
       "pct": null,
       "value": 9960000,
       "mode": "ESOP",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "19 Oct 2026",
+      "isoDate": "2026-10-19"
     },
     {
       "company": "HCL Technologies",
@@ -65,8 +143,8 @@
       "pct": null,
       "value": 167399999.99999997,
       "mode": "ESOS",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "19 Oct 2026",
+      "isoDate": "2026-10-19"
     },
     {
       "company": "Expo Engineering",
@@ -247,84 +325,6 @@
       "pct": null,
       "value": 798100000,
       "mode": "Pledge Creation",
-      "date": "15 Oct 2026",
-      "isoDate": "2026-10-15"
-    },
-    {
-      "company": "Responsive Ind",
-      "symbol": "RESPONIND",
-      "person": "Fairpoint Tradecom Llp",
-      "role": "Promoter Group",
-      "buySell": "BUY",
-      "shares": 1000000,
-      "pct": null,
-      "value": 168100000,
-      "mode": "Pledge Creation",
-      "date": "15 Oct 2026",
-      "isoDate": "2026-10-15"
-    },
-    {
-      "company": "Responsive Ind",
-      "symbol": "RESPONIND",
-      "person": "Promoter Group (2)",
-      "role": "Fairpoint Tradecom Llp, Fairpoint Tradecom Llp",
-      "buySell": "BUY",
-      "shares": 1000000,
-      "pct": null,
-      "value": 159000000,
-      "mode": null,
-      "date": "15 Oct 2026",
-      "isoDate": "2026-10-15"
-    },
-    {
-      "company": "Natco Pharma",
-      "symbol": "NATCOPHARM",
-      "person": "Promoter Group (3)",
-      "role": "V S Swathi Kantamani, Time Cap Pharma Labs Private...",
-      "buySell": "SELL",
-      "shares": null,
-      "pct": null,
-      "value": 7043000.000000001,
-      "mode": "Off Market",
-      "date": "15 Oct 2026",
-      "isoDate": "2026-10-15"
-    },
-    {
-      "company": "Natco Pharma",
-      "symbol": "NATCOPHARM",
-      "person": "Promoter Group (2)",
-      "role": "Natsoft Information Systems Private Limited, V S S...",
-      "buySell": "SELL",
-      "shares": null,
-      "pct": null,
-      "value": 49200000,
-      "mode": "Sold",
-      "date": "15 Oct 2026",
-      "isoDate": "2026-10-15"
-    },
-    {
-      "company": "Natco Pharma",
-      "symbol": "NATCOPHARM",
-      "person": "Promoter And Director (3)",
-      "role": "V.C.Nannapaneni, V.C.Nannapaneni, Rajeev Nannapaneni",
-      "buySell": "SELL",
-      "shares": null,
-      "pct": null,
-      "value": 18300000,
-      "mode": "Off Market",
-      "date": "15 Oct 2026",
-      "isoDate": "2026-10-15"
-    },
-    {
-      "company": "Natco Pharma",
-      "symbol": "NATCOPHARM",
-      "person": "V.C.Nannapaneni",
-      "role": "Promoter And Director",
-      "buySell": "SELL",
-      "shares": null,
-      "pct": null,
-      "value": 9213000,
-      "mode": "Sold",
       "date": "15 Oct 2026",
       "isoDate": "2026-10-15"
     },
