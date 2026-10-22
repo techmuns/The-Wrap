@@ -1,8 +1,73 @@
 {
-  "fetchedAt": "2026-10-21T18:36:54.439Z",
+  "fetchedAt": "2026-10-22T18:31:21.188Z",
   "source": "Screener",
   "total": 49,
   "items": [
+    {
+      "company": "Embassy Off.REIT",
+      "symbol": "EMBASSY",
+      "person": "Designated Person (2)",
+      "role": "Amit Shetty, Amit Shetty",
+      "buySell": "SELL",
+      "shares": null,
+      "pct": null,
+      "value": 20000000,
+      "mode": "Sold",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Avenue Super.",
+      "symbol": "DMART",
+      "person": "Designated Person (2)",
+      "role": "Santosh Gulab Singh, Parag Sudhakar Bagade",
+      "buySell": "SELL",
+      "shares": 1124,
+      "pct": null,
+      "value": 3636000,
+      "mode": "Invocation of pledge",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Avenue Super.",
+      "symbol": "DMART",
+      "person": "Mahesh Ramji Nagda",
+      "role": "Designated Person",
+      "buySell": "SELL",
+      "shares": 300,
+      "pct": null,
+      "value": 986000,
+      "mode": "Sold",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Karur Vysya Bank",
+      "symbol": "KARURVYSYA",
+      "person": "Promoter Group (2)",
+      "role": "R Nageswari, G Mani",
+      "buySell": "SELL",
+      "shares": 4000,
+      "pct": null,
+      "value": 1538000,
+      "mode": "Sold",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Karur Vysya Bank",
+      "symbol": "KARURVYSYA",
+      "person": "G Rajasekaran",
+      "role": "Promoter",
+      "buySell": "SELL",
+      "shares": 2000,
+      "pct": null,
+      "value": 769000,
+      "mode": "Sold",
+      "date": "yesterday",
+      "isoDate": null
+    },
     {
       "company": "S H Kelkar & Co.",
       "symbol": "SHK",
@@ -13,8 +78,8 @@
       "pct": null,
       "value": 431900000,
       "mode": null,
-      "date": "yesterday",
-      "isoDate": null
+      "date": "21 Oct 2026",
+      "isoDate": "2026-10-21"
     },
     {
       "company": "Mangal Credit",
@@ -26,8 +91,8 @@
       "pct": null,
       "value": 370500000,
       "mode": "Allotment",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "21 Oct 2026",
+      "isoDate": "2026-10-21"
     },
     {
       "company": "Mangal Credit",
@@ -39,8 +104,8 @@
       "pct": null,
       "value": 815100000,
       "mode": "Allotment",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "21 Oct 2026",
+      "isoDate": "2026-10-21"
     },
     {
       "company": "Mangal Credit",
@@ -52,8 +117,8 @@
       "pct": null,
       "value": 49400000.00000001,
       "mode": "Allotment",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "21 Oct 2026",
+      "isoDate": "2026-10-21"
     },
     {
       "company": "Karur Vysya Bank",
@@ -65,8 +130,8 @@
       "pct": null,
       "value": 375000,
       "mode": "Sold",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "21 Oct 2026",
+      "isoDate": "2026-10-21"
     },
     {
       "company": "Karur Vysya Bank",
@@ -78,8 +143,8 @@
       "pct": null,
       "value": 375000,
       "mode": "Sold",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "21 Oct 2026",
+      "isoDate": "2026-10-21"
     },
     {
       "company": "Koura Fine Diamo",
@@ -264,69 +329,17 @@
       "isoDate": "2026-10-16"
     },
     {
-      "company": "Texmo Pipes",
-      "symbol": "TEXMOPIPES",
-      "person": "Promoter And Director (6)",
-      "role": "Rashmi Agrawal, Rashmi Agrawal, Sanjay Kumar Agraw...",
-      "buySell": "BUY",
-      "shares": 4590000,
+      "company": "Priti Internati.",
+      "symbol": "PRITI",
+      "person": "Ritesh Lohia",
+      "role": "Promoter (SAST)",
+      "buySell": null,
+      "shares": 3600000,
       "pct": null,
-      "value": 209500000,
-      "mode": "Preferential Offer",
-      "date": "15 Oct 2026",
-      "isoDate": "2026-10-15"
-    },
-    {
-      "company": "Aequs",
-      "symbol": "AEQUS",
-      "person": "Melligeri Private Family Foundation Mellwood Trust...",
-      "role": "Promoter",
-      "buySell": "BUY",
-      "shares": 100513070,
-      "pct": null,
-      "value": 23010000000,
-      "mode": "Pledge Creation",
-      "date": "15 Oct 2026",
-      "isoDate": "2026-10-15"
-    },
-    {
-      "company": "Koura Fine Diamo",
-      "symbol": "544139",
-      "person": "Kamlesh Keshavlal Lodhiya",
-      "role": "Promoter And Director",
-      "buySell": "BUY",
-      "shares": 350000,
-      "pct": null,
-      "value": 3238000.0000000005,
-      "mode": "Preferential Offer",
-      "date": "15 Oct 2026",
-      "isoDate": "2026-10-15"
-    },
-    {
-      "company": "Avenue Super.",
-      "symbol": "DMART",
-      "person": "Designated Person (15)",
-      "role": "Parag Sudhakar Bagade, Sushil Katyal, Pallavi Baks...",
-      "buySell": "BUY",
-      "shares": 34035,
-      "pct": null,
-      "value": 115700000,
-      "mode": "Pledge Creation",
-      "date": "15 Oct 2026",
-      "isoDate": "2026-10-15"
-    },
-    {
-      "company": "Swan Corp",
-      "symbol": "SWANCORP",
-      "person": "Promoter Group (2)",
-      "role": "Swan Engitech Private Limited, Swan Engitech Private Limited",
-      "buySell": "BUY",
-      "shares": 3000000,
-      "pct": null,
-      "value": 798100000,
-      "mode": "Pledge Creation",
-      "date": "15 Oct 2026",
-      "isoDate": "2026-10-15"
+      "value": null,
+      "mode": "Acq",
+      "date": "21 Oct 2026",
+      "isoDate": "2026-10-21"
     },
     {
       "company": "Maxvolt Energy",
@@ -618,19 +631,6 @@
       "company": "M Tek Copper",
       "symbol": "MCL",
       "person": "Mr. Divya Arvindbhai Monpara",
-      "role": "Promoter (SAST)",
-      "buySell": "SELL",
-      "shares": 1000,
-      "pct": null,
-      "value": null,
-      "mode": "Sell",
-      "date": "8 Oct 2026",
-      "isoDate": "2026-10-08"
-    },
-    {
-      "company": "M Tek Copper",
-      "symbol": "MCL",
-      "person": "Mr. Vishal Talsibhai Monpara",
       "role": "Promoter (SAST)",
       "buySell": "SELL",
       "shares": 1000,
