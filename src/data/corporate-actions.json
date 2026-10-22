@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-21T19:14:29.459Z",
+  "fetchedAt": "2026-10-22T18:51:32.822Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -611,6 +611,14 @@
       "isoDate": "2026-08-28"
     },
     {
+      "company": "Magnus Steel",
+      "symbol": "517320",
+      "type": "rights",
+      "detail": "Ratio 59:5 · ₹0.00 premium",
+      "date": "27 Oct 2026",
+      "isoDate": "2026-10-27"
+    },
+    {
       "company": "Shivam Autotech",
       "symbol": "SHIVAMAUTO",
       "type": "rights",
@@ -803,12 +811,44 @@
       "isoDate": "2026-08-06"
     },
     {
-      "company": "Genesys Intl.",
-      "symbol": "GENESYS",
-      "type": "rights",
-      "detail": "Ratio 3:5 · ₹45.00 premium",
-      "date": "6 Aug 2026",
-      "isoDate": "2026-08-06"
+      "company": "Colgate-Palmoliv",
+      "symbol": "COLPAL",
+      "type": "dividend",
+      "detail": "Interim 1 · 2400.00%",
+      "date": "2 Nov 2026",
+      "isoDate": "2026-11-02"
+    },
+    {
+      "company": "C P C L",
+      "symbol": "CHENNPETRO",
+      "type": "dividend",
+      "detail": "Interim · 250.00%",
+      "date": "30 Oct 2026",
+      "isoDate": "2026-10-30"
+    },
+    {
+      "company": "Ador Welding",
+      "symbol": "ADOR",
+      "type": "dividend",
+      "detail": "Interim · 75.00%",
+      "date": "30 Oct 2026",
+      "isoDate": "2026-10-30"
+    },
+    {
+      "company": "Cyient",
+      "symbol": "CYIENT",
+      "type": "dividend",
+      "detail": "Interim · 240.00%",
+      "date": "28 Oct 2026",
+      "isoDate": "2026-10-28"
+    },
+    {
+      "company": "Nippon Life Ind.",
+      "symbol": "NAM-INDIA",
+      "type": "dividend",
+      "detail": "Interim · 95.00%",
+      "date": "28 Oct 2026",
+      "isoDate": "2026-10-28"
     },
     {
       "company": "L&T Technology",
@@ -817,6 +857,22 @@
       "detail": "Interim · 1000.00%",
       "date": "27 Oct 2026",
       "isoDate": "2026-10-27"
+    },
+    {
+      "company": "Hexaware Tech.",
+      "symbol": "HEXT",
+      "type": "dividend",
+      "detail": "Interim 2 · 950.00%",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26"
+    },
+    {
+      "company": "OSEL Devices",
+      "symbol": "OSELDEVICE",
+      "type": "dividend",
+      "detail": "Interim 1 · 10.00%",
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
     },
     {
       "company": "Bhansali Engg.",
@@ -953,62 +1009,6 @@
       "detail": "Interim 3 · 600.00%",
       "date": "16 Oct 2026",
       "isoDate": "2026-10-16"
-    },
-    {
-      "company": "Hind.Composites",
-      "symbol": "HINDCOMPOS",
-      "type": "dividend",
-      "detail": "Special · 420.00%",
-      "date": "16 Oct 2026",
-      "isoDate": "2026-10-16"
-    },
-    {
-      "company": "Canara Robeco",
-      "symbol": "CRAMC",
-      "type": "dividend",
-      "detail": "Interim · 20.00%",
-      "date": "16 Oct 2026",
-      "isoDate": "2026-10-16"
-    },
-    {
-      "company": "PropshareTitania",
-      "symbol": "544462",
-      "type": "dividend",
-      "detail": "Final · 2.27%",
-      "date": "15 Oct 2026",
-      "isoDate": "2026-10-15"
-    },
-    {
-      "company": "Propshare Celestia",
-      "symbol": "544752",
-      "type": "dividend",
-      "detail": "Final · 2.12%",
-      "date": "15 Oct 2026",
-      "isoDate": "2026-10-15"
-    },
-    {
-      "company": "PropsharePlatina",
-      "symbol": "544295",
-      "type": "dividend",
-      "detail": "Final · 2.19%",
-      "date": "15 Oct 2026",
-      "isoDate": "2026-10-15"
-    },
-    {
-      "company": "Anand Rathi Wea.",
-      "symbol": "ANANDRATHI",
-      "type": "dividend",
-      "detail": "Interim 1 · 80.00%",
-      "date": "15 Oct 2026",
-      "isoDate": "2026-10-15"
-    },
-    {
-      "company": "Energy InfrTrust",
-      "symbol": "542543",
-      "type": "dividend",
-      "detail": "Final · 3.88%",
-      "date": "14 Oct 2026",
-      "isoDate": "2026-10-14"
     }
   ]
 }
