@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-22T18:51:32.822Z",
+  "fetchedAt": "2026-10-23T18:44:53.785Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -611,6 +611,14 @@
       "isoDate": "2026-08-28"
     },
     {
+      "company": "Indian Emuls",
+      "symbol": "IEML",
+      "type": "rights",
+      "detail": "Ratio 1:1 · ₹17.00 premium",
+      "date": "27 Oct 2026",
+      "isoDate": "2026-10-27"
+    },
+    {
       "company": "Magnus Steel",
       "symbol": "517320",
       "type": "rights",
@@ -803,12 +811,12 @@
       "isoDate": "2026-08-19"
     },
     {
-      "company": "Shanti Gold",
-      "symbol": "SHANTIGOLD",
-      "type": "rights",
-      "detail": "Ratio 19:295 · ₹205.00 premium",
-      "date": "6 Aug 2026",
-      "isoDate": "2026-08-06"
+      "company": "Pitti Engg.",
+      "symbol": "PITTIENG",
+      "type": "dividend",
+      "detail": "Interim · 40.00%",
+      "date": "2 Nov 2026",
+      "isoDate": "2026-11-02"
     },
     {
       "company": "Colgate-Palmoliv",
@@ -817,6 +825,30 @@
       "detail": "Interim 1 · 2400.00%",
       "date": "2 Nov 2026",
       "isoDate": "2026-11-02"
+    },
+    {
+      "company": "Sagility",
+      "symbol": "SAGILITY",
+      "type": "dividend",
+      "detail": "Interim · 1.50%",
+      "date": "30 Oct 2026",
+      "isoDate": "2026-10-30"
+    },
+    {
+      "company": "Amwill Health",
+      "symbol": "544353",
+      "type": "dividend",
+      "detail": "Interim · 5.00%",
+      "date": "30 Oct 2026",
+      "isoDate": "2026-10-30"
+    },
+    {
+      "company": "Steel Str. Wheel",
+      "symbol": "SSWL",
+      "type": "dividend",
+      "detail": "Interim · 150.00%",
+      "date": "30 Oct 2026",
+      "isoDate": "2026-10-30"
     },
     {
       "company": "C P C L",
@@ -835,6 +867,14 @@
       "isoDate": "2026-10-30"
     },
     {
+      "company": "Ksolves India",
+      "symbol": "KSOLVES",
+      "type": "dividend",
+      "detail": "Interim 2 · 20.00%",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29"
+    },
+    {
       "company": "Cyient",
       "symbol": "CYIENT",
       "type": "dividend",
@@ -849,6 +889,14 @@
       "detail": "Interim · 95.00%",
       "date": "28 Oct 2026",
       "isoDate": "2026-10-28"
+    },
+    {
+      "company": "Anantam Highways",
+      "symbol": "ANANTAM",
+      "type": "dividend",
+      "detail": "Final · 2.75%",
+      "date": "27 Oct 2026",
+      "isoDate": "2026-10-27"
     },
     {
       "company": "L&T Technology",
@@ -961,54 +1009,6 @@
       "detail": "Interim · 11.50%",
       "date": "23 Oct 2026",
       "isoDate": "2026-10-23"
-    },
-    {
-      "company": "Angel One",
-      "symbol": "ANGELONE",
-      "type": "dividend",
-      "detail": "Interim 2 · 140.00%",
-      "date": "22 Oct 2026",
-      "isoDate": "2026-10-22"
-    },
-    {
-      "company": "Tips Music",
-      "symbol": "TIPSMUSIC",
-      "type": "dividend",
-      "detail": "Interim 1 · 650.00%",
-      "date": "22 Oct 2026",
-      "isoDate": "2026-10-22"
-    },
-    {
-      "company": "M R P L",
-      "symbol": "MRPL",
-      "type": "dividend",
-      "detail": "Interim · 30.00%",
-      "date": "21 Oct 2026",
-      "isoDate": "2026-10-21"
-    },
-    {
-      "company": "Elecon Engg.Co",
-      "symbol": "ELECON",
-      "type": "dividend",
-      "detail": "Interim · 50.00%",
-      "date": "21 Oct 2026",
-      "isoDate": "2026-10-21"
-    },
-    {
-      "company": "ICICI AMC",
-      "symbol": "ICICIAMC",
-      "type": "dividend",
-      "detail": "Interim · 3000.00%",
-      "date": "21 Oct 2026",
-      "isoDate": "2026-10-21"
-    },
-    {
-      "company": "HCL Technologies",
-      "symbol": "HCLTECH",
-      "type": "dividend",
-      "detail": "Interim 3 · 600.00%",
-      "date": "16 Oct 2026",
-      "isoDate": "2026-10-16"
     }
   ]
 }
