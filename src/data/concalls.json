@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-23T18:33:05.912Z",
+  "fetchedAt": "2026-10-26T20:02:26.867Z",
   "source": "Screener",
   "counts": {
     "recent": 25,
@@ -7,387 +7,371 @@
   },
   "items": [
     {
-      "company": "HDFC Bank",
-      "symbol": "HDFCBANK",
+      "company": "Leap India",
+      "symbol": "LEAPIND",
       "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8325ace4-9d62-4575-8207-f5955c6e2b27.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Deepa Jewellers",
+      "symbol": "DEEPA",
+      "kind": "recent",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3de7093-76ca-4f1e-ba7e-656a01aa4f42.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Wework India",
+      "symbol": "WEWORK",
+      "kind": "recent",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3535f232-440b-4420-bf5c-296847b37429.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Paramount Comm.",
+      "symbol": "PARACABLES",
+      "kind": "recent",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf0f7a1a-8a95-47d7-96d4-5c424ac237ef.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Vivid Electromech",
+      "symbol": "VIVIDEL",
+      "kind": "recent",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.com/corporate/VIVID_26102026213135_Intimation_Letter_for_Investor_Presentation_30-09-2026.pdf"
+        }
+      ]
+    },
+    {
+      "company": "KFin Technolog.",
+      "symbol": "KFINTECH",
+      "kind": "recent",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d766a2e-e508-429e-9b63-cfe86c32c866.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Lumax Industries",
+      "symbol": "LUMAXIND",
+      "kind": "recent",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c883d7e-3b4e-4c99-8cf1-adaaaee357d6.pdf"
+        }
+      ]
+    },
+    {
+      "company": "HFCL",
+      "symbol": "HFCL",
+      "kind": "recent",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
       "links": [
         {
           "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=476f5fb2-41fb-4fb2-9460-a53d12da4eb9.pdf"
         },
         {
           "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23340287/"
+          "url": "https://www.screener.in/concalls/summary/23342603/"
         }
       ]
     },
     {
-      "company": "Tata Motors",
-      "symbol": "TMCV",
+      "company": "AceVector",
+      "symbol": "ACEVECTOR",
       "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=243478ed-9a22-486d-bfd9-12a1f087f9cb.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Ambani Orgochem",
+      "symbol": "AMBANIORGO",
+      "kind": "recent",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.com/corporate/AMBANIORG_26102026194109_Disclosure_of_Presentation_Signed.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Nazara Technolo.",
+      "symbol": "NAZARA",
+      "kind": "recent",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e181f23-00fd-4710-9188-17741213f916.pdf"
+        }
+      ]
+    },
+    {
+      "company": "AAVAS Financiers",
+      "symbol": "AAVAS",
+      "kind": "recent",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
       "links": [
         {
           "label": "View Recording",
-          "url": "https://cv.tatamotors.com/assets/cv/files/2026-10/Tata%20Motors%20Limited%20Q2%20FY27%20Earnings%20Call%20Recording.mp4"
+          "url": "https://www.aavas.in/uploads/pdf/aavasfinancialcall26octcompressed-58321465.mp3"
         },
         {
           "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23340286/"
+          "url": "https://www.screener.in/concalls/summary/23342598/"
         }
       ]
     },
     {
-      "company": "Yes Bank",
-      "symbol": "YESBANK",
+      "company": "L&T Finance Ltd",
+      "symbol": "LTF",
       "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
       "links": [
         {
           "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=318e1c73-6669-4bb6-a11e-a242e3d3eb9d.pdf"
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=beee00f0-3cc9-4229-a0ca-ee527e60220d.pdf"
         },
         {
           "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23340100/"
+          "url": "https://www.screener.in/concalls/summary/23342597/"
         }
       ]
     },
     {
-      "company": "TruAlt Bioenergy",
-      "symbol": "TRUALT",
+      "company": "Tata Consumer",
+      "symbol": "TATACONSUM",
       "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.tataconsumer.com/sites/g/files/gfwrlq316/files/2026-10/Q2%20FY27%20Call%20Recording.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23342596/"
+        }
+      ]
+    },
+    {
+      "company": "Antelopus Selan",
+      "symbol": "ANTELOPUS",
+      "kind": "recent",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://antelopusenergy.com/wp-content/uploads/2026/10/Audio-Recording-1.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23342594/"
+        }
+      ]
+    },
+    {
+      "company": "DCM Shriram",
+      "symbol": "DCMSHRIRAM",
+      "kind": "recent",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
       "links": [
         {
           "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5c57477c-0d56-4b83-aca5-c49ef38e59e0.pdf"
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25413bf0-46f1-48d0-b935-0f5dedb4fc72.pdf"
         }
       ]
     },
     {
-      "company": "Persistent Systems",
-      "symbol": "PERSISTENT",
+      "company": "Aequs",
+      "symbol": "AEQUS",
       "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.aequs.com/wp-content/uploads/2026/10/Earnings-Call-Audio-Q2-FY-27.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23342591/"
+        }
+      ]
+    },
+    {
+      "company": "Music Broadcast",
+      "symbol": "RADIOCITY",
+      "kind": "recent",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f1de2e5-747f-4538-ac6a-a587e09c7831.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Trishakti Indus",
+      "symbol": "531279",
+      "kind": "recent",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
       "links": [
         {
           "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524eadda-3966-4f4f-8888-bfaf2cb0d69e.pdf"
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a10e722f-db0c-43f4-bf9e-64bb0f79e7c0.pdf"
         },
         {
           "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23340096/"
+          "url": "https://www.screener.in/concalls/summary/23342589/"
         }
       ]
     },
     {
-      "company": "Urban Company",
-      "symbol": "URBANCO",
+      "company": "Five-Star Bus.Fi",
+      "symbol": "FIVESTAR",
       "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://fivestargroup.in/wp-content/uploads/2026/10/Five-Star-Earnings-Call-Q2.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23342588/"
+        }
+      ]
+    },
+    {
+      "company": "Dalmia BharatLtd",
+      "symbol": "DALBHARAT",
+      "kind": "recent",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://concalls.screener.in/concalls/8c9586d7-a6ec-4679-9615-ffb7f74caf4b-r3/recording.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23342587/"
+        }
+      ]
+    },
+    {
+      "company": "Chemcon Special.",
+      "symbol": "CHEMCON",
+      "kind": "recent",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
       "links": [
         {
           "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a5e649b-c019-4401-a521-e80ace8ceccc.pdf"
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1e6f820-6d13-43a8-a304-400ba84355f5.pdf"
         }
       ]
     },
     {
-      "company": "Dr Reddy's Labs",
-      "symbol": "DRREDDY",
+      "company": "T N Merc. Bank",
+      "symbol": "TMB",
       "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
       "links": [
         {
           "label": "View Recording",
-          "url": "https://concalls.screener.in/concalls/326a3a50-367d-426d-9c23-62039a6ea802/recording.mp3"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23340094/"
+          "url": "https://s3.ap-south-2.amazonaws.com/tmbwebsite-prod-v1.0-s3/s3fs-public/2026-10/10047613.mp3"
         }
       ]
     },
     {
-      "company": "CRISIL",
-      "symbol": "CRISIL",
+      "company": "Mankind Pharma",
+      "symbol": "MANKIND",
       "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd561af0-5aac-490a-b86e-9ee159c7b998.pdf"
-        }
-      ]
-    },
-    {
-      "company": "CG Power & Ind",
-      "symbol": "CGPOWER",
-      "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
       "links": [
         {
           "label": "View Recording",
-          "url": "https://www.cgglobal.com/CGGLOBAL_BACKEND/admin/uploads/10047976.mp3"
+          "url": "https://www.mankindpharma.com/wp-content/uploads/2026/10/10047665.mp3"
         },
         {
           "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23340092/"
+          "url": "https://www.screener.in/concalls/summary/23342584/"
         }
       ]
     },
     {
-      "company": "Shriram Finance",
-      "symbol": "SHRIRAMFIN",
+      "company": "APL Apollo Tubes",
+      "symbol": "APLAPOLLO",
       "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
+      "date": "26 Oct 2026",
+      "isoDate": "2026-10-26",
       "links": [
         {
           "label": "View Recording",
-          "url": "https://concalls.screener.in/concalls/82b4d976-e070-4d6c-8fce-419ef442bebe/recording.mp3"
+          "url": "https://media.aplapollo.com/files/Q2_Earnings_Conference_Call_FY%E2%80%9927.mp3"
         },
         {
           "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23340091/"
-        }
-      ]
-    },
-    {
-      "company": "UTI AMC",
-      "symbol": "UTIAMC",
-      "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a679ae2-aa18-4344-822a-c3c3db13ceaa.pdf"
-        }
-      ]
-    },
-    {
-      "company": "Shakti Pumps",
-      "symbol": "SHAKTIPUMP",
-      "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5035805-c1d3-4b7c-a3d8-ee6cbf1ef54c.pdf"
-        }
-      ]
-    },
-    {
-      "company": "Suditi Industrie",
-      "symbol": "SUDITIND",
-      "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6015c925-c381-4f1d-a4a4-c8bd9796621b.pdf"
-        }
-      ]
-    },
-    {
-      "company": "JK Tyre & Indust",
-      "symbol": "JKTYRE",
-      "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=166d95bc-9b30-4a29-b5c8-f6e50bcadaf4.pdf"
-        }
-      ]
-    },
-    {
-      "company": "DCB Bank",
-      "symbol": "DCBBANK",
-      "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
-      "links": [
-        {
-          "label": "View Recording",
-          "url": "https://www.dcb.bank.in/api/dcb/assets/2026-10/10048181.mp3"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23340084/"
-        }
-      ]
-    },
-    {
-      "company": "Unicommerce",
-      "symbol": "UNIECOM",
-      "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fbfe49ce-b053-4985-8b95-258c383e57dd.pdf"
-        }
-      ]
-    },
-    {
-      "company": "Infosys",
-      "symbol": "INFY",
-      "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
-      "links": [
-        {
-          "label": "View Recording",
-          "url": "https://concalls.screener.in/concalls/d7ec27f0-945b-422f-a3af-daae7494428e/recording.mp3"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23340082/"
-        }
-      ]
-    },
-    {
-      "company": "SBI Funds Mgt.",
-      "symbol": "SBIFUNDS",
-      "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
-      "links": [
-        {
-          "label": "View Recording",
-          "url": "https://stdavdopci.blob.core.windows.net/audio/10047620.mp3?sp=r&st=2026-10-23T14:32:22Z&se=2035-10-23T22:47:22Z&spr=https&sv=2026-02-06&sr=b&sig=TNYzyFKruX9G0NlLy0pFU8IAxJn9%2FU0hf%2B8ENgQ6iDc%3D"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23340081/"
-        }
-      ]
-    },
-    {
-      "company": "Indo Rama Synth.",
-      "symbol": "INDORAMA",
-      "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a158a94-8555-42b6-b52e-1b5801155c20.pdf"
-        }
-      ]
-    },
-    {
-      "company": "IndusInd Bank",
-      "symbol": "INDUSINDBK",
-      "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
-      "links": [
-        {
-          "label": "View Recording",
-          "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/investors/QuarterFinancialResults/FY2026-2027/Quarter2/Analyst-Concall-Recording-Q2-FY27.mp3"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23340079/"
-        }
-      ]
-    },
-    {
-      "company": "Indo Rama Synth.",
-      "symbol": "INDORAMA",
-      "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=29121513-9542-4a40-a60a-6e6f76022fdb.pdf"
-        }
-      ]
-    },
-    {
-      "company": "JSW Steel",
-      "symbol": "JSWSTEEL",
-      "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
-      "links": [
-        {
-          "label": "View Recording",
-          "url": "https://concalls.screener.in/concalls/843b4946-c54b-4487-9271-fdd7755f281c/recording.mp3"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23340077/"
-        }
-      ]
-    },
-    {
-      "company": "Coforge",
-      "symbol": "COFORGE",
-      "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
-      "links": [
-        {
-          "label": "View Recording",
-          "url": "https://investors.coforge.com/hubfs/earnings-call-audio-recording-q2-fy26-27.mp3?hsLang=en"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23340076/"
-        }
-      ]
-    },
-    {
-      "company": "Mahindra Logis.",
-      "symbol": "MAHLOG",
-      "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
-      "links": [
-        {
-          "label": "View Recording",
-          "url": "https://mahindralogistics.com/tabs/cms/files/Audio-Transcript-Earnings-Conference-Call-Q2FY27.mp3"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23340075/"
-        }
-      ]
-    },
-    {
-      "company": "Torrent Pharma.",
-      "symbol": "TORNTPHARM",
-      "kind": "recent",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23",
-      "links": [
-        {
-          "label": "View Recording",
-          "url": "https://www.torrentpharma.com/pdf/investors/Audio_Recording30092026.mp3"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23340074/"
+          "url": "https://www.screener.in/concalls/summary/23342582/"
         }
       ]
     }
