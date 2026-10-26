@@ -1,0 +1,21 @@
+{
+  "capturedOn": "2026-10-26",
+  "capturedAt": "2026-10-26T18:56:00.409Z",
+  "count": 2,
+  "rows": [
+    {
+      "category": "DII",
+      "date": "26-Oct-2026",
+      "buy": 17389.57,
+      "sell": 14780,
+      "net": 2609.57
+    },
+    {
+      "category": "FII",
+      "date": "26-Oct-2026",
+      "buy": 9324.9,
+      "sell": 10787.39,
+      "net": -1462.49
+    }
+  ]
+}
