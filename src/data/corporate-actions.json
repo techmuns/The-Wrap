@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-23T18:44:53.785Z",
+  "fetchedAt": "2026-10-26T20:10:17.721Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -211,6 +211,14 @@
       "isoDate": "2026-07-16"
     },
     {
+      "company": "Auto.Corp.of Goa",
+      "symbol": "ACGL",
+      "type": "buyback",
+      "detail": "Tender Offer · 2005.00 · 29.00",
+      "date": "28 Oct 2026",
+      "isoDate": "2026-10-28"
+    },
+    {
       "company": "VRL Logistics",
       "symbol": "VRLLOG",
       "type": "buyback",
@@ -401,14 +409,6 @@
       "detail": "Tender Offer · 250.00 · 40.00",
       "date": "4 May 2026",
       "isoDate": "2026-05-04"
-    },
-    {
-      "company": "EMA Partners",
-      "symbol": "EMAPARTNER",
-      "type": "buyback",
-      "detail": "Tender Offer · 100.00 · 7.25",
-      "date": "30 Apr 2026",
-      "isoDate": "2026-04-30"
     },
     {
       "company": "Knowledge Marine",
@@ -611,6 +611,14 @@
       "isoDate": "2026-08-28"
     },
     {
+      "company": "Interactive Fin",
+      "symbol": "539692",
+      "type": "rights",
+      "detail": "Ratio 17:2 · ₹0.00 premium",
+      "date": "30 Oct 2026",
+      "isoDate": "2026-10-30"
+    },
+    {
       "company": "Indian Emuls",
       "symbol": "IEML",
       "type": "rights",
@@ -803,12 +811,20 @@
       "isoDate": "2026-08-20"
     },
     {
-      "company": "Kshitij Polyline",
-      "symbol": "KSHITIJPOL",
-      "type": "rights",
-      "detail": "Ratio 2:5 · ₹1.17 premium",
-      "date": "19 Aug 2026",
-      "isoDate": "2026-08-19"
+      "company": "Qgo Finance",
+      "symbol": "538646",
+      "type": "dividend",
+      "detail": "Interim 2 · 1.50%",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
+    },
+    {
+      "company": "Infosys",
+      "symbol": "INFY",
+      "type": "dividend",
+      "detail": "Interim · 520.00%",
+      "date": "3 Nov 2026",
+      "isoDate": "2026-11-03"
     },
     {
       "company": "Pitti Engg.",
@@ -825,6 +841,54 @@
       "detail": "Interim 1 · 2400.00%",
       "date": "2 Nov 2026",
       "isoDate": "2026-11-02"
+    },
+    {
+      "company": "Dalmia BharatLtd",
+      "symbol": "DALBHARAT",
+      "type": "dividend",
+      "detail": "Interim · 200.00%",
+      "date": "30 Oct 2026",
+      "isoDate": "2026-10-30"
+    },
+    {
+      "company": "Railtel Corpn.",
+      "symbol": "RAILTEL",
+      "type": "dividend",
+      "detail": "Interim · 10.00%",
+      "date": "30 Oct 2026",
+      "isoDate": "2026-10-30"
+    },
+    {
+      "company": "DCM Shriram",
+      "symbol": "DCMSHRIRAM",
+      "type": "dividend",
+      "detail": "Interim · 200.00%",
+      "date": "30 Oct 2026",
+      "isoDate": "2026-10-30"
+    },
+    {
+      "company": "SJ Corp",
+      "symbol": "504398",
+      "type": "dividend",
+      "detail": "Interim 1 · 5.00%",
+      "date": "30 Oct 2026",
+      "isoDate": "2026-10-30"
+    },
+    {
+      "company": "Supreme Inds.",
+      "symbol": "SUPREMEIND",
+      "type": "dividend",
+      "detail": "Interim · 600.00%",
+      "date": "30 Oct 2026",
+      "isoDate": "2026-10-30"
+    },
+    {
+      "company": "Hypersoft Tech.",
+      "symbol": "539724",
+      "type": "dividend",
+      "detail": "Interim · 2.50%",
+      "date": "30 Oct 2026",
+      "isoDate": "2026-10-30"
     },
     {
       "company": "Sagility",
@@ -865,6 +929,30 @@
       "detail": "Interim · 75.00%",
       "date": "30 Oct 2026",
       "isoDate": "2026-10-30"
+    },
+    {
+      "company": "Kajaria Ceramics",
+      "symbol": "KAJARIACER",
+      "type": "dividend",
+      "detail": "Interim · 1200.00%",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29"
+    },
+    {
+      "company": "CRISIL",
+      "symbol": "CRISIL",
+      "type": "dividend",
+      "detail": "Interim 3 · 1700.00%",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29"
+    },
+    {
+      "company": "Shriram Finance",
+      "symbol": "SHRIRAMFIN",
+      "type": "dividend",
+      "detail": "Interim · 325.00%",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29"
     },
     {
       "company": "Ksolves India",
@@ -919,94 +1007,6 @@
       "symbol": "OSELDEVICE",
       "type": "dividend",
       "detail": "Interim 1 · 10.00%",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23"
-    },
-    {
-      "company": "Bhansali Engg.",
-      "symbol": "BEPL",
-      "type": "dividend",
-      "detail": "Interim 2 · 100.00%",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23"
-    },
-    {
-      "company": "Garuda Cons",
-      "symbol": "GARUDA",
-      "type": "dividend",
-      "detail": "Interim · 0.60%",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23"
-    },
-    {
-      "company": "Artemis Electri.",
-      "symbol": "AEPL",
-      "type": "dividend",
-      "detail": "Interim · 0.60%",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23"
-    },
-    {
-      "company": "360 ONE",
-      "symbol": "360ONE",
-      "type": "dividend",
-      "detail": "Interim 2 · 750.00%",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23"
-    },
-    {
-      "company": "Oberoi Realty",
-      "symbol": "OBEROIRLTY",
-      "type": "dividend",
-      "detail": "Interim 2 · 20.00%",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23"
-    },
-    {
-      "company": "LTM",
-      "symbol": "LTM",
-      "type": "dividend",
-      "detail": "Interim · 2500.00%",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23"
-    },
-    {
-      "company": "Tech Mahindra",
-      "symbol": "TECHM",
-      "type": "dividend",
-      "detail": "Interim · 300.00%",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23"
-    },
-    {
-      "company": "Modison",
-      "symbol": "MODISONLTD",
-      "type": "dividend",
-      "detail": "Interim · 400.00%",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23"
-    },
-    {
-      "company": "HDB FINANC SER",
-      "symbol": "HDBFS",
-      "type": "dividend",
-      "detail": "Interim · 20.00%",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23"
-    },
-    {
-      "company": "ICICI Lombard",
-      "symbol": "ICICIGI",
-      "type": "dividend",
-      "detail": "Interim · 70.00%",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23"
-    },
-    {
-      "company": "I R F C",
-      "symbol": "IRFC",
-      "type": "dividend",
-      "detail": "Interim · 11.50%",
       "date": "23 Oct 2026",
       "isoDate": "2026-10-23"
     }
