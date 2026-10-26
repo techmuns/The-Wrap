@@ -1,8 +1,86 @@
 {
-  "fetchedAt": "2026-10-23T18:19:07.825Z",
+  "fetchedAt": "2026-10-26T19:55:51.616Z",
   "source": "Screener",
-  "total": 50,
+  "total": 49,
   "items": [
+    {
+      "company": "Chandra Bhagat",
+      "symbol": "542934",
+      "person": "Promoter Group (5)",
+      "role": "Chitra Hemant Bhagat, Prachi Pranav Bhagat, Mahesh...",
+      "buySell": "BUY",
+      "shares": 3500000,
+      "pct": null,
+      "value": 154000000,
+      "mode": "Preferential Offer",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Chandra Bhagat",
+      "symbol": "542934",
+      "person": "Promoter (2)",
+      "role": "Hemant Chandravadan Bhagat, Pranav Hemant Bhagat",
+      "buySell": "BUY",
+      "shares": 1500000,
+      "pct": null,
+      "value": 66000000,
+      "mode": "Preferential Offer",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Mukta Agricultur",
+      "symbol": "535204",
+      "person": "Krishan Khadaria",
+      "role": "Promoter",
+      "buySell": "SELL",
+      "shares": 200000,
+      "pct": null,
+      "value": 1428000,
+      "mode": "Sold",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Karur Vysya Bank",
+      "symbol": "KARURVYSYA",
+      "person": "A J Suriyanarayana",
+      "role": "Promoter",
+      "buySell": "SELL",
+      "shares": 25000,
+      "pct": null,
+      "value": 9342000,
+      "mode": "Sold",
+      "date": "yesterday",
+      "isoDate": null
+    },
+    {
+      "company": "Arvaya Healthcare",
+      "symbol": "524723",
+      "person": "Bidari Kotresh Anilkumar",
+      "role": "Director",
+      "buySell": "BUY",
+      "shares": 591129,
+      "pct": null,
+      "value": null,
+      "mode": "Preferential Offer",
+      "date": "24 Oct 2026",
+      "isoDate": "2026-10-24"
+    },
+    {
+      "company": "Granules India",
+      "symbol": "GRANULES",
+      "person": "Promoter Group (4)",
+      "role": "Chigurupati Uma Devi, Priyanka Chigurupati, Pragny...",
+      "buySell": "BUY",
+      "shares": 24982906,
+      "pct": null,
+      "value": 3650000000,
+      "mode": "Preferential Offer",
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
+    },
     {
       "company": "Avenue Super.",
       "symbol": "DMART",
@@ -13,8 +91,8 @@
       "pct": null,
       "value": 18900000,
       "mode": "Invocation of pledge",
-      "date": "today",
-      "isoDate": null
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
     },
     {
       "company": "Ganon Products",
@@ -26,8 +104,8 @@
       "pct": null,
       "value": 292000,
       "mode": "Sold",
-      "date": "today",
-      "isoDate": null
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
     },
     {
       "company": "Gallantt Ispat L",
@@ -39,8 +117,8 @@
       "pct": null,
       "value": 1500000000,
       "mode": "Block Deal",
-      "date": "today",
-      "isoDate": null
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
     },
     {
       "company": "Gallantt Ispat L",
@@ -52,8 +130,8 @@
       "pct": null,
       "value": null,
       "mode": "Gift",
-      "date": "today",
-      "isoDate": null
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
     },
     {
       "company": "eClerx Services",
@@ -65,8 +143,8 @@
       "pct": null,
       "value": 2531000,
       "mode": "Off Market",
-      "date": "today",
-      "isoDate": null
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
     },
     {
       "company": "Cineline India",
@@ -78,8 +156,8 @@
       "pct": null,
       "value": 482900000,
       "mode": null,
-      "date": "today",
-      "isoDate": null
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
     },
     {
       "company": "Cineline India",
@@ -91,8 +169,8 @@
       "pct": null,
       "value": 31700000,
       "mode": null,
-      "date": "today",
-      "isoDate": null
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
     },
     {
       "company": "Bank of Maha",
@@ -104,8 +182,8 @@
       "pct": null,
       "value": 528000,
       "mode": null,
-      "date": "today",
-      "isoDate": null
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
     },
     {
       "company": "Bank of Maha",
@@ -117,8 +195,8 @@
       "pct": null,
       "value": 3121000,
       "mode": "Sold",
-      "date": "today",
-      "isoDate": null
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
     },
     {
       "company": "Bank of Maha",
@@ -130,8 +208,8 @@
       "pct": null,
       "value": 2877000,
       "mode": "Bought",
-      "date": "today",
-      "isoDate": null
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
     },
     {
       "company": "Callista Indus.",
@@ -143,8 +221,8 @@
       "pct": null,
       "value": 3000000,
       "mode": "Allotment",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "22 Oct 2026",
+      "isoDate": "2026-10-22"
     },
     {
       "company": "Embassy Off.REIT",
@@ -156,8 +234,8 @@
       "pct": null,
       "value": 20000000,
       "mode": "Sold",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "22 Oct 2026",
+      "isoDate": "2026-10-22"
     },
     {
       "company": "Avenue Super.",
@@ -169,8 +247,8 @@
       "pct": null,
       "value": 3636000,
       "mode": "Invocation of pledge",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "22 Oct 2026",
+      "isoDate": "2026-10-22"
     },
     {
       "company": "Avenue Super.",
@@ -182,8 +260,8 @@
       "pct": null,
       "value": 986000,
       "mode": "Sold",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "22 Oct 2026",
+      "isoDate": "2026-10-22"
     },
     {
       "company": "Karur Vysya Bank",
@@ -195,8 +273,8 @@
       "pct": null,
       "value": 1538000,
       "mode": "Sold",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "22 Oct 2026",
+      "isoDate": "2026-10-22"
     },
     {
       "company": "Karur Vysya Bank",
@@ -208,8 +286,8 @@
       "pct": null,
       "value": 769000,
       "mode": "Sold",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "22 Oct 2026",
+      "isoDate": "2026-10-22"
     },
     {
       "company": "Pritika Engineer",
@@ -238,95 +316,30 @@
       "isoDate": "2026-10-21"
     },
     {
-      "company": "Mangal Credit",
-      "symbol": "MANCREDIT",
-      "person": "Promoter And Director (4)",
-      "role": "Meghraj Sohanlal Jain, Hardik Meghraj Jain, Meghra...",
-      "buySell": "BUY",
-      "shares": 1500000,
+      "company": "Airo Lam",
+      "symbol": "AIROLAM",
+      "person": "Sureshbhai Hansarajbhai Patel",
+      "role": "Promoter (SAST)",
+      "buySell": null,
+      "shares": 3250,
       "pct": null,
-      "value": 370500000,
-      "mode": "Allotment",
-      "date": "21 Oct 2026",
-      "isoDate": "2026-10-21"
+      "value": null,
+      "mode": "Acq",
+      "date": "23 Oct 2026",
+      "isoDate": "2026-10-23"
     },
     {
-      "company": "Mangal Credit",
-      "symbol": "MANCREDIT",
-      "person": "Promoter (6)",
-      "role": "Seema Ajit Jain, Ritu Jain, Indra Meghraj Jain, Ri...",
-      "buySell": "BUY",
-      "shares": 3300000,
+      "company": "Cemindia Project",
+      "symbol": "CEMPRO",
+      "person": "Renew Exim DMCC",
+      "role": "Promoter (SAST)",
+      "buySell": null,
+      "shares": 0,
       "pct": null,
-      "value": 815100000,
-      "mode": "Allotment",
-      "date": "21 Oct 2026",
-      "isoDate": "2026-10-21"
-    },
-    {
-      "company": "Mangal Credit",
-      "symbol": "MANCREDIT",
-      "person": "Connected Person (2)",
-      "role": "Disha Jagdish Jain, Disha Jagdish Jain",
-      "buySell": "BUY",
-      "shares": 200000,
-      "pct": null,
-      "value": 49400000.00000001,
-      "mode": "Allotment",
-      "date": "21 Oct 2026",
-      "isoDate": "2026-10-21"
-    },
-    {
-      "company": "Karur Vysya Bank",
-      "symbol": "KARURVYSYA",
-      "person": "R Nageswari",
-      "role": "Promoter Group",
-      "buySell": "SELL",
-      "shares": 1000,
-      "pct": null,
-      "value": 375000,
-      "mode": "Sold",
-      "date": "21 Oct 2026",
-      "isoDate": "2026-10-21"
-    },
-    {
-      "company": "Karur Vysya Bank",
-      "symbol": "KARURVYSYA",
-      "person": "G Rajasekaran",
-      "role": "Promoter",
-      "buySell": "SELL",
-      "shares": 1000,
-      "pct": null,
-      "value": 375000,
-      "mode": "Sold",
-      "date": "21 Oct 2026",
-      "isoDate": "2026-10-21"
-    },
-    {
-      "company": "Magson Retail",
-      "symbol": "MAGSON",
-      "person": "Promoter Group (2)",
-      "role": "United Friends Ventures Llp, Angel Rajesh Francis",
-      "buySell": "BUY",
-      "shares": 2819366,
-      "pct": null,
-      "value": 262900000,
-      "mode": "Allotment",
-      "date": "19 Oct 2026",
-      "isoDate": "2026-10-19"
-    },
-    {
-      "company": "Ahimsa Industrie",
-      "symbol": "AHIMSA",
-      "person": "Promoter (4)",
-      "role": "Ashutosh Gandhi, Sneha Ashutosh Gandhi, Saloni Ash...",
-      "buySell": "SELL",
-      "shares": 2793522,
-      "pct": null,
-      "value": 69800000,
-      "mode": "Off Market",
-      "date": "19 Oct 2026",
-      "isoDate": "2026-10-19"
+      "value": null,
+      "mode": "Change In Percentage",
+      "date": "22 Oct 2026",
+      "isoDate": "2026-10-22"
     },
     {
       "company": "Jay Jalaram Tech",
@@ -338,8 +351,8 @@
       "pct": null,
       "value": null,
       "mode": "Sell",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "22 Oct 2026",
+      "isoDate": "2026-10-22"
     },
     {
       "company": "M Tek Copper",
@@ -351,8 +364,8 @@
       "pct": null,
       "value": null,
       "mode": "Sell",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "22 Oct 2026",
+      "isoDate": "2026-10-22"
     },
     {
       "company": "M Tek Copper",
@@ -364,8 +377,8 @@
       "pct": null,
       "value": null,
       "mode": "Sell",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "22 Oct 2026",
+      "isoDate": "2026-10-22"
     },
     {
       "company": "Nandani Creation",
@@ -377,8 +390,8 @@
       "pct": null,
       "value": null,
       "mode": "Acq",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "22 Oct 2026",
+      "isoDate": "2026-10-22"
     },
     {
       "company": "Airo Lam",
@@ -390,8 +403,8 @@
       "pct": null,
       "value": null,
       "mode": "Acq",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "22 Oct 2026",
+      "isoDate": "2026-10-22"
     },
     {
       "company": "Priti Internati.",
@@ -621,32 +634,6 @@
       "role": "Promoter (SAST)",
       "buySell": "SELL",
       "shares": 120000,
-      "pct": null,
-      "value": null,
-      "mode": "Sell",
-      "date": "8 Oct 2026",
-      "isoDate": "2026-10-08"
-    },
-    {
-      "company": "Docmode Health",
-      "symbol": "DHTL",
-      "person": "Ramesh Kumar Jain",
-      "role": "Promoter (SAST)",
-      "buySell": null,
-      "shares": 80000,
-      "pct": null,
-      "value": null,
-      "mode": "Acq",
-      "date": "8 Oct 2026",
-      "isoDate": "2026-10-08"
-    },
-    {
-      "company": "Jay Jalaram Tech",
-      "symbol": "KORE",
-      "person": "Kamlesh Lalwani",
-      "role": "Promoter (SAST)",
-      "buySell": "SELL",
-      "shares": 10250,
       "pct": null,
       "value": null,
       "mode": "Sell",
