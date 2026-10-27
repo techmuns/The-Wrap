@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-26T18:48:15.433Z",
+  "fetchedAt": "2026-10-27T18:10:10.198Z",
   "universe": "NSE Nifty 500",
   "periods": [
     "4W",
@@ -14,9 +14,9 @@
       "sector": "Media Entertainment & Publication",
       "count": 4,
       "pct": [
-        25,
-        50,
-        50,
+        75,
+        75,
+        75,
         75,
         75
       ]
@@ -25,18 +25,18 @@
       "sector": "Healthcare",
       "count": 44,
       "pct": [
-        25,
-        32,
-        39,
-        48,
-        50
+        66,
+        45,
+        57,
+        59,
+        57
       ]
     },
     {
       "sector": "Services",
       "count": 14,
       "pct": [
-        29,
+        36,
         43,
         43,
         50,
@@ -47,10 +47,10 @@
       "sector": "Information Technology",
       "count": 25,
       "pct": [
-        68,
-        60,
+        64,
+        64,
         56,
-        48,
+        52,
         48
       ]
     },
@@ -58,33 +58,55 @@
       "sector": "Telecommunication",
       "count": 11,
       "pct": [
+        64,
         45,
         45,
         45,
-        45,
-        36
+        45
       ]
     },
     {
       "sector": "Capital Goods",
       "count": 69,
       "pct": [
-        4,
-        16,
-        23,
         29,
-        35
+        20,
+        32,
+        38,
+        41
+      ]
+    },
+    {
+      "sector": "Textiles",
+      "count": 5,
+      "pct": [
+        40,
+        20,
+        20,
+        20,
+        40
       ]
     },
     {
       "sector": "Automobile and Auto Components",
       "count": 40,
       "pct": [
-        20,
-        23,
+        45,
         23,
         25,
-        30
+        28,
+        35
+      ]
+    },
+    {
+      "sector": "Consumer Services",
+      "count": 23,
+      "pct": [
+        57,
+        39,
+        43,
+        39,
+        35
       ]
     },
     {
@@ -92,20 +114,31 @@
       "count": 19,
       "pct": [
         53,
+        16,
         21,
         26,
-        26,
         26
+      ]
+    },
+    {
+      "sector": "Consumer Durables",
+      "count": 16,
+      "pct": [
+        31,
+        13,
+        13,
+        13,
+        25
       ]
     },
     {
       "sector": "Financial Services",
       "count": 97,
       "pct": [
-        11,
-        11,
-        15,
-        19,
+        25,
+        12,
+        18,
+        21,
         24
       ]
     },
@@ -113,54 +146,32 @@
       "sector": "Construction",
       "count": 13,
       "pct": [
-        0,
-        0,
+        15,
         8,
         15,
+        23,
         23
       ]
     },
     {
-      "sector": "Consumer Services",
-      "count": 23,
+      "sector": "Power",
+      "count": 19,
       "pct": [
-        22,
-        30,
-        35,
-        39,
-        22
-      ]
-    },
-    {
-      "sector": "Textiles",
-      "count": 5,
-      "pct": [
-        0,
-        20,
-        20,
-        20,
-        20
+        37,
+        5,
+        16,
+        11,
+        21
       ]
     },
     {
       "sector": "Chemicals",
       "count": 26,
       "pct": [
-        0,
-        0,
+        23,
         15,
         19,
-        19
-      ]
-    },
-    {
-      "sector": "Consumer Durables",
-      "count": 16,
-      "pct": [
-        0,
-        0,
-        6,
-        6,
+        19,
         19
       ]
     },
@@ -168,29 +179,18 @@
       "sector": "Fast Moving Consumer Goods",
       "count": 28,
       "pct": [
-        4,
-        11,
+        21,
+        14,
         18,
         18,
         18
       ]
     },
     {
-      "sector": "Power",
-      "count": 19,
-      "pct": [
-        5,
-        0,
-        5,
-        5,
-        16
-      ]
-    },
-    {
       "sector": "Metals & Mining",
       "count": 20,
       "pct": [
-        5,
+        30,
         5,
         10,
         15,
@@ -201,7 +201,7 @@
       "sector": "Realty",
       "count": 13,
       "pct": [
-        15,
+        31,
         15,
         15,
         15,
@@ -212,7 +212,7 @@
       "sector": "Construction Materials",
       "count": 11,
       "pct": [
-        64,
+        36,
         9,
         9,
         9,
