@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-26T20:10:17.721Z",
+  "fetchedAt": "2026-10-27T19:40:38.904Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -611,12 +611,28 @@
       "isoDate": "2026-08-28"
     },
     {
+      "company": "FRESITA PROTEINS",
+      "symbol": "519242",
+      "type": "rights",
+      "detail": "Ratio 5:6 · ₹110.00 premium",
+      "date": "30 Oct 2026",
+      "isoDate": "2026-10-30"
+    },
+    {
       "company": "Interactive Fin",
       "symbol": "539692",
       "type": "rights",
       "detail": "Ratio 17:2 · ₹0.00 premium",
       "date": "30 Oct 2026",
       "isoDate": "2026-10-30"
+    },
+    {
+      "company": "Urban Enviro",
+      "symbol": "URBAN",
+      "type": "rights",
+      "detail": "Ratio 1:1 · ₹70.00 premium",
+      "date": "28 Oct 2026",
+      "isoDate": "2026-10-28"
     },
     {
       "company": "Indian Emuls",
@@ -795,20 +811,12 @@
       "isoDate": "2026-08-21"
     },
     {
-      "company": "Alan Scott Ente.",
-      "symbol": "539115",
-      "type": "rights",
-      "detail": "Ratio 1:6 · ₹65.00 premium",
-      "date": "21 Aug 2026",
-      "isoDate": "2026-08-21"
-    },
-    {
-      "company": "Viceroy Hotels",
-      "symbol": "VHLTD",
-      "type": "rights",
-      "detail": "Ratio 6:7 · ₹105.00 premium",
-      "date": "20 Aug 2026",
-      "isoDate": "2026-08-20"
+      "company": "Manba Finance",
+      "symbol": "MANBA",
+      "type": "dividend",
+      "detail": "Interim 2 · 2.50%",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
     },
     {
       "company": "Qgo Finance",
@@ -817,6 +825,14 @@
       "detail": "Interim 2 · 1.50%",
       "date": "6 Nov 2026",
       "isoDate": "2026-11-06"
+    },
+    {
+      "company": "Mazagon Dock",
+      "symbol": "MAZDOCK",
+      "type": "dividend",
+      "detail": "Interim · 100.00%",
+      "date": "3 Nov 2026",
+      "isoDate": "2026-11-03"
     },
     {
       "company": "Infosys",
@@ -841,6 +857,38 @@
       "detail": "Interim 1 · 2400.00%",
       "date": "2 Nov 2026",
       "isoDate": "2026-11-02"
+    },
+    {
+      "company": "Trident Lifeline",
+      "symbol": "543616",
+      "type": "dividend",
+      "detail": "Interim 1 · 5.00%",
+      "date": "30 Oct 2026",
+      "isoDate": "2026-10-30"
+    },
+    {
+      "company": "REC Ltd",
+      "symbol": "RECLTD",
+      "type": "dividend",
+      "detail": "Interim 2 · 35.00%",
+      "date": "30 Oct 2026",
+      "isoDate": "2026-10-30"
+    },
+    {
+      "company": "Supreme Petroch.",
+      "symbol": "SPLPETRO",
+      "type": "dividend",
+      "detail": "Interim · 125.00%",
+      "date": "30 Oct 2026",
+      "isoDate": "2026-10-30"
+    },
+    {
+      "company": "Siyaram Silk",
+      "symbol": "SIYSIL",
+      "type": "dividend",
+      "detail": "Interim 1 · 200.00%",
+      "date": "30 Oct 2026",
+      "isoDate": "2026-10-30"
     },
     {
       "company": "Dalmia BharatLtd",
@@ -931,6 +979,14 @@
       "isoDate": "2026-10-30"
     },
     {
+      "company": "Central Mine Pla",
+      "symbol": "CMPDI",
+      "type": "dividend",
+      "detail": "Interim 2 · 52.50%",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29"
+    },
+    {
       "company": "Kajaria Ceramics",
       "symbol": "KAJARIACER",
       "type": "dividend",
@@ -953,62 +1009,6 @@
       "detail": "Interim · 325.00%",
       "date": "29 Oct 2026",
       "isoDate": "2026-10-29"
-    },
-    {
-      "company": "Ksolves India",
-      "symbol": "KSOLVES",
-      "type": "dividend",
-      "detail": "Interim 2 · 20.00%",
-      "date": "29 Oct 2026",
-      "isoDate": "2026-10-29"
-    },
-    {
-      "company": "Cyient",
-      "symbol": "CYIENT",
-      "type": "dividend",
-      "detail": "Interim · 240.00%",
-      "date": "28 Oct 2026",
-      "isoDate": "2026-10-28"
-    },
-    {
-      "company": "Nippon Life Ind.",
-      "symbol": "NAM-INDIA",
-      "type": "dividend",
-      "detail": "Interim · 95.00%",
-      "date": "28 Oct 2026",
-      "isoDate": "2026-10-28"
-    },
-    {
-      "company": "Anantam Highways",
-      "symbol": "ANANTAM",
-      "type": "dividend",
-      "detail": "Final · 2.75%",
-      "date": "27 Oct 2026",
-      "isoDate": "2026-10-27"
-    },
-    {
-      "company": "L&T Technology",
-      "symbol": "LTTS",
-      "type": "dividend",
-      "detail": "Interim · 1000.00%",
-      "date": "27 Oct 2026",
-      "isoDate": "2026-10-27"
-    },
-    {
-      "company": "Hexaware Tech.",
-      "symbol": "HEXT",
-      "type": "dividend",
-      "detail": "Interim 2 · 950.00%",
-      "date": "26 Oct 2026",
-      "isoDate": "2026-10-26"
-    },
-    {
-      "company": "OSEL Devices",
-      "symbol": "OSELDEVICE",
-      "type": "dividend",
-      "detail": "Interim 1 · 10.00%",
-      "date": "23 Oct 2026",
-      "isoDate": "2026-10-23"
     }
   ]
 }
