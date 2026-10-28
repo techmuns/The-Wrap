@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-27T18:10:10.198Z",
+  "fetchedAt": "2026-10-28T18:26:16.809Z",
   "universe": "NSE Nifty 500",
   "periods": [
     "4W",
@@ -14,7 +14,7 @@
       "sector": "Media Entertainment & Publication",
       "count": 4,
       "pct": [
-        75,
+        100,
         75,
         75,
         75,
@@ -25,10 +25,10 @@
       "sector": "Healthcare",
       "count": 44,
       "pct": [
-        66,
-        45,
-        57,
-        59,
+        68,
+        48,
+        52,
+        52,
         57
       ]
     },
@@ -49,95 +49,73 @@
       "pct": [
         64,
         64,
-        56,
-        52,
+        44,
+        48,
         48
-      ]
-    },
-    {
-      "sector": "Telecommunication",
-      "count": 11,
-      "pct": [
-        64,
-        45,
-        45,
-        45,
-        45
-      ]
-    },
-    {
-      "sector": "Capital Goods",
-      "count": 69,
-      "pct": [
-        29,
-        20,
-        32,
-        38,
-        41
-      ]
-    },
-    {
-      "sector": "Textiles",
-      "count": 5,
-      "pct": [
-        40,
-        20,
-        20,
-        20,
-        40
       ]
     },
     {
       "sector": "Automobile and Auto Components",
       "count": 40,
       "pct": [
-        45,
-        23,
+        48,
         25,
+        30,
+        35,
+        40
+      ]
+    },
+    {
+      "sector": "Textiles",
+      "count": 5,
+      "pct": [
+        20,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    {
+      "sector": "Capital Goods",
+      "count": 69,
+      "pct": [
+        23,
+        22,
         28,
-        35
+        35,
+        39
+      ]
+    },
+    {
+      "sector": "Telecommunication",
+      "count": 11,
+      "pct": [
+        27,
+        45,
+        36,
+        36,
+        36
       ]
     },
     {
       "sector": "Consumer Services",
       "count": 23,
       "pct": [
-        57,
         39,
-        43,
         39,
-        35
-      ]
-    },
-    {
-      "sector": "Oil Gas & Consumable Fuels",
-      "count": 19,
-      "pct": [
-        53,
-        16,
-        21,
-        26,
+        30,
+        35,
         26
-      ]
-    },
-    {
-      "sector": "Consumer Durables",
-      "count": 16,
-      "pct": [
-        31,
-        13,
-        13,
-        13,
-        25
       ]
     },
     {
       "sector": "Financial Services",
       "count": 97,
       "pct": [
-        25,
-        12,
-        18,
+        28,
+        14,
+        19,
         21,
         24
       ]
@@ -148,7 +126,7 @@
       "pct": [
         15,
         8,
-        15,
+        23,
         23,
         23
       ]
@@ -157,9 +135,9 @@
       "sector": "Power",
       "count": 19,
       "pct": [
-        37,
-        5,
-        16,
+        26,
+        11,
+        11,
         11,
         21
       ]
@@ -168,9 +146,20 @@
       "sector": "Chemicals",
       "count": 26,
       "pct": [
-        23,
+        19,
         15,
         19,
+        19,
+        19
+      ]
+    },
+    {
+      "sector": "Consumer Durables",
+      "count": 16,
+      "pct": [
+        44,
+        25,
+        6,
         19,
         19
       ]
@@ -179,29 +168,29 @@
       "sector": "Fast Moving Consumer Goods",
       "count": 28,
       "pct": [
-        21,
-        14,
+        25,
+        11,
         18,
         18,
         18
       ]
     },
     {
-      "sector": "Metals & Mining",
-      "count": 20,
+      "sector": "Oil Gas & Consumable Fuels",
+      "count": 19,
       "pct": [
-        30,
-        5,
-        10,
-        15,
-        15
+        16,
+        11,
+        21,
+        21,
+        16
       ]
     },
     {
       "sector": "Realty",
       "count": 13,
       "pct": [
-        31,
+        23,
         15,
         15,
         15,
@@ -209,14 +198,25 @@
       ]
     },
     {
+      "sector": "Metals & Mining",
+      "count": 20,
+      "pct": [
+        10,
+        0,
+        10,
+        10,
+        10
+      ]
+    },
+    {
       "sector": "Construction Materials",
       "count": 11,
       "pct": [
-        36,
+        27,
         9,
         9,
         9,
-        9
+        0
       ]
     }
   ]
