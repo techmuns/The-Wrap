@@ -1,520 +1,517 @@
 {
-  "fetchedAt": "2026-10-27T19:19:43.425Z",
+  "fetchedAt": "2026-10-28T19:35:04.778Z",
   "source": "Screener",
   "total": 50,
   "byCategory": {
-    "capex": 8,
-    "other": 21,
-    "order-wins": 2,
-    "rights": 3,
-    "bonus": 6,
-    "merger": 2,
-    "open-offer": 2,
-    "acquisitions": 1,
-    "buyback": 2,
-    "jv": 1,
-    "fund-raising": 2
+    "fund-raising": 3,
+    "other": 26,
+    "order-wins": 6,
+    "merger": 4,
+    "jv": 3,
+    "acquisitions": 2,
+    "capex": 3,
+    "rights": 3
   },
   "items": [
     {
-      "company": "Sterling Tools",
-      "symbol": "STERTOOLS",
-      "category": "capex",
-      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
-      "headline": "Sterling Tools announced Q2/H1FY27 results, record standalone income, new CFO, and commissioning of EV production lines.",
+      "company": "Moschip Tech.",
+      "symbol": "MOSCHIP",
+      "category": "fund-raising",
+      "subject": "Announcement under Regulation 30 (LODR)-Preferential Issue",
+      "headline": "Board approved Q2 FY26 results, 73% Vayavya Labs acquisition for ₹266.71 crore, and EGM on 25 Nov 2026.",
       "date": null,
       "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e218df45-3fd6-4bd3-9b4e-c87e0e2ec937.pdf"
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13f41de3-8a70-4445-81ce-5e45ab4b469b.pdf"
     },
     {
-      "company": "Elantas Beck",
-      "symbol": "ELANTAS",
+      "company": "De Neers Tools",
+      "symbol": "DENEERS",
       "category": "other",
-      "subject": "Announcement Under Regulation 30 Of SEBI (LODR), Regulations 2015",
-      "headline": "GPCB permanently revoked closure direction for Ankleshwar plant; operations continue subject to conditions.",
+      "subject": "Shareholders meeting",
+      "headline": "Postal ballot seeks shareholder approval for NSE Emerge to Main Board migration; e-voting October 29-November 27, 2026.",
       "date": null,
       "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee61091f-cab7-4062-8dfb-62d6b35480b1.pdf"
+      "url": "https://nsearchives.nseindia.com/corporate/DENEERS_28102026230835_CoverLetterandPBNotice.pdf"
     },
     {
-      "company": "Schaeffler India",
-      "symbol": "SCHAEFFLER",
+      "company": "Moschip Tech.",
+      "symbol": "MOSCHIP",
+      "category": "other",
+      "subject": "Board Meeting Outcome for Outcome Of Board Meeting Held On 28-10-2026",
+      "headline": "MosChip to acquire 73% of Vayavya Labs for ₹266.71 crore; EGM on 25 November 2026.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c1409c4-43ee-4447-ad77-d1b3f7013ef6.pdf"
+    },
+    {
+      "company": "Taurian MPS",
+      "symbol": "TAURIAN",
       "category": "order-wins",
-      "subject": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
-      "headline": "GST demand order levies Rs 13.85 crore penalty for FY2020-21 to FY2023-24; company will appeal.",
+      "subject": "Disclosure of material issue",
+      "headline": "SEBI order dated Oct 27, 2026 imposed ₹5 lakh penalty on Taurian MPS for IPO disclosure non-compliance; promoters also fined.",
       "date": null,
       "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50de6316-3f87-4969-bdca-5597533f9c4b.pdf"
+      "url": "https://nsearchives.nseindia.com/corporate/TAURIANINC_28102026223927_Nseintimation__penaltysigned.pdf"
     },
     {
-      "company": "FratelliVineyard",
-      "symbol": "541741",
-      "category": "rights",
-      "subject": "Proposed Rights Issue Of The Partly Paid-Up Equity Shares Of Fratelli Vineyards Limited",
-      "headline": "Rights issue of 33,18,503 partly paid shares at ₹90, raising up to ₹2,986.65 lakh; record date October 30, 2026.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c55e34e4-6a36-4d4d-a488-81ea41f0ef52.pdf"
-    },
-    {
-      "company": "Reliance Industries",
-      "symbol": "RELIANCE",
+      "company": "Hexaware Tech.",
+      "symbol": "HEXT",
       "category": "other",
-      "subject": "Listing Of Equity Shares Of Jio Platforms Limited",
-      "headline": "Jio Platforms shares get listing approval; trading starts Oct 28, 2026, with results board meeting Oct 30.",
+      "subject": "Voluntary Liquidation / Wind Down Of Step-Down Subsidiary In Netherland",
+      "headline": "On 28 Oct 2026, board approved Q2 results, CEO change, director reshuffle, subsidiary restructuring, and 13 lakh shares.",
       "date": null,
       "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70bfc361-3c9a-45d0-8240-e1b544debd01.pdf"
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fc8aeb90-99b6-4415-ba6f-b3b2fcde2c4a.pdf"
     },
     {
-      "company": "Shreeji Global",
-      "symbol": "SHETHJI",
-      "category": "bonus",
-      "subject": "Outcome of Board Meeting",
-      "headline": "Board approved 40.74 crore preferential warrants, 1:1 bonus issue, authorised capital hike, and EGM on 26 Nov 2026.",
+      "company": "GMR Airports",
+      "symbol": "GMRAIRPORT",
+      "category": "other",
+      "subject": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+      "headline": "Sanjeev Gupta appointed Deputy CEO from Oct. 29, 2026; Alexis Benjamin Riols resigned Oct. 28, 2026.",
       "date": null,
       "isoDate": null,
-      "url": "https://nsearchives.nseindia.com/corporate/SHREEJIGLOBAL_27102026214544_Outcome_of_Board_Meeting.pdf"
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c820d45c-3103-4497-94cc-b7e101476269.pdf"
     },
     {
-      "company": "Shreeji Global",
-      "symbol": "SHETHJI",
-      "category": "bonus",
-      "subject": "General Updates",
-      "headline": "Board approved ₹40.74 crore preferential warrants, 1:1 bonus issue, and EGM on Nov 26, 2026.",
+      "company": "GMR Airports",
+      "symbol": "GMRAIRPORT",
+      "category": "other",
+      "subject": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+      "headline": "Sanjeev Gupta appointed Deputy CEO from Oct. 29, 2026; Alexis Benjamin Riols resigns Oct. 28, 2026.",
       "date": null,
       "isoDate": null,
-      "url": "https://nsearchives.nseindia.com/corporate/SHREEJIGLOBAL_27102026214120_Outcome_of_Board_Meeting.pdf"
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=922cb876-f4bb-4e24-a9b3-78a79f4092d2.pdf"
     },
     {
-      "company": "Shreeji Global",
-      "symbol": "SHETHJI",
-      "category": "bonus",
-      "subject": "Outcome of Board Meeting",
-      "headline": "Board approved 1:1 bonus issue, ₹40.74 crore warrants, authorised capital hike to ₹50 crore, EGM on Nov 26.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://nsearchives.nseindia.com/corporate/SHREEJIGLOBAL_27102026213952_Outcome_of_Board_Meeting.pdf"
-    },
-    {
-      "company": "Shreeji Global",
-      "symbol": "SHETHJI",
-      "category": "bonus",
-      "subject": "Bonus",
-      "headline": "Board approved 1:1 bonus issue, Rs 40.74 crore preferential warrants, capital hike; EGM on 26 Nov 2026.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://nsearchives.nseindia.com/corporate/SHREEJIGLOBAL_27102026213823_Outcome_of_Board_Meeting.pdf"
-    },
-    {
-      "company": "Waaree Energies",
-      "symbol": "WAAREEENER",
-      "category": "capex",
-      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
-      "headline": "Waaree reported H1 FY27 revenue of ₹15,449.5 crore, approved $37 million Arizona expansion, and began 5.15 GWh BESS manufacturing.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=974fbee7-d86a-46bb-ab15-66999c6ab4eb.pdf"
-    },
-    {
-      "company": "Tilak Ventures",
-      "symbol": "503663",
+      "company": "Hexaware Tech.",
+      "symbol": "HEXT",
       "category": "merger",
-      "subject": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement",
-      "headline": "Board approved demerger of commodities trading into Tilak Jewels; share exchange ratio 7:3 on October 27, 2026.",
+      "subject": "Approval Of Merger Of Wholly Owned Step-Down Subsidiary Companies Into Wholly Owned Subsidiaries And Slump Sale Of Tech SMC Square India Pvt Ltd From Hexaware Technologies Inc, USA To Tech SMC Squared (GCC) India Private Limited, All Being Wholly Owned Subsidiaries /Step Down Wholly Owned Subsidiary Of The Company",
+      "headline": "On Oct 28, 2026, board approved Q2 FY27 results, new CEO, director changes, restructuring, and 13 lakh ESOP shares.",
       "date": null,
       "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd3a8ca1-9845-4f7e-a808-4405d0549b56.pdf"
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e68aa6f-91fb-4642-a3bf-2e8bc1af7879.pdf"
     },
     {
-      "company": "Madhav Infra",
-      "symbol": "MADHAVIPL",
-      "category": "rights",
-      "subject": "Announcement under Regulation 30 (LODR)-Raising of Funds",
-      "headline": "Board approved Q2 FY26 results and rights issue up to ₹49 crore, subject to approvals.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c8d93a41-f711-4acf-a211-17a567b76834.pdf"
-    },
-    {
-      "company": "Choice Intl.",
-      "symbol": "CHOICEIN",
-      "category": "bonus",
-      "subject": "Board Meeting Intimation for To Consider And Approve The Un-Audited Financial Results For The Quarter And Half Year Ended September 30, 2026 And To Consider The Proposal For Bonus Issue.",
-      "headline": "Board to meet on 2 Nov 2026 to approve Sep 2026 results and consider bonus issue.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e817f652-3fbc-4233-8e2f-aed7a4b6d2b7.pdf"
-    },
-    {
-      "company": "Kkalpana Plastic",
-      "symbol": "523652",
-      "category": "open-offer",
-      "subject": "Board Meeting Outcome for Outcome Of 03Rd Of 2026-2027 Board Meeting Held On 27.10.2026",
-      "headline": "Board approves open offer completion, management change, new directors/CFO, name and office change; Q2 FY27 results.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e62032a-e740-4a9a-b7fe-aa3975807392.pdf"
-    },
-    {
-      "company": "Madhav Infra",
-      "symbol": "MADHAVIPL",
-      "category": "rights",
-      "subject": "Board Meeting Outcome for Intimation Of Board Meeting Outcome Held Today, I.E., On Tuesday, The 27Th Of October, 2026, As per Regulation 30 And 33 Of The SEBI (LODR) Regulations, 2015.",
-      "headline": "Board approved Q2 FY27 results and rights issue up to Rs 49 crore on 27 Oct 2026.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb81dc17-6f4a-4fbf-bc39-08ee0a9158ca.pdf"
-    },
-    {
-      "company": "Capri Global",
-      "symbol": "CGCL",
+      "company": "Zensar Tech.",
+      "symbol": "ZENSARTECH",
       "category": "other",
-      "subject": "Financial Results For Q2 And Half Year Ended September 30, 2026",
-      "headline": "Board approved Q2 FY27 results; company issued USD 300 million 7.55% senior secured notes due December 2029.",
+      "subject": "Outcome Of Board Meeting",
+      "headline": "Q2 FY27 results approved; M3BI India to merge into Zensar from April 1, 2027, subject to approvals.",
       "date": null,
       "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=afff041a-26cf-41b0-8818-681966b5f193.pdf"
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae3c8eab-0f3a-4245-beb7-a25e23cb5537.pdf"
     },
     {
-      "company": "Piramal Pharma",
-      "symbol": "PPLPHARMA",
-      "category": "acquisitions",
-      "subject": "Board Meeting Outcome for Outcome Of Board Meeting Of Piramal Pharma Limited Held On 27Th October, 2026",
-      "headline": "Board approved Q2/H1 FY26 results and acquired 40.67% Yapan Bio stake for ₹76.09 crore.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e54447f-87b8-4545-a4bd-29046f07059c.pdf"
-    },
-    {
-      "company": "Shreedhar Spinners",
-      "symbol": "SHREEDHAR",
-      "category": "capex",
-      "subject": "Outcome of Board Meeting",
-      "headline": "Board approved H1 FY2027 results, 9,00,900 warrants at Rs113, and 3,500 MT capacity expansion by Q2 FY2028-29.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://nsearchives.nseindia.com/corporate/SHREEDHAR_27102026204932_27102026.pdf"
-    },
-    {
-      "company": "Capri Global",
-      "symbol": "CGCL",
-      "category": "other",
-      "subject": "Board Meeting Outcome for Outcome Of The Meeting Of Board Of Capri Global Capital Limited Held On October 27, 2026",
-      "headline": "Board approved Q2 FY27 results; company issued USD 300 million 7.55% notes due December 2029.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b710e83-f8dd-41a2-817d-93809a080fe3.pdf"
-    },
-    {
-      "company": "Syngene Intl.",
-      "symbol": "SYNGENE",
-      "category": "other",
-      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
-      "headline": "Q2 FY27 revenue rose 13% sequentially; CFO Deepak Jain to exit; Bayview biologics got first manufacturing agreement.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=316c4f90-c29d-4699-af57-684b346bd9b6.pdf"
-    },
-    {
-      "company": "Syngene Intl.",
-      "symbol": "SYNGENE",
+      "company": "Hexaware Tech.",
+      "symbol": "HEXT",
       "category": "other",
       "subject": "Announcement under Regulation 30 (LODR)-Change in Management",
-      "headline": "CFO Deepak Jain to exit; Ajay Tandon resigns Oct 30, 2026; two executives moved to Non-SMP.",
+      "headline": "Board approved Q2 FY27 results, CEO change, two director resignations, subsidiary restructuring, and 13 lakh ESOP shares allotment.",
       "date": null,
       "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5bac8d08-1104-47cb-b906-30ba113648f3.pdf"
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=35d43331-ef9a-4dd4-8d74-79708766b9bb.pdf"
     },
     {
-      "company": "NLC India",
-      "symbol": "NLCINDIA",
+      "company": "Hexaware Tech.",
+      "symbol": "HEXT",
       "category": "other",
-      "subject": "Board Meeting Intimation for Board Meeting Intimation For Regulation 29 & 50 Of SEBI (LODR) Regulations, 2015 - Prior Intimation Of Board Meeting.",
-      "headline": "Board meets on 2 Nov 2026 to approve results, interim dividend, and up to ₹2,500 crore bond issuance.",
+      "subject": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+      "headline": "Board approved Q2 FY26 results, appointed Vivek Jetley CEO, and allotted 13 lakh equity shares.",
       "date": null,
       "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=475791ee-b155-41a8-b423-623b677eded7.pdf"
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=10845073-acf3-422d-a6de-a8533676a3ed.pdf"
     },
     {
-      "company": "Allied Blenders",
-      "symbol": "ABDL",
-      "category": "capex",
-      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
-      "headline": "ABD Q2FY27 income from operations rose 15.8% to ₹1,152 crore; commissioned Moradabad bottling and Rangapur distillery.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1947d54-01aa-40ce-bbf8-87b43c1f591a.pdf"
-    },
-    {
-      "company": "Gulf Oil Lubric.",
-      "symbol": "GULFOILLUB",
+      "company": "Hexaware Tech.",
+      "symbol": "HEXT",
       "category": "other",
-      "subject": "Announcement under Regulation 30 (LODR)-Strikes /Lockouts / Disturbances",
-      "headline": "Fire broke out at Umbergaon warehouse on Oct. 27, 2026; no injuries, damage under assessment.",
+      "subject": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+      "headline": "Board approved Q2 FY27 results, CEO transition, director changes, subsidiary restructuring, Mauritius subsidiary, and 13 lakh ESOP shares allotment.",
       "date": null,
       "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d2d4260-29a9-4839-894e-3a53e729ad8d.pdf"
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1b6b5e8-c09f-4dbb-9a29-b196f85458b5.pdf"
     },
     {
-      "company": "Shreedhar Spinners",
-      "symbol": "SHREEDHAR",
-      "category": "capex",
-      "subject": "Outcome of Board Meeting",
-      "headline": "Board approved half-year results, ₹10.18 crore warrant allotment, and 3,500 MT cotton yarn capacity expansion by Q2 FY2028-29.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://nsearchives.nseindia.com/corporate/SHREEDHAR_27102026201103_27102026.pdf"
-    },
-    {
-      "company": "ACE Alpha Tech",
-      "symbol": "544431",
-      "category": "other",
-      "subject": "Board Meeting Intimation for The Meeting Scheduled To Be Held On Friday, October 30, 2026.",
-      "headline": "Board meets October 30, 2026 to approve half-year results and strategic restructuring proposal.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f4cb2b4-dab7-4575-a020-17fd41d55c22.pdf"
-    },
-    {
-      "company": "Medi Assist Ser.",
-      "symbol": "MEDIASSIST",
-      "category": "buyback",
-      "subject": "Board Meeting Intimation for Intimation Of Board Meeting",
-      "headline": "Board meeting on October 30, 2026 to approve Q2/H1 results and consider share buyback.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a71f3e7-b41f-4dfa-bd3f-b1653ed537d9.pdf"
-    },
-    {
-      "company": "ICICI AMC",
-      "symbol": "ICICIAMC",
-      "category": "other",
-      "subject": "Announcement under Regulation 30 (LODR)-Change in Management",
-      "headline": "Anand Shah resigns as CIO-PMS and AIF, effective close of business on November 12, 2026.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=882025ed-d2c0-4803-9a5b-5d9c4defa3c3.pdf"
-    },
-    {
-      "company": "Tata Motors",
-      "symbol": "TMCV",
-      "category": "other",
-      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
-      "headline": "TML CV Holdings reaches 89.42% of Iveco; offer unconditional, payment on 30 October 2026, reopening 2-6 November.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb4d0507-cdfe-4484-aa7c-e48969e27975.pdf"
-    },
-    {
-      "company": "JSW Cement",
-      "symbol": "JSWCEMENT",
-      "category": "merger",
-      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
-      "headline": "Q2 FY27 revenue rose 33% to ₹1,912 crore; board approved Shiva Cement amalgamation and Nagaur capacity expansion.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=23a14831-c31d-4a52-a089-be186407bd34.pdf"
-    },
-    {
-      "company": "Nephrocare Health Services",
-      "symbol": "NEPHROPLUS",
+      "company": "Dodla Dairy",
+      "symbol": "DODLA",
       "category": "jv",
-      "subject": "Announcement under Regulation 30 (LODR)-Memorandum of Understanding /Agreements",
-      "headline": "Nephrocare subsidiary acquires dialysis center assets in Quezon City, Philippines, under ATA dated October 27, 2026.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25adf021-6b47-43c4-a133-cfc95d8db68f.pdf"
-    },
-    {
-      "company": "PG Electroplast",
-      "symbol": "PGEL",
-      "category": "other",
       "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
-      "headline": "Q2 FY27 revenue rose 42.5% to Rs 933.88 crore; new washing machine and Bhiwadi facilities operational.",
+      "headline": "Dodla Dairy reported Q2/H1 FY27 results and approved 40:60 JV with Meadow India Holdings.",
       "date": null,
       "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8356cad-a49a-4b99-a5f1-6008c4b9719a.pdf"
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17960bc7-d502-476e-8194-7a080f1173cf.pdf"
     },
     {
-      "company": "FDC",
-      "symbol": "FDC",
-      "category": "buyback",
-      "subject": "Corporate Action-Buy back",
-      "headline": "Board approved ₹120 crore buyback at ₹500/share; Q2FY27 results announced, record date November 13, 2026.",
+      "company": "One Global Serv",
+      "symbol": "ONEGLOBAL",
+      "category": "other",
+      "subject": "Announcement under Regulation 30 (LODR)-Allotment",
+      "headline": "Allotted 7,06,068 equity shares preferentially to Mr. Suresh and Ms. Nithya on 28 Oct 2026.",
       "date": null,
       "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ec48613c-8443-4290-be00-cbf26da7d42e.pdf"
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02df0914-1881-40c4-a2d2-0fada82226bd.pdf"
+    },
+    {
+      "company": "Dodla Dairy",
+      "symbol": "DODLA",
+      "category": "jv",
+      "subject": "Approved The Proposal To Establish A Joint Venture Company In India",
+      "headline": "Board approved Q2 FY27 results and proposed 40:60 JV with Meadow India for dairy ingredients.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b1bd9f1-11a9-48e7-8c2b-4ef23172c864.pdf"
+    },
+    {
+      "company": "Hexaware Tech.",
+      "symbol": "HEXT",
+      "category": "other",
+      "subject": "Board Meeting Outcome for Outcome Of Board Meeting",
+      "headline": "Board approved Q2 FY26 results, CEO transition, director changes, restructuring, Mauritius subsidiary, and 13 lakh ESOP shares.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=411e650e-23ce-453d-97ec-7d9b6957ad17.pdf"
+    },
+    {
+      "company": "Hexaware Tech.",
+      "symbol": "HEXT",
+      "category": "other",
+      "subject": "Board Meeting Outcome for Outcome Of Board Meeting",
+      "headline": "Board approved Q2FY27 results, appointed Vivek Jetley CEO, accepted two director resignations, and allotted 13 lakh shares.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1de1a2b6-48a2-4b08-a6e0-675e9179e0f5.pdf"
+    },
+    {
+      "company": "Bajaj Electrical",
+      "symbol": "BAJAJELEC",
+      "category": "other",
+      "subject": "Press Release Titled 'Bajaj Electricals Announces Evolution Of Board Leadership'.",
+      "headline": "Shekhar Bajaj steps down as Executive Chairman on Dec 31, 2026; Sudarshan Sampathkumar to be Non-Executive Chairman.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b3a110fb-0c8c-4719-b849-5431c9925f27.pdf"
+    },
+    {
+      "company": "Aarti Pharma",
+      "symbol": "AARTIPHARM",
+      "category": "other",
+      "subject": "Unaudited Financial Results For The Quarter And Half Year Ended September 30, 2026 - Uploading A Clear Version",
+      "headline": "Aarti Pharmalabs approved Q2 FY27 results, CFO resignation/appointment, and disclosed Rs 5,746 lakh stamp-duty contingent liability.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7d2999f-d784-4482-bdc6-b7a64c4eb8f9.pdf"
+    },
+    {
+      "company": "Dodla Dairy",
+      "symbol": "DODLA",
+      "category": "jv",
+      "subject": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 28 October 2026",
+      "headline": "Board approved Q2 FY26 results and 40:60 JV with Meadow India Holdings for B2B dairy ingredients.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18242d7c-98ef-419c-86e7-7204f7bdc209.pdf"
+    },
+    {
+      "company": "Shreeji Global",
+      "symbol": "SHETHJI",
+      "category": "order-wins",
+      "subject": "Action(s) taken or orders passed",
+      "headline": "Customs order imposes ₹16.93 crore duty, equal penalty, ₹6 crore fines; company to appeal CESTAT.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://nsearchives.nseindia.com/corporate/SHREEJIGLOBAL_28102026213611_Shreeji_NSE_Customs_Announcement__1___2_.pdf"
+    },
+    {
+      "company": "TruCap Finance",
+      "symbol": "TRU",
+      "category": "fund-raising",
+      "subject": "Statement Of Deviation & Variation For The Quarter Ended September 30, 2026.",
+      "headline": "Board approved Q2 FY26 results, Rs58 crore fund raising, ESOP plan, and senior management changes.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8473742e-75b2-4ed1-ac54-0bdf0af8d3c0.pdf"
+    },
+    {
+      "company": "TruCap Finance",
+      "symbol": "TRU",
+      "category": "other",
+      "subject": "Unaudited Standalone & Consolidated Financial Results For The Quarter And Half Year Ended September 30, 2026",
+      "headline": "Q2 FY27 standalone loss ₹1,911 lakh; auditors flag going-concern uncertainty and lender restructuring.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad2955f3-3a6f-4a0a-9296-7ddeee52d6f0.pdf"
+    },
+    {
+      "company": "Cochin Shipyard",
+      "symbol": "COCHINSHIP",
+      "category": "acquisitions",
+      "subject": "Updates On The Acquisition Of 23% Equity Stake In Conoship International Holding B.V., Netherlands",
+      "headline": "Cochin Shipyard completed acquisition of 23% stake in Conoship International Holding B.V. on October 28, 2026.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=997ada6b-da28-4f7e-bc7a-75aa730228a1.pdf"
+    },
+    {
+      "company": "TruCap Finance",
+      "symbol": "TRU",
+      "category": "other",
+      "subject": "Board Meeting Outcome for Outcome Of The Board Meeting",
+      "headline": "Board approved Q2 FY27 results, up to Rs58 crore fundraising, new senior management, ESOP plan, postal ballot.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deecceca-ec1e-4da0-ac5c-7f62178c2536.pdf"
     },
     {
       "company": "ACME Solar Hold.",
       "symbol": "ACMESOLAR",
       "category": "capex",
-      "subject": "Update On Commissioning Of Battery Energy Storage System (BESS) Project",
-      "headline": "ACME Solar commissioned 35.77 MW/143.08 MWh BESS at Bikaner; COD on October 29, 2026.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=359e185a-c49f-4ba0-845d-7b015c4619f3.pdf"
-    },
-    {
-      "company": "Secmark Consult.",
-      "symbol": "SECMARK",
-      "category": "other",
-      "subject": "Intimation Under Regulation 30(6) Of SEBI (LODR) Regulations, 2015.",
-      "headline": "SecMark proposes up to Rs. 48 crore investment to establish a Mineral Exchange via subsidiary or new entity.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63912a9b-7929-49ba-a25b-c74e10b82846.pdf"
-    },
-    {
-      "company": "Aeroflex Enter.",
-      "symbol": "AEROENTER",
-      "category": "other",
-      "subject": "Announcement under Regulation 30 (LODR)-Amendments to Memorandum & Articles of Association",
-      "headline": "MCA approved MOA object clause changes adding data centres and hospitality businesses on October 27, 2026.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=604526f3-ea89-4140-a979-a6a03d6e4f9b.pdf"
-    },
-    {
-      "company": "Mehai Technology",
-      "symbol": "540730",
-      "category": "other",
-      "subject": "Disclosure Under Regulation 30 Read With Schedule III Of The SEBI (LODR) Regulations, 2015",
-      "headline": "11.86 crore convertible warrants lapsed; Rs 10.38 crore upfront amount forfeited, with no capital change.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92ffd4c2-ac5a-42c9-93fb-cb909e3a5a7b.pdf"
-    },
-    {
-      "company": "Comrade Applian.",
-      "symbol": "543921",
-      "category": "open-offer",
-      "subject": "Draft Letter of Offer",
-      "headline": "Draft open offer for up to 26,46,487 shares at ₹35/share; offer opens Dec 8, 2026.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=C1CD7775-EBAE-41F5-A64C-165E92A40A19-191135.pdf"
-    },
-    {
-      "company": "Swati Projects",
-      "symbol": "543914",
-      "category": "other",
-      "subject": "Board Meeting Intimation for Resignation Of Director",
-      "headline": "Board meets on 6 November 2026 to consider Mr. ShreeGopal Daga’s resignation.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ec30b74-1c1c-4c98-aae4-24b447cf29b9.pdf"
-    },
-    {
-      "company": "Shah Investor",
-      "symbol": "SHAHINVEST",
-      "category": "other",
-      "subject": "Board Meeting Outcome for Outcome Of Board Meeting Held On October 27, 2026.",
-      "headline": "Board approved Q1 FY27 results, acquired 6.25% of Ficus Food Lab, and appointed internal/system auditors.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b6553a0-bd2d-4405-9aeb-7bd46bccba3a.pdf"
-    },
-    {
-      "company": "Concord Biotech",
-      "symbol": "CONCORDBIO",
-      "category": "bonus",
-      "subject": "Board Meeting Outcome for Meeting Held Today I.E. Tuesday, October 27, 2026 - Regulation 30 Of The SEBI (LODR) Regulations, 2015 ('Listing Regulations') As Amended From Time To Time.",
-      "headline": "Board approved Q2 FY26 results, fixed November 4, 2026 bonus share record date, and reconstituted committees.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d31c798c-7d26-444e-9d42-06e77b9cbcc3.pdf"
-    },
-    {
-      "company": "Ambani Orgochem",
-      "symbol": "AMBANIORGO",
-      "category": "other",
-      "subject": "Issue of Securities",
-      "headline": "Members approved 43.92 lakh convertible warrants at Rs.100 each on 26 Oct 2026.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://nsearchives.nseindia.com/corporate/AMBANIORG_27102026190300_Reg_30_signed.pdf"
-    },
-    {
-      "company": "Ambani Orgochem",
-      "symbol": "AMBANIORGO",
-      "category": "other",
-      "subject": "Amendment to AOA/MOA",
-      "headline": "Members approved 43.92 lakh convertible warrants worth up to Rs 43.93 crore on October 26, 2026.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://nsearchives.nseindia.com/corporate/AMBANIORG_27102026185818_Reg_30_signed.pdf"
-    },
-    {
-      "company": "JSW Cement",
-      "symbol": "JSWCEMENT",
-      "category": "capex",
-      "subject": "Outcome Of Board Meeting - Corporate Guarantee",
-      "headline": "Board approved 2.0 MTPA expansions at Vijayanagar and Dolvi, ₹60 crore guarantee, and Q2/H1 FY26 results.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d960e478-e4f0-45c2-8572-05ed646ec49f.pdf"
-    },
-    {
-      "company": "Fabtech Cleanrooms",
-      "symbol": "544332",
-      "category": "fund-raising",
-      "subject": "Board Meeting Intimation for Approval Of Unaudited Financial Results And Fund Raising",
-      "headline": "Board meets October 30, 2026 to review H1 results and consider preferential fundraising proposal.",
-      "date": null,
-      "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=776e0792-6901-4fc4-b3dc-a3a3c703109a.pdf"
-    },
-    {
-      "company": "Arisinfra Solu.",
-      "symbol": "ARIS",
-      "category": "order-wins",
       "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
-      "headline": "Unitern won Transcon Ramdev Plaza Phase II mandate; project GDV ₹250 Cr, total mandates exceed ₹2,750 Cr.",
+      "headline": "Q2 FY27 EBITDA rose 63.6% to INR 874 Cr; PAT up 133.5% to INR 269 Cr; 2.1 GWh BESS commissioned.",
       "date": null,
       "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2fbb45de-d63b-4baf-8e4c-d61ac435cd1c.pdf"
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2720ada1-00a1-4f0d-a164-f83133324935.pdf"
     },
     {
-      "company": "Neochem Bio",
-      "symbol": "NEOCHEM",
+      "company": "TVS Holdings",
+      "symbol": "TVSHLTD",
+      "category": "merger",
+      "subject": "Announcement Under Regulation 30 Of SEBI LODR, Regulations 2015",
+      "headline": "TVS Motor approved acquisition of Harita ARC and demerger of consumer finance business on 28 Oct 2026.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97d12d17-ab99-4e2c-a7a3-fc988216a476.pdf"
+    },
+    {
+      "company": "Aarti Pharma",
+      "symbol": "AARTIPHARM",
       "category": "other",
-      "subject": "Outcome of Board Meeting",
-      "headline": "Board approved H1 FY2026 results and appointed new CFO and CCO effective 27 October 2026.",
+      "subject": "Announcement under Regulation 30 (LODR)-Change in Management",
+      "headline": "Board approved Q2/H1 FY26 results; CFO Piyush Lakhani resigns Oct 30, Vibha Thakkar appointed Oct 31, 2026.",
       "date": null,
       "isoDate": null,
-      "url": "https://nsearchives.nseindia.com/corporate/NEOCHEM_27102026185320_Outcome_of_Board_meeting-final-merged_dsc.pdf"
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f3044a8-698e-4846-900f-f5be67c07387.pdf"
     },
     {
-      "company": "JSW Cement",
-      "symbol": "JSWCEMENT",
+      "company": "Aarti Pharma",
+      "symbol": "AARTIPHARM",
+      "category": "other",
+      "subject": "Announcement under Regulation 30 (LODR)-Resignation of Chief Financial Officer (CFO)",
+      "headline": "Board approved Q2/H1 FY27 results; CFO Piyush Lakhani resigns Oct 30, Vibha Thakkar appointed Oct 31, 2026.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a7df6b6-fca6-4353-b3ef-db29e9f43bec.pdf"
+    },
+    {
+      "company": "Onemi Technology",
+      "symbol": "KISSHT",
+      "category": "rights",
+      "subject": "Announcement under Regulation 30 (LODR)-Acquisition",
+      "headline": "Board approved Q2 FY27 results and subsidiary rights issue of ₹624.15 crore on October 28, 2026.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ad1d999-5914-422e-ab2f-19c3f5a16d8b.pdf"
+    },
+    {
+      "company": "Onemi Technology",
+      "symbol": "KISSHT",
+      "category": "rights",
+      "subject": "Statement Of Deviation Or Variation For The Quarter Ended September 30, 2026",
+      "headline": "Board approved Q2 FY2027 results and a ₹624.15 crore rights issue investment in subsidiary Si Creva Capital Services.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=021d38de-39a5-4849-adbe-6871b8788b05.pdf"
+    },
+    {
+      "company": "Womancart",
+      "symbol": "WOMANCART",
+      "category": "rights",
+      "subject": "Rights Issue",
+      "headline": "Womancart files draft rights issue offer for up to ₹1,200 lakh equity shares.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://nsearchives.nseindia.com/corporate/WOMANCART_28102026205543_Annexure_III_-_DLOF-WCL.pdf"
+    },
+    {
+      "company": "Aarti Pharma",
+      "symbol": "AARTIPHARM",
+      "category": "other",
+      "subject": "Board Meeting Outcome for Outcome Of Board Meeting Held On October 28, 2026",
+      "headline": "Board approved Q2/H1 FY27 results and named Vibha Thakkar CFO from October 31, 2026, replacing Piyush Lakhani.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=19b655f8-13d2-4fc1-9611-d8966d30660d.pdf"
+    },
+    {
+      "company": "Onemi Technology",
+      "symbol": "KISSHT",
+      "category": "other",
+      "subject": "Board Meeting Outcome for Outcome Of Board Meeting Held On October 28, 2026",
+      "headline": "Board approved Q2 FY26 results and 23,37,516 shares rights investment worth Rs 624.15 crore.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99917f6e-79de-4530-a3ad-53d759f08ec1.pdf"
+    },
+    {
+      "company": "EPack PrefabTech",
+      "symbol": "EPACKPEB",
       "category": "capex",
-      "subject": "Outcome Of Board Meeting - Capacity Addition",
-      "headline": "Board approved Q2 FY26 results, two 2.0 MTPA expansions at Vijayanagar and Dolvi, and ₹60 crore guarantee.",
+      "subject": "Announcement Under Regulation 30 (LODR)- Updates On Commercial Production",
+      "headline": "Ghiloth facility began commercial production on October 28, 2026; capacity added with ~INR 100 crore investment.",
       "date": null,
       "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=748a7b87-3566-4a39-8bf8-654a63710ba8.pdf"
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3fda45fd-5a07-4fb4-bfc8-5c16eef9e1cd.pdf"
     },
     {
-      "company": "Radico Khaitan",
-      "symbol": "RADICO",
+      "company": "EPack PrefabTech",
+      "symbol": "EPACKPEB",
+      "category": "capex",
+      "subject": "Announcement Under Regulation 30 (LODR)- Updates On Capacity Addition",
+      "headline": "Ghiloth facility began commercial production on October 28, 2026; capacity increased with ₹100 crore investment.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8dcceca8-9b9f-4806-88e6-03cc352183b5.pdf"
+    },
+    {
+      "company": "Unihealth Hosp",
+      "symbol": "UNIHEALTH",
       "category": "other",
-      "subject": "Disclosure Under Regulation 30 Of SEBI Listing Regulations.",
-      "headline": "DRI visited Radico Khaitan's Delhi and Rampur offices on October 26, 2026; no impact reported.",
+      "subject": "Shareholders meeting",
+      "headline": "Shareholders approved related-party transaction, IPO proceeds variation, and migration from NSE Emerge to main board.",
       "date": null,
       "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=766bce7e-85fd-4a91-b5d6-b7b88240fedc.pdf"
+      "url": "https://nsearchives.nseindia.com/corporate/UNIHEALTH_28102026200812_VotingResults.pdf"
     },
     {
-      "company": "Avalon Tech",
-      "symbol": "AVALON",
-      "category": "fund-raising",
-      "subject": "Board Meeting Outcome for The Meeting Held On October 27, 2026",
-      "headline": "Board approved preferential issue of up to 19,37,808 warrants worth ₹425 crore to Zollner Elektronik AG; EGM on Nov. 21, 2026.",
+      "company": "Emk.Global Fin.",
+      "symbol": "EMKAY",
+      "category": "merger",
+      "subject": "Announcement under Regulation 30 (LODR)-Diversification / Disinvestment",
+      "headline": "On 28 Oct 2026, board approved wealth management slump sale, subsidiary transfers to ECPL, and up to Rs.30 crore investment.",
       "date": null,
       "isoDate": null,
-      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ac5ccda-0e42-4c82-abe7-70c4c9eecd4c.pdf"
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d49f126-4bb4-4d85-998e-cdaa214651fe.pdf"
+    },
+    {
+      "company": "Emk.Global Fin.",
+      "symbol": "EMKAY",
+      "category": "acquisitions",
+      "subject": "Announcement under Regulation 30 (LODR)-Acquisition",
+      "headline": "Board approved transfer of wealth management business and subsidiary stakes to ECPL; up to Rs.30 crore investment.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87447f22-f864-49e6-82c2-ac28ddc9828d.pdf"
+    },
+    {
+      "company": "Gaja Alternative Asset",
+      "symbol": "GAJA",
+      "category": "order-wins",
+      "subject": "Order Involving The Company''s Promoter , Directors And Subsidiary - Order Of The Hon''ble High Court Of Punjab And Haryana",
+      "headline": "Punjab and Haryana High Court dismissed petitions to quash FIR 0150/2022 involving EuroKids and Gaja-linked individuals.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e6cb764-1c52-429b-81cc-6b01d9560d3f.pdf"
+    },
+    {
+      "company": "IIFL Capital",
+      "symbol": "IIFLCAPS",
+      "category": "other",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "headline": "Q2FY27 revenue rose 22% to ₹722 crore; Fairfax control change approved; Vasudev Jagannath to become MD Jan 1, 2027.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f17bee5d-baee-474d-847b-21a50503535e.pdf"
+    },
+    {
+      "company": "TVS Motor Co.",
+      "symbol": "TVSMOTOR",
+      "category": "merger",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "headline": "Board approved demerger of consumer finance business and merger of TVS Motor Services; shareholder and regulatory approvals pending.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cdea39ee-cc42-4ddd-a607-2ebffd8c731c.pdf"
+    },
+    {
+      "company": "Elantas Beck",
+      "symbol": "ELANTAS",
+      "category": "order-wins",
+      "subject": "Pursuant To Regulation 30(5) Of LODR, 2015",
+      "headline": "Board approved Q2 FY26 results, appointed CFO Supriya Bansal, and got permanent revocation of Ankleshwar closure order.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4989179b-e412-4249-81eb-0ba2e66cca8c.pdf"
+    },
+    {
+      "company": "Elantas Beck",
+      "symbol": "ELANTAS",
+      "category": "order-wins",
+      "subject": "Announcement under Regulation 30 (LODR)-Change in Management",
+      "headline": "Board approved Q2 FY26 results; appointed Supriya Bansal CFO; GPCB permanently revoked Ankleshwar closure order.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f8563b9-9a27-4028-a472-cdf7449f2a02.pdf"
+    },
+    {
+      "company": "R R Kabel",
+      "symbol": "RRKABEL",
+      "category": "other",
+      "subject": "Board Meeting Outcome for Intimation Of The Outcome Of The Board Meeting",
+      "headline": "Q2 results, ₹6.5 interim dividend, Roorkee plant shift, ₹200 crore Rajasthan land buy, ₹770 million U M Cables acquisition.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b49a7850-7a8b-453e-899f-b871a2845b9e.pdf"
+    },
+    {
+      "company": "Natura Hue Chem",
+      "symbol": "531834",
+      "category": "other",
+      "subject": "Disclosure under Regulation 30A of LODR",
+      "headline": "Promoters sign SPA on 28 Oct 2026 to sell 15.53% stake; control shifts to Anuj and Kanika Chahal.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=84015af6-a584-41ad-9822-fcf61f071ff0.pdf"
+    },
+    {
+      "company": "Elantas Beck",
+      "symbol": "ELANTAS",
+      "category": "other",
+      "subject": "Unaudited Financial Results For Quarter And Nine Months Ended On 30Th September, 2026",
+      "headline": "Board approved Q2 and nine-month FY2026 results; appointed Supriya Bansal CFO from 28 October 2026.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d09f993-f425-4789-b438-e248eb1e7148.pdf"
+    },
+    {
+      "company": "Fortis Health.",
+      "symbol": "FORTIS",
+      "category": "other",
+      "subject": "Fortis Acquires 110-Bedded Suguna Hospital, Rajajinagar, Bengaluru For Approx. INR 277 Crs; Facility Provides Further Potential To Scale Up To 150 Beds",
+      "headline": "Fortis acquires 110-bedded Suguna Hospital, Bengaluru for about INR 277 crore; transaction consummated October 28, 2026.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e82a3462-114f-4187-96a8-4d6a49300220.pdf"
+    },
+    {
+      "company": "Kalind",
+      "symbol": "526935",
+      "category": "fund-raising",
+      "subject": "Board Meeting Intimation for Considering And Taking An Update And Appropriate Decision On The Ongoing Preferential Issue Of Equity Shares Of The Company",
+      "headline": "Board meets October 31, 2026 to review 8,60,86,956-share preferential issue; BSE in-principle approval awaited.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8219444-0db1-427d-9d16-092e228a1405.pdf"
+    },
+    {
+      "company": "Elantas Beck",
+      "symbol": "ELANTAS",
+      "category": "order-wins",
+      "subject": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 28Th October, 2026",
+      "headline": "Board approved Q2/FY26 results, appointed Supriya Bansal CFO, and received permanent revocation of Ankleshwar closure order.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15eba680-fba1-4a98-aeb5-10cdad87c2b6.pdf"
     }
   ]
 }
