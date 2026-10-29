@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-28T19:59:46.955Z",
+  "fetchedAt": "2026-10-29T19:54:26.512Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -211,6 +211,14 @@
       "isoDate": "2026-07-24"
     },
     {
+      "company": "FDC",
+      "symbol": "FDC",
+      "type": "buyback",
+      "detail": "Tender Offer · 500.00 · 120.00",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
       "company": "Genus Power",
       "symbol": "GENUSPOWER",
       "type": "buyback",
@@ -401,14 +409,6 @@
       "detail": "Tender Offer · 328.00 · 18.00",
       "date": "18 May 2026",
       "isoDate": "2026-05-18"
-    },
-    {
-      "company": "Sarla Performanc",
-      "symbol": "SARLAPOLY",
-      "type": "buyback",
-      "detail": "Tender Offer · 110.00 · 44.00",
-      "date": "15 May 2026",
-      "isoDate": "2026-05-15"
     },
     {
       "company": "Interarch Build.",
@@ -811,12 +811,36 @@
       "isoDate": "2026-08-24"
     },
     {
+      "company": "Cams Services",
+      "symbol": "CAMS",
+      "type": "dividend",
+      "detail": "Interim 2 · 162.50%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
       "company": "Hind. Unilever",
       "symbol": "HINDUNILVR",
       "type": "dividend",
       "detail": "Interim · 1900.00%",
       "date": "12 Nov 2026",
       "isoDate": "2026-11-12"
+    },
+    {
+      "company": "Kaveri Seed Co.",
+      "symbol": "KSCL",
+      "type": "dividend",
+      "detail": "Interim · 250.00%",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
+    },
+    {
+      "company": "Sundram Fasten.",
+      "symbol": "SUNDRMFAST",
+      "type": "dividend",
+      "detail": "Interim · 405.00%",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
     },
     {
       "company": "Info Edg.(India)",
@@ -849,6 +873,70 @@
       "detail": "Interim · 150.00%",
       "date": "5 Nov 2026",
       "isoDate": "2026-11-05"
+    },
+    {
+      "company": "Godrej Consumer",
+      "symbol": "GODREJCP",
+      "type": "dividend",
+      "detail": "Interim 3 · 500.00%",
+      "date": "4 Nov 2026",
+      "isoDate": "2026-11-04"
+    },
+    {
+      "company": "Vaibhav Global",
+      "symbol": "VAIBHAVGBL",
+      "type": "dividend",
+      "detail": "Interim 2 · 75.00%",
+      "date": "4 Nov 2026",
+      "isoDate": "2026-11-04"
+    },
+    {
+      "company": "Privi Speci.",
+      "symbol": "PRIVISCL",
+      "type": "dividend",
+      "detail": "Interim 1 · 50.00%",
+      "date": "4 Nov 2026",
+      "isoDate": "2026-11-04"
+    },
+    {
+      "company": "Symphony",
+      "symbol": "SYMPHONY",
+      "type": "dividend",
+      "detail": "Interim 2 · 100.00%",
+      "date": "4 Nov 2026",
+      "isoDate": "2026-11-04"
+    },
+    {
+      "company": "Asian Paints",
+      "symbol": "ASIANPAINT",
+      "type": "dividend",
+      "detail": "Interim · 575.00%",
+      "date": "4 Nov 2026",
+      "isoDate": "2026-11-04"
+    },
+    {
+      "company": "IRB InvIT Fund",
+      "symbol": "IRBINVIT",
+      "type": "dividend",
+      "detail": "Interim 2 · 1.59%",
+      "date": "3 Nov 2026",
+      "isoDate": "2026-11-03"
+    },
+    {
+      "company": "R R Kabel",
+      "symbol": "RRKABEL",
+      "type": "dividend",
+      "detail": "Interim · 130.00%",
+      "date": "3 Nov 2026",
+      "isoDate": "2026-11-03"
+    },
+    {
+      "company": "Sasken Technol.",
+      "symbol": "SASKEN",
+      "type": "dividend",
+      "detail": "Interim · 120.00%",
+      "date": "3 Nov 2026",
+      "isoDate": "2026-11-03"
     },
     {
       "company": "Gravita India",
@@ -907,106 +995,18 @@
       "isoDate": "2026-11-02"
     },
     {
-      "company": "Embassy Off.REIT",
-      "symbol": "EMBASSY",
+      "company": "Sustainable Ener",
+      "symbol": "SEITINVIT",
       "type": "dividend",
-      "detail": "Final · 2.36%",
+      "detail": "Final · 3.14%",
       "date": "30 Oct 2026",
       "isoDate": "2026-10-30"
     },
     {
-      "company": "Trident Lifeline",
-      "symbol": "543616",
+      "company": "Cube Highways",
+      "symbol": "CUBEINVIT",
       "type": "dividend",
-      "detail": "Interim 1 · 5.00%",
-      "date": "30 Oct 2026",
-      "isoDate": "2026-10-30"
-    },
-    {
-      "company": "REC Ltd",
-      "symbol": "RECLTD",
-      "type": "dividend",
-      "detail": "Interim 2 · 35.00%",
-      "date": "30 Oct 2026",
-      "isoDate": "2026-10-30"
-    },
-    {
-      "company": "Supreme Petroch.",
-      "symbol": "SPLPETRO",
-      "type": "dividend",
-      "detail": "Interim · 125.00%",
-      "date": "30 Oct 2026",
-      "isoDate": "2026-10-30"
-    },
-    {
-      "company": "Siyaram Silk",
-      "symbol": "SIYSIL",
-      "type": "dividend",
-      "detail": "Interim 1 · 200.00%",
-      "date": "30 Oct 2026",
-      "isoDate": "2026-10-30"
-    },
-    {
-      "company": "Dalmia BharatLtd",
-      "symbol": "DALBHARAT",
-      "type": "dividend",
-      "detail": "Interim · 200.00%",
-      "date": "30 Oct 2026",
-      "isoDate": "2026-10-30"
-    },
-    {
-      "company": "Railtel Corpn.",
-      "symbol": "RAILTEL",
-      "type": "dividend",
-      "detail": "Interim · 10.00%",
-      "date": "30 Oct 2026",
-      "isoDate": "2026-10-30"
-    },
-    {
-      "company": "DCM Shriram",
-      "symbol": "DCMSHRIRAM",
-      "type": "dividend",
-      "detail": "Interim · 200.00%",
-      "date": "30 Oct 2026",
-      "isoDate": "2026-10-30"
-    },
-    {
-      "company": "SJ Corp",
-      "symbol": "504398",
-      "type": "dividend",
-      "detail": "Interim 1 · 5.00%",
-      "date": "30 Oct 2026",
-      "isoDate": "2026-10-30"
-    },
-    {
-      "company": "Supreme Inds.",
-      "symbol": "SUPREMEIND",
-      "type": "dividend",
-      "detail": "Interim · 600.00%",
-      "date": "30 Oct 2026",
-      "isoDate": "2026-10-30"
-    },
-    {
-      "company": "Hypersoft Tech.",
-      "symbol": "539724",
-      "type": "dividend",
-      "detail": "Interim · 2.50%",
-      "date": "30 Oct 2026",
-      "isoDate": "2026-10-30"
-    },
-    {
-      "company": "Sagility",
-      "symbol": "SAGILITY",
-      "type": "dividend",
-      "detail": "Interim · 1.50%",
-      "date": "30 Oct 2026",
-      "isoDate": "2026-10-30"
-    },
-    {
-      "company": "Amwill Health",
-      "symbol": "544353",
-      "type": "dividend",
-      "detail": "Interim · 5.00%",
+      "detail": "Final · 3.79%",
       "date": "30 Oct 2026",
       "isoDate": "2026-10-30"
     }
