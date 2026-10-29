@@ -1,0 +1,364 @@
+{
+  "capturedOn": "2026-10-29",
+  "capturedAt": "2026-10-29T19:44:56.156Z",
+  "count": 25,
+  "rows": [
+    {
+      "company": "MTAR Technologie",
+      "symbol": "MTARTECH",
+      "kind": "recent",
+      "date": "30 Oct 2026",
+      "isoDate": "2026-10-30",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4582cab-46e9-4389-95c5-1499fe9b3fcb.pdf"
+        }
+      ]
+    },
+    {
+      "company": "RPG LifeScience.",
+      "symbol": "RPGLIFE",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97e9c81d-e9e1-4fa9-86de-574faa6185ff.pdf"
+        }
+      ]
+    },
+    {
+      "company": "DCW",
+      "symbol": "DCW",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e2af430-dc82-4e82-9cfa-d7fcbe6e501c.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Raymond Lifestyl",
+      "symbol": "RAYMONDLSL",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.raymondlifestyle.com/uploads/Investor%20Call%20Recording%20Q2%20%26%20H1%20FY27.mp3"
+        }
+      ]
+    },
+    {
+      "company": "Adani Total Gas",
+      "symbol": "ATGL",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55c5378d-2a07-456f-8b49-cb85b3634d69.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23347384/"
+        }
+      ]
+    },
+    {
+      "company": "DCB Bank",
+      "symbol": "DCBBANK",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d74081c2-a81d-402d-be26-6467a01fb731.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23347382/"
+        }
+      ]
+    },
+    {
+      "company": "Suryoday Small",
+      "symbol": "SURYODAY",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=23f84c48-09af-4a01-8175-eb91abf6d076.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Alldigi Tech",
+      "symbol": "ALLDIGI",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68d940a0-7d2a-4990-afc5-5b825395753c.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Pine Labs",
+      "symbol": "PINELABS",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://cdn.pinelabs.com/india/investors/video/PineLabs-Earnings-Oct29-2026-Video_29_10_2026.mp4"
+        }
+      ]
+    },
+    {
+      "company": "NIIT Learning",
+      "symbol": "NIITMTS",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://info.niit.com/hubfs/section46-of-the-lodr/earnings-call/q2-fy27/10048445.mp3"
+        }
+      ]
+    },
+    {
+      "company": "Asian Paints",
+      "symbol": "ASIANPAINT",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.asianpaints.com/content/dam/asianpaints/website/secondary-navigation/investors/financial-results-2/2026-2027/Q2/asian-paints-q2-and-h1-f27-rec.mp3"
+        }
+      ]
+    },
+    {
+      "company": "Laurus Labs",
+      "symbol": "LAURUSLABS",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.lauruslabs.com/images/pdfs/10047435.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23346930/"
+        }
+      ]
+    },
+    {
+      "company": "V-Guard Industri",
+      "symbol": "VGUARD",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293730d1-311f-4280-b072-12a2669a923e.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Purple Finance",
+      "symbol": "544191",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20ce0f49-4695-495b-8e5c-8ffa0ffd5bdd.pdf"
+        }
+      ]
+    },
+    {
+      "company": "United Spirits",
+      "symbol": "UNITDSPR",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.diageoindia.com/~/media/Files/D/Diageo-V2/Diageo-India/investors/financials/results-reports-and-presentations/q2fy27-investor-call-recording.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23346927/"
+        }
+      ]
+    },
+    {
+      "company": "Capri Global",
+      "symbol": "CGCL",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.capriloans.in/cms/concall-transcript/FY%202026%20-%202027/Quarter%20-2/Capri-Global-Capital-2QFY27-Earnings-Call.mp3"
+        }
+      ]
+    },
+    {
+      "company": "CARE Ratings",
+      "symbol": "CARERATING",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a695a8ff-bbd7-4432-ba4c-317fe57f0b22.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Epack Durable",
+      "symbol": "EPACK",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=624c4e5a-9bf6-42a5-ae09-e0ef6cf6be79.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Horizon Industrial",
+      "symbol": "HORIZONIND",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0781fa16-e0e9-4f41-9e3a-1f508f3f8e9c.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23346921/"
+        }
+      ]
+    },
+    {
+      "company": "Naman Industries Proxima",
+      "symbol": "NAMAN",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.com/corporate/NAMAN_29102026203642_Investor_Presentation.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Ambuja Cements",
+      "symbol": "AMBUJACEM",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.ambujacement.com/-/media/Project/AmbujaLimited/Investor/Investor-Presentations/10047637.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23346919/"
+        }
+      ]
+    },
+    {
+      "company": "Shadowfax Technologies",
+      "symbol": "SHADOWFAX",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://sfx-moshi-moshi.s3.ap-south-1.amazonaws.com/investor-documents/Audio_Recording_Earnings_Conference_Call_Q2_FY27-1793285441651.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23346918/"
+        }
+      ]
+    },
+    {
+      "company": "3i Infotech",
+      "symbol": "3IINFOLTD",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f12a52b-f33f-45da-80bd-f2a2df403ebd.pdf"
+        }
+      ]
+    },
+    {
+      "company": "APL Apollo Tubes",
+      "symbol": "APLAPOLLO",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3bca608c-0bbc-48de-98cb-1179ed4a4c88.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23346916/"
+        }
+      ]
+    },
+    {
+      "company": "Macfos",
+      "symbol": "543787",
+      "kind": "recent",
+      "date": "29 Oct 2026",
+      "isoDate": "2026-10-29",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=876de56b-5f03-4f9b-a2eb-5bbed0dcd895.pdf"
+        }
+      ]
+    }
+  ]
+}
