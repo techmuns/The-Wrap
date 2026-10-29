@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-28T18:26:16.809Z",
+  "fetchedAt": "2026-10-29T18:36:15.918Z",
   "universe": "NSE Nifty 500",
   "periods": [
     "4W",
@@ -26,10 +26,32 @@
       "count": 44,
       "pct": [
         68,
-        48,
+        45,
         52,
-        52,
+        59,
         57
+      ]
+    },
+    {
+      "sector": "Information Technology",
+      "count": 25,
+      "pct": [
+        60,
+        60,
+        56,
+        56,
+        52
+      ]
+    },
+    {
+      "sector": "Telecommunication",
+      "count": 11,
+      "pct": [
+        36,
+        36,
+        36,
+        36,
+        45
       ]
     },
     {
@@ -37,32 +59,21 @@
       "count": 14,
       "pct": [
         36,
+        36,
         43,
         43,
-        50,
-        50
+        43
       ]
     },
     {
-      "sector": "Information Technology",
-      "count": 25,
+      "sector": "Capital Goods",
+      "count": 69,
       "pct": [
-        64,
-        64,
-        44,
-        48,
-        48
-      ]
-    },
-    {
-      "sector": "Automobile and Auto Components",
-      "count": 40,
-      "pct": [
-        48,
-        25,
-        30,
+        32,
+        22,
+        29,
         35,
-        40
+        41
       ]
     },
     {
@@ -77,55 +88,66 @@
       ]
     },
     {
-      "sector": "Capital Goods",
-      "count": 69,
+      "sector": "Automobile and Auto Components",
+      "count": 40,
       "pct": [
-        23,
-        22,
-        28,
-        35,
-        39
-      ]
-    },
-    {
-      "sector": "Telecommunication",
-      "count": 11,
-      "pct": [
-        27,
         45,
-        36,
-        36,
-        36
+        25,
+        25,
+        33,
+        38
       ]
     },
     {
-      "sector": "Consumer Services",
-      "count": 23,
+      "sector": "Consumer Durables",
+      "count": 16,
       "pct": [
-        39,
-        39,
-        30,
-        35,
-        26
+        38,
+        25,
+        19,
+        19,
+        31
       ]
     },
     {
       "sector": "Financial Services",
       "count": 97,
       "pct": [
-        28,
-        14,
-        19,
+        45,
+        18,
+        20,
+        24,
+        26
+      ]
+    },
+    {
+      "sector": "Oil Gas & Consumable Fuels",
+      "count": 19,
+      "pct": [
+        37,
+        16,
         21,
-        24
+        21,
+        26
+      ]
+    },
+    {
+      "sector": "Consumer Services",
+      "count": 23,
+      "pct": [
+        48,
+        35,
+        35,
+        39,
+        26
       ]
     },
     {
       "sector": "Construction",
       "count": 13,
       "pct": [
-        15,
-        8,
+        23,
+        23,
         23,
         23,
         23
@@ -135,10 +157,21 @@
       "sector": "Power",
       "count": 19,
       "pct": [
-        26,
-        11,
-        11,
-        11,
+        68,
+        21,
+        21,
+        21,
+        21
+      ]
+    },
+    {
+      "sector": "Fast Moving Consumer Goods",
+      "count": 28,
+      "pct": [
+        43,
+        21,
+        21,
+        21,
         21
       ]
     },
@@ -147,50 +180,17 @@
       "count": 26,
       "pct": [
         19,
+        12,
         15,
         19,
-        19,
         19
-      ]
-    },
-    {
-      "sector": "Consumer Durables",
-      "count": 16,
-      "pct": [
-        44,
-        25,
-        6,
-        19,
-        19
-      ]
-    },
-    {
-      "sector": "Fast Moving Consumer Goods",
-      "count": 28,
-      "pct": [
-        25,
-        11,
-        18,
-        18,
-        18
-      ]
-    },
-    {
-      "sector": "Oil Gas & Consumable Fuels",
-      "count": 19,
-      "pct": [
-        16,
-        11,
-        21,
-        21,
-        16
       ]
     },
     {
       "sector": "Realty",
       "count": 13,
       "pct": [
-        23,
+        46,
         15,
         15,
         15,
@@ -201,8 +201,8 @@
       "sector": "Metals & Mining",
       "count": 20,
       "pct": [
+        30,
         10,
-        0,
         10,
         10,
         10
@@ -212,10 +212,10 @@
       "sector": "Construction Materials",
       "count": 11,
       "pct": [
-        27,
+        36,
         9,
         9,
-        9,
+        0,
         0
       ]
     }
