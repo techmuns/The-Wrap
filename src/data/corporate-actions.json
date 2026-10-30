@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-29T19:54:26.512Z",
+  "fetchedAt": "2026-10-30T19:43:59.912Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -17,6 +17,14 @@
       "detail": "Ratio 1:1",
       "date": "4 Nov 2026",
       "isoDate": "2026-11-04"
+    },
+    {
+      "company": "Anlon Tech",
+      "symbol": "ANLON",
+      "type": "bonus",
+      "detail": "Ratio 2:5",
+      "date": "2 Nov 2026",
+      "isoDate": "2026-11-02"
     },
     {
       "company": "Titan Biotech",
@@ -201,14 +209,6 @@
       "detail": "Ratio 2:5",
       "date": "28 Jul 2026",
       "isoDate": "2026-07-28"
-    },
-    {
-      "company": "Kalind",
-      "symbol": "526935",
-      "type": "bonus",
-      "detail": "Ratio 1:2",
-      "date": "24 Jul 2026",
-      "isoDate": "2026-07-24"
     },
     {
       "company": "FDC",
@@ -611,6 +611,22 @@
       "isoDate": "2026-08-28"
     },
     {
+      "company": "Suvidhaa Info.",
+      "symbol": "SUVIDHAA",
+      "type": "rights",
+      "detail": "Ratio 3:8 · ₹0.50 premium",
+      "date": "4 Nov 2026",
+      "isoDate": "2026-11-04"
+    },
+    {
+      "company": "Crescentis Capital",
+      "symbol": "SOMDUTTFIN",
+      "type": "rights",
+      "detail": "Ratio 3:5 · ₹68.00 premium",
+      "date": "4 Nov 2026",
+      "isoDate": "2026-11-04"
+    },
+    {
       "company": "FratelliVineyard",
       "symbol": "541741",
       "type": "rights",
@@ -795,22 +811,6 @@
       "isoDate": "2026-08-25"
     },
     {
-      "company": "Ducon Tech",
-      "symbol": "DUCON",
-      "type": "rights",
-      "detail": "Ratio 10:13 · ₹0.00 premium",
-      "date": "25 Aug 2026",
-      "isoDate": "2026-08-25"
-    },
-    {
-      "company": "Rajgor Castor",
-      "symbol": "RCDL",
-      "type": "rights",
-      "detail": "Ratio 1:1 · ₹0.00 premium",
-      "date": "24 Aug 2026",
-      "isoDate": "2026-08-24"
-    },
-    {
       "company": "Cams Services",
       "symbol": "CAMS",
       "type": "dividend",
@@ -825,6 +825,54 @@
       "detail": "Interim · 1900.00%",
       "date": "12 Nov 2026",
       "isoDate": "2026-11-12"
+    },
+    {
+      "company": "Crizac",
+      "symbol": "CRIZAC",
+      "type": "dividend",
+      "detail": "Interim · 200.00%",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
+    },
+    {
+      "company": "Shreeji Translog",
+      "symbol": "540738",
+      "type": "dividend",
+      "detail": "Interim · 2.50%",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
+    },
+    {
+      "company": "Laurus Labs",
+      "symbol": "LAURUSLABS",
+      "type": "dividend",
+      "detail": "Interim · 50.00%",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
+    },
+    {
+      "company": "Ramkrishna Forg.",
+      "symbol": "RKFORGE",
+      "type": "dividend",
+      "detail": "Interim 1 · 100.00%",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
+    },
+    {
+      "company": "CARE Ratings",
+      "symbol": "CARERATING",
+      "type": "dividend",
+      "detail": "Interim · 100.00%",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
+    },
+    {
+      "company": "Gabriel India",
+      "symbol": "GABRIEL",
+      "type": "dividend",
+      "detail": "Interim · 215.00%",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
     },
     {
       "company": "Kaveri Seed Co.",
@@ -867,6 +915,54 @@
       "isoDate": "2026-11-06"
     },
     {
+      "company": "Varun Beverages",
+      "symbol": "VBL",
+      "type": "dividend",
+      "detail": "Interim 3 · 25.00%",
+      "date": "5 Nov 2026",
+      "isoDate": "2026-11-05"
+    },
+    {
+      "company": "Navin Fluo.Intl.",
+      "symbol": "NAVINFLUOR",
+      "type": "dividend",
+      "detail": "Interim · 400.00%",
+      "date": "5 Nov 2026",
+      "isoDate": "2026-11-05"
+    },
+    {
+      "company": "Sun TV Network",
+      "symbol": "SUNTV",
+      "type": "dividend",
+      "detail": "Interim 2 · 75.00%",
+      "date": "5 Nov 2026",
+      "isoDate": "2026-11-05"
+    },
+    {
+      "company": "Engineers India",
+      "symbol": "ENGINERSIN",
+      "type": "dividend",
+      "detail": "Interim 1 · 30.00%",
+      "date": "5 Nov 2026",
+      "isoDate": "2026-11-05"
+    },
+    {
+      "company": "Indian Toners",
+      "symbol": "INDTONER",
+      "type": "dividend",
+      "detail": "Interim · 60.00%",
+      "date": "5 Nov 2026",
+      "isoDate": "2026-11-05"
+    },
+    {
+      "company": "Sanofi India",
+      "symbol": "SANOFI",
+      "type": "dividend",
+      "detail": "Interim · 750.00%",
+      "date": "5 Nov 2026",
+      "isoDate": "2026-11-05"
+    },
+    {
       "company": "Birlasoft Ltd",
       "symbol": "BSOFT",
       "type": "dividend",
@@ -875,140 +971,44 @@
       "isoDate": "2026-11-05"
     },
     {
+      "company": "Praruh Tech",
+      "symbol": "544538",
+      "type": "dividend",
+      "detail": "Interim · 10.00%",
+      "date": "4 Nov 2026",
+      "isoDate": "2026-11-04"
+    },
+    {
+      "company": "Anzen IYEP Trust",
+      "symbol": "ANZEN",
+      "type": "dividend",
+      "detail": "Final · 2.56%",
+      "date": "4 Nov 2026",
+      "isoDate": "2026-11-04"
+    },
+    {
+      "company": "Silver Touch",
+      "symbol": "SILVERTUC",
+      "type": "dividend",
+      "detail": "Interim · 5.00%",
+      "date": "4 Nov 2026",
+      "isoDate": "2026-11-04"
+    },
+    {
+      "company": "Coal India",
+      "symbol": "COALINDIA",
+      "type": "dividend",
+      "detail": "Interim 2 · 102.50%",
+      "date": "4 Nov 2026",
+      "isoDate": "2026-11-04"
+    },
+    {
       "company": "Godrej Consumer",
       "symbol": "GODREJCP",
       "type": "dividend",
       "detail": "Interim 3 · 500.00%",
       "date": "4 Nov 2026",
       "isoDate": "2026-11-04"
-    },
-    {
-      "company": "Vaibhav Global",
-      "symbol": "VAIBHAVGBL",
-      "type": "dividend",
-      "detail": "Interim 2 · 75.00%",
-      "date": "4 Nov 2026",
-      "isoDate": "2026-11-04"
-    },
-    {
-      "company": "Privi Speci.",
-      "symbol": "PRIVISCL",
-      "type": "dividend",
-      "detail": "Interim 1 · 50.00%",
-      "date": "4 Nov 2026",
-      "isoDate": "2026-11-04"
-    },
-    {
-      "company": "Symphony",
-      "symbol": "SYMPHONY",
-      "type": "dividend",
-      "detail": "Interim 2 · 100.00%",
-      "date": "4 Nov 2026",
-      "isoDate": "2026-11-04"
-    },
-    {
-      "company": "Asian Paints",
-      "symbol": "ASIANPAINT",
-      "type": "dividend",
-      "detail": "Interim · 575.00%",
-      "date": "4 Nov 2026",
-      "isoDate": "2026-11-04"
-    },
-    {
-      "company": "IRB InvIT Fund",
-      "symbol": "IRBINVIT",
-      "type": "dividend",
-      "detail": "Interim 2 · 1.59%",
-      "date": "3 Nov 2026",
-      "isoDate": "2026-11-03"
-    },
-    {
-      "company": "R R Kabel",
-      "symbol": "RRKABEL",
-      "type": "dividend",
-      "detail": "Interim · 130.00%",
-      "date": "3 Nov 2026",
-      "isoDate": "2026-11-03"
-    },
-    {
-      "company": "Sasken Technol.",
-      "symbol": "SASKEN",
-      "type": "dividend",
-      "detail": "Interim · 120.00%",
-      "date": "3 Nov 2026",
-      "isoDate": "2026-11-03"
-    },
-    {
-      "company": "Gravita India",
-      "symbol": "GRAVITA",
-      "type": "dividend",
-      "detail": "Interim · 385.00%",
-      "date": "3 Nov 2026",
-      "isoDate": "2026-11-03"
-    },
-    {
-      "company": "Mazagon Dock",
-      "symbol": "MAZDOCK",
-      "type": "dividend",
-      "detail": "Interim · 100.00%",
-      "date": "3 Nov 2026",
-      "isoDate": "2026-11-03"
-    },
-    {
-      "company": "Infosys",
-      "symbol": "INFY",
-      "type": "dividend",
-      "detail": "Interim · 520.00%",
-      "date": "3 Nov 2026",
-      "isoDate": "2026-11-03"
-    },
-    {
-      "company": "Route Mobile",
-      "symbol": "ROUTE",
-      "type": "dividend",
-      "detail": "Interim 2 · 40.00%",
-      "date": "2 Nov 2026",
-      "isoDate": "2026-11-02"
-    },
-    {
-      "company": "Tanla Platforms",
-      "symbol": "TANLA",
-      "type": "dividend",
-      "detail": "Interim 1 · 600.00%",
-      "date": "2 Nov 2026",
-      "isoDate": "2026-11-02"
-    },
-    {
-      "company": "Pitti Engg.",
-      "symbol": "PITTIENG",
-      "type": "dividend",
-      "detail": "Interim · 40.00%",
-      "date": "2 Nov 2026",
-      "isoDate": "2026-11-02"
-    },
-    {
-      "company": "Colgate-Palmoliv",
-      "symbol": "COLPAL",
-      "type": "dividend",
-      "detail": "Interim 1 · 2400.00%",
-      "date": "2 Nov 2026",
-      "isoDate": "2026-11-02"
-    },
-    {
-      "company": "Sustainable Ener",
-      "symbol": "SEITINVIT",
-      "type": "dividend",
-      "detail": "Final · 3.14%",
-      "date": "30 Oct 2026",
-      "isoDate": "2026-10-30"
-    },
-    {
-      "company": "Cube Highways",
-      "symbol": "CUBEINVIT",
-      "type": "dividend",
-      "detail": "Final · 3.79%",
-      "date": "30 Oct 2026",
-      "isoDate": "2026-10-30"
     }
   ]
 }
