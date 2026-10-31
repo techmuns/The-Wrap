@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-30T18:08:32.538Z",
+  "fetchedAt": "2026-10-31T17:19:57.988Z",
   "universe": "NSE Nifty 500",
   "periods": [
     "4W",
@@ -36,7 +36,7 @@
       "sector": "Information Technology",
       "count": 25,
       "pct": [
-        60,
+        64,
         52,
         52,
         48,
@@ -58,7 +58,7 @@
       "sector": "Automobile and Auto Components",
       "count": 40,
       "pct": [
-        25,
+        30,
         23,
         25,
         30,
@@ -91,8 +91,8 @@
       "sector": "Capital Goods",
       "count": 69,
       "pct": [
-        12,
-        14,
+        17,
+        16,
         23,
         26,
         32
@@ -113,7 +113,7 @@
       "sector": "Power",
       "count": 19,
       "pct": [
-        42,
+        47,
         11,
         21,
         21,
@@ -124,7 +124,7 @@
       "sector": "Oil Gas & Consumable Fuels",
       "count": 19,
       "pct": [
-        37,
+        42,
         16,
         16,
         21,
@@ -135,7 +135,7 @@
       "sector": "Consumer Services",
       "count": 23,
       "pct": [
-        35,
+        39,
         39,
         43,
         35,
@@ -146,9 +146,9 @@
       "sector": "Financial Services",
       "count": 98,
       "pct": [
-        20,
+        23,
         15,
-        18,
+        19,
         21,
         23
       ]
@@ -157,10 +157,10 @@
       "sector": "Fast Moving Consumer Goods",
       "count": 28,
       "pct": [
-        21,
+        29,
         7,
         14,
-        18,
+        21,
         21
       ]
     },
@@ -202,7 +202,7 @@
       "count": 20,
       "pct": [
         15,
-        5,
+        10,
         10,
         10,
         10
