@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-30T19:46:36.203Z",
+  "fetchedAt": "2026-11-02T22:57:37.857Z",
   "source": "Screener",
   "description": "Price above its rising 50- and 200-day averages, with 6-month return over 20% and 1-year over 30% (market cap above ₹500 cr).",
   "count": 50,
@@ -7,352 +7,352 @@
     {
       "symbol": "DIVISLAB",
       "company": "Divi's Lab.",
-      "cmp": 9780,
-      "marCap": 259870.29,
-      "ret1y": 46.96
+      "cmp": 9945.5,
+      "marCap": 264021.78,
+      "ret1y": 46.17
+    },
+    {
+      "symbol": "MOTHERSON",
+      "company": "Samvardh. Mothe.",
+      "cmp": 159,
+      "marCap": 169456.68,
+      "ret1y": 50.61
     },
     {
       "symbol": "LAURUSLABS",
       "company": "Laurus Labs",
-      "cmp": 2405.5,
-      "marCap": 129914.21,
-      "ret1y": 147.9
+      "cmp": 2348,
+      "marCap": 126865.31,
+      "ret1y": 140.72
     },
     {
       "symbol": "NYKAA",
       "company": "FSN E-Commerce",
-      "cmp": 349.35,
-      "marCap": 100576.59,
-      "ret1y": 36.06
-    },
-    {
-      "symbol": "AUROPHARMA",
-      "company": "Aurobindo Pharma",
-      "cmp": 1681.4,
-      "marCap": 97030.48,
-      "ret1y": 52.51
+      "cmp": 353.65,
+      "marCap": 101309.65,
+      "ret1y": 41.41
     },
     {
       "symbol": "ATHERENERG",
       "company": "Ather Energy",
-      "cmp": 1756,
-      "marCap": 69861.3,
-      "ret1y": 148.27
+      "cmp": 1774.6,
+      "marCap": 70431.47,
+      "ret1y": 156.57
     },
     {
       "symbol": "SONACOMS",
       "company": "Sona BLW Precis.",
-      "cmp": 890.5,
-      "marCap": 55646.57,
-      "ret1y": 84.39
+      "cmp": 905.95,
+      "marCap": 56637.95,
+      "ret1y": 88.25
     },
     {
       "symbol": "GLAND",
       "company": "Gland Pharma",
-      "cmp": 3095.9,
-      "marCap": 51079.9,
-      "ret1y": 62.45
+      "cmp": 3066.6,
+      "marCap": 50602.23,
+      "ret1y": 55.51
     },
     {
       "symbol": "IPCALAB",
       "company": "Ipca Labs.",
-      "cmp": 1927.8,
-      "marCap": 48917.99,
-      "ret1y": 49.57
+      "cmp": 1949.9,
+      "marCap": 49469.79,
+      "ret1y": 48.88
     },
     {
-      "symbol": "NAVINFLUOR",
-      "company": "Navin Fluo.Intl.",
-      "cmp": 8680,
-      "marCap": 44361.17,
-      "ret1y": 74.41
-    },
-    {
-      "symbol": "AJANTPHARM",
-      "company": "Ajanta Pharma",
-      "cmp": 3508.8,
-      "marCap": 43843.72,
-      "ret1y": 42.14
+      "symbol": "CPPLUS",
+      "company": "Aditya Infotech",
+      "cmp": 3849.3,
+      "marCap": 47221.3,
+      "ret1y": 190.38
     },
     {
       "symbol": "CUPID",
       "company": "Cupid",
-      "cmp": 324.55,
-      "marCap": 43593.3,
-      "ret1y": 586.88
+      "cmp": 340.5,
+      "marCap": 45785.7,
+      "ret1y": 596.18
     },
     {
       "symbol": "PTCIL",
       "company": "PTC Industries",
-      "cmp": 23945,
-      "marCap": 38207.04,
-      "ret1y": 40.56
+      "cmp": 24385,
+      "marCap": 38643.52,
+      "ret1y": 40.52
     },
     {
       "symbol": "ANANDRATHI",
       "company": "Anand Rathi Wea.",
-      "cmp": 2252,
-      "marCap": 37343.96,
-      "ret1y": 43.47
+      "cmp": 2276.9,
+      "marCap": 37805.94,
+      "ret1y": 46.94
     },
     {
-      "symbol": "KARURVYSYA",
-      "company": "Karur Vysya Bank",
-      "cmp": 356.1,
-      "marCap": 34370.96,
-      "ret1y": 45.35
+      "symbol": "SHYAMMETL",
+      "company": "Shyam Metalics",
+      "cmp": 1191,
+      "marCap": 33244.6,
+      "ret1y": 32.16
     },
     {
       "symbol": "SAILIFE",
       "company": "Sai Life",
-      "cmp": 1557.5,
-      "marCap": 33109.22,
-      "ret1y": 69.23
+      "cmp": 1542.3,
+      "marCap": 32769.67,
+      "ret1y": 67.15
     },
     {
       "symbol": "ACUTAAS",
       "company": "Acutaas Chemical",
-      "cmp": 4003.6,
-      "marCap": 32738,
-      "ret1y": 135.02
+      "cmp": 3892.6,
+      "marCap": 31869.15,
+      "ret1y": 115.01
     },
     {
-      "symbol": "SYRMA",
-      "company": "Syrma SGS Tech.",
-      "cmp": 1625.3,
-      "marCap": 31352.01,
-      "ret1y": 97.45
+      "symbol": "ACMESOLAR",
+      "company": "ACME Solar Hold.",
+      "cmp": 418.75,
+      "marCap": 29600.36,
+      "ret1y": 53.59
     },
     {
       "symbol": "RUBICON",
       "company": "Rubicon Research",
-      "cmp": 1610.5,
-      "marCap": 26637.01,
-      "ret1y": 164.1
+      "cmp": 1667.4,
+      "marCap": 27601.99,
+      "ret1y": 155.11
     },
     {
       "symbol": "SANSERA",
       "company": "Sansera Enginee.",
-      "cmp": 4111.6,
-      "marCap": 25680.82,
-      "ret1y": 171.91
+      "cmp": 4157.4,
+      "marCap": 25949.56,
+      "ret1y": 166.82
     },
     {
       "symbol": "CEMPRO",
       "company": "Cemindia Project",
-      "cmp": 1265,
-      "marCap": 23313.2,
-      "ret1y": 49.45
-    },
-    {
-      "symbol": "GRANULES",
-      "company": "Granules India",
-      "cmp": 839.75,
-      "marCap": 22927.22,
-      "ret1y": 46.22
+      "cmp": 1289.6,
+      "marCap": 23783.18,
+      "ret1y": 50.22
     },
     {
       "symbol": "CHENNPETRO",
       "company": "C P C L",
-      "cmp": 1511.5,
-      "marCap": 22505.73,
-      "ret1y": 70.79
-    },
-    {
-      "symbol": "AETHER",
-      "company": "Aether Industri.",
-      "cmp": 1616.2,
-      "marCap": 21466.48,
-      "ret1y": 118.23
-    },
-    {
-      "symbol": "THELEELA",
-      "company": "Leela Palaces Hotels",
-      "cmp": 634.25,
-      "marCap": 21159.78,
-      "ret1y": 45.39
+      "cmp": 1546,
+      "marCap": 23021.7,
+      "ret1y": 62.22
     },
     {
       "symbol": "WELSPUNLIV",
       "company": "Welspun Living",
-      "cmp": 219.08,
-      "marCap": 20689.83,
-      "ret1y": 65.51
+      "cmp": 242.34,
+      "marCap": 22895.13,
+      "ret1y": 84.56
+    },
+    {
+      "symbol": "THELEELA",
+      "company": "Leela Palaces Hotels",
+      "cmp": 671.05,
+      "marCap": 22410.24,
+      "ret1y": 53.93
     },
     {
       "symbol": "DIACABS",
       "company": "Diamond Power",
-      "cmp": 344.4,
-      "marCap": 20618.69,
-      "ret1y": 125.23
+      "cmp": 350,
+      "marCap": 20932.49,
+      "ret1y": 127.38
     },
     {
       "symbol": "SHILPAMED",
       "company": "Shilpa Medicare",
-      "cmp": 955.6,
-      "marCap": 18699.8,
-      "ret1y": 164.78
+      "cmp": 924.55,
+      "marCap": 18082.52,
+      "ret1y": 151.78
     },
     {
       "symbol": "ALIVUS",
       "company": "Alivus Life",
-      "cmp": 1415.3,
-      "marCap": 17371.49,
-      "ret1y": 55.89
+      "cmp": 1447.6,
+      "marCap": 17772.39,
+      "ret1y": 57.68
     },
     {
       "symbol": "SIGMAADV",
       "company": "Sigma Advanced System",
-      "cmp": 890.6,
-      "marCap": 16883.92,
-      "ret1y": 342.47
+      "cmp": 901.05,
+      "marCap": 17113.55,
+      "ret1y": 306.06
     },
     {
       "symbol": "NAZARA",
       "company": "Nazara Technolo.",
-      "cmp": 398.8,
-      "marCap": 16286.04,
-      "ret1y": 47.57
+      "cmp": 401.65,
+      "marCap": 16410.52,
+      "ret1y": 48.59
     },
     {
       "symbol": "GRWRHITECH",
       "company": "Garware Hi Tech",
-      "cmp": 6974.5,
-      "marCap": 16219.26,
-      "ret1y": 98.57
-    },
-    {
-      "symbol": "PCJEWELLER",
-      "company": "PC Jeweller",
-      "cmp": 15.48,
-      "marCap": 15172.91,
-      "ret1y": 33.56
+      "cmp": 6963,
+      "marCap": 16176.72,
+      "ret1y": 101.31
     },
     {
       "symbol": "VIJAYA",
       "company": "Vijaya Diagnost.",
-      "cmp": 1445.7,
-      "marCap": 14885.81,
-      "ret1y": 45.33
+      "cmp": 1457.4,
+      "marCap": 15010.89,
+      "ret1y": 42.92
     },
     {
-      "symbol": "SHAILY",
-      "company": "Shaily Engineer.",
-      "cmp": 3169.8,
-      "marCap": 14575.76,
-      "ret1y": 38.23
+      "symbol": "SWANDEF",
+      "company": "Swan Defence",
+      "cmp": 2723.7,
+      "marCap": 14349.04,
+      "ret1y": 252.24
     },
     {
       "symbol": "SOUTHBANK",
       "company": "South Ind.Bank",
-      "cmp": 55.49,
-      "marCap": 14543.34,
-      "ret1y": 48.85
-    },
-    {
-      "symbol": "LUMAXTECH",
-      "company": "Lumax Auto Tech.",
-      "cmp": 2022.7,
-      "marCap": 13769.2,
-      "ret1y": 78.15
+      "cmp": 54.51,
+      "marCap": 14283.02,
+      "ret1y": 45.05
     },
     {
       "symbol": "SHREEJISPG",
       "company": "Shreeji Ship. Gl",
-      "cmp": 843.3,
-      "marCap": 13746.32,
-      "ret1y": 218.06
+      "cmp": 873.65,
+      "marCap": 14233.35,
+      "ret1y": 220.96
+    },
+    {
+      "symbol": "MARKSANS",
+      "company": "Marksans Pharma",
+      "cmp": 312.3,
+      "marCap": 14152.3,
+      "ret1y": 64.04
     },
     {
       "symbol": "SKYGOLD",
       "company": "Sky Gold & Diam.",
-      "cmp": 883.2,
-      "marCap": 13673.78,
-      "ret1y": 149.32
+      "cmp": 870.75,
+      "marCap": 13485.64,
+      "ret1y": 143.43
     },
     {
       "symbol": "LOTUSDEV",
       "company": "Sri Lotus",
-      "cmp": 245.98,
-      "marCap": 12020.64,
-      "ret1y": 33.83
+      "cmp": 248.03,
+      "marCap": 12121.81,
+      "ret1y": 40
+    },
+    {
+      "symbol": "PGIL",
+      "company": "Pearl Global Ind",
+      "cmp": 1254.2,
+      "marCap": 11600.14,
+      "ret1y": 90.26
     },
     {
       "symbol": "SGMART",
       "company": "SG Mart",
-      "cmp": 856.35,
-      "marCap": 10849.08,
-      "ret1y": 138.67
+      "cmp": 878.9,
+      "marCap": 11080.68,
+      "ret1y": 162.4
+    },
+    {
+      "symbol": "ELANTAS",
+      "company": "Elantas Beck",
+      "cmp": 13079,
+      "marCap": 10368.62,
+      "ret1y": 35.57
     },
     {
       "symbol": "TIPSMUSIC",
       "company": "Tips Music",
-      "cmp": 782.05,
-      "marCap": 9953.96,
-      "ret1y": 48.05
-    },
-    {
-      "symbol": "KINGFA",
-      "company": "Kingfa Science",
-      "cmp": 6783,
-      "marCap": 9185.24,
-      "ret1y": 47.67
-    },
-    {
-      "symbol": "526433",
-      "company": "ASM Technologies",
-      "cmp": 6209.5,
-      "marCap": 9057.59,
-      "ret1y": 77.18
+      "cmp": 784.95,
+      "marCap": 9981.4,
+      "ret1y": 49.24
     },
     {
       "symbol": "ICIL",
       "company": "Indo Count Inds.",
-      "cmp": 442.1,
-      "marCap": 8746.25,
-      "ret1y": 55.5
+      "cmp": 459.3,
+      "marCap": 9096.64,
+      "ret1y": 59.04
+    },
+    {
+      "symbol": "KINGFA",
+      "company": "Kingfa Science",
+      "cmp": 6687,
+      "marCap": 9061.81,
+      "ret1y": 45.41
     },
     {
       "symbol": "MBAPL",
       "company": "M B Agro Prod.",
-      "cmp": 177.11,
-      "marCap": 8126.82,
-      "ret1y": 117.13
+      "cmp": 185.83,
+      "marCap": 8526.95,
+      "ret1y": 127.45
     },
     {
       "symbol": "KMEW",
       "company": "Knowledge Marine",
-      "cmp": 3094.8,
-      "marCap": 7861.32,
-      "ret1y": 159.99
+      "cmp": 3224,
+      "marCap": 8177.46,
+      "ret1y": 138.71
     },
     {
       "symbol": "SETL",
       "company": "Standard Engineering Technology",
-      "cmp": 395.85,
-      "marCap": 7848.47,
-      "ret1y": 114.48
+      "cmp": 400.6,
+      "marCap": 7991.64,
+      "ret1y": 119.65
     },
     {
       "symbol": "SSWL",
       "company": "Steel Str. Wheel",
-      "cmp": 493.65,
-      "marCap": 7774.48,
-      "ret1y": 117.49
+      "cmp": 486.95,
+      "marCap": 7658.02,
+      "ret1y": 111.63
     },
     {
-      "symbol": "506854",
-      "company": "Tanfac Inds.",
-      "cmp": 3499.85,
-      "marCap": 7571.43,
-      "ret1y": 82.87
+      "symbol": "RAYMOND",
+      "company": "Raymond",
+      "cmp": 1125,
+      "marCap": 7489.54,
+      "ret1y": 95.52
     },
     {
       "symbol": "PAISALO",
       "company": "Paisalo Digital",
-      "cmp": 78.63,
-      "marCap": 7384.27,
-      "ret1y": 105.14
+      "cmp": 79.35,
+      "marCap": 7459.39,
+      "ret1y": 110.7
+    },
+    {
+      "symbol": "506854",
+      "company": "Tanfac Inds.",
+      "cmp": 3429.1,
+      "marCap": 7418.37,
+      "ret1y": 76.4
+    },
+    {
+      "symbol": "TFCILTD",
+      "company": "Tour. Fin. Corp.",
+      "cmp": 157.96,
+      "marCap": 7313.19,
+      "ret1y": 125.82
+    },
+    {
+      "symbol": "KRISHANA",
+      "company": "Krishana Phosch.",
+      "cmp": 235.07,
+      "marCap": 7266.91,
+      "ret1y": 133.78
     }
   ]
 }
