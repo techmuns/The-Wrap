@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-02T22:55:12.405Z",
+  "fetchedAt": "2026-11-03T20:40:45.831Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -619,6 +619,22 @@
       "isoDate": "2026-11-13"
     },
     {
+      "company": "Mihika Industrie",
+      "symbol": "538895",
+      "type": "rights",
+      "detail": "Ratio 9:1 · ₹0.00 premium",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
+    },
+    {
+      "company": "Jindal Capital",
+      "symbol": "530405",
+      "type": "rights",
+      "detail": "Ratio 3:2 · ₹5.00 premium",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
+    },
+    {
       "company": "Suvidhaa Info.",
       "symbol": "SUVIDHAA",
       "type": "rights",
@@ -795,20 +811,44 @@
       "isoDate": "2026-08-27"
     },
     {
-      "company": "Ratnaveer Precis",
-      "symbol": "RATNAVEER",
-      "type": "rights",
-      "detail": "Ratio 7:40 · ₹254.00 premium",
-      "date": "25 Aug 2026",
-      "isoDate": "2026-08-25"
+      "company": "Orient Tech.",
+      "symbol": "ORIENTTECH",
+      "type": "dividend",
+      "detail": "Interim · 20.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
     },
     {
-      "company": "Esaar (India)",
-      "symbol": "531502",
-      "type": "rights",
-      "detail": "Ratio 44:15 · ₹0.00 premium",
-      "date": "25 Aug 2026",
-      "isoDate": "2026-08-25"
+      "company": "Techknowgreen",
+      "symbol": "543991",
+      "type": "dividend",
+      "detail": "Interim · 5.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "Bhatia Communic.",
+      "symbol": "540956",
+      "type": "dividend",
+      "detail": "Interim 2 · 1.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "TAAL Tech",
+      "symbol": "TAALTECH",
+      "type": "dividend",
+      "detail": "Interim 1 · 250.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "Mobavenue AI Tech",
+      "symbol": "539682",
+      "type": "dividend",
+      "detail": "Interim · 5.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
     },
     {
       "company": "Cams Services",
@@ -825,6 +865,110 @@
       "detail": "Interim · 1900.00%",
       "date": "12 Nov 2026",
       "isoDate": "2026-11-12"
+    },
+    {
+      "company": "Container Corpn.",
+      "symbol": "CONCOR",
+      "type": "dividend",
+      "detail": "Interim 2 · 38.00%",
+      "date": "11 Nov 2026",
+      "isoDate": "2026-11-11"
+    },
+    {
+      "company": "Chambal Fert.",
+      "symbol": "CHAMBLFERT",
+      "type": "dividend",
+      "detail": "Interim · 50.00%",
+      "date": "11 Nov 2026",
+      "isoDate": "2026-11-11"
+    },
+    {
+      "company": "Labelkraft Tech.",
+      "symbol": "543830",
+      "type": "dividend",
+      "detail": "Interim · 10.00%",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
+    },
+    {
+      "company": "Ganesh Consumer",
+      "symbol": "GANESHCP",
+      "type": "dividend",
+      "detail": "Interim · 37.00%",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
+    },
+    {
+      "company": "Knowledge Realty",
+      "symbol": "KRT",
+      "type": "dividend",
+      "detail": "Final · 1.72%",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
+    },
+    {
+      "company": "Indus Inf. Trust",
+      "symbol": "INDUSINVIT",
+      "type": "dividend",
+      "detail": "Final · 3.55%",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
+    },
+    {
+      "company": "Flair Writing",
+      "symbol": "FLAIR",
+      "type": "dividend",
+      "detail": "Interim · 10.00%",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
+    },
+    {
+      "company": "Happiest Minds",
+      "symbol": "HAPPSTMNDS",
+      "type": "dividend",
+      "detail": "Interim · 152.50%",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
+    },
+    {
+      "company": "Kewal Kir.Cloth.",
+      "symbol": "KKCL",
+      "type": "dividend",
+      "detail": "Interim · 20.00%",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
+    },
+    {
+      "company": "Petronet LNG",
+      "symbol": "PETRONET",
+      "type": "dividend",
+      "detail": "Interim · 70.00%",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
+    },
+    {
+      "company": "MOIL",
+      "symbol": "MOIL",
+      "type": "dividend",
+      "detail": "Interim · 22.00%",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
+    },
+    {
+      "company": "Natl. Aluminium",
+      "symbol": "NATIONALUM",
+      "type": "dividend",
+      "detail": "Interim · 90.00%",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
+    },
+    {
+      "company": "Amara Raja Ener.",
+      "symbol": "ARE&M",
+      "type": "dividend",
+      "detail": "Interim · 430.00%",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06"
     },
     {
       "company": "Gopal Snacks",
@@ -865,150 +1009,6 @@
       "detail": "Interim · 50.00%",
       "date": "6 Nov 2026",
       "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Crizac",
-      "symbol": "CRIZAC",
-      "type": "dividend",
-      "detail": "Interim · 200.00%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Shreeji Translog",
-      "symbol": "540738",
-      "type": "dividend",
-      "detail": "Interim · 2.50%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Laurus Labs",
-      "symbol": "LAURUSLABS",
-      "type": "dividend",
-      "detail": "Interim · 50.00%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Ramkrishna Forg.",
-      "symbol": "RKFORGE",
-      "type": "dividend",
-      "detail": "Interim 1 · 100.00%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "CARE Ratings",
-      "symbol": "CARERATING",
-      "type": "dividend",
-      "detail": "Interim · 100.00%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Gabriel India",
-      "symbol": "GABRIEL",
-      "type": "dividend",
-      "detail": "Interim · 215.00%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Kaveri Seed Co.",
-      "symbol": "KSCL",
-      "type": "dividend",
-      "detail": "Interim · 250.00%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Sundram Fasten.",
-      "symbol": "SUNDRMFAST",
-      "type": "dividend",
-      "detail": "Interim · 405.00%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Info Edg.(India)",
-      "symbol": "NAUKRI",
-      "type": "dividend",
-      "detail": "Interim · 150.00%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Manba Finance",
-      "symbol": "MANBA",
-      "type": "dividend",
-      "detail": "Interim 2 · 2.50%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Qgo Finance",
-      "symbol": "538646",
-      "type": "dividend",
-      "detail": "Interim 2 · 1.50%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Bagmane Prime REIT",
-      "symbol": "BAGMANE",
-      "type": "dividend",
-      "detail": "Final · 1.55%",
-      "date": "5 Nov 2026",
-      "isoDate": "2026-11-05"
-    },
-    {
-      "company": "Krishna Defence",
-      "symbol": "KRISHNADEF",
-      "type": "dividend",
-      "detail": "Interim · 7.50%",
-      "date": "5 Nov 2026",
-      "isoDate": "2026-11-05"
-    },
-    {
-      "company": "Share India Sec.",
-      "symbol": "SHAREINDIA",
-      "type": "dividend",
-      "detail": "Interim 2 · 20.00%",
-      "date": "5 Nov 2026",
-      "isoDate": "2026-11-05"
-    },
-    {
-      "company": "Varun Beverages",
-      "symbol": "VBL",
-      "type": "dividend",
-      "detail": "Interim 3 · 25.00%",
-      "date": "5 Nov 2026",
-      "isoDate": "2026-11-05"
-    },
-    {
-      "company": "Navin Fluo.Intl.",
-      "symbol": "NAVINFLUOR",
-      "type": "dividend",
-      "detail": "Interim · 400.00%",
-      "date": "5 Nov 2026",
-      "isoDate": "2026-11-05"
-    },
-    {
-      "company": "Sun TV Network",
-      "symbol": "SUNTV",
-      "type": "dividend",
-      "detail": "Interim 2 · 75.00%",
-      "date": "5 Nov 2026",
-      "isoDate": "2026-11-05"
-    },
-    {
-      "company": "Engineers India",
-      "symbol": "ENGINERSIN",
-      "type": "dividend",
-      "detail": "Interim 1 · 30.00%",
-      "date": "5 Nov 2026",
-      "isoDate": "2026-11-05"
     }
   ]
 }
