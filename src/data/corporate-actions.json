@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-03T20:40:45.831Z",
+  "fetchedAt": "2026-11-04T20:57:32.288Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -811,6 +811,54 @@
       "isoDate": "2026-08-27"
     },
     {
+      "company": "Power Fin.Corpn.",
+      "symbol": "PFC",
+      "type": "dividend",
+      "detail": "Interim 2 · 41.00%",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17"
+    },
+    {
+      "company": "Aptus Value Hou.",
+      "symbol": "APTUS",
+      "type": "dividend",
+      "detail": "Interim · 100.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "BMW Ventures",
+      "symbol": "BMWVENTLTD",
+      "type": "dividend",
+      "detail": "Interim · 15.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "S P Capital Fin.",
+      "symbol": "530289",
+      "type": "dividend",
+      "detail": "Interim · 7.50%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "Somany Ceramics",
+      "symbol": "SOMANYCERA",
+      "type": "dividend",
+      "detail": "Interim · 300.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "Mafatlal Inds.",
+      "symbol": "MAFATIND",
+      "type": "dividend",
+      "detail": "Interim · 50.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
       "company": "Orient Tech.",
       "symbol": "ORIENTTECH",
       "type": "dividend",
@@ -859,12 +907,60 @@
       "isoDate": "2026-11-13"
     },
     {
+      "company": "Indian Metals",
+      "symbol": "IMFA",
+      "type": "dividend",
+      "detail": "Interim · 50.00%",
+      "date": "12 Nov 2026",
+      "isoDate": "2026-11-12"
+    },
+    {
+      "company": "Taparia Tools",
+      "symbol": "505685",
+      "type": "dividend",
+      "detail": "Interim · 400.00%",
+      "date": "12 Nov 2026",
+      "isoDate": "2026-11-12"
+    },
+    {
+      "company": "Bayer Crop Sci.",
+      "symbol": "BAYERCROP",
+      "type": "dividend",
+      "detail": "Interim · 900.00%",
+      "date": "12 Nov 2026",
+      "isoDate": "2026-11-12"
+    },
+    {
       "company": "Hind. Unilever",
       "symbol": "HINDUNILVR",
       "type": "dividend",
       "detail": "Interim · 1900.00%",
       "date": "12 Nov 2026",
       "isoDate": "2026-11-12"
+    },
+    {
+      "company": "SNL Bearings",
+      "symbol": "505827",
+      "type": "dividend",
+      "detail": "Interim · 60.00%",
+      "date": "11 Nov 2026",
+      "isoDate": "2026-11-11"
+    },
+    {
+      "company": "Balrampur Chini",
+      "symbol": "BALRAMCHIN",
+      "type": "dividend",
+      "detail": "Interim · 400.00%",
+      "date": "11 Nov 2026",
+      "isoDate": "2026-11-11"
+    },
+    {
+      "company": "Balkrishna Inds",
+      "symbol": "BALKRISIND",
+      "type": "dividend",
+      "detail": "Interim 2 · 200.00%",
+      "date": "11 Nov 2026",
+      "isoDate": "2026-11-11"
     },
     {
       "company": "Container Corpn.",
@@ -883,132 +979,36 @@
       "isoDate": "2026-11-11"
     },
     {
+      "company": "Brisk Technovisi",
+      "symbol": "544101",
+      "type": "dividend",
+      "detail": "Interim · 20.00%",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
+    },
+    {
+      "company": "Metropolis Healt",
+      "symbol": "METROPOLIS",
+      "type": "dividend",
+      "detail": "Interim · 50.00%",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
+    },
+    {
+      "company": "Saksoft",
+      "symbol": "SAKSOFT",
+      "type": "dividend",
+      "detail": "Interim · 50.00%",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
+    },
+    {
       "company": "Labelkraft Tech.",
       "symbol": "543830",
       "type": "dividend",
       "detail": "Interim · 10.00%",
       "date": "9 Nov 2026",
       "isoDate": "2026-11-09"
-    },
-    {
-      "company": "Ganesh Consumer",
-      "symbol": "GANESHCP",
-      "type": "dividend",
-      "detail": "Interim · 37.00%",
-      "date": "9 Nov 2026",
-      "isoDate": "2026-11-09"
-    },
-    {
-      "company": "Knowledge Realty",
-      "symbol": "KRT",
-      "type": "dividend",
-      "detail": "Final · 1.72%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Indus Inf. Trust",
-      "symbol": "INDUSINVIT",
-      "type": "dividend",
-      "detail": "Final · 3.55%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Flair Writing",
-      "symbol": "FLAIR",
-      "type": "dividend",
-      "detail": "Interim · 10.00%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Happiest Minds",
-      "symbol": "HAPPSTMNDS",
-      "type": "dividend",
-      "detail": "Interim · 152.50%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Kewal Kir.Cloth.",
-      "symbol": "KKCL",
-      "type": "dividend",
-      "detail": "Interim · 20.00%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Petronet LNG",
-      "symbol": "PETRONET",
-      "type": "dividend",
-      "detail": "Interim · 70.00%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "MOIL",
-      "symbol": "MOIL",
-      "type": "dividend",
-      "detail": "Interim · 22.00%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Natl. Aluminium",
-      "symbol": "NATIONALUM",
-      "type": "dividend",
-      "detail": "Interim · 90.00%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Amara Raja Ener.",
-      "symbol": "ARE&M",
-      "type": "dividend",
-      "detail": "Interim · 430.00%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Gopal Snacks",
-      "symbol": "GOPAL",
-      "type": "dividend",
-      "detail": "Interim 1 · 50.00%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Cyber Media Res.",
-      "symbol": "CMRSL",
-      "type": "dividend",
-      "detail": "Interim · 20.00%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "NTPC",
-      "symbol": "NTPC",
-      "type": "dividend",
-      "detail": "Interim 1 · 30.00%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Power Grid Corpn",
-      "symbol": "POWERGRID",
-      "type": "dividend",
-      "detail": "Interim 1 · 30.00%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
-    },
-    {
-      "company": "Quess Corp",
-      "symbol": "QUESS",
-      "type": "dividend",
-      "detail": "Interim · 50.00%",
-      "date": "6 Nov 2026",
-      "isoDate": "2026-11-06"
     }
   ]
 }
