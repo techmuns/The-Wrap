@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-04T20:57:32.288Z",
+  "fetchedAt": "2026-11-05T21:15:25.535Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -227,6 +227,14 @@
       "isoDate": "2026-11-13"
     },
     {
+      "company": "Jyothy Labs",
+      "symbol": "JYOTHYLAB",
+      "type": "buyback",
+      "detail": "Tender Offer · 215.00 · 147.00",
+      "date": "11 Nov 2026",
+      "isoDate": "2026-11-11"
+    },
+    {
       "company": "Genus Power",
       "symbol": "GENUSPOWER",
       "type": "buyback",
@@ -403,20 +411,20 @@
       "isoDate": "2026-05-22"
     },
     {
-      "company": "Garware Tech.",
-      "symbol": "GARFIBRES",
-      "type": "buyback",
-      "detail": "Tender Offer · 680.00 · 110.00",
-      "date": "20 May 2026",
-      "isoDate": "2026-05-20"
-    },
-    {
       "company": "Interarch Build.",
       "symbol": "INTERARCH",
       "type": "split",
       "detail": "10.00 · 2.00",
       "date": "30 Nov 2026",
       "isoDate": "2026-11-30"
+    },
+    {
+      "company": "BN Agrochem",
+      "symbol": "BNAGROCHEM",
+      "type": "split",
+      "detail": "10.00 · 1.00",
+      "date": "16 Nov 2026",
+      "isoDate": "2026-11-16"
     },
     {
       "company": "OTCO Intl",
@@ -603,20 +611,20 @@
       "isoDate": "2026-09-04"
     },
     {
-      "company": "Novalum Materials",
-      "symbol": "539922",
-      "type": "split",
-      "detail": "10.00 · 2.00",
-      "date": "28 Aug 2026",
-      "isoDate": "2026-08-28"
-    },
-    {
       "company": "Kanel Indust.",
       "symbol": "KANELOIL",
       "type": "rights",
       "detail": "Ratio 54:10 · ₹29.95 premium",
       "date": "13 Nov 2026",
       "isoDate": "2026-11-13"
+    },
+    {
+      "company": "Zodiac-JRD MKJ",
+      "symbol": "ZODJRDMKJ",
+      "type": "rights",
+      "detail": "Ratio 145:100 · ₹15.00 premium",
+      "date": "11 Nov 2026",
+      "isoDate": "2026-11-11"
     },
     {
       "company": "Mihika Industrie",
@@ -803,20 +811,36 @@
       "isoDate": "2026-08-28"
     },
     {
-      "company": "NCL Res. & Finl.",
-      "symbol": "530557",
-      "type": "rights",
-      "detail": "Ratio 7:15 · ₹0.00 premium",
-      "date": "27 Aug 2026",
-      "isoDate": "2026-08-27"
-    },
-    {
       "company": "Power Fin.Corpn.",
       "symbol": "PFC",
       "type": "dividend",
       "detail": "Interim 2 · 41.00%",
       "date": "17 Nov 2026",
       "isoDate": "2026-11-17"
+    },
+    {
+      "company": "S C I",
+      "symbol": "SCI",
+      "type": "dividend",
+      "detail": "Interim · 40.00%",
+      "date": "16 Nov 2026",
+      "isoDate": "2026-11-16"
+    },
+    {
+      "company": "I G Petrochems",
+      "symbol": "IGPL",
+      "type": "dividend",
+      "detail": "Interim · 100.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "Shivalik Bimetal",
+      "symbol": "SBCL",
+      "type": "dividend",
+      "detail": "Interim · 100.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
     },
     {
       "company": "Aptus Value Hou.",
@@ -907,6 +931,62 @@
       "isoDate": "2026-11-13"
     },
     {
+      "company": "Gaja Alternative Asset",
+      "symbol": "GAJA",
+      "type": "dividend",
+      "detail": "Interim 1 · 10.00%",
+      "date": "12 Nov 2026",
+      "isoDate": "2026-11-12"
+    },
+    {
+      "company": "IRB Infra.Devl.",
+      "symbol": "IRB",
+      "type": "dividend",
+      "detail": "Interim 2 · 5.00%",
+      "date": "12 Nov 2026",
+      "isoDate": "2026-11-12"
+    },
+    {
+      "company": "Insecticid.India",
+      "symbol": "INSECTICID",
+      "type": "dividend",
+      "detail": "Interim · 50.00%",
+      "date": "12 Nov 2026",
+      "isoDate": "2026-11-12"
+    },
+    {
+      "company": "Guj Pipavav Port",
+      "symbol": "GPPL",
+      "type": "dividend",
+      "detail": "Interim · 30.00%",
+      "date": "12 Nov 2026",
+      "isoDate": "2026-11-12"
+    },
+    {
+      "company": "O N G C",
+      "symbol": "ONGC",
+      "type": "dividend",
+      "detail": "Interim 1 · 160.00%",
+      "date": "12 Nov 2026",
+      "isoDate": "2026-11-12"
+    },
+    {
+      "company": "NLC India",
+      "symbol": "NLCINDIA",
+      "type": "dividend",
+      "detail": "Interim · 15.00%",
+      "date": "12 Nov 2026",
+      "isoDate": "2026-11-12"
+    },
+    {
+      "company": "Safari Inds.",
+      "symbol": "SAFARI",
+      "type": "dividend",
+      "detail": "Interim · 100.00%",
+      "date": "12 Nov 2026",
+      "isoDate": "2026-11-12"
+    },
+    {
       "company": "Indian Metals",
       "symbol": "IMFA",
       "type": "dividend",
@@ -929,86 +1009,6 @@
       "detail": "Interim · 900.00%",
       "date": "12 Nov 2026",
       "isoDate": "2026-11-12"
-    },
-    {
-      "company": "Hind. Unilever",
-      "symbol": "HINDUNILVR",
-      "type": "dividend",
-      "detail": "Interim · 1900.00%",
-      "date": "12 Nov 2026",
-      "isoDate": "2026-11-12"
-    },
-    {
-      "company": "SNL Bearings",
-      "symbol": "505827",
-      "type": "dividend",
-      "detail": "Interim · 60.00%",
-      "date": "11 Nov 2026",
-      "isoDate": "2026-11-11"
-    },
-    {
-      "company": "Balrampur Chini",
-      "symbol": "BALRAMCHIN",
-      "type": "dividend",
-      "detail": "Interim · 400.00%",
-      "date": "11 Nov 2026",
-      "isoDate": "2026-11-11"
-    },
-    {
-      "company": "Balkrishna Inds",
-      "symbol": "BALKRISIND",
-      "type": "dividend",
-      "detail": "Interim 2 · 200.00%",
-      "date": "11 Nov 2026",
-      "isoDate": "2026-11-11"
-    },
-    {
-      "company": "Container Corpn.",
-      "symbol": "CONCOR",
-      "type": "dividend",
-      "detail": "Interim 2 · 38.00%",
-      "date": "11 Nov 2026",
-      "isoDate": "2026-11-11"
-    },
-    {
-      "company": "Chambal Fert.",
-      "symbol": "CHAMBLFERT",
-      "type": "dividend",
-      "detail": "Interim · 50.00%",
-      "date": "11 Nov 2026",
-      "isoDate": "2026-11-11"
-    },
-    {
-      "company": "Brisk Technovisi",
-      "symbol": "544101",
-      "type": "dividend",
-      "detail": "Interim · 20.00%",
-      "date": "9 Nov 2026",
-      "isoDate": "2026-11-09"
-    },
-    {
-      "company": "Metropolis Healt",
-      "symbol": "METROPOLIS",
-      "type": "dividend",
-      "detail": "Interim · 50.00%",
-      "date": "9 Nov 2026",
-      "isoDate": "2026-11-09"
-    },
-    {
-      "company": "Saksoft",
-      "symbol": "SAKSOFT",
-      "type": "dividend",
-      "detail": "Interim · 50.00%",
-      "date": "9 Nov 2026",
-      "isoDate": "2026-11-09"
-    },
-    {
-      "company": "Labelkraft Tech.",
-      "symbol": "543830",
-      "type": "dividend",
-      "detail": "Interim · 10.00%",
-      "date": "9 Nov 2026",
-      "isoDate": "2026-11-09"
     }
   ]
 }
