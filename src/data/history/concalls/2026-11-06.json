@@ -1,0 +1,400 @@
+{
+  "capturedOn": "2026-11-06",
+  "capturedAt": "2026-11-06T20:29:51.871Z",
+  "count": 25,
+  "rows": [
+    {
+      "company": "Apollo Finvest",
+      "symbol": "512437",
+      "kind": "recent",
+      "date": "7 Nov 2026",
+      "isoDate": "2026-11-07",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69a7f1f9-2eb0-4e33-8449-93c3c32df8df.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23371975/"
+        }
+      ]
+    },
+    {
+      "company": "ESDS Software",
+      "symbol": "ESDS",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=acaeac46-b2d2-4372-8547-539c1b905abb.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23371972/"
+        }
+      ]
+    },
+    {
+      "company": "Birla Corpn.",
+      "symbol": "BIRLACORPN",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d544f8d7-fbed-446a-b7ba-b3f566e3371d.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23370855/"
+        }
+      ]
+    },
+    {
+      "company": "FSN E-Commerce",
+      "symbol": "NYKAA",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b639641-135f-4c55-a38d-d892bb382d9f.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23370854/"
+        }
+      ]
+    },
+    {
+      "company": "NDR INVIT Trust",
+      "symbol": "NDRINVIT",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.com/corporate/NDRINVIT_06112026204456_Q2Investorpresentation.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Nxt-Infra Trust",
+      "symbol": "NXT-INFRA",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.com/corporate/NXT-INFRA_06112026155326_Investor_Presentation_and_valuation_report_signed.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Rain Industries",
+      "symbol": "RAIN",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bda11147-5ff8-4922-a42a-abb1b3feac47.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Intrasoft Tech.",
+      "symbol": "ISFT",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bff041bc-446f-4cba-92d0-09c4a9093021.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Prataap Snacks",
+      "symbol": "DIAMONDYD",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb37d472-241d-452c-a13d-b5f0d13c78c4.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23370846/"
+        }
+      ]
+    },
+    {
+      "company": "Borosil",
+      "symbol": "BOROLTD",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=11bf67b9-b0a7-4bd2-858d-a3eacecd714f.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23370845/"
+        }
+      ]
+    },
+    {
+      "company": "Lupin",
+      "symbol": "LUPIN",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=127cb475-d1ef-4b06-8d8b-32aab249461a.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23370844/"
+        }
+      ]
+    },
+    {
+      "company": "Hind.Oil Explor.",
+      "symbol": "HINDOILEXP",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://concalls.screener.in/concalls/abecfbd0-d9da-4cb0-8fec-abe708dae87c/recording.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23370843/"
+        }
+      ]
+    },
+    {
+      "company": "Safe Enterprises",
+      "symbol": "SAFEENTP",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://concalls.screener.in/concalls/3d86d379-f71d-41a6-99f9-c4e042ba24f0/recording.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23370842/"
+        }
+      ]
+    },
+    {
+      "company": "Prestige Estates",
+      "symbol": "PRESTIGE",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://d1t2fddy6amcvs.cloudfront.net/investors/transcript-of-investor-calls/audio-recordings/10048898.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23370841/"
+        }
+      ]
+    },
+    {
+      "company": "AWFIS Space",
+      "symbol": "AWFIS",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2762a754-afd7-4e77-8287-282c735995ce.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23370840/"
+        }
+      ]
+    },
+    {
+      "company": "Nirlon",
+      "symbol": "NIRLON",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07bf6f51-0fe8-4bf2-8373-1266281a95c3.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23370839/"
+        }
+      ]
+    },
+    {
+      "company": "Brand Concepts",
+      "symbol": "BCONCEPTS",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4afe26e9-cbb2-450e-8426-de2de3ead976.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Elgi Equipments",
+      "symbol": "ELGIEQUIP",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.youtube.com/watch?v=0k0iOD8EU4Q"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23370837/"
+        }
+      ]
+    },
+    {
+      "company": "Bosch",
+      "symbol": "BOSCHLTD",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.bosch.in/media/our_company/shareholder_information/2026/bosch_2q_fy27_post_result_conference_call-20261106_1121-1.mp4"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23370836/"
+        }
+      ]
+    },
+    {
+      "company": "Voltas",
+      "symbol": "VOLTAS",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.voltas.in/storage/schedule-of-analysts-iim/10049175.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23370835/"
+        }
+      ]
+    },
+    {
+      "company": "Nucleus Soft.",
+      "symbol": "NUCLEUS",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=925f5fb3-2ff4-4414-8245-e88c9e738ef6.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23370834/"
+        }
+      ]
+    },
+    {
+      "company": "Gland Pharma",
+      "symbol": "GLAND",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://concalls.screener.in/concalls/c5e2da33-7dec-4ca9-9118-c884df614cc9/recording.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23370833/"
+        }
+      ]
+    },
+    {
+      "company": "Dhabriya Poly.",
+      "symbol": "DHABRIYA",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94839d1c-0d8b-4645-bef2-ba0b1094c297.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Bajaj Steel Inds",
+      "symbol": "BAJAJST",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=add4d4ff-e289-4b70-a670-38419422affb.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Bluspring Enter.",
+      "symbol": "BLUSPRING",
+      "kind": "recent",
+      "date": "6 Nov 2026",
+      "isoDate": "2026-11-06",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=969addb1-47f1-41f3-9b89-9fe2f2fc3448.pdf"
+        }
+      ]
+    }
+  ]
+}
