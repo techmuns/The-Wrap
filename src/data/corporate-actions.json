@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-05T21:15:25.535Z",
+  "fetchedAt": "2026-11-06T20:37:27.135Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -10,6 +10,14 @@
     "dividend": 25
   },
   "items": [
+    {
+      "company": "Dharti Proteins",
+      "symbol": "531171",
+      "type": "bonus",
+      "detail": "Ratio 1:1",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
     {
       "company": "Concord Biotech",
       "symbol": "CONCORDBIO",
@@ -201,14 +209,6 @@
       "detail": "Ratio 1:5",
       "date": "31 Jul 2026",
       "isoDate": "2026-07-31"
-    },
-    {
-      "company": "Hardwyn India",
-      "symbol": "HARDWYN",
-      "type": "bonus",
-      "detail": "Ratio 2:5",
-      "date": "28 Jul 2026",
-      "isoDate": "2026-07-28"
     },
     {
       "company": "Medi Assist Ser.",
@@ -619,6 +619,14 @@
       "isoDate": "2026-11-13"
     },
     {
+      "company": "Evonile Pharma",
+      "symbol": "EVONILE",
+      "type": "rights",
+      "detail": "Ratio 5:12 · ₹855.00 premium",
+      "date": "11 Nov 2026",
+      "isoDate": "2026-11-11"
+    },
+    {
       "company": "Zodiac-JRD MKJ",
       "symbol": "ZODJRDMKJ",
       "type": "rights",
@@ -803,12 +811,20 @@
       "isoDate": "2026-08-31"
     },
     {
-      "company": "Jaykay Enter.",
-      "symbol": "JAYKAY",
-      "type": "rights",
-      "detail": "Ratio 3:19 · ₹74.00 premium",
-      "date": "28 Aug 2026",
-      "isoDate": "2026-08-28"
+      "company": "Pashupati Cotsp.",
+      "symbol": "PASHUPATI",
+      "type": "dividend",
+      "detail": "Interim · 2.00%",
+      "date": "23 Nov 2026",
+      "isoDate": "2026-11-23"
+    },
+    {
+      "company": "Venus Pipes",
+      "symbol": "VENUSPIPES",
+      "type": "dividend",
+      "detail": "Interim · 5.00%",
+      "date": "20 Nov 2026",
+      "isoDate": "2026-11-20"
     },
     {
       "company": "Power Fin.Corpn.",
@@ -825,6 +841,62 @@
       "detail": "Interim · 40.00%",
       "date": "16 Nov 2026",
       "isoDate": "2026-11-16"
+    },
+    {
+      "company": "Star Cement",
+      "symbol": "STARCEMENT",
+      "type": "dividend",
+      "detail": "Interim · 100.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "Astral",
+      "symbol": "ASTRAL",
+      "type": "dividend",
+      "detail": "Interim · 150.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "Pearl Global Ind",
+      "symbol": "PGIL",
+      "type": "dividend",
+      "detail": "Interim · 100.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "Repco Home Fin",
+      "symbol": "REPCOHOME",
+      "type": "dividend",
+      "detail": "Interim · 50.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "PPAP Automotive",
+      "symbol": "PPAP",
+      "type": "dividend",
+      "detail": "Interim · 15.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "Emami",
+      "symbol": "EMAMILTD",
+      "type": "dividend",
+      "detail": "Interim 1 · 500.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "Prec. Wires (I)",
+      "symbol": "PRECWIRE",
+      "type": "dividend",
+      "detail": "Interim · 35.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
     },
     {
       "company": "I G Petrochems",
@@ -931,82 +1003,10 @@
       "isoDate": "2026-11-13"
     },
     {
-      "company": "Gaja Alternative Asset",
-      "symbol": "GAJA",
+      "company": "GPT Healthcare",
+      "symbol": "GPTHEALTH",
       "type": "dividend",
-      "detail": "Interim 1 · 10.00%",
-      "date": "12 Nov 2026",
-      "isoDate": "2026-11-12"
-    },
-    {
-      "company": "IRB Infra.Devl.",
-      "symbol": "IRB",
-      "type": "dividend",
-      "detail": "Interim 2 · 5.00%",
-      "date": "12 Nov 2026",
-      "isoDate": "2026-11-12"
-    },
-    {
-      "company": "Insecticid.India",
-      "symbol": "INSECTICID",
-      "type": "dividend",
-      "detail": "Interim · 50.00%",
-      "date": "12 Nov 2026",
-      "isoDate": "2026-11-12"
-    },
-    {
-      "company": "Guj Pipavav Port",
-      "symbol": "GPPL",
-      "type": "dividend",
-      "detail": "Interim · 30.00%",
-      "date": "12 Nov 2026",
-      "isoDate": "2026-11-12"
-    },
-    {
-      "company": "O N G C",
-      "symbol": "ONGC",
-      "type": "dividend",
-      "detail": "Interim 1 · 160.00%",
-      "date": "12 Nov 2026",
-      "isoDate": "2026-11-12"
-    },
-    {
-      "company": "NLC India",
-      "symbol": "NLCINDIA",
-      "type": "dividend",
-      "detail": "Interim · 15.00%",
-      "date": "12 Nov 2026",
-      "isoDate": "2026-11-12"
-    },
-    {
-      "company": "Safari Inds.",
-      "symbol": "SAFARI",
-      "type": "dividend",
-      "detail": "Interim · 100.00%",
-      "date": "12 Nov 2026",
-      "isoDate": "2026-11-12"
-    },
-    {
-      "company": "Indian Metals",
-      "symbol": "IMFA",
-      "type": "dividend",
-      "detail": "Interim · 50.00%",
-      "date": "12 Nov 2026",
-      "isoDate": "2026-11-12"
-    },
-    {
-      "company": "Taparia Tools",
-      "symbol": "505685",
-      "type": "dividend",
-      "detail": "Interim · 400.00%",
-      "date": "12 Nov 2026",
-      "isoDate": "2026-11-12"
-    },
-    {
-      "company": "Bayer Crop Sci.",
-      "symbol": "BAYERCROP",
-      "type": "dividend",
-      "detail": "Interim · 900.00%",
+      "detail": "Interim · 10.00%",
       "date": "12 Nov 2026",
       "isoDate": "2026-11-12"
     }
