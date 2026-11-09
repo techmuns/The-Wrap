@@ -1,0 +1,420 @@
+{
+  "capturedOn": "2026-11-09",
+  "capturedAt": "2026-11-09T23:30:09.639Z",
+  "count": 25,
+  "rows": [
+    {
+      "company": "ASM Technologies",
+      "symbol": "526433",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f77bc956-9a99-49b9-a346-3a3cb12a454c.pdf"
+        }
+      ]
+    },
+    {
+      "company": "ASK Automotive",
+      "symbol": "ASKAUTOLTD",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8dab0591-1a7c-4196-9e0c-9f02baf6a55a.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23385853/"
+        }
+      ]
+    },
+    {
+      "company": "Pelatro",
+      "symbol": "PELATRO",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://nsearchives.nseindia.com/corporate/PELATRO_09112026230530_Pelatro_Investor_concall_transcript_05112026.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23385852/"
+        }
+      ]
+    },
+    {
+      "company": "Max Healthcare",
+      "symbol": "MAXHEALTH",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3d91cec-5dca-4232-af07-1a00daf644f2.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23384788/"
+        }
+      ]
+    },
+    {
+      "company": "Krishival Foods",
+      "symbol": "KRISHIVAL",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64750935-5db7-41df-b147-90573f0280b8.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23384787/"
+        }
+      ]
+    },
+    {
+      "company": "Onida Electronics",
+      "symbol": "ONIDA",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46f0f98f-a63e-4750-98ec-87b5e4d76fc9.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23384786/"
+        }
+      ]
+    },
+    {
+      "company": "Marvel Decor",
+      "symbol": "MDL",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.com/corporate/MDL_09112026210718_InvestorPresentation_H1_FY2026-27.pdf"
+        }
+      ]
+    },
+    {
+      "company": "eMudhra",
+      "symbol": "EMUDHRA",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4246-c8d2-496e-860f-8f19bc37958d.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23384783/"
+        }
+      ]
+    },
+    {
+      "company": "Atharva Poly-Plast",
+      "symbol": "544812",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58ee434f-7308-4421-a1f3-e1b8567ee6ec.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23384782/"
+        }
+      ]
+    },
+    {
+      "company": "Radiowalla",
+      "symbol": "RADIOWALLA",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://radiowalla.in/pdf/Radiowalla-Network-Limited-H1-FY27-Earnings-Conference-Call-2026-11-09.mp4"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23384781/"
+        }
+      ]
+    },
+    {
+      "company": "AGI Infra",
+      "symbol": "AGIIL",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=456cedbf-ae82-4220-b819-3e0aa1d9ca6b.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Ravindra Energy",
+      "symbol": "RELTD",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=10a3b300-f46a-4adc-becf-acf6f3218a0b.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23384777/"
+        }
+      ]
+    },
+    {
+      "company": "Highness Microelectronics",
+      "symbol": "544741",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2acd183-256d-489d-95cd-2275342c45d1.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23384776/"
+        }
+      ]
+    },
+    {
+      "company": "Datamatics Glob.",
+      "symbol": "DATAMATICS",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c5b68af-0ccf-4ba2-8585-8eb2b8a9df13.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23384774/"
+        }
+      ]
+    },
+    {
+      "company": "JM Financial",
+      "symbol": "JMFINANCIL",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=59cba5c9-be04-4e92-9baf-b630aa5d6a11.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23384773/"
+        }
+      ]
+    },
+    {
+      "company": "United Foodbrands",
+      "symbol": "UFBL",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5de23f34-0ea6-4fe1-b9f7-ac1c20908bb1.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23384772/"
+        }
+      ]
+    },
+    {
+      "company": "Jyothy Labs",
+      "symbol": "JYOTHYLAB",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d0007c8-741f-4f42-b7b4-c6fcc2c178c9.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23384771/"
+        }
+      ]
+    },
+    {
+      "company": "NSE",
+      "symbol": "544937",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bfdc4d1c-1e9f-47e9-8aa7-c6c2e006c3f0.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23384770/"
+        }
+      ]
+    },
+    {
+      "company": "Happiest Minds",
+      "symbol": "HAPPSTMNDS",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b5afda31-bbe6-465e-876e-48c8774ccacd.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23384769/"
+        }
+      ]
+    },
+    {
+      "company": "Balaji Amines",
+      "symbol": "BALAMINES",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=11739dcb-b35d-482e-85a2-bec4deecb183.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23384768/"
+        }
+      ]
+    },
+    {
+      "company": "Arvind Fashions.",
+      "symbol": "ARVINDFASN",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ab9c50b-8bc2-4e5b-941c-415ae4352ee4.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23384767/"
+        }
+      ]
+    },
+    {
+      "company": "KSH Internationa",
+      "symbol": "KSHINTL",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e48711cc-c959-4dc3-8fcd-a2a402fbcb45.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23384766/"
+        }
+      ]
+    },
+    {
+      "company": "HLE Glascoat",
+      "symbol": "HLEGLAS",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=641601bc-49e4-4f70-829c-59303d3b1e91.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23384765/"
+        }
+      ]
+    },
+    {
+      "company": "Sadhav Shipping",
+      "symbol": "SADHAV",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://nsearchives.nseindia.com/corporate/SADHAV_09112026165633_Transcript_Earnings_Call_Sept_2026_FS.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23384762/"
+        }
+      ]
+    },
+    {
+      "company": "Petronet LNG",
+      "symbol": "PETRONET",
+      "kind": "recent",
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce333f44-11ad-4ff0-9feb-55df877a6d07.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23384761/"
+        }
+      ]
+    }
+  ]
+}
