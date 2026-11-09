@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-06T20:37:27.135Z",
+  "fetchedAt": "2026-11-09T23:36:22.641Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -10,6 +10,14 @@
     "dividend": 25
   },
   "items": [
+    {
+      "company": "Pashupati Cotsp.",
+      "symbol": "PASHUPATI",
+      "type": "bonus",
+      "detail": "Ratio 3:2",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
     {
       "company": "Dharti Proteins",
       "symbol": "531171",
@@ -201,14 +209,6 @@
       "detail": "Ratio 5:1",
       "date": "17 Aug 2026",
       "isoDate": "2026-08-17"
-    },
-    {
-      "company": "Sahana Systems",
-      "symbol": "SAHANA",
-      "type": "bonus",
-      "detail": "Ratio 1:5",
-      "date": "31 Jul 2026",
-      "isoDate": "2026-07-31"
     },
     {
       "company": "Medi Assist Ser.",
@@ -827,6 +827,14 @@
       "isoDate": "2026-11-20"
     },
     {
+      "company": "Ingersoll-Rand",
+      "symbol": "INGERRAND",
+      "type": "dividend",
+      "detail": "Interim · 200.00%",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19"
+    },
+    {
       "company": "Power Fin.Corpn.",
       "symbol": "PFC",
       "type": "dividend",
@@ -835,12 +843,100 @@
       "isoDate": "2026-11-17"
     },
     {
+      "company": "ASM Technologies",
+      "symbol": "526433",
+      "type": "dividend",
+      "detail": "Interim 2 · 60.00%",
+      "date": "16 Nov 2026",
+      "isoDate": "2026-11-16"
+    },
+    {
+      "company": "Indag Rubber",
+      "symbol": "509162",
+      "type": "dividend",
+      "detail": "Interim · 45.00%",
+      "date": "16 Nov 2026",
+      "isoDate": "2026-11-16"
+    },
+    {
       "company": "S C I",
       "symbol": "SCI",
       "type": "dividend",
       "detail": "Interim · 40.00%",
       "date": "16 Nov 2026",
       "isoDate": "2026-11-16"
+    },
+    {
+      "company": "Ramdevbaba Sol.",
+      "symbol": "RBS",
+      "type": "dividend",
+      "detail": "Interim · 5.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "Goldiam Intl.",
+      "symbol": "GOLDIAM",
+      "type": "dividend",
+      "detail": "Interim 1 · 100.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "OCCL",
+      "symbol": "OCCLLTD",
+      "type": "dividend",
+      "detail": "Interim · 100.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "Premco Global",
+      "symbol": "PREMCO",
+      "type": "dividend",
+      "detail": "Interim 2 · 100.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "Transworld Shipp",
+      "symbol": "TRANSWORLD",
+      "type": "dividend",
+      "detail": "Interim · 110.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "iStreet Network",
+      "symbol": "524622",
+      "type": "dividend",
+      "detail": "Interim · 1.25%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "Rain Industries",
+      "symbol": "RAIN",
+      "type": "dividend",
+      "detail": "Interim 2 · 25.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "Dynamatic Tech.",
+      "symbol": "DYNAMATECH",
+      "type": "dividend",
+      "detail": "Interim 2 · 20.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
+    },
+    {
+      "company": "GE Shipping Co",
+      "symbol": "GESHIP",
+      "type": "dividend",
+      "detail": "Interim 2 · 144.00%",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13"
     },
     {
       "company": "Star Cement",
@@ -913,102 +1009,6 @@
       "detail": "Interim · 100.00%",
       "date": "13 Nov 2026",
       "isoDate": "2026-11-13"
-    },
-    {
-      "company": "Aptus Value Hou.",
-      "symbol": "APTUS",
-      "type": "dividend",
-      "detail": "Interim · 100.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "BMW Ventures",
-      "symbol": "BMWVENTLTD",
-      "type": "dividend",
-      "detail": "Interim · 15.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "S P Capital Fin.",
-      "symbol": "530289",
-      "type": "dividend",
-      "detail": "Interim · 7.50%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "Somany Ceramics",
-      "symbol": "SOMANYCERA",
-      "type": "dividend",
-      "detail": "Interim · 300.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "Mafatlal Inds.",
-      "symbol": "MAFATIND",
-      "type": "dividend",
-      "detail": "Interim · 50.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "Orient Tech.",
-      "symbol": "ORIENTTECH",
-      "type": "dividend",
-      "detail": "Interim · 20.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "Techknowgreen",
-      "symbol": "543991",
-      "type": "dividend",
-      "detail": "Interim · 5.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "Bhatia Communic.",
-      "symbol": "540956",
-      "type": "dividend",
-      "detail": "Interim 2 · 1.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "TAAL Tech",
-      "symbol": "TAALTECH",
-      "type": "dividend",
-      "detail": "Interim 1 · 250.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "Mobavenue AI Tech",
-      "symbol": "539682",
-      "type": "dividend",
-      "detail": "Interim · 5.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "Cams Services",
-      "symbol": "CAMS",
-      "type": "dividend",
-      "detail": "Interim 2 · 162.50%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "GPT Healthcare",
-      "symbol": "GPTHEALTH",
-      "type": "dividend",
-      "detail": "Interim · 10.00%",
-      "date": "12 Nov 2026",
-      "isoDate": "2026-11-12"
     }
   ]
 }
