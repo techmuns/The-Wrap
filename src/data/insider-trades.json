@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-09T23:26:30.699Z",
+  "fetchedAt": "2026-11-10T20:49:18.935Z",
   "source": "Screener",
   "total": 50,
   "items": [
@@ -13,8 +13,8 @@
       "pct": null,
       "value": null,
       "mode": "Bought",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
     },
     {
       "company": "Chembond Chemic.",
@@ -26,8 +26,8 @@
       "pct": null,
       "value": 1150000,
       "mode": "Bought",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
     },
     {
       "company": "Unicommerce",
@@ -39,8 +39,8 @@
       "pct": null,
       "value": null,
       "mode": "Bought",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
     },
     {
       "company": "Avenue Super.",
@@ -52,8 +52,8 @@
       "pct": null,
       "value": 10600000,
       "mode": "Sold",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
     },
     {
       "company": "Tiger Logistics",
@@ -65,8 +65,8 @@
       "pct": null,
       "value": 1550000,
       "mode": "Bought",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
     },
     {
       "company": "Zensar Tech.",
@@ -78,8 +78,8 @@
       "pct": null,
       "value": 17800000,
       "mode": "ESOP",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
     },
     {
       "company": "Vinati Organics",
@@ -91,8 +91,8 @@
       "pct": null,
       "value": 19800000,
       "mode": "Bought",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
     },
     {
       "company": "Trishakti Indus",
@@ -104,8 +104,8 @@
       "pct": null,
       "value": 329000,
       "mode": "Bought",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
     },
     {
       "company": "Symphony",
@@ -117,8 +117,8 @@
       "pct": null,
       "value": 66800000,
       "mode": "Gift",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
     },
     {
       "company": "Symphony",
@@ -130,8 +130,8 @@
       "pct": null,
       "value": 2511000,
       "mode": "Gift",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
     },
     {
       "company": "Symphony",
@@ -143,8 +143,8 @@
       "pct": null,
       "value": 1620000,
       "mode": "Gift",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
     },
     {
       "company": "Ramkrishna Forg.",
@@ -156,8 +156,8 @@
       "pct": null,
       "value": 36300000,
       "mode": "Bought",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
     },
     {
       "company": "Master Trust",
@@ -169,8 +169,8 @@
       "pct": null,
       "value": 2060000000,
       "mode": "Pledge Creation",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
     },
     {
       "company": "ION Exchange",
@@ -182,8 +182,8 @@
       "pct": null,
       "value": 1817000.0000000002,
       "mode": "Bought",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
     },
     {
       "company": "Globus Spirits",
@@ -195,8 +195,8 @@
       "pct": null,
       "value": 42800000,
       "mode": "Bought",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
     },
     {
       "company": "Cupid Breweries",
@@ -208,8 +208,8 @@
       "pct": null,
       "value": 1648999.9999999998,
       "mode": "Sold",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
     },
     {
       "company": "CEAT",
@@ -221,8 +221,8 @@
       "pct": null,
       "value": 41900000.00000001,
       "mode": "Bought",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
     },
     {
       "company": "Camlin Fine",
@@ -234,8 +234,8 @@
       "pct": null,
       "value": 82100000.00000001,
       "mode": "Pledge Creation",
-      "date": "yesterday",
-      "isoDate": null
+      "date": "9 Nov 2026",
+      "isoDate": "2026-11-09"
     },
     {
       "company": "Kronox Lab",
