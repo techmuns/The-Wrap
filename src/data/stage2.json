@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-09T23:38:55.036Z",
+  "fetchedAt": "2026-11-10T21:06:28.833Z",
   "source": "Screener",
   "description": "Price above its rising 50- and 200-day averages, with 6-month return over 20% and 1-year over 30% (market cap above ₹500 cr).",
   "count": 50,
@@ -16,21 +16,21 @@
       "company": "Divi's Lab.",
       "cmp": 11565.5,
       "marCap": 307027.69,
-      "ret1y": 72.84
+      "ret1y": 76.86
     },
     {
       "symbol": "MOTHERSON",
       "company": "Samvardh. Mothe.",
       "cmp": 161.91,
       "marCap": 172558.05,
-      "ret1y": 57.88
+      "ret1y": 53.53
     },
     {
       "symbol": "BOSCHLTD",
       "company": "Bosch",
       "cmp": 49550,
       "marCap": 146153.18,
-      "ret1y": 32.91
+      "ret1y": 35.09
     },
     {
       "symbol": "LAURUSLABS",
@@ -58,7 +58,7 @@
       "company": "Aurobindo Pharma",
       "cmp": 1855.3,
       "marCap": 106749.86,
-      "ret1y": 60.66
+      "ret1y": 58.82
     },
     {
       "symbol": "NYKAA",
@@ -72,7 +72,7 @@
       "company": "Federal Bank",
       "cmp": 344.1,
       "marCap": 85102.13,
-      "ret1y": 44.3
+      "ret1y": 45.87
     },
     {
       "symbol": "ATHERENERG",
@@ -86,7 +86,7 @@
       "company": "Radico Khaitan",
       "cmp": 4560.8,
       "marCap": 61109.73,
-      "ret1y": 39.92
+      "ret1y": 39.24
     },
     {
       "symbol": "SONACOMS",
@@ -114,21 +114,21 @@
       "company": "Ipca Labs.",
       "cmp": 1959.7,
       "marCap": 49718.42,
-      "ret1y": 45.72
+      "ret1y": 48.24
     },
     {
       "symbol": "NAVINFLUOR",
       "company": "Navin Fluo.Intl.",
       "cmp": 9115,
       "marCap": 46773.27,
-      "ret1y": 52.08
+      "ret1y": 51.31
     },
     {
       "symbol": "CUPID",
       "company": "Cupid",
       "cmp": 342.85,
       "marCap": 46101.69,
-      "ret1y": 555.92
+      "ret1y": 576.9
     },
     {
       "symbol": "EMCURE",
@@ -170,7 +170,7 @@
       "company": "Karur Vysya Bank",
       "cmp": 370,
       "marCap": 35762.97,
-      "ret1y": 49.41
+      "ret1y": 50.52
     },
     {
       "symbol": "LALPATHLAB",
@@ -212,7 +212,7 @@
       "company": "Cemindia Project",
       "cmp": 1307.5,
       "marCap": 24113.3,
-      "ret1y": 57.33
+      "ret1y": 61.51
     },
     {
       "symbol": "WELSPUNLIV",
@@ -226,7 +226,7 @@
       "company": "Diamond Power",
       "cmp": 371.65,
       "marCap": 22227.31,
-      "ret1y": 152.15
+      "ret1y": 153.43
     },
     {
       "symbol": "THELEELA",
@@ -240,7 +240,7 @@
       "company": "C P C L",
       "cmp": 1460.9,
       "marCap": 21754.47,
-      "ret1y": 46.05
+      "ret1y": 41.48
     },
     {
       "symbol": "AETHER",
@@ -254,14 +254,14 @@
       "company": "Shilpa Medicare",
       "cmp": 933.85,
       "marCap": 18264.41,
-      "ret1y": 144.02
+      "ret1y": 137.38
     },
     {
       "symbol": "GRWRHITECH",
       "company": "Garware Hi Tech",
       "cmp": 7858.5,
       "marCap": 18257.18,
-      "ret1y": 123.4
+      "ret1y": 127.22
     },
     {
       "symbol": "ALIVUS",
@@ -275,7 +275,14 @@
       "company": "Sigma Advanced System",
       "cmp": 937.95,
       "marCap": 17814.39,
-      "ret1y": 348.5
+      "ret1y": 356.38
+    },
+    {
+      "symbol": "ENGINERSIN",
+      "company": "Engineers India",
+      "cmp": 299.35,
+      "marCap": 16824.74,
+      "ret1y": 54.15
     },
     {
       "symbol": "NAZARA",
@@ -296,14 +303,14 @@
       "company": "Astra Microwave",
       "cmp": 1659.7,
       "marCap": 15758.02,
-      "ret1y": 58.49
+      "ret1y": 58.22
     },
     {
       "symbol": "PVRINOX",
       "company": "PVR Inox",
       "cmp": 1589.8,
       "marCap": 15611.83,
-      "ret1y": 40.84
+      "ret1y": 40.95
     },
     {
       "symbol": "APOLLO",
@@ -317,21 +324,21 @@
       "company": "South Ind.Bank",
       "cmp": 58.68,
       "marCap": 15375.67,
-      "ret1y": 53.45
+      "ret1y": 51.35
     },
     {
       "symbol": "LUMAXTECH",
       "company": "Lumax Auto Tech.",
       "cmp": 2226.7,
       "marCap": 15176.68,
-      "ret1y": 60.62
+      "ret1y": 55.77
     },
     {
       "symbol": "SWANDEF",
       "company": "Swan Defence",
       "cmp": 2852.6,
       "marCap": 15028.11,
-      "ret1y": 203.53
+      "ret1y": 189.09
     },
     {
       "symbol": "SKYGOLD",
@@ -346,13 +353,6 @@
       "cmp": 881.3,
       "marCap": 14357.99,
       "ret1y": 226.77
-    },
-    {
-      "symbol": "RKFORGE",
-      "company": "Ramkrishna Forg.",
-      "cmp": 713.4,
-      "marCap": 13238.56,
-      "ret1y": 33.62
     }
   ]
 }
