@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-10T21:02:26.558Z",
+  "fetchedAt": "2026-11-11T21:34:52.223Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -819,6 +819,14 @@
       "isoDate": "2026-11-23"
     },
     {
+      "company": "Talbros Auto.",
+      "symbol": "TALBROAUTO",
+      "type": "dividend",
+      "detail": "Interim · 15.00%",
+      "date": "20 Nov 2026",
+      "isoDate": "2026-11-20"
+    },
+    {
       "company": "Venus Pipes",
       "symbol": "VENUSPIPES",
       "type": "dividend",
@@ -835,12 +843,52 @@
       "isoDate": "2026-11-19"
     },
     {
+      "company": "Connplex Cinemas",
+      "symbol": "CONNPLEX",
+      "type": "dividend",
+      "detail": "Interim · 5.00%",
+      "date": "18 Nov 2026",
+      "isoDate": "2026-11-18"
+    },
+    {
+      "company": "EAAA India",
+      "symbol": "EDELALTS",
+      "type": "dividend",
+      "detail": "Interim · 140.00%",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17"
+    },
+    {
+      "company": "MRF",
+      "symbol": "MRF",
+      "type": "dividend",
+      "detail": "Interim · 30.00%",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17"
+    },
+    {
       "company": "Power Fin.Corpn.",
       "symbol": "PFC",
       "type": "dividend",
       "detail": "Interim 2 · 41.00%",
       "date": "17 Nov 2026",
       "isoDate": "2026-11-17"
+    },
+    {
+      "company": "Australian Prem",
+      "symbol": "APS",
+      "type": "dividend",
+      "detail": "Interim · 1.50%",
+      "date": "16 Nov 2026",
+      "isoDate": "2026-11-16"
+    },
+    {
+      "company": "Cochin Shipyard",
+      "symbol": "COCHINSHIP",
+      "type": "dividend",
+      "detail": "Interim · 60.00%",
+      "date": "16 Nov 2026",
+      "isoDate": "2026-11-16"
     },
     {
       "company": "ASM Technologies",
@@ -957,54 +1005,6 @@
     {
       "company": "Pearl Global Ind",
       "symbol": "PGIL",
-      "type": "dividend",
-      "detail": "Interim · 100.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "Repco Home Fin",
-      "symbol": "REPCOHOME",
-      "type": "dividend",
-      "detail": "Interim · 50.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "PPAP Automotive",
-      "symbol": "PPAP",
-      "type": "dividend",
-      "detail": "Interim · 15.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "Emami",
-      "symbol": "EMAMILTD",
-      "type": "dividend",
-      "detail": "Interim 1 · 500.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "Prec. Wires (I)",
-      "symbol": "PRECWIRE",
-      "type": "dividend",
-      "detail": "Interim · 35.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "I G Petrochems",
-      "symbol": "IGPL",
-      "type": "dividend",
-      "detail": "Interim · 100.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "Shivalik Bimetal",
-      "symbol": "SBCL",
       "type": "dividend",
       "detail": "Interim · 100.00%",
       "date": "13 Nov 2026",
