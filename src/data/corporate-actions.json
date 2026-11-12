@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-11T21:34:52.223Z",
+  "fetchedAt": "2026-11-12T21:37:09.968Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -230,7 +230,7 @@
       "company": "Jyothy Labs",
       "symbol": "JYOTHYLAB",
       "type": "buyback",
-      "detail": "Tender Offer · 215.00 · 147.00",
+      "detail": "Tender Offer · 240.00 · 147.00",
       "date": "11 Nov 2026",
       "isoDate": "2026-11-11"
     },
@@ -843,12 +843,36 @@
       "isoDate": "2026-11-19"
     },
     {
+      "company": "ARCL Organics",
+      "symbol": "ARCL",
+      "type": "dividend",
+      "detail": "Interim 1 · 10.00%",
+      "date": "18 Nov 2026",
+      "isoDate": "2026-11-18"
+    },
+    {
+      "company": "Page Industries",
+      "symbol": "PAGEIND",
+      "type": "dividend",
+      "detail": "Interim 2 · 1500.00%",
+      "date": "18 Nov 2026",
+      "isoDate": "2026-11-18"
+    },
+    {
       "company": "Connplex Cinemas",
       "symbol": "CONNPLEX",
       "type": "dividend",
       "detail": "Interim · 5.00%",
       "date": "18 Nov 2026",
       "isoDate": "2026-11-18"
+    },
+    {
+      "company": "Powergrid Infra.",
+      "symbol": "PGINVIT",
+      "type": "dividend",
+      "detail": "Final · 3.00%",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17"
     },
     {
       "company": "EAAA India",
@@ -983,30 +1007,6 @@
       "symbol": "GESHIP",
       "type": "dividend",
       "detail": "Interim 2 · 144.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "Star Cement",
-      "symbol": "STARCEMENT",
-      "type": "dividend",
-      "detail": "Interim · 100.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "Astral",
-      "symbol": "ASTRAL",
-      "type": "dividend",
-      "detail": "Interim · 150.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "Pearl Global Ind",
-      "symbol": "PGIL",
-      "type": "dividend",
-      "detail": "Interim · 100.00%",
       "date": "13 Nov 2026",
       "isoDate": "2026-11-13"
     }
