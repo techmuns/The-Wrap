@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-12T21:37:09.968Z",
+  "fetchedAt": "2026-11-16T23:32:49.665Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -211,12 +211,28 @@
       "isoDate": "2026-08-17"
     },
     {
+      "company": "Zee Entertainmen",
+      "symbol": "ZEEL",
+      "type": "buyback",
+      "detail": "Tender Offer · 91.00 · 600.00",
+      "date": "25 Nov 2026",
+      "isoDate": "2026-11-25"
+    },
+    {
       "company": "Medi Assist Ser.",
       "symbol": "MEDIASSIST",
       "type": "buyback",
       "detail": "Tender Offer · 425.00 · 49.26",
       "date": "20 Nov 2026",
       "isoDate": "2026-11-20"
+    },
+    {
+      "company": "Global Education",
+      "symbol": "GLOBAL",
+      "type": "buyback",
+      "detail": "Tender Offer · 162.00 · 23.90",
+      "date": "18 Nov 2026",
+      "isoDate": "2026-11-18"
     },
     {
       "company": "FDC",
@@ -395,20 +411,12 @@
       "isoDate": "2026-05-29"
     },
     {
-      "company": "Welspun Living",
-      "symbol": "WELSPUNLIV",
-      "type": "buyback",
-      "detail": "Tender Offer · 175.00 · 252.00",
-      "date": "22 May 2026",
-      "isoDate": "2026-05-22"
-    },
-    {
-      "company": "CMS Info Systems",
-      "symbol": "CMSINFO",
-      "type": "buyback",
-      "detail": "Tender Offer · 340.00 · 167.00",
-      "date": "22 May 2026",
-      "isoDate": "2026-05-22"
+      "company": "S P Apparels",
+      "symbol": "SPAL",
+      "type": "split",
+      "detail": "10.00 · 2.00",
+      "date": "10 Dec 2026",
+      "isoDate": "2026-12-10"
     },
     {
       "company": "Interarch Build.",
@@ -603,12 +611,28 @@
       "isoDate": "2026-09-04"
     },
     {
-      "company": "TCC Concept",
-      "symbol": "TCC",
-      "type": "split",
-      "detail": "10.00 · 2.00",
-      "date": "4 Sep 2026",
-      "isoDate": "2026-09-04"
+      "company": "Indergiri Fin.",
+      "symbol": "531505",
+      "type": "rights",
+      "detail": "Ratio 7:4 · ₹1.00 premium",
+      "date": "25 Nov 2026",
+      "isoDate": "2026-11-25"
+    },
+    {
+      "company": "Praxis Home",
+      "symbol": "PRAXIS",
+      "type": "rights",
+      "detail": "Ratio 5:9 · ₹0.00 premium",
+      "date": "18 Nov 2026",
+      "isoDate": "2026-11-18"
+    },
+    {
+      "company": "Ironwood Educa",
+      "symbol": "508918",
+      "type": "rights",
+      "detail": "Ratio 34:100 · ₹31.00 premium",
+      "date": "18 Nov 2026",
+      "isoDate": "2026-11-18"
     },
     {
       "company": "Kanel Indust.",
@@ -787,36 +811,116 @@
       "isoDate": "2026-09-11"
     },
     {
-      "company": "Salem Erode Inv.",
-      "symbol": "540181",
-      "type": "rights",
-      "detail": "Ratio 1:1 · ₹19.00 premium",
-      "date": "3 Sep 2026",
-      "isoDate": "2026-09-03"
-    },
-    {
-      "company": "Anondita Medi.",
-      "symbol": "ANONDITA",
-      "type": "rights",
-      "detail": "Ratio 97:1831 · ₹940.00 premium",
-      "date": "2 Sep 2026",
-      "isoDate": "2026-09-02"
-    },
-    {
-      "company": "Manas Polymers",
-      "symbol": "MPEL",
-      "type": "rights",
-      "detail": "Ratio 2:1 · ₹6.00 premium",
-      "date": "31 Aug 2026",
-      "isoDate": "2026-08-31"
-    },
-    {
       "company": "Pashupati Cotsp.",
       "symbol": "PASHUPATI",
       "type": "dividend",
       "detail": "Interim · 2.00%",
       "date": "23 Nov 2026",
       "isoDate": "2026-11-23"
+    },
+    {
+      "company": "Envirotech Sys.",
+      "symbol": "ENVIRO",
+      "type": "dividend",
+      "detail": "Interim 1 · 10.00%",
+      "date": "20 Nov 2026",
+      "isoDate": "2026-11-20"
+    },
+    {
+      "company": "Skyways Air Ser.",
+      "symbol": "SKYWAYS",
+      "type": "dividend",
+      "detail": "Interim 2 · 4.00%",
+      "date": "20 Nov 2026",
+      "isoDate": "2026-11-20"
+    },
+    {
+      "company": "Jamna Auto Inds.",
+      "symbol": "JAMNAAUTO",
+      "type": "dividend",
+      "detail": "Interim · 100.00%",
+      "date": "20 Nov 2026",
+      "isoDate": "2026-11-20"
+    },
+    {
+      "company": "Polyplex Corpn",
+      "symbol": "POLYPLEX",
+      "type": "dividend",
+      "detail": "Interim · 120.00%",
+      "date": "20 Nov 2026",
+      "isoDate": "2026-11-20"
+    },
+    {
+      "company": "PDP Shipping",
+      "symbol": "544378",
+      "type": "dividend",
+      "detail": "Interim · 15.00%",
+      "date": "20 Nov 2026",
+      "isoDate": "2026-11-20"
+    },
+    {
+      "company": "BF Investment",
+      "symbol": "BFINVEST",
+      "type": "dividend",
+      "detail": "Interim · 400.00%",
+      "date": "20 Nov 2026",
+      "isoDate": "2026-11-20"
+    },
+    {
+      "company": "Marsons",
+      "symbol": "MARSONS",
+      "type": "dividend",
+      "detail": "Interim 1 · 5.00%",
+      "date": "20 Nov 2026",
+      "isoDate": "2026-11-20"
+    },
+    {
+      "company": "Ashok Leyland",
+      "symbol": "ASHOKLEY",
+      "type": "dividend",
+      "detail": "Interim · 100.00%",
+      "date": "20 Nov 2026",
+      "isoDate": "2026-11-20"
+    },
+    {
+      "company": "Shanmuga Hos.",
+      "symbol": "544365",
+      "type": "dividend",
+      "detail": "Interim · 1.00%",
+      "date": "20 Nov 2026",
+      "isoDate": "2026-11-20"
+    },
+    {
+      "company": "Prevest Denpro",
+      "symbol": "543363",
+      "type": "dividend",
+      "detail": "Interim · 10.00%",
+      "date": "20 Nov 2026",
+      "isoDate": "2026-11-20"
+    },
+    {
+      "company": "Oil India",
+      "symbol": "OIL",
+      "type": "dividend",
+      "detail": "Interim · 70.00%",
+      "date": "20 Nov 2026",
+      "isoDate": "2026-11-20"
+    },
+    {
+      "company": "Steelcast",
+      "symbol": "STEELCAS",
+      "type": "dividend",
+      "detail": "Interim 2 · 45.00%",
+      "date": "20 Nov 2026",
+      "isoDate": "2026-11-20"
+    },
+    {
+      "company": "Rama Phosphates",
+      "symbol": "RAMAPHO",
+      "type": "dividend",
+      "detail": "Interim 1 · 10.00%",
+      "date": "20 Nov 2026",
+      "isoDate": "2026-11-20"
     },
     {
       "company": "Talbros Auto.",
@@ -835,6 +939,14 @@
       "isoDate": "2026-11-20"
     },
     {
+      "company": "Natco Pharma",
+      "symbol": "NATCOPHARM",
+      "type": "dividend",
+      "detail": "Interim 2 · 62.50%",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19"
+    },
+    {
       "company": "Ingersoll-Rand",
       "symbol": "INGERRAND",
       "type": "dividend",
@@ -843,172 +955,60 @@
       "isoDate": "2026-11-19"
     },
     {
+      "company": "Royal Arc Ele.",
+      "symbol": "ROYALARC",
+      "type": "dividend",
+      "detail": "Interim · 5.00%",
+      "date": "18 Nov 2026",
+      "isoDate": "2026-11-18"
+    },
+    {
+      "company": "Vertis Infra.",
+      "symbol": "VERTIS",
+      "type": "dividend",
+      "detail": "Final · 3.25%",
+      "date": "18 Nov 2026",
+      "isoDate": "2026-11-18"
+    },
+    {
+      "company": "Capital Infra",
+      "symbol": "CAPINVIT",
+      "type": "dividend",
+      "detail": "Final · 2.32%",
+      "date": "18 Nov 2026",
+      "isoDate": "2026-11-18"
+    },
+    {
+      "company": "TD Power Systems",
+      "symbol": "TDPOWERSYS",
+      "type": "dividend",
+      "detail": "Interim · 65.00%",
+      "date": "18 Nov 2026",
+      "isoDate": "2026-11-18"
+    },
+    {
+      "company": "Manappuram Fin.",
+      "symbol": "MANAPPURAM",
+      "type": "dividend",
+      "detail": "Interim 2 · 50.00%",
+      "date": "18 Nov 2026",
+      "isoDate": "2026-11-18"
+    },
+    {
+      "company": "A.K.Capital Serv",
+      "symbol": "AKCAPIT",
+      "type": "dividend",
+      "detail": "Interim 2 · 180.00%",
+      "date": "18 Nov 2026",
+      "isoDate": "2026-11-18"
+    },
+    {
       "company": "ARCL Organics",
       "symbol": "ARCL",
       "type": "dividend",
       "detail": "Interim 1 · 10.00%",
       "date": "18 Nov 2026",
       "isoDate": "2026-11-18"
-    },
-    {
-      "company": "Page Industries",
-      "symbol": "PAGEIND",
-      "type": "dividend",
-      "detail": "Interim 2 · 1500.00%",
-      "date": "18 Nov 2026",
-      "isoDate": "2026-11-18"
-    },
-    {
-      "company": "Connplex Cinemas",
-      "symbol": "CONNPLEX",
-      "type": "dividend",
-      "detail": "Interim · 5.00%",
-      "date": "18 Nov 2026",
-      "isoDate": "2026-11-18"
-    },
-    {
-      "company": "Powergrid Infra.",
-      "symbol": "PGINVIT",
-      "type": "dividend",
-      "detail": "Final · 3.00%",
-      "date": "17 Nov 2026",
-      "isoDate": "2026-11-17"
-    },
-    {
-      "company": "EAAA India",
-      "symbol": "EDELALTS",
-      "type": "dividend",
-      "detail": "Interim · 140.00%",
-      "date": "17 Nov 2026",
-      "isoDate": "2026-11-17"
-    },
-    {
-      "company": "MRF",
-      "symbol": "MRF",
-      "type": "dividend",
-      "detail": "Interim · 30.00%",
-      "date": "17 Nov 2026",
-      "isoDate": "2026-11-17"
-    },
-    {
-      "company": "Power Fin.Corpn.",
-      "symbol": "PFC",
-      "type": "dividend",
-      "detail": "Interim 2 · 41.00%",
-      "date": "17 Nov 2026",
-      "isoDate": "2026-11-17"
-    },
-    {
-      "company": "Australian Prem",
-      "symbol": "APS",
-      "type": "dividend",
-      "detail": "Interim · 1.50%",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16"
-    },
-    {
-      "company": "Cochin Shipyard",
-      "symbol": "COCHINSHIP",
-      "type": "dividend",
-      "detail": "Interim · 60.00%",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16"
-    },
-    {
-      "company": "ASM Technologies",
-      "symbol": "526433",
-      "type": "dividend",
-      "detail": "Interim 2 · 60.00%",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16"
-    },
-    {
-      "company": "Indag Rubber",
-      "symbol": "509162",
-      "type": "dividend",
-      "detail": "Interim · 45.00%",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16"
-    },
-    {
-      "company": "S C I",
-      "symbol": "SCI",
-      "type": "dividend",
-      "detail": "Interim · 40.00%",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16"
-    },
-    {
-      "company": "Ramdevbaba Sol.",
-      "symbol": "RBS",
-      "type": "dividend",
-      "detail": "Interim · 5.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "Goldiam Intl.",
-      "symbol": "GOLDIAM",
-      "type": "dividend",
-      "detail": "Interim 1 · 100.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "OCCL",
-      "symbol": "OCCLLTD",
-      "type": "dividend",
-      "detail": "Interim · 100.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "Premco Global",
-      "symbol": "PREMCO",
-      "type": "dividend",
-      "detail": "Interim 2 · 100.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "Transworld Shipp",
-      "symbol": "TRANSWORLD",
-      "type": "dividend",
-      "detail": "Interim · 110.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "iStreet Network",
-      "symbol": "524622",
-      "type": "dividend",
-      "detail": "Interim · 1.25%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "Rain Industries",
-      "symbol": "RAIN",
-      "type": "dividend",
-      "detail": "Interim 2 · 25.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "Dynamatic Tech.",
-      "symbol": "DYNAMATECH",
-      "type": "dividend",
-      "detail": "Interim 2 · 20.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
-    },
-    {
-      "company": "GE Shipping Co",
-      "symbol": "GESHIP",
-      "type": "dividend",
-      "detail": "Interim 2 · 144.00%",
-      "date": "13 Nov 2026",
-      "isoDate": "2026-11-13"
     }
   ]
 }
