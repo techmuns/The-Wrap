@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T23:28:01.898Z",
+  "fetchedAt": "2026-11-17T22:32:00.455Z",
   "source": "Screener",
   "counts": {
     "recent": 25,
@@ -7,152 +7,96 @@
   },
   "items": [
     {
-      "company": "Apeejay Surrend.",
-      "symbol": "PARKHOTELS",
+      "company": "KSB",
+      "symbol": "KSB",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.youtube.com/watch?v=7oxAKaM6kyU"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23411570/"
+        }
+      ]
+    },
+    {
+      "company": "Vertis Infra.",
+      "symbol": "VERTIS",
       "kind": "recent",
       "date": "17 Nov 2026",
       "isoDate": "2026-11-17",
       "links": [
         {
           "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33ba9d03-8b45-4b17-b224-c7f3048bdc85.pdf"
+          "url": "https://nsearchives.nseindia.in/corporate/HIGHWAYS_17112026153822_Intimation-EarningsCall.pdf"
         }
       ]
     },
     {
-      "company": "Sakar Healthcare",
-      "symbol": "SAKAR",
+      "company": "Visdem Technosys",
+      "symbol": "VISDEM",
       "kind": "recent",
-      "date": "26 Oct 2026",
-      "isoDate": "2026-10-26",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
       "links": [
         {
           "label": "View Presentation",
-          "url": "https://sakarhealthcare.com/wp-content/uploads/2026/10/Sakar-Investor-Presentation-Q2FY27.pdf"
+          "url": "https://nsearchives.nseindia.in/corporate/KUNDAN_17112026213536_Visdem_Technosys_LTD_Investor_Presentation_H1_FY27ocr.pdf"
         }
       ]
     },
     {
-      "company": "Ceinsys Tech",
-      "symbol": "CEINSYS",
+      "company": "Lemon Tree Hotel",
+      "symbol": "LEMONTREE",
       "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f1640add-0a44-4be9-b919-a8648c4af9b8.pdf"
-        }
-      ]
-    },
-    {
-      "company": "All E Tech",
-      "symbol": "ALLETEC",
-      "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://nsearchives.nseindia.in/corporate/ALLETECH_16112026215538_Alletec_Investor_Presentation.pdf"
-        }
-      ]
-    },
-    {
-      "company": "Rane (Madras)",
-      "symbol": "RML",
-      "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
-      "links": [
-        {
-          "label": "View Recording",
-          "url": "https://ranegroup.com/wp-content/uploads/2026/11/Q227-Call-Recording.mp3"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23408461/"
-        }
-      ]
-    },
-    {
-      "company": "Arvaya Healthcare",
-      "symbol": "524723",
-      "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
-      "links": [
-        {
-          "label": "View Recording",
-          "url": "https://www.arvayahealth.com/assets/Investors-Relation/Analyst-Earnings-Call/10049512.mp3"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23408460/"
-        }
-      ]
-    },
-    {
-      "company": "EIH",
-      "symbol": "EIHOTEL",
-      "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
-      "links": [
-        {
-          "label": "View Recording",
-          "url": "https://www.eihltd.com/-/media/eihltd/pdf-files/disclosure/investor-analysts-meet/eihltd-q2fy27-results-webinar.mp4"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23408458/"
-        }
-      ]
-    },
-    {
-      "company": "Network People",
-      "symbol": "NPST",
-      "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
       "links": [
         {
           "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98b5cbea-2e59-4246-85c9-1f8c99bb29f2.pdf"
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddf89695-108a-4366-9b1f-5d3efa46773d.pdf"
         },
         {
           "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23408457/"
+          "url": "https://www.screener.in/concalls/summary/23411567/"
         }
       ]
     },
     {
-      "company": "Solarium Green",
-      "symbol": "544354",
+      "company": "Gujarat Alkalies",
+      "symbol": "GUJALKALI",
       "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
       "links": [
         {
-          "label": "View Recording",
-          "url": "https://solariumenergy.in/wp-content/uploads/2025/09/Solarium-H1FY27-Earnings-Call.mp4"
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b2f2352-1339-4c74-a560-cdb1ff73659f.pdf"
         },
         {
           "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23408456/"
+          "url": "https://www.screener.in/concalls/summary/23411566/"
         }
       ]
     },
     {
-      "company": "Emerald Tyre",
-      "symbol": "ETML",
+      "company": "Denta Water",
+      "symbol": "DENTA",
       "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
       "links": [
         {
-          "label": "View Presentation",
-          "url": "https://nsearchives.nseindia.in/corporate/EMERALD_GYR_16112026185849_Emerald_Tyre_-_H1_FY27_Investor_Presentation_covering_letter.pdf"
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=776dc6ef-eb78-4756-911d-bf52b10a0046.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23411565/"
         }
       ]
     },
@@ -160,238 +104,270 @@
       "company": "Orchid Pharma",
       "symbol": "ORCHPHARMA",
       "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
-      "links": [
-        {
-          "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1b3f007-d442-4de3-a55b-0f3bc3f2d5fb.pdf"
-        }
-      ]
-    },
-    {
-      "company": "Gokaldas Exports",
-      "symbol": "GOKEX",
-      "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed745fe3-1427-4a62-9d50-3cc8b5c324ef.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23408453/"
-        }
-      ]
-    },
-    {
-      "company": "Duroply Indust.",
-      "symbol": "516003",
-      "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
       "links": [
         {
           "label": "View Recording",
-          "url": "https://www.duroply.in/investor/img/document/1488222703.mp3"
+          "url": "https://orchid-pharma.b-cdn.net/audios/10049646.mp3"
         },
         {
           "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23408452/"
+          "url": "https://www.screener.in/concalls/summary/23411564/"
         }
       ]
     },
     {
-      "company": "Jupiter Wagons",
-      "symbol": "JWL",
+      "company": "Energy-Mission",
+      "symbol": "EMMIL",
       "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
-      "links": [
-        {
-          "label": "View Recording",
-          "url": "https://jupiterwagons.com/wp-content/uploads/2026/11/10049599.mp3"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23408451/"
-        }
-      ]
-    },
-    {
-      "company": "Kwick Forensic",
-      "symbol": "544895",
-      "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
       "links": [
         {
           "label": "View Presentation",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d579452-788f-49b1-bc94-dd3711b5f867.pdf"
+          "url": "https://nsearchives.nseindia.in/corporate/EMMIL_17112026201146_EMMIL_Investor_Presentation_Regulation_17112026.pdf"
         }
       ]
     },
     {
-      "company": "Sudarshan Chem.",
-      "symbol": "SUDARSCHEM",
+      "company": "Lords Mark Industries",
+      "symbol": "501261",
       "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f167912-056b-49f8-80a8-8ea2432ff10a.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23408449/"
-        }
-      ]
-    },
-    {
-      "company": "Krishana Phosch.",
-      "symbol": "KRISHANA",
-      "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
       "links": [
         {
           "label": "View Presentation",
-          "url": "https://nsearchives.nseindia.in/corporate/KRISHANA_16112026182608_NSEKPLINVPRESEP26SIGNTOUP.pdf"
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ab9ec42-66e4-4d3b-bbbd-4d05cec1b1bc.pdf"
         }
       ]
     },
     {
-      "company": "Data Pattern",
-      "symbol": "DATAPATTNS",
+      "company": "Sheetal Cool",
+      "symbol": "SCPL",
       "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94946030-3dff-474f-b95f-f5ac76c714ee.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23408447/"
-        }
-      ]
-    },
-    {
-      "company": "Anawil Wire",
-      "symbol": "ANAWIL",
-      "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://nsearchives.nseindia.in/corporate/ANAWIL_16112026182516_Transcript_H1FY27.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23408445/"
-        }
-      ]
-    },
-    {
-      "company": "Ashapura Minech.",
-      "symbol": "ASHAPURMIN",
-      "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e9774179-dd77-4f15-a680-c45c6dcb4dea.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23408444/"
-        }
-      ]
-    },
-    {
-      "company": "Knowledge Marine",
-      "symbol": "KMEW",
-      "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
-      "links": [
-        {
-          "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7816b917-1659-4898-b01f-587f7008ef27.pdf"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23408443/"
-        }
-      ]
-    },
-    {
-      "company": "Srinibas Pradhan",
-      "symbol": "SPCON",
-      "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
       "links": [
         {
           "label": "View Presentation",
-          "url": "https://nsearchives.nseindia.in/corporate/SPCL_16112026181851_Intimation_on_Investor_Presentation-1.pdf"
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6257afcc-8b17-41b4-885f-31c4fbcdd97d.pdf"
         }
       ]
     },
     {
-      "company": "Maharaja & Speedex India",
-      "symbol": "544925",
+      "company": "Rentomojo",
+      "symbol": "RENTOMOJO",
       "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
       "links": [
         {
           "label": "View Transcript",
-          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=218a7a28-79de-4f9a-aa07-39bb85b77b0e.pdf"
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=62fe4753-7361-4399-88a0-1e00d9e29caa.pdf"
         },
         {
           "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23408441/"
+          "url": "https://www.screener.in/concalls/summary/23411558/"
         }
       ]
     },
     {
-      "company": "Som Distilleries",
-      "symbol": "SDBL",
+      "company": "Encompass Design",
+      "symbol": "ENCOMPAS",
       "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
       "links": [
         {
-          "label": "View Recording",
-          "url": "https://somindia.com/wp-content/uploads/2026/11/10049699.mp3"
-        },
-        {
-          "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23408440/"
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.in/corporate/EDILIPO_17112026192841_Investor_Presentation_Intimation.pdf"
         }
       ]
     },
     {
-      "company": "Hinduja Global",
-      "symbol": "HGS",
+      "company": "Chandan Healthca",
+      "symbol": "CHANDAN",
       "kind": "recent",
-      "date": "16 Nov 2026",
-      "isoDate": "2026-11-16",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
       "links": [
         {
-          "label": "View Recording",
-          "url": "https://hgs.com/reports/2026/11/Concall-Hinduja-Global-Solutions-Limited-16112026.mp3"
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.in/corporate/CHANDAN_17112026191653_NSE-H1_FY27_Investor_Presentation_v2.pdf"
+        }
+      ]
+    },
+    {
+      "company": "LAPL Automotive",
+      "symbol": "544863",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1a66ccf-66ca-4636-8570-8fd9539099f5.pdf"
+        }
+      ]
+    },
+    {
+      "company": "BharatRohan Air.",
+      "symbol": "544535",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a19a2078-7722-4385-af53-7186d62f45f3.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Physicswallah",
+      "symbol": "PWL",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bc7e89cd-a881-4568-9c8f-0af605d11aea.pdf"
+        }
+      ]
+    },
+    {
+      "company": "TBI Corn",
+      "symbol": "TBI",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.in/corporate/TBICORN_17112026190135_Investor_Presentation_TBI.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Sula Vineyards",
+      "symbol": "SULA",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b7260398-f523-432d-b629-5f7a6d61ec86.pdf"
         },
         {
           "label": "View Summary",
-          "url": "https://www.screener.in/concalls/summary/23408439/"
+          "url": "https://www.screener.in/concalls/summary/23411550/"
+        }
+      ]
+    },
+    {
+      "company": "Maxposure",
+      "symbol": "MAXPOSURE",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.in/corporate/MAXPOSURE_17112026185026_Intimation_Investor_Presentation_H1_FY27.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Sammaan Capital",
+      "symbol": "SAMMAANCAP",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60700304-8c83-443f-a6f6-1c163ea54fda.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23411547/"
+        }
+      ]
+    },
+    {
+      "company": "Indo Tech.Trans.",
+      "symbol": "INDOTECH",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed77d562-8dc9-4576-a70e-48e533f268f6.pdf"
+        }
+      ]
+    },
+    {
+      "company": "SKF India Indus.",
+      "symbol": "SKFINDUS",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8c3cf31-6e54-41ab-a3ef-aa864633b3ab.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23411545/"
+        }
+      ]
+    },
+    {
+      "company": "Adcounty Media.",
+      "symbol": "544435",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=efde6199-004c-4b96-b71e-e69632bad17a.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Viyash Scientific",
+      "symbol": "VIYASH",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fdd93ce0-449c-4c7c-ab5f-139533a79859.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23411542/"
+        }
+      ]
+    },
+    {
+      "company": "Arham Tech",
+      "symbol": "ARHAM",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.in/corporate/ARHAM_17112026182239_Arham_Technologies_Investor_Presentation_Signed.pdf"
         }
       ]
     }

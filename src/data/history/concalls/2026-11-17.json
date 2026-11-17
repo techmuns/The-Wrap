@@ -1,0 +1,372 @@
+{
+  "capturedOn": "2026-11-17",
+  "capturedAt": "2026-11-17T22:32:00.456Z",
+  "count": 25,
+  "rows": [
+    {
+      "company": "KSB",
+      "symbol": "KSB",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.youtube.com/watch?v=7oxAKaM6kyU"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23411570/"
+        }
+      ]
+    },
+    {
+      "company": "Vertis Infra.",
+      "symbol": "VERTIS",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.in/corporate/HIGHWAYS_17112026153822_Intimation-EarningsCall.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Visdem Technosys",
+      "symbol": "VISDEM",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.in/corporate/KUNDAN_17112026213536_Visdem_Technosys_LTD_Investor_Presentation_H1_FY27ocr.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Lemon Tree Hotel",
+      "symbol": "LEMONTREE",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddf89695-108a-4366-9b1f-5d3efa46773d.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23411567/"
+        }
+      ]
+    },
+    {
+      "company": "Gujarat Alkalies",
+      "symbol": "GUJALKALI",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b2f2352-1339-4c74-a560-cdb1ff73659f.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23411566/"
+        }
+      ]
+    },
+    {
+      "company": "Denta Water",
+      "symbol": "DENTA",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=776dc6ef-eb78-4756-911d-bf52b10a0046.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23411565/"
+        }
+      ]
+    },
+    {
+      "company": "Orchid Pharma",
+      "symbol": "ORCHPHARMA",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://orchid-pharma.b-cdn.net/audios/10049646.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23411564/"
+        }
+      ]
+    },
+    {
+      "company": "Energy-Mission",
+      "symbol": "EMMIL",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.in/corporate/EMMIL_17112026201146_EMMIL_Investor_Presentation_Regulation_17112026.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Lords Mark Industries",
+      "symbol": "501261",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ab9ec42-66e4-4d3b-bbbd-4d05cec1b1bc.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Sheetal Cool",
+      "symbol": "SCPL",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6257afcc-8b17-41b4-885f-31c4fbcdd97d.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Rentomojo",
+      "symbol": "RENTOMOJO",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=62fe4753-7361-4399-88a0-1e00d9e29caa.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23411558/"
+        }
+      ]
+    },
+    {
+      "company": "Encompass Design",
+      "symbol": "ENCOMPAS",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.in/corporate/EDILIPO_17112026192841_Investor_Presentation_Intimation.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Chandan Healthca",
+      "symbol": "CHANDAN",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.in/corporate/CHANDAN_17112026191653_NSE-H1_FY27_Investor_Presentation_v2.pdf"
+        }
+      ]
+    },
+    {
+      "company": "LAPL Automotive",
+      "symbol": "544863",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1a66ccf-66ca-4636-8570-8fd9539099f5.pdf"
+        }
+      ]
+    },
+    {
+      "company": "BharatRohan Air.",
+      "symbol": "544535",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a19a2078-7722-4385-af53-7186d62f45f3.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Physicswallah",
+      "symbol": "PWL",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bc7e89cd-a881-4568-9c8f-0af605d11aea.pdf"
+        }
+      ]
+    },
+    {
+      "company": "TBI Corn",
+      "symbol": "TBI",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.in/corporate/TBICORN_17112026190135_Investor_Presentation_TBI.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Sula Vineyards",
+      "symbol": "SULA",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b7260398-f523-432d-b629-5f7a6d61ec86.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23411550/"
+        }
+      ]
+    },
+    {
+      "company": "Maxposure",
+      "symbol": "MAXPOSURE",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.in/corporate/MAXPOSURE_17112026185026_Intimation_Investor_Presentation_H1_FY27.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Sammaan Capital",
+      "symbol": "SAMMAANCAP",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60700304-8c83-443f-a6f6-1c163ea54fda.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23411547/"
+        }
+      ]
+    },
+    {
+      "company": "Indo Tech.Trans.",
+      "symbol": "INDOTECH",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed77d562-8dc9-4576-a70e-48e533f268f6.pdf"
+        }
+      ]
+    },
+    {
+      "company": "SKF India Indus.",
+      "symbol": "SKFINDUS",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8c3cf31-6e54-41ab-a3ef-aa864633b3ab.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23411545/"
+        }
+      ]
+    },
+    {
+      "company": "Adcounty Media.",
+      "symbol": "544435",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=efde6199-004c-4b96-b71e-e69632bad17a.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Viyash Scientific",
+      "symbol": "VIYASH",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fdd93ce0-449c-4c7c-ab5f-139533a79859.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23411542/"
+        }
+      ]
+    },
+    {
+      "company": "Arham Tech",
+      "symbol": "ARHAM",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.in/corporate/ARHAM_17112026182239_Arham_Technologies_Investor_Presentation_Signed.pdf"
+        }
+      ]
+    }
+  ]
+}
