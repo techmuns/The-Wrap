@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-18T22:22:49.053Z",
+  "fetchedAt": "2026-11-19T22:29:06.720Z",
   "source": "Screener",
   "total": 125,
   "byType": {
@@ -835,6 +835,14 @@
       "isoDate": "2026-11-23"
     },
     {
+      "company": "Zeal Global Serv",
+      "symbol": "ZEAL",
+      "type": "dividend",
+      "detail": "Interim · 20.00%",
+      "date": "20 Nov 2026",
+      "isoDate": "2026-11-20"
+    },
+    {
       "company": "Alufluoride",
       "symbol": "ALUFLUOR",
       "type": "dividend",
@@ -1001,14 +1009,6 @@
       "detail": "Interim · 200.00%",
       "date": "19 Nov 2026",
       "isoDate": "2026-11-19"
-    },
-    {
-      "company": "Royal Arc Ele.",
-      "symbol": "ROYALARC",
-      "type": "dividend",
-      "detail": "Interim · 5.00%",
-      "date": "18 Nov 2026",
-      "isoDate": "2026-11-18"
     }
   ]
 }
