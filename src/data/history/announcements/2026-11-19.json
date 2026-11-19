@@ -1,0 +1,507 @@
+{
+  "capturedOn": "2026-11-19",
+  "capturedAt": "2026-11-19T22:04:34.191Z",
+  "count": 50,
+  "rows": [
+    {
+      "company": "Diamond Power",
+      "symbol": "DIACABS",
+      "category": "order-wins",
+      "subject": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+      "headline": "Diamond Power wins ₹707.80 crore Adani Energy order for AL-59 conductors for ±800 kV HVDC Bhadla–Fatehpur project.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ccc080d-0c32-4079-87ae-0b5d4becec8c.pdf"
+    },
+    {
+      "company": "ICICI Life Insurance",
+      "symbol": "ICICILIFE",
+      "category": "other",
+      "subject": "Initiation Of Postal Ballot Process",
+      "headline": "Postal ballot initiated to approve Sidharatha Mishra as Director, MD & CEO for five years from Oct 14, 2026.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=009b3e0f-1a62-4d75-bdb7-62e729db5549.pdf"
+    },
+    {
+      "company": "3i Infotech",
+      "symbol": "3IINFOLTD",
+      "category": "order-wins",
+      "subject": "Announcement under Regulation 30 (LODR) - Bagging/receiving of order(s) or contract(s)",
+      "headline": "3i Infotech wins ₹24.48 Cr IT facility management order from Indian bank for three years from Jan 2027.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5c650561-8ae7-4eaa-b554-a736d051070a.pdf"
+    },
+    {
+      "company": "Zen Technologies",
+      "symbol": "ZENTEC",
+      "category": "other",
+      "subject": "Updates",
+      "headline": "Zen signs Nov 19 PM-SETU SHA with Centre, Telangana for 51% Section 8 ITI SPV.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=907a08a0-0f5a-4d97-a13d-3613caf78cf2.pdf"
+    },
+    {
+      "company": "Om Metallogic",
+      "symbol": "544559",
+      "category": "rights",
+      "subject": "Submission Of Letter Of Offer- Right Issue",
+      "headline": "Board approved 1:1 rights issue of up to 78.62 lakh shares at ₹21, aggregating ₹16.51 Cr; record date Nov 20.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48488cb4-3322-4591-862f-509b3631f968.pdf"
+    },
+    {
+      "company": "Midwest Energy",
+      "symbol": "526570",
+      "category": "order-wins",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "headline": "Receives LOI under ₹7,280 crore REPM scheme for 1,200 MTPA rare earth magnet project.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c73cbd9-fb75-4338-b058-7b624eee43b2.pdf"
+    },
+    {
+      "company": "Highway Infra",
+      "symbol": "HILINFRA",
+      "category": "order-wins",
+      "subject": "Announcement under Regulation 30 (LODR) - Bagging/receiving of order(s) or contract(s)",
+      "headline": "Received CPWD Letter of Commencement for ₹198.31 Cr CISF 12th Battalion EPC project in Sehore; 2-year execution.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c69a22ac-356b-4af5-8c44-2d3262c7da4c.pdf"
+    },
+    {
+      "company": "IIFL Capital",
+      "symbol": "IIFLCAPS",
+      "category": "other",
+      "subject": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+      "headline": "FIHM gains control, reclassified promoter with HWIC promoter group; two additional non-executive directors appointed Nov 19.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a74bcf4-1aca-4f67-8d20-f6f7e97cf52f.pdf"
+    },
+    {
+      "company": "IIFL Capital",
+      "symbol": "IIFLCAPS",
+      "category": "other",
+      "subject": "Intimation Under Regulation 30 Of SEBI (LODR) Regulations, 2015",
+      "headline": "FIHM acquires IIFL Capital control as promoter from Nov 19; names Sumit Maheshwari, Gopalakrishnan Soundarajan directors.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c662f97d-792e-409f-99ab-d123acabb870.pdf"
+    },
+    {
+      "company": "Osia Hyper Reta.",
+      "symbol": "OSIAHYPER",
+      "category": "other",
+      "subject": "Corporate Insolvency Resolution Process",
+      "headline": "Osia Hyper Retail sets 9th CoC meeting on Nov 20, 2026; resolution plan due Dec 3.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://nsearchives.nseindia.in/corporate/OSIAHYPER_19112026203152_Intimation_of_9th_CoC_Meeting.pdf"
+    },
+    {
+      "company": "Highway Infra",
+      "symbol": "HILINFRA",
+      "category": "order-wins",
+      "subject": "Announcement under Regulation 30 (LODR) - Bagging/receiving of order(s) or contract(s)",
+      "headline": "Highway Infrastructure signs ₹340.08-cr NHAI contract for Palayam toll plaza operations from 24 Nov 2026 for one year.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a601eea-b620-40e0-bbbf-3e84d9c048b0.pdf"
+    },
+    {
+      "company": "Family Care",
+      "symbol": "516110",
+      "category": "other",
+      "subject": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+      "headline": "Independent Director Dhananjay Parikh resigns effective Nov 14, 2026 due professional commitments.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6720405-7bb7-443e-ac95-796be1c5ed88.pdf"
+    },
+    {
+      "company": "Zee Learn",
+      "symbol": "ZEELEARN",
+      "category": "order-wins",
+      "subject": "Intimation Pursuant To Regulation 30 Of The SEBI (LODR) Regulations, 2015.",
+      "headline": "NCLT Mumbai disposes Yes Bank's Section 7 IBC petition against Zee Learn as withdrawn, order dated Nov 3, 2026.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f434f1d5-8630-4469-a40b-2fd8386b9c5e.pdf"
+    },
+    {
+      "company": "Prime Industries",
+      "symbol": "519299",
+      "category": "jv",
+      "subject": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+      "headline": "Prime Industries signs 3-year MOU with Wahi Sons for specialised precision component manufacturing.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f09638f-9e24-46f2-ad88-0978279c77e4.pdf"
+    },
+    {
+      "company": "Punjab Natl.Bank",
+      "symbol": "PNB",
+      "category": "other",
+      "subject": "Announcement Under Regulation 30 (LODR) - Credit Rating",
+      "headline": "Moody's upgraded PNB's BCA to Baa3 from Ba1, affirmed Baa3 ratings; outlook stable.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0fb1ccc-00e1-473f-ac73-2f99da6f7f0c.pdf"
+    },
+    {
+      "company": "Highway Infra",
+      "symbol": "HILINFRA",
+      "category": "order-wins",
+      "subject": "Announcement under Regulation 30 (LODR) - Bagging/receiving of order(s) or contract(s)",
+      "headline": "Signs NHAI contract for Baiti Kala toll plaza; ₹91.78 Cr, one year from 30 Dec 2026.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf9cd797-777a-4aed-8ab9-408900f693ed.pdf"
+    },
+    {
+      "company": "Onelife Capital",
+      "symbol": "ONELIFECAP",
+      "category": "other",
+      "subject": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+      "headline": "Dhananjay Parikh resigns as Independent Director effective 19 Nov 2026 due personal reasons.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2af580a-842b-441e-979e-4a94079a5da2.pdf"
+    },
+    {
+      "company": "Punjab Commun.",
+      "symbol": "PUNJCOMMU",
+      "category": "other",
+      "subject": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+      "headline": "AGM approved Chairman Basant Garg, MD Jaspreet Singh, and independent directors Aggarwal and Kaur.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=655afce3-774f-4eef-b8ea-bb491f486129.pdf"
+    },
+    {
+      "company": "Abans Financial",
+      "symbol": "AFSL",
+      "category": "other",
+      "subject": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+      "headline": "Postal ballot Nov 20-Dec 19: approve Mundhra as whole-time director and AMEF RPTs worth ₹50,000 crore.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d858fcd-c6c9-4dda-99b0-3619596af535.pdf"
+    },
+    {
+      "company": "Vishnusurya Pro.",
+      "symbol": "VISHNUINFR",
+      "category": "jv",
+      "subject": "Outcome of Board Meeting",
+      "headline": "50:50 JV with Garuda Aerospace; Garuda Vishnusurya Infratech; initial ₹10 lakh, additional up to ₹1 crore.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://nsearchives.nseindia.in/corporate/VISHNUSURYA_19112026193926_BoardMeetingOutcome18112026.pdf"
+    },
+    {
+      "company": "Antarctica",
+      "symbol": "ANTGRAPHIC",
+      "category": "other",
+      "subject": "Outcome of Board Meeting",
+      "headline": "Board accepted resignations of three independent directors; deferred Q2/H1 FY27 financial results on 19 Nov 2026.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://nsearchives.nseindia.in/corporate/ANTGRAPHIC_19112026193539_Outcome_of_BM_signed.pdf"
+    },
+    {
+      "company": "Shanti Educat.",
+      "symbol": "SEIL",
+      "category": "merger",
+      "subject": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement",
+      "headline": "BSE issues no adverse observation letter to Shanti Educational Initiatives for composite scheme with Shanti Learning and Grew Energy.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=961f6801-1d8b-4387-82dc-da569c8aa33d.pdf"
+    },
+    {
+      "company": "Vasudhagama Ent.",
+      "symbol": "539291",
+      "category": "other",
+      "subject": "Intimation Of SCN No SCN No DGGI/INT/INTL/1506/2024-Gr C-01-O/O Pr ADGDGGI-ZU-BENGALURU Received From DGGI Bangalore For A Tax Demand",
+      "headline": "DGGI SCN ₹28.52 crore GST demand; Vasudhagama challenging in Gujarat High Court.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22ea0f61-d608-4ec2-9b8e-5158590004cf.pdf"
+    },
+    {
+      "company": "SignatureGlobal",
+      "symbol": "SIGNATURE",
+      "category": "jv",
+      "subject": "Intimation Pursuant To Regulation 30 Of SEBI Listing Regulations 2015",
+      "headline": "SignatureGlobal signs collaboration agreements for 10.18 acres in Sohna, Gurugram, with 0.86 msf developable potential.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=00105887-7a93-42a0-b915-2d4d15bb6018.pdf"
+    },
+    {
+      "company": "Bank of Baroda",
+      "symbol": "BANKBARODA",
+      "category": "other",
+      "subject": "Announcement under Regulation 30 (LODR)-Credit Rating",
+      "headline": "Moody's affirms Bank of Baroda Baa3 ratings; upgrades BCA to baa3 from ba1, stable outlook.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b5117ae8-153e-45d4-bc8e-3b213ba1c04b.pdf"
+    },
+    {
+      "company": "Refractory Shap.",
+      "symbol": "REFRACTORY",
+      "category": "open-offer",
+      "subject": "Disclosure under SEBI Takeover Regulations",
+      "headline": "Promoter Dayashankar Shetty to acquire 28.34 lakh Refractory Shapes shares from Pratibha Shetty by gift on/after 23 Nov 2026.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://nsearchives.nseindia.in/corporate/team_bbodade_19112026174828_REFRACTORY.pdf"
+    },
+    {
+      "company": "India Cements",
+      "symbol": "INDIACEM",
+      "category": "order-wins",
+      "subject": "Disclosure Under Regulation 30 Of SEBI (LODR), Regulations, 2015 - Order Of Hon'Ble Supreme Court",
+      "headline": "Supreme Court dismissed Zuari Cement's SLP; India Cements can recover ₹26.40 crore plus interest arbitral award.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea5b50b4-3edd-4052-a39c-005ff08205c9.pdf"
+    },
+    {
+      "company": "Shree OSFM",
+      "symbol": "SHREEOSFM",
+      "category": "open-offer",
+      "subject": "Updates",
+      "headline": "Open offer for up to 40,04,884 Shree OSFM shares by Flywings Simulator; DPS dated Nov 19, 2026.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://nsearchives.nseindia.in/corporate/team_bbodade_19112026162454_SHREEOSFM.pdf"
+    },
+    {
+      "company": "Susan Electrical",
+      "symbol": "544793",
+      "category": "order-wins",
+      "subject": "Intimation Under Regulation 30 Of The SEBI (LODR) Regulations, 2015 - Business Update On Order Inflow, Order Book And Order Pipeline",
+      "headline": "New orders ₹148.90 Cr; order book ₹203 Cr, pipeline ₹250 Cr, total visibility ₹453 Cr.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c21ed408-bf84-4cd1-949c-5e4f3fdfdaab.pdf"
+    },
+    {
+      "company": "One 97",
+      "symbol": "PAYTM",
+      "category": "acquisitions",
+      "subject": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+      "headline": "Paytm Singapore approves up to ₹200 cr Funding Societies investment; ₹162 cr for 19.1% CardUp stake.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=285c628d-8edb-4f51-8fe1-9b8ba38ed378.pdf"
+    },
+    {
+      "company": "One 97",
+      "symbol": "PAYTM",
+      "category": "other",
+      "subject": "Disclosure Under Regulation 30 Of The SEBI (LODR) Regulations, 2015",
+      "headline": "Paytm Singapore approves up to ₹200 crore investment in Funding Societies; ₹162 crore for 19.1% CardUp stake.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c3ae368-d15e-4e34-98ec-63974a7aeb97.pdf"
+    },
+    {
+      "company": "One 97",
+      "symbol": "PAYTM",
+      "category": "acquisitions",
+      "subject": "Announcement under Regulation 30 (LODR)-Acquisition",
+      "headline": "Paytm Singapore to invest up to ₹200 crore in Funding Societies subsidiaries, including ₹162 crore for 19.1% in CardUp.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a1fe4eb8-ef57-4a6e-9e16-7da7becd6c35.pdf"
+    },
+    {
+      "company": "Dhruv Consultanc",
+      "symbol": "DHRUV",
+      "category": "order-wins",
+      "subject": "Regulation 30 Project Updates",
+      "headline": "Dhruv Consultancy receives ₹8.15 Cr LOA for Independent Engineer consultancy for Western Bhopal Bypass HAM, 50 months.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d55cc3bc-f2c8-46dc-a4c6-b889dac363c6.pdf"
+    },
+    {
+      "company": "Response Info.",
+      "symbol": "538273",
+      "category": "other",
+      "subject": "Announcement under Regulation 30 (LODR)-Resignation of Chief Financial Officer (CFO)",
+      "headline": "CFO Ramakrishna Prasad Makkena resigns effective Nov 19, 2026, citing personal reasons.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68defabb-a941-45c7-879a-05ddd46fcce3.pdf"
+    },
+    {
+      "company": "D S Kulkarni Dev",
+      "symbol": "DSKULKARNI",
+      "category": "other",
+      "subject": "Announcement Under Regulation 30 SEBI (LODR)- Fine Imposed By Stock Exchanges",
+      "headline": "BSE and NSE fined DSK Kulkarni ₹3.48 lakh each for minimum public shareholding non-compliance, due Nov 26.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d3d4664-4800-49e3-abcd-b30a837815c8.pdf"
+    },
+    {
+      "company": "Oriana Power Ltd",
+      "symbol": "ORIANA",
+      "category": "other",
+      "subject": "General Updates",
+      "headline": "Five CBG projects of 110 TPD combined approved under GOBARdhan; proposed investment ₹750 crore.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://nsearchives.nseindia.in/corporate/ORIANA_19112026182715_OPL_CBG_191126.pdf"
+    },
+    {
+      "company": "Shreedhar Spinners",
+      "symbol": "SHREEDHAR",
+      "category": "fund-raising",
+      "subject": "Outcome of Board Meeting",
+      "headline": "Preferential issue of 20.84 lakh convertible warrants at ₹163, aggregating ₹33.97 Cr; EGM on Dec 19, 2026.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://nsearchives.nseindia.in/corporate/SHREEDHAR_19112026182219_Outcome_19112026.pdf"
+    },
+    {
+      "company": "Gilada Finance",
+      "symbol": "538788",
+      "category": "other",
+      "subject": "Notice Of 1St Extra Ordinary General Meeting Of The Company For The FY 2026-27",
+      "headline": "EGM on 12 Dec 2026 to approve Rajgopal as MD, Gopal's re-appointment, Sanjeev Kumar as director.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d23a8342-baa2-4c5d-9d61-17366f91b093.pdf"
+    },
+    {
+      "company": "Dipna Pharmachem",
+      "symbol": "543594",
+      "category": "other",
+      "subject": "Considered And Recommended The Material Related Party Transactions",
+      "headline": "Authorised capital raised to ₹32 Cr; AGM on Sept 30, 2026 to approve related party transactions.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e6911a5-282d-4172-9971-1805f2374235.pdf"
+    },
+    {
+      "company": "Dipna Pharmachem",
+      "symbol": "543594",
+      "category": "other",
+      "subject": "Announcement under Regulation 30 (LODR)-Amendments to Memorandum & Articles of Association",
+      "headline": "Authorised capital raised to ₹32 Cr; material RPTs with five related entities; AGM on 30 Sept 2026.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=917ff5c9-6fbe-46ff-b2d7-1ebbf7c9891a.pdf"
+    },
+    {
+      "company": "Dipna Pharmachem",
+      "symbol": "543594",
+      "category": "other",
+      "subject": "Board Meeting Outcome for Outcome Of Board Meeting & Disclosure Under Regulation 30 Of SEBI (LODR) Regulations, 2015",
+      "headline": "Authorised capital raised to ₹32 Cr from ₹28.5 Cr; material RPTs recommended; AGM on 30 Sept 2026.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe91ad17-f3b2-41b2-9b37-e8224e11cbf0.pdf"
+    },
+    {
+      "company": "Newtime Infra.",
+      "symbol": "531959",
+      "category": "other",
+      "subject": "Notice Of Postal Ballot",
+      "headline": "Postal ballot to approve sale of 100% Pluto Biz Developers stake to Rollatainers for up to ₹25 crore.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a7ea4d17-500f-428b-b1c2-849deb4bc5d1.pdf"
+    },
+    {
+      "company": "A F Enterprises",
+      "symbol": "538351",
+      "category": "other",
+      "subject": "Announcement under Regulation 30 (LODR)-Change in Management",
+      "headline": "Board noted CS, director, auditor resignations; appointed Deepa Garg as CS, HK G auditor, Naveen Sharma independent director.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=092400fb-ab6e-4e04-99f3-7bcf156a87d9.pdf"
+    },
+    {
+      "company": "Dilip Buildcon",
+      "symbol": "DBL",
+      "category": "order-wins",
+      "subject": "Announcement under Regulation 30 (LODR) - Bagging/receiving of order(s) or contract(s)",
+      "headline": "Dilip Buildcon wins ₹419.47 Cr Gurugram Metro depot cum workshop order; 21-month completion.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deb3f572-4a18-4704-a756-74074164f682.pdf"
+    },
+    {
+      "company": "Adit.Birla Money",
+      "symbol": "BIRLAMONEY",
+      "category": "other",
+      "subject": "Notice Of The Extra-Ordinary General Meeting Under Regulation 30 Of SEBI (LODR) Regulations, 2015",
+      "headline": "EGM Dec 11 to approve ₹290 Cr ABCL RPT and ₹200 Cr preference share issuances.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a90bac1-f0b5-4677-9761-b86df9c4379c.pdf"
+    },
+    {
+      "company": "A F Enterprises",
+      "symbol": "538351",
+      "category": "other",
+      "subject": "Announcement under Regulation 30 (LODR)-Appointment of Statutory Auditor/s",
+      "headline": "Board noted CS, director and auditor resignations; appointed Deepa Garg CS, HK G auditor, Naveen Sharma independent director.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e81fc6f3-edd3-4fd4-9997-1e811e4c1f91.pdf"
+    },
+    {
+      "company": "Abha Power",
+      "symbol": "ABHAPOWER",
+      "category": "concall",
+      "subject": "Investor Presentation",
+      "headline": "H1 FY27 presentation: ₹22 Cr order book, 14,400 MT capacity, 35x sand-processing upgrade; revenue ₹29.6 Cr, loss ₹2.36 Cr.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://nsearchives.nseindia.in/corporate/ABHA_19112026173655_ABHA_POWER_INVESTOR_PRESENTATION.pdf"
+    },
+    {
+      "company": "A F Enterprises",
+      "symbol": "538351",
+      "category": "other",
+      "subject": "Appointment of Company Secretary and Compliance Officer",
+      "headline": "19 Nov: Board noted CS/director/auditor resignations; appointed Deepa Garg CS, HK G auditors, Naveen Sharma independent director.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80355d79-7ca4-4b64-85f0-bd97569190fc.pdf"
+    },
+    {
+      "company": "Abha Power",
+      "symbol": "ABHAPOWER",
+      "category": "other",
+      "subject": "Press Release",
+      "headline": "Abha Power adds 2.5 MW solar, total 5.5 MW, targeting 25-30% electricity cost reduction.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://nsearchives.nseindia.in/corporate/ABHA_19112026173032_Press_Release.pdf"
+    },
+    {
+      "company": "A F Enterprises",
+      "symbol": "538351",
+      "category": "other",
+      "subject": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 19Th November 2026",
+      "headline": "On 19 Nov 2026, board noted CS/director/auditor resignations; appointed Deepa Garg CS, HK G auditor, Naveen Sharma independent director.",
+      "date": null,
+      "isoDate": null,
+      "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ecb33897-095a-4083-ba5e-dd7233931687.pdf"
+    }
+  ]
+}
