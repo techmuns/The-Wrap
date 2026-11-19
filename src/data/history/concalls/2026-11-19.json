@@ -1,0 +1,396 @@
+{
+  "capturedOn": "2026-11-19",
+  "capturedAt": "2026-11-19T22:21:12.846Z",
+  "count": 25,
+  "rows": [
+    {
+      "company": "AVG Logistics",
+      "symbol": "AVG",
+      "kind": "recent",
+      "date": "20 Nov 2026",
+      "isoDate": "2026-11-20",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f58bd888-be29-4133-94a6-5e0a23010ce4.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Tata Technolog.",
+      "symbol": "TATATECH",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://ttlwebassets.tatatechnologies.com/app/uploads/2026/11/Uttam-Gujrati-1.mp3"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23417814/"
+        }
+      ]
+    },
+    {
+      "company": "P.E. Analytics",
+      "symbol": "PROPEQUITY",
+      "kind": "recent",
+      "date": "17 Nov 2026",
+      "isoDate": "2026-11-17",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.in/corporate/PROPEQUITY_17112026105755_InvestorPresentationH1_FY27.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Enfuse Solutions",
+      "symbol": "ENFUSE",
+      "kind": "recent",
+      "date": "13 Nov 2026",
+      "isoDate": "2026-11-13",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.in/corporate/ENFUSE_13112026190635_EnFuse_Financial_Presentation_H1_FY2627.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Usha Martin",
+      "symbol": "USHAMART",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ceb0590-3fad-43aa-9898-8b0dae83cd65.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23417671/"
+        }
+      ]
+    },
+    {
+      "company": "Filatex India",
+      "symbol": "FILATEX",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=230c9530-44eb-4305-949d-e7d6f906d5cf.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23417670/"
+        }
+      ]
+    },
+    {
+      "company": "Lords Mark Industries",
+      "symbol": "501261",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://drive.google.com/file/d/1jmS_JrsIYOaEeGzyNBNVnfHdweNHY-lc/view"
+        }
+      ]
+    },
+    {
+      "company": "Tata Motors PVeh",
+      "symbol": "TMPV",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9eddc22-bae3-4ccd-a007-9491ceb20ff0.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23417668/"
+        }
+      ]
+    },
+    {
+      "company": "Greenleaf Envi.",
+      "symbol": "GREENLEAF",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.in/corporate/GREENLEAF_19112026193203_Invesror_Presentation.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Q-Line Biotech",
+      "symbol": "QLINE",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://qlinebiotech-my.sharepoint.com/:v:/p/marketing/IQBBJj6bsiKGTatZlk6lOiUsAcUAK1SGsbK88B7Mttn1nW8?e=kduQt6&download=1"
+        }
+      ]
+    },
+    {
+      "company": "G V Electricals",
+      "symbol": "544859",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7253a85-5e57-48c3-9f53-ec9908330e7c.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23417665/"
+        }
+      ]
+    },
+    {
+      "company": "Page Industries",
+      "symbol": "PAGEIND",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7eda49e2-7f47-4944-b251-4f5a40f66772.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23417664/"
+        }
+      ]
+    },
+    {
+      "company": "KPI Green Energy",
+      "symbol": "KPIGREEN",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ccd0bb2-801a-4eca-bded-6e5ce816038a.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23417663/"
+        }
+      ]
+    },
+    {
+      "company": "Zelio E-Mobility",
+      "symbol": "544563",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da1b3e39-72ec-47a3-8483-df532a53456e.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23417662/"
+        }
+      ]
+    },
+    {
+      "company": "United Heat",
+      "symbol": "UHTL",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.youtube.com/watch?v=10xjKDvZW6o"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23417660/"
+        }
+      ]
+    },
+    {
+      "company": "Freshara Agro",
+      "symbol": "FRESHARA",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://www.fresharaagroexports.com/investor-center/assets/pdfs/Freshara-Agro-Exports-Limited-H1-FY27-Earnings-Conference-Call-20261119_083248UTC-Meeting-Recording.mp4"
+        }
+      ]
+    },
+    {
+      "company": "Apex Ecotech",
+      "symbol": "APEXECO",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Recording",
+          "url": "https://apexecotech.com/wp-content/uploads/2026/11/Apex-H1-FY27-Earnings-Conference-Call-Recording.mp4"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23417658/"
+        }
+      ]
+    },
+    {
+      "company": "Runwal Enterpri.",
+      "symbol": "RUNWALENTR",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08fc1419-0905-4652-8adf-09d06448a212.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23417657/"
+        }
+      ]
+    },
+    {
+      "company": "Metalic Technoforge",
+      "symbol": "METALIC",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://nsearchives.nseindia.in/corporate/METALIC2026_19112026183908_10_Intimation_to_SE_aout_Investor_presentation.pdf"
+        }
+      ]
+    },
+    {
+      "company": "Regaal Resources",
+      "symbol": "REGAAL",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=007799a9-93c5-4e35-a49c-8bc5834ea53d.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23417655/"
+        }
+      ]
+    },
+    {
+      "company": "HRS Aluglaze",
+      "symbol": "544656",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Presentation",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52670370-0353-4ced-afb5-c74fe2b445e1.pdf"
+        }
+      ]
+    },
+    {
+      "company": "KP Green Engg.",
+      "symbol": "544150",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20477472-9eb8-45c7-a735-5594670ca736.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23417652/"
+        }
+      ]
+    },
+    {
+      "company": "Jeena Sikho",
+      "symbol": "JSLL",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a73bdac7-a2e6-4041-90e7-4b1f107e847c.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23417651/"
+        }
+      ]
+    },
+    {
+      "company": "Sunrakshakk Inds",
+      "symbol": "SUNRAKSHAK",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2bb11c3c-aabc-497d-bd86-d9bb2e4500ae.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23417650/"
+        }
+      ]
+    },
+    {
+      "company": "Bonfiglioli Tran",
+      "symbol": "BONFIG",
+      "kind": "recent",
+      "date": "19 Nov 2026",
+      "isoDate": "2026-11-19",
+      "links": [
+        {
+          "label": "View Transcript",
+          "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8ad549b-ba6b-467a-8ac7-4a0a4fb3b8f6.pdf"
+        },
+        {
+          "label": "View Summary",
+          "url": "https://www.screener.in/concalls/summary/23417649/"
+        }
+      ]
+    }
+  ]
+}
